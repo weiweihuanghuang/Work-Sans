@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
+  <advance width="500"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <component base="dotaccent" xOffset="-112"/>
+    <component base="dotaccent" xOffset="112"/>
+    <contour>
+      <point x="250" y="500" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

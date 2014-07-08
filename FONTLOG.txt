@@ -1,0 +1,25 @@
+FONTLOG for the ‘Alice’ (working title, to be renamed at a later point) fonts
+
+This file provides detailed information on the ‘Alice’ Software.
+
+This information should be distributed along with the ‘Alice’ and any derivative works.
+
+Basic Font Information
+
+‘Alice’ fonts are a set of fonts supporting Latin and Devanagari scripts. They are designed for body text and display text on for on-screen reading.
+
+To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
+
+8 July 2014 (Wei Huang) ‘Alice’ v0.01
+- Initial Beta
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Wei Huang	
+E: wweeiihhuuaanngg@gmail.com
+W:
+D: Designer
