@@ -58,12 +58,16 @@
 	<string>a.glif</string>
 	<key>aacute</key>
 	<string>aacute.glif</string>
+	<key>aasigndeva</key>
+	<string>aasigndeva.glif</string>
 	<key>abreve</key>
 	<string>abreve.glif</string>
 	<key>acircumflex</key>
 	<string>acircumflex.glif</string>
 	<key>acute</key>
 	<string>acute.glif</string>
+	<key>adeva</key>
+	<string>adeva.glif</string>
 	<key>adieresis</key>
 	<string>adieresis.glif</string>
 	<key>ae</key>
@@ -78,14 +82,20 @@
 	<string>aogonek.glif</string>
 	<key>aring</key>
 	<string>aring.glif</string>
-	<key>asterisk</key>
-	<string>asterisk.glif</string>
+	<key>asterisk.002</key>
+	<string>asterisk.002.glif</string>
 	<key>at</key>
 	<string>at.glif</string>
 	<key>atilde</key>
 	<string>atilde.glif</string>
+	<key>ausign_ra_virama_anusvara</key>
+	<string>ausign_ra_virama_anusvara.glif</string>
+	<key>ausign_ra_virama_anusvara.001</key>
+	<string>ausign_ra_virama_anusvara.001.glif</string>
 	<key>b</key>
 	<string>b.glif</string>
+	<key>bhadeva</key>
+	<string>bhadeva.glif</string>
 	<key>bowl</key>
 	<string>bowl.glif</string>
 	<key>bracketleft</key>
@@ -114,10 +124,18 @@
 	<string>comma.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
+	<key>dadeva</key>
+	<string>dadeva.glif</string>
 	<key>dcaron</key>
 	<string>dcaron.glif</string>
 	<key>dcroat</key>
 	<string>dcroat.glif</string>
+	<key>ddadeva</key>
+	<string>ddadeva.glif</string>
+	<key>ddadeva_viramadeva_ddadeva</key>
+	<string>ddadeva_viramadeva_ddadeva.glif</string>
+	<key>dhadeva</key>
+	<string>dhadeva.glif</string>
 	<key>dieresis</key>
 	<string>dieresis.glif</string>
 	<key>dollar</key>
@@ -134,6 +152,8 @@
 	<string>ecaron.glif</string>
 	<key>ecircumflex</key>
 	<string>ecircumflex.glif</string>
+	<key>edeva</key>
+	<string>edeva.glif</string>
 	<key>edieresis</key>
 	<string>edieresis.glif</string>
 	<key>edotaccent</key>
@@ -192,6 +212,8 @@
 	<string>iacute.glif</string>
 	<key>icircumflex</key>
 	<string>icircumflex.glif</string>
+	<key>ideva</key>
+	<string>ideva.glif</string>
 	<key>idieresis</key>
 	<string>idieresis.glif</string>
 	<key>igrave</key>
@@ -204,8 +226,12 @@
 	<string>j.glif</string>
 	<key>k</key>
 	<string>k.glif</string>
+	<key>kadeva</key>
+	<string>kadeva.glif</string>
 	<key>kcommaaccent</key>
 	<string>kcommaaccent.glif</string>
+	<key>khadeva</key>
+	<string>khadeva.glif</string>
 	<key>l</key>
 	<string>l.glif</string>
 	<key>lcaron</key>
@@ -256,6 +282,8 @@
 	<string>otilde.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
+	<key>padeva</key>
+	<string>padeva.glif</string>
 	<key>parenleft</key>
 	<string>parenleft.glif</string>
 	<key>parenright</key>
@@ -320,12 +348,16 @@
 	<string>sterling.glif</string>
 	<key>t</key>
 	<string>t.glif</string>
+	<key>tadeva</key>
+	<string>tadeva.glif</string>
 	<key>tcaron</key>
 	<string>tcaron.glif</string>
 	<key>tcedilla</key>
 	<string>tcedilla.glif</string>
 	<key>tcommaaccent</key>
 	<string>tcommaaccent.glif</string>
+	<key>thadeva</key>
+	<string>thadeva.glif</string>
 	<key>thorn</key>
 	<string>thorn.glif</string>
 	<key>three</key>
@@ -356,6 +388,8 @@
 	<string>uring.glif</string>
 	<key>v</key>
 	<string>v.glif</string>
+	<key>vadeva</key>
+	<string>vadeva.glif</string>
 	<key>w</key>
 	<string>w.glif</string>
 	<key>x</key>

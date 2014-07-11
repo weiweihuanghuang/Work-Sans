@@ -12,17 +12,16 @@
 	<integer>-210</integer>
 	<key>familyName</key>
 	<string>Alice</string>
+	<key>license</key>
+	<string>This Font Software is licensed under the SIL Open Font License Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<key>licenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeHeadCreated</key>
 	<string>2014/07/05 14:09:43</string>
 	<key>openTypeNameDesigner</key>
 	<string>Wei Huang</string>
 	<key>openTypeNameDesignerURL</key>
 	<string>wweeiihhuuaanngg@gmail.com</string>
-	<key>openTypeNameLicense</key>
-	<string>This Font Software is licensed under the SIL Open Font License Version 1.1. This license is available with a FAQ at: 
-http://scripts.sil.org/OFL</string>
-	<key>openTypeNameLicenseURL</key>
-	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>Wei Huang</string>
 	<key>openTypeNameManufacturerURL</key>
@@ -46,22 +45,10 @@ http://scripts.sil.org/OFL</string>
 		<integer>730</integer>
 		<integer>735</integer>
 	</array>
-	<key>postscriptFamilyBlues</key>
-	<array>
-	</array>
-	<key>postscriptFamilyOtherBlues</key>
-	<array>
-	</array>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-215</integer>
 		<integer>-210</integer>
-	</array>
-	<key>postscriptStemSnapH</key>
-	<array>
-	</array>
-	<key>postscriptStemSnapV</key>
-	<array>
 	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
@@ -70,7 +57,7 @@ http://scripts.sil.org/OFL</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>versionMinor</key>
 	<integer>10</integer>
 	<key>xHeight</key>

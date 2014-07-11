@@ -10,8 +10,11 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+11 July 2014 (Wei Huang) ‘Alice’ v0.01
+- Added some Devanagari characters.
+
 8 July 2014 (Wei Huang) ‘Alice’ v0.01
-- Initial Beta
+- Initial Beta.
 
 Acknowledgements
 
