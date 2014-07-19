@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iogonek" format="1">
-  <advance width="270"/>
+  <advance width="268"/>
   <unicode hex="012F"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="dotaccent" xOffset="-115"/>
-    <component base="ogonek"/>
+    <component base="dotaccent" xOffset="-116"/>
+    <component base="ogonek" xOffset="-125"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

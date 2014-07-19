@@ -30,31 +30,106 @@
 	<key>public.glyphOrder</key>
 	<array>
 		<string>A</string>
+		<string>Aacute</string>
+		<string>Abreve</string>
+		<string>Acircumflex</string>
+		<string>Adieresis</string>
+		<string>Agrave</string>
+		<string>Amacron</string>
+		<string>Aogonek</string>
+		<string>Aring</string>
+		<string>Atilde</string>
+		<string>AE</string>
 		<string>B</string>
 		<string>C</string>
+		<string>Cacute</string>
+		<string>Ccaron</string>
+		<string>Ccedilla</string>
 		<string>D</string>
+		<string>Eth</string>
+		<string>Dcaron</string>
+		<string>Dcroat</string>
 		<string>E</string>
+		<string>Eacute</string>
+		<string>Ecaron</string>
+		<string>Ecircumflex</string>
+		<string>Edieresis</string>
+		<string>Edotaccent</string>
+		<string>Egrave</string>
+		<string>Emacron</string>
+		<string>Eogonek</string>
 		<string>F</string>
 		<string>G</string>
+		<string>Gbreve</string>
+		<string>Gcommaaccent</string>
 		<string>H</string>
 		<string>I</string>
+		<string>Iacute</string>
+		<string>Icircumflex</string>
+		<string>Idieresis</string>
+		<string>Idotaccent</string>
+		<string>Igrave</string>
+		<string>Imacron</string>
+		<string>Iogonek</string>
 		<string>J</string>
 		<string>K</string>
+		<string>Kcommaaccent</string>
 		<string>L</string>
+		<string>Lacute</string>
+		<string>Lcaron</string>
+		<string>Lcommaaccent</string>
+		<string>Lslash</string>
 		<string>M</string>
 		<string>N</string>
+		<string>Nacute</string>
+		<string>Ncaron</string>
+		<string>Ncommaaccent</string>
+		<string>Ntilde</string>
 		<string>O</string>
+		<string>Oacute</string>
+		<string>Ocircumflex</string>
+		<string>Odieresis</string>
+		<string>Ograve</string>
+		<string>Ohungarumlaut</string>
+		<string>Omacron</string>
+		<string>Oslash</string>
+		<string>Otilde</string>
+		<string>OE</string>
 		<string>P</string>
+		<string>Thorn</string>
 		<string>Q</string>
 		<string>R</string>
+		<string>Racute</string>
+		<string>Rcaron</string>
+		<string>Rcommaaccent</string>
 		<string>S</string>
+		<string>Sacute</string>
+		<string>Scaron</string>
+		<string>Scedilla</string>
+		<string>Scommaaccent</string>
 		<string>T</string>
+		<string>Tcaron</string>
+		<string>Tcedilla</string>
+		<string>Tcommaaccent</string>
 		<string>U</string>
+		<string>Uacute</string>
+		<string>Ucircumflex</string>
+		<string>Udieresis</string>
+		<string>Ugrave</string>
+		<string>Uhungarumlaut</string>
+		<string>Umacron</string>
+		<string>Uogonek</string>
+		<string>Uring</string>
 		<string>V</string>
 		<string>W</string>
 		<string>X</string>
 		<string>Y</string>
+		<string>Yacute</string>
+		<string>Ydieresis</string>
 		<string>Z</string>
+		<string>Zacute</string>
+		<string>Zcaron</string>
+		<string>Zdotaccent</string>
 		<string>a</string>
 		<string>aacute</string>
 		<string>abreve</string>
@@ -101,6 +176,7 @@
 		<string>k</string>
 		<string>kcommaaccent</string>
 		<string>l</string>
+		<string>lacute</string>
 		<string>lcaron</string>
 		<string>lcommaaccent</string>
 		<string>lslash</string>
@@ -132,6 +208,7 @@
 		<string>scaron</string>
 		<string>scedilla</string>
 		<string>scommaaccent</string>
+		<string>germandbls</string>
 		<string>t</string>
 		<string>tcaron</string>
 		<string>tcedilla</string>
@@ -155,6 +232,11 @@
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
+		<string>fi</string>
+		<string>fl</string>
+		<string>ordfeminine</string>
+		<string>ordmasculine</string>
+		<string>pi</string>
 		<string>kadeva</string>
 		<string>khadeva</string>
 		<string>ddadeva</string>
@@ -180,10 +262,25 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
+		<string>fraction</string>
+		<string>onehalf</string>
+		<string>onequarter</string>
+		<string>threequarters</string>
+		<string>zerosuperior</string>
+		<string>onesuperior</string>
+		<string>twosuperior</string>
+		<string>threesuperior</string>
+		<string>foursuperior</string>
+		<string>asterisk</string>
+		<string>backslash</string>
+		<string>periodcentered</string>
+		<string>bullet</string>
 		<string>colon</string>
 		<string>comma</string>
 		<string>ellipsis</string>
 		<string>exclam</string>
+		<string>exclamdown</string>
+		<string>numbersign</string>
 		<string>period</string>
 		<string>question</string>
 		<string>questiondown</string>
@@ -192,7 +289,8 @@
 		<string>semicolon</string>
 		<string>slash</string>
 		<string>underscore</string>
-		<string>asterisk.002</string>
+		<string>braceleft</string>
+		<string>braceright</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
 		<string>parenleft</string>
@@ -200,6 +298,7 @@
 		<string>emdash</string>
 		<string>endash</string>
 		<string>hyphen</string>
+		<string>softhyphen</string>
 		<string>guillemetleft</string>
 		<string>guillemetright</string>
 		<string>guilsinglleft</string>
@@ -211,13 +310,59 @@
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
 		<string>space</string>
+		<string>nbspace</string>
+		<string>cent</string>
+		<string>currency</string>
 		<string>dollar</string>
 		<string>euro</string>
+		<string>florin</string>
+		<string>liraTurkish</string>
+		<string>ruble</string>
 		<string>sterling</string>
 		<string>yen</string>
+		<string>Ohm</string>
+		<string>approxequal</string>
+		<string>asciitilde</string>
+		<string>bulletoperator</string>
+		<string>divide</string>
+		<string>divisionslash</string>
+		<string>equal</string>
+		<string>greater</string>
+		<string>greaterequal</string>
+		<string>increment</string>
+		<string>infinity</string>
+		<string>integral</string>
+		<string>less</string>
+		<string>lessequal</string>
+		<string>logicalnot</string>
+		<string>micro</string>
+		<string>minus</string>
+		<string>multiply</string>
+		<string>notequal</string>
+		<string>partialdiff</string>
 		<string>percent</string>
+		<string>perthousand</string>
+		<string>plus</string>
+		<string>plusminus</string>
+		<string>product</string>
+		<string>radical</string>
+		<string>summation</string>
+		<string>lozenge</string>
+		<string>bar</string>
+		<string>brokenbar</string>
 		<string>at</string>
 		<string>ampersand</string>
+		<string>paragraph</string>
+		<string>copyright</string>
+		<string>registered</string>
+		<string>section</string>
+		<string>trademark</string>
+		<string>degree</string>
+		<string>estimated</string>
+		<string>literSign</string>
+		<string>asciicircum</string>
+		<string>dagger</string>
+		<string>daggerdbl</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -231,9 +376,15 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
-		<string>bowl</string>
+		<string>acute.cap</string>
+		<string>caron.alt</string>
+		<string>grave.cap</string>
+		<string>commaaccent</string>
+		<string>firsttonechinese</string>
 		<string>ausign_ra_virama_anusvara</string>
 		<string>ausign_ra_virama_anusvara.001</string>
+		<string>bowl</string>
+		<string>asteriskline</string>
 	</array>
 </dict>
 </plist>
