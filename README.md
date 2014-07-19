@@ -7,7 +7,7 @@ A SIL Open Font project titled 'Alice' (a working title, to be renamed at a late
 
 [See a webfont preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/TestingDevanagari.html) (link does not work in Firefox).
 
-<a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/TestingDevanagari.html">![Screenshot of a test](https://github.com/weiweihuanghuang/Alice-Devanagari/raw/master/src/Screenshots/preview.png)</a>
+<a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/TestingDevanagari.html">![Screenshot of a test](https://github.com/weiweihuanghuang/Alice-Devanagari/raw/master/src/Screenshots/preview1.png)</a>
 
 Or a [comparison](http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/Testing.html) with other webfonts.
 
