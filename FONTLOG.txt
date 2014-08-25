@@ -10,6 +10,16 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+25 August 2014 (Wei Huang) ‘Alice’ v0.11
+- Fixed spacing.
+- Edited some characters to even up the typographic colour.
+- Changed joins (r, n, d, q, b, p, etc) to smooth joins in Latin.
+- Changed quote marks to rounded.
+- Thinned the Devanagari glyphs to match colour of Latin.
+
+19 July 2014 (Wei Huang) ‘Alice’ v0.1
+- Added Adobe Latin-3 character set.
+
 11 July 2014 (Wei Huang) ‘Alice’ v0.01
 - Added some Devanagari characters.
 

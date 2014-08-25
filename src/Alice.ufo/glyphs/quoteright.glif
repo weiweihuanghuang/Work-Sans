@@ -3,14 +3,14 @@
   <advance width="232"/>
   <unicode hex="2019"/>
   <outline>
-    <component base="comma" xOffset="3" yOffset="572"/>
+    <component base="comma" xOffset="3" yOffset="575"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>11</integer>
+      <integer>9</integer>
       <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

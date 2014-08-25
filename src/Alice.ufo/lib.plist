@@ -381,10 +381,9 @@
 		<string>grave.cap</string>
 		<string>commaaccent</string>
 		<string>firsttonechinese</string>
-		<string>ausign_ra_virama_anusvara</string>
-		<string>ausign_ra_virama_anusvara.001</string>
 		<string>bowl</string>
 		<string>asteriskline</string>
+		<string>ausign_ra_virama_anusvara</string>
 	</array>
 </dict>
 </plist>

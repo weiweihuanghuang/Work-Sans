@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="1">
-  <advance width="410"/>
+  <advance width="430"/>
   <unicode hex="201D"/>
   <outline>
-    <component base="quotedblleft" xOffset="410" yOffset="1133" xScale="-1" yScale="-1"/>
+    <component base="comma" xOffset="3" yOffset="575"/>
+    <component base="comma" xOffset="201" yOffset="575"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>11</integer>
+      <integer>9</integer>
       <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

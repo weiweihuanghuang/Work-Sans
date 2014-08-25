@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="q" format="1">
-  <advance width="633"/>
+  <advance width="637"/>
   <unicode hex="0071"/>
   <outline>
     <contour>
-      <point x="474" y="500" type="line"/>
-      <point x="459" y="383" type="line"/>
-      <point x="459" y="-210" type="line"/>
-      <point x="539" y="-210" type="line"/>
-      <point x="539" y="383" type="line"/>
-      <point x="539" y="500" type="line"/>
+      <point x="478" y="500" type="line"/>
+      <point x="463" y="383" type="line"/>
+      <point x="463" y="-210" type="line"/>
+      <point x="543" y="-210" type="line"/>
+      <point x="543" y="383" type="line"/>
+      <point x="543" y="500" type="line"/>
     </contour>
-    <component base="bowl" xOffset="-15"/>
+    <component base="bowl" xOffset="-11"/>
   </outline>
 </glyph>
