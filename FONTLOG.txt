@@ -10,6 +10,11 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+27 August 2014 (Wei Huang) ‘Alice’ v0.12
+- Widened Devanagari for better legibility.
+- Added some Devanagari glyphs.
+- Changed ascender to an arbitrarily taller height to compensate for Devanagari.
+
 25 August 2014 (Wei Huang) ‘Alice’ v0.11
 - Fixed spacing.
 - Edited some characters to even up the typographic colour.

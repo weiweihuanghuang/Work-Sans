@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>730</integer>
+	<integer>1000</integer>
 	<key>capHeight</key>
 	<integer>660</integer>
 	<key>copyright</key>
@@ -59,7 +59,7 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>10</integer>
+	<integer>12</integer>
 	<key>xHeight</key>
 	<integer>500</integer>
 </dict>

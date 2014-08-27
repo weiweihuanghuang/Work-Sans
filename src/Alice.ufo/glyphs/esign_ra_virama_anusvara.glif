@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="esign_ra_virama_anusvara" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="esign_ra_virama.alt1" xOffset="9"/>
+    <component base="anusvaradeva" xOffset="32" yOffset="134" xScale="0.75" yScale="0.75"/>
+    <contour>
+      <point x="-151" y="660" type="move" name="_DVAnchor3"/>
+    </contour>
+  </outline>
+</glyph>
