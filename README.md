@@ -3,13 +3,11 @@
 
 A SIL Open Font project titled 'Alice' (a working title, to be renamed at a later point) for Latin and Devanagari, for on-screen reading.
 
+Source files have been partly prepared for use in [Metapolator](http://www.metapolator.com).
+
 ## Preview
 
-[See a webfont preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/TestingDevanagari.html) (link does not work in Firefox).
-
-<a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/TestingDevanagari.html">![Screenshot of a test](https://github.com/weiweihuanghuang/Alice-Devanagari/raw/master/src/Screenshots/preview3.png)</a>
-
-Or a [comparison](http://htmlpreview.github.io/?https://raw.githubusercontent.com/weiweihuanghuang/Alice-Devanagari/master/src/Test%20Fonts/Testing.html) with other webfonts.
+![Screenshot of a test](https://github.com/weiweihuanghuang/Alice-Devanagari/raw/master/src/Screenshots/preview3.png)
 
 ## License
 
