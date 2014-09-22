@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aisigndeva_anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="anusvaradeva" xOffset="70" yOffset="10"/>
+    <component base="aisigndeva" xOffset="1"/>
+    <contour>
+      <point x="-163" y="660" type="move" name="_DVAnchor3"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="1">
+  <advance width="550"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="120" y="694" type="line"/>
+      <point x="120" y="684" type="line"/>
+      <point x="431" y="684" type="line"/>
+      <point x="431" y="694" type="line"/>
+    </contour>
+    <contour>
+      <point x="550" y="11" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="275" y="562" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

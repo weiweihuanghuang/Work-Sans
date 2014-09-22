@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cent" format="1">
+  <advance width="597"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="305" y="589" type="line"/>
+      <point x="305" y="-89" type="line"/>
+      <point x="291" y="-89" type="line"/>
+      <point x="291" y="589" type="line"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+</glyph>

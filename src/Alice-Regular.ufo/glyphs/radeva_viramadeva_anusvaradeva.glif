@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radeva_viramadeva_anusvaradeva" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="radeva_viramadeva"/>
+    <component base="anusvaradeva" xOffset="18" yOffset="134" xScale="0.75" yScale="0.75"/>
+    <contour>
+      <point x="-166" y="660" type="move" name="_DVAnchor3"/>
+    </contour>
+  </outline>
+</glyph>

@@ -10,6 +10,13 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+??? (Wei Huang) ‘Alice’ v0.22
+- Edited ogonek and cedilla glyphs.
+- Added diacritics for the Thin weight.
+
+22 September 2014 (Wei Huang) ‘Alice’ v0.22
+- Added most of the Thin weight.
+
 27 August 2014 (Wei Huang) ‘Alice’ v0.12
 - Widened Devanagari for better legibility.
 - Added some Devanagari glyphs.

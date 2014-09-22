@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aisigndeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0948"/>
+  <outline>
+    <contour>
+      <point x="-191" y="614" type="line"/>
+      <point x="-164" y="648" type="line"/>
+      <point x="-493" y="945" type="line"/>
+      <point x="-539" y="889" type="line"/>
+    </contour>
+    <contour>
+      <point x="-169" y="630" type="line"/>
+      <point x="-124" y="649" type="line"/>
+      <point x="-277" y="1015" type="line"/>
+      <point x="-347" y="984" type="line"/>
+    </contour>
+    <contour>
+      <point x="-163" y="660" type="move" name="_DVAnchor3"/>
+    </contour>
+  </outline>
+</glyph>

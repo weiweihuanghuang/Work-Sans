@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddadeva_viramadeva_ddadeva" format="1">
+  <advance width="696"/>
+  <outline>
+    <contour>
+      <point x="-10" y="660" type="line"/>
+      <point x="-10" y="604" type="line"/>
+      <point x="706" y="604" type="line"/>
+      <point x="706" y="660" type="line"/>
+    </contour>
+    <contour>
+      <point x="505" y="627" type="line"/>
+      <point x="505" y="461" type="line"/>
+      <point x="575" y="461" type="line"/>
+      <point x="575" y="627" type="line"/>
+    </contour>
+    <contour>
+      <point x="226.581" y="191.928" type="line"/>
+      <point x="179.713" y="189.428"/>
+      <point x="140" y="161.795"/>
+      <point x="140" y="113" type="curve" smooth="yes"/>
+      <point x="140" y="35.486"/>
+      <point x="230.892" y="2"/>
+      <point x="308" y="2" type="curve" smooth="yes"/>
+      <point x="387.152" y="2"/>
+      <point x="470.152" y="31"/>
+      <point x="505" y="31" type="curve" smooth="yes"/>
+      <point x="537.261" y="31"/>
+      <point x="554.094" y="21.936"/>
+      <point x="552.998" y="-13.156" type="curve" smooth="yes"/>
+      <point x="551.926" y="-54.933"/>
+      <point x="482.337" y="-95"/>
+      <point x="369" y="-95" type="curve" smooth="yes"/>
+      <point x="229.452" y="-95"/>
+      <point x="145.474" y="-58.228"/>
+      <point x="91.546" y="33.505" type="curve"/>
+      <point x="48.736" y="-0.071" type="line"/>
+      <point x="107.158" y="-86.358"/>
+      <point x="191.327" y="-148"/>
+      <point x="371" y="-148" type="curve" smooth="yes"/>
+      <point x="505.915" y="-148"/>
+      <point x="614" y="-98.783"/>
+      <point x="614" y="4" type="curve" smooth="yes"/>
+      <point x="614" y="83.022"/>
+      <point x="566.431" y="94"/>
+      <point x="524" y="94" type="curve" smooth="yes"/>
+      <point x="468.93" y="94"/>
+      <point x="385.93" y="62"/>
+      <point x="328" y="62" type="curve" smooth="yes"/>
+      <point x="247.566" y="62"/>
+      <point x="204" y="89.229"/>
+      <point x="204" y="121" type="curve" smooth="yes"/>
+      <point x="204" y="140.87"/>
+      <point x="219.356" y="160.885"/>
+      <point x="262.925" y="167.451" type="curve"/>
+    </contour>
+    <contour>
+      <point x="266" y="517" type="line" smooth="yes"/>
+      <point x="181.373" y="517"/>
+      <point x="144" y="471.218"/>
+      <point x="144" y="418" type="curve" smooth="yes"/>
+      <point x="144" y="329.434"/>
+      <point x="230.928" y="296"/>
+      <point x="308" y="296" type="curve" smooth="yes"/>
+      <point x="387.152" y="296"/>
+      <point x="470.152" y="325"/>
+      <point x="505" y="325" type="curve" smooth="yes"/>
+      <point x="537.261" y="325"/>
+      <point x="554.094" y="315.936"/>
+      <point x="552.998" y="280.844" type="curve" smooth="yes"/>
+      <point x="551.926" y="239.067"/>
+      <point x="482.337" y="199"/>
+      <point x="369" y="199" type="curve" smooth="yes"/>
+      <point x="229.452" y="199"/>
+      <point x="145.474" y="235.772"/>
+      <point x="91.546" y="327.505" type="curve"/>
+      <point x="48.736" y="293.929" type="line"/>
+      <point x="107.158" y="207.642"/>
+      <point x="191.327" y="146"/>
+      <point x="371" y="146" type="curve" smooth="yes"/>
+      <point x="505.915" y="146"/>
+      <point x="614" y="195.217"/>
+      <point x="614" y="298" type="curve" smooth="yes"/>
+      <point x="614" y="377.022"/>
+      <point x="566.431" y="388"/>
+      <point x="524" y="388" type="curve" smooth="yes"/>
+      <point x="468.93" y="388"/>
+      <point x="385.93" y="356"/>
+      <point x="328" y="356" type="curve" smooth="yes"/>
+      <point x="271.218" y="356"/>
+      <point x="214" y="374.353"/>
+      <point x="214" y="414" type="curve" smooth="yes"/>
+      <point x="214" y="445.557"/>
+      <point x="235.383" y="461"/>
+      <point x="271" y="461" type="curve" smooth="yes"/>
+      <point x="538" y="461" type="line"/>
+      <point x="538" y="517" type="line"/>
+    </contour>
+    <contour>
+      <point x="373" y="-113" type="move" name="DVAnchor0"/>
+    </contour>
+  </outline>
+</glyph>

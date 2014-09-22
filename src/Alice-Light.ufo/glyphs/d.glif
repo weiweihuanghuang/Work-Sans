@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d" format="1">
+  <advance width="621"/>
+  <unicode hex="0064"/>
+  <outline>
+    <contour>
+      <point x="507" y="730" type="line"/>
+      <point x="507" y="184" type="line"/>
+      <point x="507" y="0" type="line"/>
+      <point x="523" y="0" type="line"/>
+      <point x="523" y="101" type="line"/>
+      <point x="523" y="730" type="line"/>
+    </contour>
+    <component base="bowl" xOffset="-50"/>
+    <contour>
+      <point x="324" y="281" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="661" y="821" type="move" name="topright"/>
+    </contour>
+  </outline>
+</glyph>

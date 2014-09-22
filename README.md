@@ -7,6 +7,8 @@ Source files have been partly prepared for use in [Metapolator](http://www.metap
 
 ## Preview
 
+![Thin to Regular](https://github.com/weiweihuanghuang/Alice-Devanagari/raw/master/src/Screenshots/thin-regular.png)
+
 ![Screenshot of a test](https://github.com/weiweihuanghuang/Alice-Devanagari/raw/master/src/Screenshots/preview3.png)
 
 ## License

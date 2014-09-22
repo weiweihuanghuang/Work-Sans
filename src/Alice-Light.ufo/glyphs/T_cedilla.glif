@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcedilla" format="1">
+  <advance width="721"/>
+  <unicode hex="0162"/>
+  <outline>
+    <contour>
+      <point x="431" y="-83"/>
+      <point x="441" y="-109"/>
+      <point x="441" y="-140" type="curve"/>
+      <point x="441" y="-198"/>
+      <point x="396" y="-234"/>
+      <point x="342" y="-234" type="curve"/>
+      <point x="321" y="-234"/>
+      <point x="299" y="-228"/>
+      <point x="280" y="-220" type="curve"/>
+      <point x="277" y="-225" type="line"/>
+      <point x="297" y="-236"/>
+      <point x="320" y="-240"/>
+      <point x="354" y="-240" type="curve"/>
+      <point x="411" y="-240"/>
+      <point x="447" y="-199"/>
+      <point x="447" y="-152" type="curve"/>
+      <point x="447" y="-118"/>
+      <point x="431" y="-81"/>
+      <point x="389" y="-59" type="curve"/>
+      <point x="407" y="-58" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

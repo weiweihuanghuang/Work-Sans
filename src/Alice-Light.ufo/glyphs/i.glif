@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i" format="1">
+  <advance width="212"/>
+  <unicode hex="0069"/>
+  <outline>
+    <contour>
+      <point x="98" y="500" type="line"/>
+      <point x="98" y="0" type="line"/>
+      <point x="114" y="0" type="line"/>
+      <point x="114" y="500" type="line"/>
+    </contour>
+    <component base="dotaccent" xOffset="-169"/>
+  </outline>
+</glyph>
