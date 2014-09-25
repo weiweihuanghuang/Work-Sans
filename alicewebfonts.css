@@ -18,34 +18,38 @@ html {
 */
 }
 @font-face {
-    font-family: 'alicethin';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Thin.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'aliceextralight';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-ExtraLight.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.ttf') format('truetype');
-    font-weight: 200;
+    font-family: 'alicenormal';
+    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Normal.otf'); format('opentype');
+    src: url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.woff') format('woff'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.ttf') format('truetype'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.svg#alicenormal') format('svg');
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'alicelight';
     src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Light.otf'); format('opentype');
     src: url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.ttf') format('truetype');
+         url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.ttf') format('truetype'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.svg#alicelight') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'alicenormal';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Normal.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.ttf') format('truetype');
-    font-weight: 400;
+    font-family: 'aliceextralight';
+    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-ExtraLight.otf'); format('opentype');
+    src: url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.woff') format('woff'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.ttf') format('truetype'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.svg#aliceextralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alicethin';
+    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Thin.otf'); format('opentype');
+    src: url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.woff') format('woff'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.ttf') format('truetype'),
+         url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.svg#alicethin') format('svg');
+    font-weight: 100;
     font-style: normal;
 }
