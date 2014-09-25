@@ -50,10 +50,15 @@
 		<integer>-215</integer>
 		<integer>-210</integer>
 	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<integer>70</integer>
+		<integer>75</integer>
+	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
 		<integer>80</integer>
-		<integer>83</integer>
+		<integer>84</integer>
 	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>

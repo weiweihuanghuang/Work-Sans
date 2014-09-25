@@ -3,8 +3,8 @@
   <advance width="500"/>
   <unicode hex="02DD"/>
   <outline>
-    <component base="acute" xOffset="-119"/>
-    <component base="acute" xOffset="57"/>
+    <component base="acute" xOffset="-156"/>
+    <component base="acute" xOffset="-25"/>
     <contour>
       <point x="223" y="500" type="move" name="_top"/>
     </contour>

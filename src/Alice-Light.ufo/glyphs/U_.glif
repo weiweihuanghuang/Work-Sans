@@ -27,7 +27,7 @@
       <point x="438" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="350" y="742" type="move" name="top"/>
+      <point x="350" y="660" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

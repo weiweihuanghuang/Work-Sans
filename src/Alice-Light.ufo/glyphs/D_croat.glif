@@ -3,8 +3,13 @@
   <advance width="705"/>
   <unicode hex="0110"/>
   <outline>
+    <contour>
+      <point x="10" y="359" type="line"/>
+      <point x="10" y="345" type="line"/>
+      <point x="335" y="345" type="line"/>
+      <point x="335" y="359" type="line"/>
+    </contour>
     <component base="D"/>
-    <component base="endash" xOffset="-9" yOffset="144" xScale="0.75" yScale="0.80"/>
   </outline>
   <lib>
     <dict>

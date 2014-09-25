@@ -53,11 +53,12 @@
 	<key>postscriptStemSnapH</key>
 	<array>
 		<integer>14</integer>
+		<integer>14</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
 		<integer>16</integer>
-		<integer>18</integer>
+		<integer>16</integer>
 	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>

@@ -10,9 +10,10 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
-??? (Wei Huang) ‘Alice’ v0.22
+25 September 2014 (Wei Huang) ‘Alice’ v0.3
 - Edited ogonek and cedilla glyphs.
 - Added diacritics for the Thin weight.
+- Added webfonts.
 
 22 September 2014 (Wei Huang) ‘Alice’ v0.22
 - Added most of the Thin weight.

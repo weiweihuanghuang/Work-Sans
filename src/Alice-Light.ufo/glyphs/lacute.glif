@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lacute" format="1">
-  <advance width="372"/>
+  <advance width="274"/>
   <unicode hex="013A"/>
   <outline>
     <contour>
-      <point x="155" y="915" type="line"/>
-      <point x="148" y="915" type="line"/>
-      <point x="220" y="1038" type="line"/>
-      <point x="207" y="1038" type="line"/>
+      <point x="99" y="793" type="line"/>
+      <point x="113" y="793" type="line"/>
+      <point x="158" y="930" type="line"/>
+      <point x="140" y="930" type="line"/>
     </contour>
     <component base="l"/>
   </outline>

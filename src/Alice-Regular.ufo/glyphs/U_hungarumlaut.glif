@@ -4,8 +4,8 @@
   <unicode hex="0170"/>
   <outline>
     <component base="U"/>
-    <component base="acute.cap" xOffset="203"/>
-    <component base="acute.cap" xOffset="26"/>
+    <component base="acute.cap" xOffset="26" yOffset="2"/>
+    <component base="acute.cap" xOffset="198"/>
   </outline>
   <lib>
     <dict>
