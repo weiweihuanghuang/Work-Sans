@@ -1,0 +1,86 @@
+<head>
+<meta charset="UTF-8">
+<title>Testing fonts at roughly the same colour</title>
+<!-- I use this testing file to test my font against other web-fonts. The point size and leading have been matched to look like the same typographic colour. -->
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {margin: 10px 10px}
+
+.test {
+	width:19.5%; 
+	display:inline-block;
+	vertical-align:top; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-color:#f0f0f0; 
+	margin: 0 0 5px; 
+	-webkit-font-smoothing: subpixel-antialiased; 
+	text-rendering: optimizelegibility;
+	font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-o-font-feature-settings: "kern" on, "liga" on, "calt" on
+}
+
+.test:after {content: "I “Ask Jeff” or ‘Ask Jeff’. Take the chef d’oeuvre! Two of [of] (of) ‘of’ “of” of? of! of*. Ydes, Yffignac and Ygrande are in France: so are Ypres, Les Woëvres, the Fôret de Woevres, the Voire and Vauvise. Yves is in heaven; D’Amboise is in jail. Lyford’s in Texas & L’Anse-aux-Griffons in Québec; the Łyna in Poland. Yriarte, Yciar and Ysaÿe are at Yale. Kyoto and Ryotsu are both in Japan, Kwikpak on the Yukon delta, Kvæven in Norway, Kyulu in Kenya, not in Rwanda.… Walton’s in West Virginia, but «Wren» is in Oregon. Tlálpan is near Xochimilco in México. The Zygos & Xylophagou are in Cyprus, Zwettl in Austria, Fænø in Denmark, the Vøringsfossen and Værøy in Norway. Tchula is in Mississippi, the Tittabawassee in Michigan. Twodot is here in Montana, Ywamun in Burma. Yggdrasil and Ymir, Yngvi and Vóden, Vídrið and Skeggjöld and Tyr are all in the Eddas. Tørberget and Våg, of course, are in Norway, Ktipas and Tmolos in Greece, but Vázquez is in Argentina, Vreden in Germany, Von-Vincke-Straße in Munster, Vdovino in Russia, Ytterbium in the periodic table. Are Toussaint L’Ouverture, Wölfflin, Wolfe, Miłosz and Wū W all in the library? 1510–1620, 11:00 pm, and the 1980s are over."
+}
+</style>
+<link rel="stylesheet" type="text/css" href="alicewebfonts.css">
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans|PT+Sans|Ek+Mukta:300|Cantarell|Open+Sans|PT+Sans+Caption|Karla|Quattrocento+Sans|Oxygen&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="test" style="font-family:'Verdana','AdobeBlank';font-size:16;line-height:1.4">16px 1.4 Verdana<br></div>
+<div class="test" style="font-family:'alicenormal','AdobeBlank';font-size:17px;line-height:1.3">17px 1.3 Alice<br></div>
+<div class="test" style="font-family:'Cantarell','AdobeBlank';font-size:17px;line-height:1.35">17px 1.35 Cantarell<br></div>
+<div class="test" style="font-family:'Karla','AdobeBlank';font-size:18px;line-height:1.3">18px 1.3 Karla<br></div>
+<div class="test" style="font-family:'PT Sans','AdobeBlank';font-size:17px;line-height:1.35">18px 1.35 PT Sans<br></div>
+<div class="test" style="font-family:'Verdana','AdobeBlank';font-size:16;line-height:1.4">16px 1.4 Verdana<br></div>
+<div class="test" style="font-family:'alicenormal','AdobeBlank';font-size:17px;line-height:1.3">17px 1.3 Alice<br></div>
+<div class="test" style="font-family:'PT Sans Caption','AdobeBlank';font-size:16px;line-height:1.4">16px 1.4 PT Sans Caption<br></div>
+<div class="test" style="font-family:'Noto Sans','AdobeBlank';font-size:17px;line-height:1.45">17px 1.45 Noto Sans<br></div>
+<div class="test" style="font-family:'Open Sans','AdobeBlank';font-size:17px;line-height:1.4">17px 1.4 Open Sans<br></div>
+	<!-- <div class="test" style="font-family:'Ek Mukta','AdobeBlank';font-size:18px;line-height:1.35em">18px 1.35 Ek Mukta<br></div> -->
+	<!-- <div class="test" style="font-family:'Quattrocento Sans','AdobeBlank';font-size:18px;line-height:1.25">18px 1.25 Quattrocento Sans<br></div> -->
+	<!-- <div class="test" style="font-family:'Oxygen','AdobeBlank';font-size:17px;line-height:1.4">16px 1.2 Oxygen<br></div> -->
+
+</body>
