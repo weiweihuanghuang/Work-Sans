@@ -1,9 +1,13 @@
 'Alice' (working title) Devanagari
 ===
 
-A SIL Open Font project titled 'Alice' (a working title, to be renamed at a later point) for Latin and Devanagari, for on-screen reading.
+A SIL Open Font project titled 'Alice' (a working title, to be renamed at a later point) for Latin and Devanagari.
+
+‘Alice’ is a superfamily based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). There are 9 weights across 5 widths. The core of the fonts are designed for on-screen medium-sized text usage (14px-48px). The fonts closer to the extreme widths and weights are designed for display use.
 
 Source files have been partly prepared for use in [Metapolator](http://www.metapolator.com).
+
+The project started in June 2014 and the brief is to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release) by December 2014.
 
 ## Preview
 
