@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Z" format="1">
-  <advance width="577"/>
+  <advance width="553"/>
   <unicode hex="005A"/>
   <outline>
     <contour>
-      <point x="48" y="14" type="line"/>
-      <point x="61" y="3" type="line"/>
-      <point x="533" y="646" type="line"/>
-      <point x="521" y="655" type="line"/>
+      <point x="40" y="14" type="line"/>
+      <point x="53" y="3" type="line"/>
+      <point x="519" y="646" type="line"/>
+      <point x="507" y="655" type="line"/>
     </contour>
     <contour>
-      <point x="48" y="14" type="line"/>
-      <point x="48" y="0" type="line"/>
-      <point x="547" y="0" type="line"/>
-      <point x="547" y="14" type="line"/>
+      <point x="40" y="14" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="539" y="0" type="line"/>
+      <point x="539" y="14" type="line"/>
     </contour>
     <contour>
-      <point x="59" y="660" type="line"/>
-      <point x="59" y="646" type="line"/>
-      <point x="533" y="646" type="line"/>
-      <point x="533" y="660" type="line"/>
+      <point x="47" y="660" type="line"/>
+      <point x="47" y="646" type="line"/>
+      <point x="519" y="646" type="line"/>
+      <point x="519" y="660" type="line"/>
     </contour>
     <contour>
-      <point x="296" y="660" type="move" name="top"/>
+      <point x="288" y="660" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -7,8 +7,9 @@
       <point x="94" y="730" type="line"/>
       <point x="94" y="117" type="line"/>
       <point x="94" y="0" type="line"/>
-      <point x="159" y="0" type="line"/>
-      <point x="174" y="127" type="line"/>
+      <point x="164" y="0" type="line"/>
+      <point x="171" y="118" type="line"/>
+      <point x="174" y="166" type="line"/>
       <point x="174" y="730" type="line"/>
     </contour>
     <component base="bowl" xOffset="648" xScale="-1"/>

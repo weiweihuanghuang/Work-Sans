@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asteriskline" format="1">
+  <advance width="524"/>
+  <outline>
+    <contour>
+      <point x="261" y="495" type="line"/>
+      <point x="262" y="502" type="line"/>
+      <point x="263" y="495" type="line"/>
+      <point x="296" y="495" type="line"/>
+      <point x="330" y="639" type="line"/>
+      <point x="339" y="730" type="line"/>
+      <point x="185" y="730" type="line"/>
+      <point x="194" y="639" type="line"/>
+      <point x="228" y="495" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

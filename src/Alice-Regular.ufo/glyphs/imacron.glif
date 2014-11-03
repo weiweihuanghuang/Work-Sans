@@ -3,15 +3,7 @@
   <advance width="268"/>
   <unicode hex="012B"/>
   <outline>
-    <contour>
-      <point x="40" y="674" type="line"/>
-      <point x="40" y="607" type="line"/>
-      <point x="228" y="607" type="line"/>
-      <point x="228" y="674" type="line"/>
-    </contour>
     <component base="dotlessi"/>
-    <contour>
-      <point x="384" y="10" type="move" name="ogonek"/>
-    </contour>
+    <component base="macron" xOffset="-1" xScale="0.54"/>
   </outline>
 </glyph>

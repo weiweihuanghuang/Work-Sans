@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketleft" format="1">
-  <advance width="366"/>
+  <advance width="342"/>
   <unicode hex="005B"/>
   <outline>
     <contour>
-      <point x="143" y="730" type="line"/>
-      <point x="143" y="-168" type="line"/>
-      <point x="158" y="-168" type="line"/>
-      <point x="158" y="730" type="line"/>
+      <point x="131" y="730" type="line"/>
+      <point x="131" y="-168" type="line"/>
+      <point x="146" y="-168" type="line"/>
+      <point x="146" y="730" type="line"/>
     </contour>
     <contour>
-      <point x="150" y="-154" type="line"/>
-      <point x="150" y="-168" type="line"/>
-      <point x="324" y="-168" type="line"/>
-      <point x="324" y="-154" type="line"/>
+      <point x="138" y="-154" type="line"/>
+      <point x="138" y="-168" type="line"/>
+      <point x="312" y="-168" type="line"/>
+      <point x="312" y="-154" type="line"/>
     </contour>
     <contour>
-      <point x="150" y="730" type="line"/>
-      <point x="150" y="716" type="line"/>
-      <point x="324" y="716" type="line"/>
-      <point x="324" y="730" type="line"/>
+      <point x="138" y="730" type="line"/>
+      <point x="138" y="716" type="line"/>
+      <point x="312" y="716" type="line"/>
+      <point x="312" y="730" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>0</integer>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

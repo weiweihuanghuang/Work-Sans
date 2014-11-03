@@ -3,7 +3,7 @@
   <advance width="500"/>
   <unicode hex="02C6"/>
   <outline>
-    <component base="caron" yOffset="1333" yScale="-1"/>
+    <component base="caron" yOffset="1326" yScale="-1"/>
     <contour>
       <point x="250" y="500" type="move" name="_top"/>
     </contour>

@@ -5,8 +5,8 @@
     <contour>
       <point x="89" y="730" type="line"/>
       <point x="69" y="533" type="line"/>
-      <point x="119" y="533" type="line"/>
-      <point x="170" y="730" type="line"/>
+      <point x="124" y="533" type="line"/>
+      <point x="165" y="730" type="line"/>
     </contour>
     <contour>
       <point x="89" y="730" type="move" name="_topright"/>

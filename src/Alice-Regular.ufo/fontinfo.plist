@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>1000</integer>
+	<integer>730</integer>
 	<key>capHeight</key>
 	<integer>660</integer>
 	<key>copyright</key>
@@ -52,13 +52,18 @@
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
-		<integer>70</integer>
 		<integer>75</integer>
+		<integer>75</integer>
+		<integer>70</integer>
+		<integer>70</integer>
+		<integer>69</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
-		<integer>80</integer>
 		<integer>84</integer>
+		<integer>80</integer>
+		<integer>80</integer>
+		<integer>80</integer>
 	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
@@ -69,7 +74,7 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>12</integer>
+	<integer>80</integer>
 	<key>xHeight</key>
 	<integer>500</integer>
 </dict>

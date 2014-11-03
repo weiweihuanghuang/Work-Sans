@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="1">
-  <advance width="314"/>
+  <advance width="304"/>
   <unicode hex="006C"/>
   <outline>
     <contour>
@@ -25,10 +25,10 @@
       <point x="134" y="730" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="229" y="0" type="move" name="bottom"/>
+      <point x="219" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="267" y="730" type="move" name="topright"/>
+      <point x="251" y="730" type="move" name="topright"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="r" format="1">
-  <advance width="409"/>
+  <advance width="389"/>
   <unicode hex="0072"/>
   <outline>
     <contour>
@@ -24,6 +24,7 @@
       <point x="94" y="383" type="line"/>
       <point x="94" y="0" type="line"/>
       <point x="174" y="0" type="line"/>
+      <point x="174" y="372" type="line"/>
       <point x="174" y="383" type="line"/>
       <point x="159" y="500" type="line"/>
     </contour>

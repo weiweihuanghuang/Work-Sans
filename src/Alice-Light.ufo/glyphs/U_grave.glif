@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugrave" format="1">
-  <advance width="700"/>
+  <advance width="698"/>
   <unicode hex="00D9"/>
   <outline>
     <component base="U"/>
-    <component base="grave.cap" xOffset="130"/>
+    <component base="grave.cap" xOffset="119"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
-      <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
-    </dict>
-  </lib>
 </glyph>

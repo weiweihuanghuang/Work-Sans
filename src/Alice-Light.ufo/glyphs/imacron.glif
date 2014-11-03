@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron" format="1">
-  <advance width="212"/>
+  <advance width="188"/>
   <unicode hex="012B"/>
   <outline>
-    <contour>
-      <point x="24" y="638" type="line"/>
-      <point x="24" y="624" type="line"/>
-      <point x="192" y="624" type="line"/>
-      <point x="192" y="638" type="line"/>
-    </contour>
     <component base="dotlessi"/>
-    <contour>
-      <point x="354" y="10" type="move" name="ogonek"/>
-    </contour>
+    <component base="macron" xOffset="-38" xScale="0.52"/>
   </outline>
 </glyph>
