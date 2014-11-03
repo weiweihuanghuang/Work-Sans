@@ -1,39 +1,21 @@
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
-languagesystem dev2 dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-languagesystem latn ROM;
-languagesystem latn MOL;
 
 # automatic
-@Uppercase = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent H I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent T Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W X Y Yacute Ydieresis Z Zacute Zcaron Zdotaccent A.001 ];
+@Uppercase = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve H I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K L Lacute Lcaron Lslash M N Nacute Ncaron Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron S Sacute Scaron T Tcaron U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W X Y Yacute Ydieresis Z Zacute Zcaron Zdotaccent uni0122 uni0136 uni013B uni0145 uni0156 uni015E uni0162 uni0218 uni021A ];
 
 feature aalt {
 # automatic
-feature locl;
 feature sups;
 feature frac;
 feature ordn;
 feature salt;
 feature ss01;
+feature ss02;
 } aalt;
-
-feature locl {
-# automatic
-script latn;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-} locl;
 
 feature sups {
 # automatic
@@ -66,12 +48,24 @@ sub f l by fl;
 feature salt {
 # automatic
 sub g by g.ss01;
+sub gbreve by gbreve.ss01;
+sub uni0123 by uni0123.ss01;
 } salt;
 
 feature ss01 {
 # automatic
 sub g by g.ss01;
+sub gbreve by gbreve.ss01;
+sub uni0123 by uni0123.ss01;
 } ss01;
+
+feature ss02 {
+# automatic
+sub l by l.ss02;
+sub lacute by lacute.ss02;
+sub lcaron by lcaron.ss02;
+sub lslash by lslash.ss02;
+} ss02;
 
 feature cpsp {
 # automatic

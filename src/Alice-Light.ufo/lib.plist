@@ -4,33 +4,98 @@
 <dict>
 	<key>GSDimensionPlugin.Dimensions</key>
 	<dict>
-		<key>90FEB760-6DE5-46E5-A8E9-582C63BAB3AD</key>
+		<key>1C7CD022-87C7-4E11-B656-E47B18819458</key>
 		<dict>
 			<key>HV</key>
-			<integer>10</integer>
+			<integer>80</integer>
+		</dict>
+		<key>3C9D0203-951C-47F2-AE09-2B01C7450D35</key>
+		<dict>
+			<key>HV</key>
+			<integer>80</integer>
+			<key>nV</key>
+			<integer>80</integer>
+			<key>nd</key>
+			<integer>70</integer>
 			<key>oH</key>
 			<integer>70</integer>
 			<key>oV</key>
+			<integer>83</integer>
+		</dict>
+		<key>4A17B37A-CBFD-40E5-9E02-2080A0E1F76C</key>
+		<dict>
+			<key>HH</key>
+			<integer>75</integer>
+			<key>HV</key>
 			<integer>80</integer>
+			<key>OH</key>
+			<integer>75</integer>
+			<key>OV</key>
+			<integer>84</integer>
+			<key>nV</key>
+			<integer>80</integer>
+			<key>nd</key>
+			<integer>70</integer>
+			<key>oH</key>
+			<integer>70</integer>
+			<key>oV</key>
+			<integer>83</integer>
+			<key>tH</key>
+			<integer>69</integer>
+		</dict>
+		<key>90FEB760-6DE5-46E5-A8E9-582C63BAB3AD</key>
+		<dict>
+			<key>HH</key>
+			<integer>14</integer>
+			<key>HV</key>
+			<integer>16</integer>
+			<key>OH</key>
+			<integer>14</integer>
+			<key>OV</key>
+			<integer>16</integer>
+			<key>nV</key>
+			<integer>16</integer>
+			<key>nd</key>
+			<integer>14</integer>
+			<key>oH</key>
+			<integer>14</integer>
+			<key>oV</key>
+			<integer>16</integer>
+			<key>tH</key>
+			<integer>14</integer>
+		</dict>
+		<key>99EB5860-B45A-4B60-BB0B-F826C8F71D42</key>
+		<dict>
+			<key>HH</key>
+			<integer>171</integer>
+			<key>HV</key>
+			<integer>233</integer>
+			<key>OH</key>
+			<integer>175</integer>
+			<key>OV</key>
+			<integer>238</integer>
+			<key>nV</key>
+			<integer>230</integer>
+			<key>nd</key>
+			<integer>170</integer>
+			<key>oH</key>
+			<integer>155</integer>
+			<key>oV</key>
+			<integer>231</integer>
+			<key>tH</key>
+			<integer>152</integer>
 		</dict>
 	</dict>
-	<key>com.schriftgestaltung.fontMaster.userData</key>
-	<dict>
-		<key>GSOffsetHorizontal</key>
-		<integer>40</integer>
-		<key>GSOffsetMakeStroke</key>
-		<integer>1</integer>
-		<key>GSOffsetVertical</key>
-		<integer>40</integer>
-	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
-	<string>40D202EF-20C6-4DB3-A3D1-28A333770DD8</string>
+	<string>1C7CD022-87C7-4E11-B656-E47B18819458</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<false/>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Light</string>
 	<key>com.schriftgestaltung.weightValue</key>
 	<real>16</real>
+	<key>com.schriftgestaltung.widthValue</key>
+	<real>5</real>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>A</string>
@@ -65,7 +130,6 @@
 		<string>F</string>
 		<string>G</string>
 		<string>Gbreve</string>
-		<string>Gcommaaccent</string>
 		<string>H</string>
 		<string>I</string>
 		<string>Iacute</string>
@@ -77,17 +141,14 @@
 		<string>Iogonek</string>
 		<string>J</string>
 		<string>K</string>
-		<string>Kcommaaccent</string>
 		<string>L</string>
 		<string>Lacute</string>
 		<string>Lcaron</string>
-		<string>Lcommaaccent</string>
 		<string>Lslash</string>
 		<string>M</string>
 		<string>N</string>
 		<string>Nacute</string>
 		<string>Ncaron</string>
-		<string>Ncommaaccent</string>
 		<string>Ntilde</string>
 		<string>O</string>
 		<string>Oacute</string>
@@ -105,16 +166,11 @@
 		<string>R</string>
 		<string>Racute</string>
 		<string>Rcaron</string>
-		<string>Rcommaaccent</string>
 		<string>S</string>
 		<string>Sacute</string>
 		<string>Scaron</string>
-		<string>Scedilla</string>
-		<string>Scommaaccent</string>
 		<string>T</string>
 		<string>Tcaron</string>
-		<string>Tcedilla</string>
-		<string>Tcommaaccent</string>
 		<string>U</string>
 		<string>Uacute</string>
 		<string>Ucircumflex</string>
@@ -134,7 +190,15 @@
 		<string>Zacute</string>
 		<string>Zcaron</string>
 		<string>Zdotaccent</string>
-		<string>A.001</string>
+		<string>uni0122</string>
+		<string>uni0136</string>
+		<string>uni013B</string>
+		<string>uni0145</string>
+		<string>uni0156</string>
+		<string>uni015E</string>
+		<string>uni0162</string>
+		<string>uni0218</string>
+		<string>uni021A</string>
 		<string>a</string>
 		<string>aacute</string>
 		<string>abreve</string>
@@ -167,7 +231,6 @@
 		<string>f</string>
 		<string>g</string>
 		<string>gbreve</string>
-		<string>gcommaaccent</string>
 		<string>h</string>
 		<string>i</string>
 		<string>dotlessi</string>
@@ -179,17 +242,14 @@
 		<string>iogonek</string>
 		<string>j</string>
 		<string>k</string>
-		<string>kcommaaccent</string>
 		<string>l</string>
 		<string>lacute</string>
 		<string>lcaron</string>
-		<string>lcommaaccent</string>
 		<string>lslash</string>
 		<string>m</string>
 		<string>n</string>
 		<string>nacute</string>
 		<string>ncaron</string>
-		<string>ncommaaccent</string>
 		<string>ntilde</string>
 		<string>o</string>
 		<string>oacute</string>
@@ -207,17 +267,12 @@
 		<string>r</string>
 		<string>racute</string>
 		<string>rcaron</string>
-		<string>rcommaaccent</string>
 		<string>s</string>
 		<string>sacute</string>
 		<string>scaron</string>
-		<string>scedilla</string>
-		<string>scommaaccent</string>
 		<string>germandbls</string>
 		<string>t</string>
 		<string>tcaron</string>
-		<string>tcedilla</string>
-		<string>tcommaaccent</string>
 		<string>u</string>
 		<string>uacute</string>
 		<string>ucircumflex</string>
@@ -225,6 +280,15 @@
 		<string>ugrave</string>
 		<string>uhungarumlaut</string>
 		<string>umacron</string>
+		<string>uni0123</string>
+		<string>uni0137</string>
+		<string>uni013C</string>
+		<string>uni0146</string>
+		<string>uni0157</string>
+		<string>uni015F</string>
+		<string>uni0163</string>
+		<string>uni0219</string>
+		<string>uni021B</string>
 		<string>uogonek</string>
 		<string>uring</string>
 		<string>v</string>
@@ -238,223 +302,20 @@
 		<string>zcaron</string>
 		<string>zdotaccent</string>
 		<string>g.ss01</string>
+		<string>gbreve.ss01</string>
+		<string>uni0123.ss01</string>
+		<string>l.ss02</string>
+		<string>lacute.ss02</string>
+		<string>lcaron.ss02</string>
+		<string>lslash.ss02</string>
 		<string>fi</string>
 		<string>fl</string>
+		<string>iogonek_j</string>
+		<string>aogonek_j</string>
+		<string>g_idieresis</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>pi</string>
-		<string>kadeva</string>
-		<string>khadeva</string>
-		<string>ddadeva</string>
-		<string>tadeva</string>
-		<string>thadeva</string>
-		<string>dadeva</string>
-		<string>dhadeva</string>
-		<string>padeva</string>
-		<string>bhadeva</string>
-		<string>vadeva</string>
-		<string>ssadeva</string>
-		<string>gadeva</string>
-		<string>ghadeva</string>
-		<string>ngadeva</string>
-		<string>cadeva</string>
-		<string>chadeva</string>
-		<string>jadeva</string>
-		<string>jhadeva</string>
-		<string>nyadeva</string>
-		<string>ttadeva</string>
-		<string>tthadeva</string>
-		<string>ddhadeva</string>
-		<string>nnadeva</string>
-		<string>nadeva</string>
-		<string>nnnadeva</string>
-		<string>phadeva</string>
-		<string>badeva</string>
-		<string>madeva</string>
-		<string>yadeva</string>
-		<string>radeva</string>
-		<string>rradeva</string>
-		<string>ladeva</string>
-		<string>lladeva</string>
-		<string>llladeva</string>
-		<string>shadeva</string>
-		<string>sadeva</string>
-		<string>hadeva</string>
-		<string>qadeva</string>
-		<string>khhadeva</string>
-		<string>ghhadeva</string>
-		<string>zadeva</string>
-		<string>dddhadeva</string>
-		<string>rhadeva</string>
-		<string>fadeva</string>
-		<string>yyadeva</string>
-		<string>zhadeva</string>
-		<string>yaheavydeva</string>
-		<string>ggadeva</string>
-		<string>jjadeva</string>
-		<string>dddadeva</string>
-		<string>bbadeva</string>
-		<string>shadeva.mr</string>
-		<string>jhadeva.np</string>
-		<string>ddadeva_viramadeva_ddadeva</string>
-		<string>radeva_viramadeva</string>
-		<string>radeva_viramadeva_anusvaradeva</string>
-		<string>kadeva_viramadeva_ladeva</string>
-		<string>kadeva_viramadeva</string>
-		<string>kadeva_viramadeva_kadeva</string>
-		<string>kadeva_viramadeva_tadeva</string>
-		<string>kadeva_viramadeva_radeva</string>
-		<string>kadeva_viramadeva_vadeva</string>
-		<string>kadeva_viramadeva_ssadeva</string>
-		<string>khadeva_viramadeva</string>
-		<string>khadeva_viramadeva_radeva</string>
-		<string>gadeva_viramadeva</string>
-		<string>gadeva_viramadeva_nadeva</string>
-		<string>gadeva_viramadeva_radeva</string>
-		<string>ghadeva_viramadeva</string>
-		<string>ghadeva_viramadeva_radeva</string>
-		<string>ngadeva_viramadeva</string>
-		<string>ngadeva_viramadeva_kadeva</string>
-		<string>ngadeva_viramadeva_khadeva</string>
-		<string>ngadeva_viramadeva_gadeva</string>
-		<string>ngadeva_viramadeva_ghadeva</string>
-		<string>ngadeva_viramadeva_madeva</string>
-		<string>cadeva_viramadeva</string>
-		<string>cadeva_viramadeva_cadeva</string>
-		<string>cadeva_viramadeva_radeva</string>
-		<string>chadeva_viramadeva</string>
-		<string>chadeva_viramadeva_vadeva</string>
-		<string>jadeva_viramadeva</string>
-		<string>jadeva_viramadeva_jadeva</string>
-		<string>jadeva_viramadeva_nyadeva</string>
-		<string>jadeva_viramadeva_radeva</string>
-		<string>jhadeva_viramadeva</string>
-		<string>jhadeva_viramadeva_radeva</string>
-		<string>nyadeva_viramadeva</string>
-		<string>nyadeva_viramadeva_cadeva</string>
-		<string>nyadeva_viramadeva_jadeva</string>
-		<string>nyadeva_viramadeva_radeva</string>
-		<string>ttadeva_viramadeva_yadeva</string>
-		<string>ttadeva_viramadeva</string>
-		<string>ttadeva_viramadeva_ttadeva</string>
-		<string>ttadeva_viramadeva_tthadeva</string>
-		<string>ttadeva_viramadeva_vadeva</string>
-		<string>tthadeva_viraamdeva_yadeva</string>
-		<string>tthadeva_viraamdeva_tthadeva</string>
-		<string>tthadeva_viramadeva</string>
-		<string>ddadeva_viramadeva_yadeva</string>
-		<string>ddadeva_viramadeva</string>
-		<string>ddadeva_viramadeva_ddhadeva</string>
-		<string>ddhadeva_viramadeva_yadeva</string>
-		<string>ddhadeva_viramadeva</string>
-		<string>ddhadeva_viramadeva_ddhadeva</string>
-		<string>nnadeva_viramadeva</string>
-		<string>nnadeva_viramadeva_radeva</string>
-		<string>tadeva_viramadeva</string>
-		<string>tadeva_viramadeva_tadeva</string>
-		<string>tadeva_viramadeva_radeva</string>
-		<string>thadeva_viramadeva</string>
-		<string>thadeva_viramadeva_radeva</string>
-		<string>dadeva_rvocalicsigndeva</string>
-		<string>dadeva_viramadeva_badeva</string>
-		<string>dadeva_viramadeva_yadeva</string>
-		<string>dadeva_viramadeva</string>
-		<string>dadeva_viramadeva_gadeva</string>
-		<string>dadeva_viramadeva_ghadeva</string>
-		<string>dadeva_viramadeva_dadeva</string>
-		<string>dadeva_viramadeva_dhadeva</string>
-		<string>dadeva_viramadeva_nadeva</string>
-		<string>dadeva_viramadeva_bhadeva</string>
-		<string>dadeva_viramadeva_madeva</string>
-		<string>dadeva_viramadeva_radeva</string>
-		<string>dadeva_viramadeva_vadeva</string>
-		<string>dhadeva_viramadeva</string>
-		<string>dhadeva_viramadeva_radeva</string>
-		<string>nadeva_viramadeva_alt</string>
-		<string>nadeva_viramadeva</string>
-		<string>nadeva_viramadeva_nadeva</string>
-		<string>nadeva_viramadeva_radeva</string>
-		<string>nnnadeva_viramadeva</string>
-		<string>padeva_viramadeva_ladeva</string>
-		<string>padeva_viramadeva</string>
-		<string>padeva_viramadeva_tadeva</string>
-		<string>padeva_viramadeva_radeva</string>
-		<string>bhadeva_viramadeva</string>
-		<string>bhadeva_viramadeva_radeva</string>
-		<string>madeva_viramadeva</string>
-		<string>madeva_viramadeva_radeva</string>
-		<string>radeva_usigndeva</string>
-		<string>radeva_uusigndeva</string>
-		<string>lladeva_viramadeva</string>
-		<string>llladeva_viramadeva</string>
-		<string>vadeva_viramadeva</string>
-		<string>vadeva_viramadeva_radeva</string>
-		<string>shadeva_viramadeva_alt</string>
-		<string>shadeva_viramadeva_ladeva</string>
-		<string>shadeva_viramadeva</string>
-		<string>shadeva_viramadeva_cadeva</string>
-		<string>shadeva_viramadeva_nadeva</string>
-		<string>shadeva_viramadeva_radeva</string>
-		<string>shadeva_viramadeva_vadeva</string>
-		<string>ssadeva_viramadeva</string>
-		<string>ssadeva_viramadeva_ttadeva</string>
-		<string>ssadeva_viramadeva_tthadeva</string>
-		<string>ssadeva_viramadeva_radeva</string>
-		<string>sadeva_viramadeva</string>
-		<string>sadeva_viramadeva_radeva</string>
-		<string>hadeva_viramadeva_ladeva</string>
-		<string>hadeva_viramadeva_yadeva</string>
-		<string>hadeva_rvocalicdeva</string>
-		<string>hadeva_viramadeva</string>
-		<string>hadeva_viramadeva_nnadeva</string>
-		<string>hadeva_viramadeva_nadeva</string>
-		<string>hadeva_viramadeva_madeva</string>
-		<string>hadeva_viramadeva_radeva</string>
-		<string>hadeva_viramadeva_vadeva</string>
-		<string>qadeva_viramadeva</string>
-		<string>khhadeva_viramadeva</string>
-		<string>ghhadeva_viramadeva</string>
-		<string>zadeva_viramadeva</string>
-		<string>fadeva_viramadeva</string>
-		<string>radeva_viramadeva.alt</string>
-		<string>shadeva_viramadeva.alt</string>
-		<string>shadeva_viramadeva.mr</string>
-		<string>kadeva_viramadeva_radeva.np</string>
-		<string>adeva</string>
-		<string>ideva</string>
-		<string>iideva</string>
-		<string>udeva</string>
-		<string>edeva</string>
-		<string>odeva</string>
-		<string>audeva</string>
-		<string>aasigndeva</string>
-		<string>osigndeva</string>
-		<string>ausigndeva</string>
-		<string>ashortdeva</string>
-		<string>acandradeva</string>
-		<string>aadeva</string>
-		<string>uudeva</string>
-		<string>rvocalicdeva</string>
-		<string>rrvocalicdeva</string>
-		<string>lvocalicdeva</string>
-		<string>llvocalicdeva</string>
-		<string>ecandradeva</string>
-		<string>eshortdeva</string>
-		<string>aideva</string>
-		<string>ocandradeva</string>
-		<string>oshortdeva</string>
-		<string>oedeva</string>
-		<string>ooedeva</string>
-		<string>awdeva</string>
-		<string>uedeva</string>
-		<string>uuedeva</string>
-		<string>isigndeva</string>
-		<string>iisigndeva</string>
-		<string>ocandrasigndeva</string>
-		<string>oshortsigndeva</string>
-		<string>eprishthamatrasigndeva</string>
-		<string>ooesigndeva</string>
-		<string>awsigndeva</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -474,18 +335,6 @@
 		<string>twosuperior</string>
 		<string>threesuperior</string>
 		<string>foursuperior</string>
-		<string>zerodeva</string>
-		<string>onedeva</string>
-		<string>twodeva</string>
-		<string>threedeva</string>
-		<string>fourdeva</string>
-		<string>fivedeva</string>
-		<string>sixdeva</string>
-		<string>sevendeva</string>
-		<string>eightdeva</string>
-		<string>ninedeva</string>
-		<string>fivedeva.np</string>
-		<string>eightdeva.np</string>
 		<string>asterisk</string>
 		<string>backslash</string>
 		<string>periodcentered</string>
@@ -513,9 +362,9 @@
 		<string>emdash</string>
 		<string>endash</string>
 		<string>hyphen</string>
-		<string>softhyphen</string>
-		<string>guillemetleft</string>
-		<string>guillemetright</string>
+		<string>uni00AD</string>
+		<string>guillemotleft</string>
+		<string>guillemotright</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
 		<string>quotedblbase</string>
@@ -524,41 +373,31 @@
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
-		<string>glottalstopdeva</string>
-		<string>danda</string>
-		<string>dbldanda</string>
-		<string>abbreviationsigndeva</string>
-		<string>highspacingdotdeva</string>
 		<string>space</string>
-		<string>nbspace</string>
-		<string>zerowidthjoiner</string>
-		<string>zerowidthnonjoiner</string>
+		<string>uni00A0</string>
+		<string>Euro</string>
 		<string>cent</string>
 		<string>currency</string>
 		<string>dollar</string>
-		<string>euro</string>
 		<string>florin</string>
-		<string>liraTurkish</string>
-		<string>ruble</string>
 		<string>sterling</string>
+		<string>uni20BA</string>
+		<string>uni20BD</string>
 		<string>yen</string>
-		<string>inr_currency</string>
-		<string>Ohm</string>
+		<string>sterling.part</string>
+		<string>cent.001</string>
+		<string>dollar.001</string>
 		<string>approxequal</string>
 		<string>asciitilde</string>
-		<string>bulletoperator</string>
 		<string>divide</string>
-		<string>divisionslash</string>
 		<string>equal</string>
 		<string>greater</string>
 		<string>greaterequal</string>
-		<string>increment</string>
 		<string>infinity</string>
 		<string>integral</string>
 		<string>less</string>
 		<string>lessequal</string>
 		<string>logicalnot</string>
-		<string>micro</string>
 		<string>minus</string>
 		<string>multiply</string>
 		<string>notequal</string>
@@ -570,8 +409,12 @@
 		<string>product</string>
 		<string>radical</string>
 		<string>summation</string>
+		<string>uni00B5</string>
+		<string>uni2126</string>
+		<string>uni2206</string>
+		<string>uni2215</string>
+		<string>uni2219</string>
 		<string>lozenge</string>
-		<string>dottedcircle</string>
 		<string>bar</string>
 		<string>brokenbar</string>
 		<string>at</string>
@@ -583,12 +426,10 @@
 		<string>trademark</string>
 		<string>degree</string>
 		<string>estimated</string>
-		<string>literSign</string>
+		<string>uni2113</string>
 		<string>asciicircum</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
-		<string>avagrahadeva</string>
-		<string>omdeva</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -604,141 +445,12 @@
 		<string>tilde</string>
 		<string>acute.cap</string>
 		<string>caron.alt</string>
+		<string>caron.cap</string>
+		<string>circumflex.cap</string>
 		<string>grave.cap</string>
 		<string>commaaccent</string>
-		<string>firsttonechinese</string>
-		<string>visargadeva</string>
-		<string>esigndeva</string>
-		<string>aisigndeva</string>
-		<string>anusvaradeva</string>
-		<string>usigndeva</string>
-		<string>uusigndeva</string>
-		<string>rvocalicsigndeva</string>
-		<string>rrvocalicsigndeva</string>
-		<string>lvocalicsigndeva</string>
-		<string>llvocalicsigndeva</string>
-		<string>ecandrasigndeva</string>
-		<string>candrabindudeva</string>
-		<string>eshortsigndeva</string>
-		<string>viramadeva</string>
-		<string>viramadeva_radeva_alt</string>
-		<string>viramadeva_radeva</string>
-		<string>nuktadeva</string>
-		<string>candrabinduinverteddeva</string>
-		<string>ecandralongsigndeva</string>
-		<string>oesigndeva</string>
-		<string>uesigndeva</string>
-		<string>uuesigndeva</string>
-		<string>udattadeva</string>
-		<string>anudattadeva</string>
-		<string>gravedeva</string>
-		<string>acutedeva</string>
-		<string>ba_virama_ra_viramadeva</string>
-		<string>da_ddha_ra_yadeva</string>
-		<string>badeva_viramadeva</string>
-		<string>badeva_viramadeva_radeva</string>
-		<string>candrabinduavagrahadeva</string>
-		<string>doublecandrabinduviramadeva</string>
-		<string>candrabindudigitthreedeva</string>
-		<string>candrabindudigittwodeva</string>
-		<string>candrabinduviramadeva</string>
-		<string>caretdeva</string>
-		<string>iisign_ra_virama_anusvara</string>
-		<string>isign_ra_virama_anusvara.alt2</string>
-		<string>iisigndeva.alt1</string>
-		<string>isign_ra_virama_anusvara.alt3</string>
-		<string>iisigndeva_anusvaradeva.alt1</string>
-		<string>gapfillerdeva</string>
-		<string>isign_ra_virama_anusvara.alt4</string>
-		<string>iisigndeva_anusvaradeva</string>
-		<string>isign_ra_virama_anusvara</string>
-		<string>isigndeva_anusvaradeva.alt3</string>
-		<string>iisigndeva_ra_virama.alt1</string>
-		<string>ka_virama_ssa_virama_radeva</string>
-		<string>isigndeva_anusvaradeva.alt4</string>
-		<string>isign_ra_virama_anusvara.ja</string>
-		<string>iisigndeva_ra_virama</string>
-		<string>isign_ra_virama_anusvara.tha</string>
-		<string>ka_virama_ssa_viramadeva</string>
-		<string>isigndeva_anusvaradeva</string>
-		<string>isign_ra_virama.alt1</string>
-		<string>isigndeva.alt1</string>
-		<string>isigndeva_anusvaradeva.ja</string>
-		<string>isign_ra_virama.alt2</string>
-		<string>ja_virama_ja_viramadeva</string>
-		<string>isigndeva.alt2</string>
-		<string>ladeva.mr</string>
-		<string>isign_ra_virama.alt3</string>
-		<string>isigndeva.alt3</string>
-		<string>ladeva_viramadeva</string>
-		<string>isigndeva.alt4</string>
-		<string>isign_ra_virama.alt4</string>
-		<string>ladeva_viramadeva_ladeva</string>
-		<string>isign_ra_virama</string>
-		<string>ja_virama_nya_virama_radeva</string>
-		<string>ladeva_viramadeva_radeva</string>
-		<string>isigndeva.ja</string>
-		<string>ja_virama_nya_viramadeva</string>
-		<string>isign_ra_virama.ja</string>
-		<string>isign_ra_virama.tha</string>
-		<string>isign_ra_virama_anusvara.alt1</string>
-		<string>headstrokedeva</string>
-		<string>isigndeva.tha</string>
-		<string>isigndeva_anusvara.alt1</string>
-		<string>isigndeva_anusvara.alt2</string>
-		<string>nep_jha_virama</string>
-		<string>isigndeva_anusvara.tha</string>
-		<string>iisign_ra_virama_anusvara.alt1</string>
-		<string>nga_virama_ka_virama_ssadeva</string>
-		<string>nga_virama_ka_viramadeva</string>
-		<string>phadeva_radeva_nuktadeva</string>
-		<string>phadeva_viramadeva</string>
-		<string>phadeva_viramadeva_ladeva</string>
-		<string>phadeva_viramadeva_radeva</string>
-		<string>pushpikadeva</string>
-		<string>sha_virama_rvocalicdeva</string>
-		<string>spacingcandrabindudeva</string>
-		<string>ta_virama_ra_viramadeva</string>
-		<string>sa_virama_ta_virama_radeva</string>
-		<string>ta_virama_ta_viramadeva</string>
-		<string>zhadeva.np</string>
-		<string>yadeva_alt</string>
-		<string>yadeva_viramadeva</string>
-		<string>yadeva_viramadeva_radeva</string>
-		<string>zerocombiningdigitdeva</string>
-		<string>onecombiningdigitdeva</string>
-		<string>twocombiningdigitdeva</string>
-		<string>threecombiningdigitdeva</string>
-		<string>fourcombiningdigitdeva</string>
-		<string>fivecombiningdigitdeva</string>
-		<string>sixcombiningdigitdeva</string>
-		<string>sevencombiningdigitdeva</string>
-		<string>eightcombiningdigitdeva</string>
-		<string>ninecombiningdigitdeva</string>
-		<string>acombiningletterdeva</string>
-		<string>ucombiningletterdeva</string>
-		<string>kacombiningletterdeva</string>
-		<string>nacombiningletterdeva</string>
-		<string>pacombiningletterdeva</string>
-		<string>racombiningletterdeva</string>
-		<string>vicombiningletterdeva</string>
-		<string>avagrahacombiningsigndeva</string>
-		<string>nonmarkingreturn</string>
-		<string>glyph244</string>
-		<string>vattudeva_ulowdeva</string>
-		<string>vattudeva_uulowdeva</string>
-		<string>osigndeva_anusvaradeva</string>
-		<string>osign_ra_virama.alt1</string>
-		<string>osign_ra_virama_anusvara</string>
-		<string>ausigndeva_anusvaradeva</string>
-		<string>ausign_ra_virama_anusvara</string>
-		<string>ausign_ra_virama.alt1</string>
-		<string>esigndeva_anusvaradeva</string>
-		<string>aisigndeva_anusvaradeva</string>
-		<string>aisign_ra_virama_anusvara</string>
-		<string>esign_ra_virama_anusvara</string>
-		<string>aisign_ra_virama.alt1</string>
-		<string>esign_ra_virama.alt1</string>
+		<string>uni02C9</string>
+		<string>gbase</string>
 		<string>bowl</string>
 		<string>asteriskline</string>
 	</array>

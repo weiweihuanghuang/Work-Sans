@@ -26,8 +26,9 @@
       <point x="94" y="383" type="line"/>
       <point x="94" y="0" type="line"/>
       <point x="174" y="0" type="line"/>
-      <point x="174" y="383" type="line"/>
-      <point x="159" y="500" type="line"/>
+      <point x="174" y="377" type="line"/>
+      <point x="171" y="383" type="line"/>
+      <point x="164" y="500" type="line"/>
     </contour>
     <contour>
       <point x="319" y="500" type="move" name="top"/>

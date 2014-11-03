@@ -8,9 +8,10 @@
       <point x="94" y="383" type="line"/>
       <point x="94" y="-210" type="line"/>
       <point x="174" y="-210" type="line"/>
-      <point x="174" y="383" type="line"/>
-      <point x="159" y="500" type="line"/>
+      <point x="174" y="376" type="line"/>
+      <point x="171" y="383" type="line"/>
+      <point x="164" y="500" type="line"/>
     </contour>
-    <component base="bowl" xOffset="648" xScale="-1"/>
+    <component base="bowl" xOffset="648" yOffset="500" xScale="-1" yScale="-1"/>
   </outline>
 </glyph>

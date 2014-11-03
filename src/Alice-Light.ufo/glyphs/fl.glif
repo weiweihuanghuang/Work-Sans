@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fl" format="1">
-  <advance width="596"/>
+  <advance width="538"/>
   <unicode hex="FB02"/>
   <outline>
     <component base="f"/>
-    <component base="l" xOffset="322"/>
+    <component base="l" xOffset="298"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
-      <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
-    </dict>
-  </lib>
 </glyph>

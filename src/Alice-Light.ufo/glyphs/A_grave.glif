@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Agrave" format="1">
-  <advance width="582"/>
+  <advance width="558"/>
   <unicode hex="00C0"/>
   <outline>
     <component base="A"/>
-    <component base="grave.cap" xOffset="41"/>
+    <component base="grave.cap" xOffset="29"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
-      <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
-    </dict>
-  </lib>
 </glyph>

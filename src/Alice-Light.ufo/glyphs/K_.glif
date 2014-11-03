@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K" format="1">
-  <advance width="603"/>
+  <advance width="569"/>
   <unicode hex="004B"/>
   <outline>
     <contour>
-      <point x="524" y="660" type="line"/>
-      <point x="119" y="248" type="line"/>
-      <point x="119" y="225" type="line"/>
-      <point x="547" y="660" type="line"/>
+      <point x="512" y="660" type="line"/>
+      <point x="107" y="248" type="line"/>
+      <point x="107" y="225" type="line"/>
+      <point x="269" y="389" type="line"/>
+      <point x="271" y="391" type="line"/>
+      <point x="535" y="660" type="line"/>
     </contour>
     <contour>
-      <point x="112" y="660" type="line"/>
-      <point x="112" y="0" type="line"/>
-      <point x="128" y="0" type="line"/>
-      <point x="128" y="660" type="line"/>
+      <point x="100" y="660" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="116" y="0" type="line"/>
+      <point x="116" y="660" type="line"/>
     </contour>
     <contour>
-      <point x="272" y="390" type="line"/>
-      <point x="536" y="0" type="line"/>
-      <point x="557" y="0" type="line"/>
-      <point x="283" y="404" type="line"/>
+      <point x="260" y="390" type="line"/>
+      <point x="524" y="0" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="271" y="404" type="line"/>
     </contour>
     <contour>
-      <point x="332" y="660" type="move" name="top"/>
+      <point x="320" y="660" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="332" y="0" type="move" name="bottom"/>
+      <point x="320" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

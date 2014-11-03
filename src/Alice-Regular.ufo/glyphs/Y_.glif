@@ -5,23 +5,16 @@
   <outline>
     <contour>
       <point x="478" y="660" type="line"/>
-      <point x="271" y="294" type="line"/>
-      <point x="337" y="258" type="line"/>
-      <point x="573" y="660" type="line"/>
-    </contour>
-    <contour>
-      <point x="337" y="258" type="line"/>
-      <point x="323" y="294" type="line"/>
-      <point x="271" y="294" type="line"/>
+      <point x="350" y="434" type="line"/>
+      <point x="297" y="340" type="line"/>
+      <point x="244" y="434" type="line"/>
+      <point x="116" y="660" type="line"/>
+      <point x="21" y="660" type="line"/>
       <point x="257" y="258" type="line"/>
       <point x="257" y="0" type="line"/>
       <point x="337" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="21" y="660" type="line"/>
-      <point x="257" y="258" type="line"/>
-      <point x="323" y="294" type="line"/>
-      <point x="116" y="660" type="line"/>
+      <point x="337" y="258" type="line"/>
+      <point x="573" y="660" type="line"/>
     </contour>
     <contour>
       <point x="297" y="660" type="move" name="top"/>

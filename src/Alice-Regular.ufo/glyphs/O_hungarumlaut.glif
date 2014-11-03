@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohungarumlaut" format="1">
-  <advance width="772"/>
+  <advance width="752"/>
   <unicode hex="0150"/>
   <outline>
     <component base="O"/>
     <component base="acute.cap" xOffset="226"/>
     <component base="acute.cap" xOffset="49"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
-      <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
-    </dict>
-  </lib>
 </glyph>

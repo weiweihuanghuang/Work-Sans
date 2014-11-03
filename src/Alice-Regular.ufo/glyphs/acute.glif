@@ -5,7 +5,7 @@
   <outline>
     <component base="grave" xOffset="500" xScale="-1"/>
     <contour>
-      <point x="250" y="500" type="move" name="_top"/>
+      <point x="257" y="500" type="move" name="_top"/>
     </contour>
   </outline>
 </glyph>

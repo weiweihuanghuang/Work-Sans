@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uogonek" format="1">
-  <advance width="722"/>
+  <advance width="738"/>
   <unicode hex="0172"/>
   <outline>
     <contour>
       <point x="445" y="41" type="line"/>
-      <point x="346" y="-11"/>
-      <point x="292" y="-51"/>
+      <point x="346" y="-1"/>
+      <point x="292" y="-41"/>
       <point x="292" y="-116" type="curve" smooth="yes"/>
       <point x="292" y="-174"/>
       <point x="339" y="-215"/>
@@ -27,12 +27,4 @@
     </contour>
     <component base="U"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>0</integer>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>
