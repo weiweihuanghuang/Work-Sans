@@ -18,38 +18,93 @@ html {
 */
 }
 @font-face {
-    font-family: 'alicenormal';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Normal.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.ttf') format('truetype'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-normal-webfont.svg#alicenormal') format('svg');
+    font-family: 'aliceblack';
+    src: url('Alice/src/Test%20Fonts/Alice-Black.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-black-webfont.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aliceextrabold';
+    src: url('Alice/src/Test%20Fonts/Alice-Extrabold.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-extrabold-webfont.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alicebold';
+    src: url('Alice/src/Test%20Fonts/Alice-Bold.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-bold-webfont.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alicesemibold';
+    src: url('Alice/src/Test%20Fonts/Alice-Semibold.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-semibold-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alicemedium';
+    src: url('Alice/src/Test%20Fonts/Alice-Medium.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-medium-webfont.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aliceregular';
+    src: url('Alice/src/Test%20Fonts/Alice-Regular.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-regular-webfont.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'alicelight';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Light.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.ttf') format('truetype'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-light-webfont.svg#alicelight') format('svg');
+    src: url('Alice/src/Test%20Fonts/Alice-Light.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-light-webfont.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'aliceextralight';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-ExtraLight.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.ttf') format('truetype'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-extralight-webfont.svg#aliceextralight') format('svg');
+    src: url('Alice/src/Test%20Fonts/Alice-ExtraLight.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-extralight-webfont.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'alicethin';
-    src: url('Alice-Devanagari/src/Test%20Fonts/Alice-Thin.otf'); format('opentype');
-    src: url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.woff') format('woff'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.ttf') format('truetype'),
-         url('Alice-Devanagari/src/Test%20Fonts/alice-thin-webfont.svg#alicethin') format('svg');
+    src: url('Alice/src/Test%20Fonts/Alice-Thin.otf') format('opentype'),
+    	url('Alice/src/Test%20Fonts/alice-thin-webfont.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
+}
+
+.alicethin {
+	font-family: alicethin;
+}
+.aliceextralight {
+	font-family: aliceextralight;
+}
+.alicelight {
+	font-family: alicelight;
+}
+.aliceregular {
+	font-family: aliceregular;
+}
+.aliceregular {
+	font-family: aliceregular;
+}
+.alicesemibold {
+	font-family: alicesemibold;
+}
+.alicebold {
+	font-family: alicebold;
+}
+.aliceextrabold {
+	font-family: aliceextrabold;
+}
+.aliceblack {
+	font-family: aliceblack;
 }

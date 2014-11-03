@@ -3,15 +3,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>“Alice” specimen</title>
 <link rel="stylesheet" type="text/css" href="alicewebfonts.css">
+<script>
+  WebFont.load({
+	custom: {
+	  families: ['alicethin', 'aliceextralight', 'alicelight', 'aliceregular', 'alicemedium', 'alicesemibold', 'alicebold', 'aliceextrabold', 'aliceblack']
+	}
+  });
+</script>
 <style type="text/css" media="screen">
 body {
 	background-color: #ffffff;
 	color: #000000;
-	font-family: 'alicenormal', 'AdobeBlank';
+	font-family: 'aliceregular', 'AdobeBlank';
 	font-size: 17px;
-	font-size-adjust: 0.50;
-	text-align: left;
-	margin: 2rem 0 2rem;
 	-moz-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
 	-moz-font-feature-settings:"kern=1, liga=1, dlig=1"; 
 	-ms-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
@@ -21,7 +25,7 @@ body {
 }
 
 p {
-	margin-bottom:0;
+	margin-bottom: 0;
 	text-align: left;
 }
 
@@ -34,49 +38,51 @@ h1 {
 	font-size: 24px;
 	margin-top:2em;
 	margin-bottom:0.2em;
-/* 	font-weight: 700; */
+	font-family: 'alicemedium', 'AdobeBlank';
 	font-style: normal;
-	letter-spacing:-0.5px;
-	line-height: 1;
-	text-align: left;
+	font-weight: normal;
 }
 
 header {
 	font-size: 96px;
 	margin-top:0.2em;
 	margin-bottom:0em;
-	font-weight: 400;
+	font-weight: normal;
 	font-style: normal;
 	line-height: 1.2;
 }
 
 .banner {
-	font-size: 96px;
-	margin-top:0em;
-	margin-bottom:0em;
-	font-weight: 400;
+	text-align: center;
+	font-size: 128px;
+	margin: 0 0;
+	font-family: aliceblack;
 	font-style: normal;
-	letter-spacing:-2px;
+	font-weight: normal;
 	line-height: 1;
 	display:block;
 }
 
 em {
+	font-family: 'alicesemibold', 'AdobeBlank';
 	font-style: normal;
-/* 	font-weight: 700; */
-	color: red;
+	font-weight: normal;
 }
+
+div#widetext { margin: 0 2% 20px; text-align: center }
+
+div#widetext span {text-align: center}
 
 div#bodytext { margin: 0 auto; line-height: 1.5em; }
 
 @media only screen and (min-width:720px){
-	div#bodytext { width: 700px; margin: 0 auto; line-height: 1.5em; }
+	div#bodytext { width: 700px; margin: 20px auto ; line-height: 1.5em; }
 }
 @media only screen and (max-width:719px){
-	div#bodytext { margin: 2% 2% ; line-height: 1.5em;}
+	div#bodytext { margin: 10px 2% ; line-height: 1.5em;}
 }
 @media only screen and (max-width:560px){
-	div#bodytext { margin: 2% 2% ; line-height: 1.4em;}
+	div#bodytext { margin: 6px 2% ; line-height: 1.4em;}
 }
 
 div#center {
@@ -170,197 +176,230 @@ a:active {
 	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1; 
 	font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1;
 }
+.bigtext {
+	width: 90%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+.bigtext span { 
+	font-size: 48px;
+}
+.label {
+	font-size: 17px:
+	font-family: aliceregular;
+	margin: 24px 0 4px ;
+}
+.label:first-child {
+	font-size: 17px:
+	font-family: aliceregular;
+	margin: 0 0 4px ;
+}
+.wf-fonta-n4-loading .bixtext, .wf-fontb-n4-loading .bixtext, .wf-fontc-n4-loading .bixtext, .wf-fontd-n4-loading .bixtext, .wf-fontd-n5-loading .bixtext,  .wf-fontd-n6-loading .bixtext, .wf-fontd-n7-loading .bixtext, .wf-fontd-n8-loading .bixtext,  .wf-fontd-n9-loading .bixtext, .wf-loading .bixtext {
+	visibility:hidden;
+}
 </style>
 </head>
 <body>
 
-<div id="bodytext">
-<span class="banner">Alice</span>
-<p>“Alice” is a superfamily in progress based loosely on early Grotesques — i.e. <a href="https://www.flickr.com/photos/stewf/14444337254/">Stephenson Blake</a>, <a href="https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/">Miller & Richard</a> and <a href="https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up">Bauerschen Giesserei</a>. There are 9 weights across 5 widths. The core of the fonts are designed for on-screen medium-sized text usage (14px-48px). The fonts closer to the extreme widths and weights are designed for display use. Features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
-<p>Alice covers Adobe Latin 3 and supports Afrikaans, Basque, Breton, Catalan, Croatian(Latin), Czech, Danish, Dutch, English, Estonian, Faroese, Finnish, French, Gaelic, Gagauz(Latin), German, Hungarian, Icelandic, Indonesian, Irish, Italian, Javanese(Latin), Latvian, Lithuanian, Malay(Latin), Moldovan(Latin), Kashubian, Norwegian, Polish, Portuguese, Romanian(Latin), Sami(Southern, Northern, Inari, and Lule), Serbian(Latin), Silesian, Slovak, Slovenian, Sorbian, Spanish, Swahili, Swedish, Turkish and Walloon.
-<p>Alice is designed by Wei Huang in 2014, and is published under the <a href="http://scripts.sil.org/OFL">SIL Open Font License Version 1.1.</a> Follow the project at the <a href="https://github.com/weiweihuanghuang/Alice-Devanagari">GitHub page</a>.
-<p>This sample page is derived from <a href="http://www.forthehearts.net/">Claus Eggers Sørensen</a>'s specimen for <a href="https://github.com/clauseggers/Inknut-Antiqua">Inknut Antiqua</a>.
-
-<p><br>
-<em>Thin</em></br>
-<span spellcheck="false" contenteditable="true" style="font-family:alicethin;font-size:72px; line-height: 120%; letter-spacing: -2px">Ťhė qűiçķ břòwñ føx jùmþş òvęŕ țhě łăžý ðöğ.</span></br></br>
-<em>Extra Light</em></br>
-<span spellcheck="false" contenteditable="true" style="font-family:aliceextralight;font-size:72px; line-height: 120%; letter-spacing: -2px">Ťhė qűiçķ břòwñ føx jùmþş òvęŕ țhě łăžý ðöğ.</span></br></br>
-<em>Light</em></br>
-<span spellcheck="false" contenteditable="true" style="font-family:alicelight;font-size:72px; line-height: 120%; letter-spacing: -2px">Ťhė qűiçķ břòwñ føx jùmþş òvęŕ țhě łăžý ðöğ.</span></br></br>
-<em>Regular</em></br><span class="dlig">
-<span spellcheck="false" contenteditable="true" style="font-family:alicenormal;font-size:72px; line-height: 120%; letter-spacing: -2px">Ťhė qűiçķ břòwñ føx jùmþş òvęŕ țhě łăžý ðöğ.</span></br></br>
-<em>More to come!</em>
-</p>
+<div id="widetext">
+<span style="font-family:aliceblack;font-size:72px; line-height: 120%;">ALICE; HÄFTIGT £38. * života 47µF &c. großen €2.80 hafði służył 6'2" Zwłaszcza erősödő † vådeskud 360° sociálního „osiągnięć?” 1940 kjøtt * Office of ľubiša §4/a Øl kærtegn ¶ Skírðist @ AßEN * Paradís? <span class="fractions">1/2</span> ¡fill! E=m∙c² <span class="ss01">Abnegación</span> p. 756–757 « l’extrémité » äpäräpä…</span>
 </div>
 
-</p>
+<div id="bodytext">
+<p>“Alice” is a superfamily in progress based loosely on early Grotesques — i.e. <a href="https://www.flickr.com/photos/stewf/14444337254/">Stephenson Blake</a>, <a href="https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/">Miller & Richard</a> and <a href="https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up">Bauerschen Giesserei</a>. There will be 9 weights across 5 widths. The core of the fonts are designed for on-screen medium-sized text usage (14px-48px). The fonts closer to the extreme widths and weights are designed for display use. Features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
+<p>Alice covers Adobe Latin 3 and supports Afrikaans, Basque, Breton, Catalan, Croatian(Latin), Czech, Danish, Dutch, English, Estonian, Faroese, Finnish, French, Gaelic, Gagauz(Latin), German, Hungarian, Icelandic, Indonesian, Irish, Italian, Javanese(Latin), Latvian, Lithuanian, Malay(Latin), Moldovan(Latin), Kashubian, Norwegian, Polish, Portuguese, Romanian(Latin), Sami(Southern, Northern, Inari, and Lule), Serbian(Latin), Silesian, Slovak, Slovenian, Sorbian, Spanish, Swahili, Swedish, Turkish and Walloon.
+<p>Alice is designed by Wei Huang in 2014, and is published under the <a href="http://scripts.sil.org/OFL">SIL Open Font License Version 1.1.</a> Follow the project at the <a href="https://github.com/weiweihuanghuang/Alice">GitHub page</a>.
+<p>This sample page is derived from <a href="http://www.forthehearts.net/">Claus Eggers Sørensen</a>'s specimen for <a href="https://github.com/clauseggers/Inknut-Antiqua">Inknut Antiqua</a>.
+</div>
+
+<div class="bigtext">
+<div class="label">Thin</div>
+<span contenteditable="true" class="alicethin">I den rett gamle tida budde det tre troll i Råskogen. "Eg tykte eg høyrde ei ku raute", sa det eine trollet</span>
+<div class="label">Extra Light</div>
+<span contenteditable="true" class="aliceextralight">Es geschah dies durch seine Bücher „Plaudereien mit der Herzogin von Seeland“ und „Apotheker Heinrich.“</span>
+<div class="label">Light</div>
+<span contenteditable="true" class="alicelight">De là, elle remonte vers le nord jusqu’à Dovrefjeld; en Grande-Bretagne, jusque vers l’Écosse centrale</span>
+<div class="label">Regular</div>
+<span contenteditable="true" class="aliceregular">Portugal estava mais proximo, que nenhum outro povo, do litoral africano; tinha já tomado Ceuta</span>
+<div class="label">Medium</div>
+<span contenteditable="true" class="alicemedium">Nije on podavao osobite važnosti svemu tome i već se je bio smirio s mišlju, da je to kronični katar</span>
+<div class="label">Semibold</div>
+<span contenteditable="true" class="alicesemibold">Tog wás daar geluid, en juis iets soos ’n hartklop – ’n lae gedreun, byna te laag vir die oor om op te vang</span>
+<div class="label">Bold</div>
+<span contenteditable="true" class="alicebold">Arsen ih prispodabljaše koralima i spužvama, tako bijahu izdjelani. A za boju govoraše</span>
+<div class="label">Extra Bold</div>
+<span contenteditable="true" class="aliceextrabold">Ir Antanas Garšva pasuka dešinėn. Vėl laiptai. Per daug laiptų, jie kartojasi</span>
+<div class="label">Black</div>
+<span contenteditable="true" class="aliceblack">The article is something you would not expect to find in a standard encyclopedia</span>
+</div>
+
 <div id="bodytext">
 <h1>Latin characters</h1>
-<p><em>Majuscule</em></br>
-<span STYLE="word-wrap: break-word">AÁĂÂÄÀĀĄÅÃÆBCĆČÇDÐĎĐEÉĚÊËĖÈĒĘFGĞĢHIÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘTŤŢȚUÚÛÜÙŰŪŲŮVWXYÝŸZŹŽŻ</span></br></br>
-<em>Minuscule</em></br>aáăâäàāąåãæbcćčçdðďđeéěêëėèēęfgğģ<span STYLE="word-wrap: break-word">g<span class="ss01">hiıíîïìīįjkķlĺľļłmnńňņñoóôöòőōøõœpþqrŕřŗsśšşșßtťţțuúûüùűūųůvwxyýÿzźžż
+<p><em>Majuscule</em><br>
+<span STYLE="word-wrap: break-word">AÁĂÂÄÀĀĄÅÃÆBCĆČÇDÐĎĐEÉĚÊËĖÈĒĘFGĞĢHIÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘTŤŢȚUÚÛÜÙŰŪŲŮVWXYÝŸZŹŽŻ</span><br><br>
+<em>Minuscule</em><br>aáăâäàāąåãæbcćčçdðďđeéěêëėèēęfgğģ<span STYLE="word-wrap: break-word">g<span class="ss01">hiıíîïìīįjkķlĺľļłmnńňņñoóôöòőōøõœpþqrŕřŗsśšşșßtťţțuúûüùűūųůvwxyýÿzźžż
 </p>
 
 <!-- 
 <h1>Ligatures</h1>
-<p><em>Standard ligatures</em></br>
-fi fì fį fï fj fä fö fð ff fb fh fk fķ fl fľ fļ</br>
-ffi ffì ffį ffï ffj ffä ffö ffð ffb ffh ffk ffķ ffl ffľ ffļ</br></br>
-<em>Discretionary ligatures</em></br>
+<p><em>Standard ligatures</em><br>
+fi fì fį fï fj fä fö fð ff fb fh fk fķ fl fľ fļ<br>
+ffi ffì ffį ffï ffj ffä ffö ffð ffb ffh ffk ffķ ffl ffľ ffļ<br><br>
+<em>Discretionary ligatures</em><br>
 <span class="dlig">Th</span>
 </p>
  -->
 
 <h1>Enumeration</h1>
-<p><em>Arabic figures</em></br>
-<span STYLE="word-wrap: break-word">π ≈ 3·141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609 …</span></br></br>
-<span STYLE="word-wrap: break-word"><span class="dlig">The Golden Mean</span> ≈ 1·618033988749894848204586834365638117720309179805762862135448622705260462818902449707207204189391137484754088075386891752126633862223536931793180060766726354433389086595939582905638322661319928290267880675208766892501711696207032221043216269548626296313614438149758701220340805887954454749246185695364864449241044320771344947049565846788509874339442212544877066478091588460749988712400 …</span></br></br>
-<em>Fractions</em></br>
-½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞</br></br>
+<p><em>Arabic figures</em><br>
+<span STYLE="word-wrap: break-word">π ≈ 3·141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609 …</span><br><br>
+<span STYLE="word-wrap: break-word"><span class="dlig">The Golden Mean</span> ≈ 1·618033988749894848204586834365638117720309179805762862135448622705260462818902449707207204189391137484754088075386891752126633862223536931793180060766726354433389086595939582905638322661319928290267880675208766892501711696207032221043216269548626296313614438149758701220340805887954454749246185695364864449241044320771344947049565846788509874339442212544877066478091588460749988712400 …</span><br><br>
+<em>Fractions</em><br>
+½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞<br><br>
 <!-- 
-<em>Arbitrary fractions</em></br>
-<span class="fractions">19/21 789/790 2381/873 1/84519</span></br></br>
+<em>Arbitrary fractions</em><br>
+<span class="fractions">19/21 789/790 2381/873 1/84519</span><br><br>
  -->
-<em>Superior figures</em></br>
-⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹</br>
+<em>Superior figures</em><br>
+⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹<br>
 <!-- 
-<em>Inferior figures</em></br>
-₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉</br></br>
+<em>Inferior figures</em><br>
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉<br><br>
  -->
 <!-- 
-<em>Roman numerals</em></br>
+<em>Roman numerals</em><br>
 Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ Ⅸ Ⅹ Ⅺ Ⅻ Ⅼ Ⅽ Ⅾ Ⅿ
  -->
 </p>
 
 <h1>Typographical equipment</h1>
-<p><em>Punctuation</em></br>
-. , · • : ; ¡ ! ¿ ? { } [ ] ( ) \ — – -</br></br>
-<em>Quotation marks</em></br>
-‹ › « » ‚ ‘ ’ „ “ ” ' "</br></br>
-<em>Currencies</em></br>
-1¤ $18 ¢29 €75 ƒ32 ₹572 £68 ¥998’000</br></br>
-<em>Symbolic Greek & units of measure</em></br>
-47µF 100kΩ 21°C #19 №38 ℮240g 1·5ℓ</br></br>
+<p><em>Punctuation</em><br>
+. , · • : ; ¡ ! ¿ ? { } [ ] ( ) \ — – -<br><br>
+<em>Quotation marks</em><br>
+‹ › « » ‚ ‘ ’ „ “ ” ' "<br><br>
+<em>Currencies</em><br>
+1¤ $18 ¢29 €75 ƒ32 ₹572 £68 ¥998’000<br><br>
+<em>Symbolic Greek & units of measure</em><br>
+47µF 100kΩ 21°C #19 №38 ℮240g 1·5ℓ<br><br>
 <!-- 
-<em>Prime marks</em></br>
-1′ 2″ 3‴ 4⁗</br></br>
+<em>Prime marks</em><br>
+1′ 2″ 3‴ 4⁗<br><br>
  -->
-<em>Matematical</em></br>
-≈ ~ = ≠ ∙ ÷ ¬ − + ± × ∕ > ≥ ∞ < ≤ % ‰ ∫ ∂ ∆ ∏ ∑ √</br></br>
+<em>Matematical</em><br>
+≈ ~ = ≠ ∙ ÷ ¬ − + ± × ∕ > ≥ ∞ < ≤ % ‰ ∫ ∂ ∆ ∏ ∑ √<br><br>
 <!-- 
-<em>Arrows</em></br>
-↑ ↗ → ↘ ↓ ↙ ← ↖ ↔ ↕</br></br>
-<em>Manicule</em></br>
-☜ ☚ ☞ ☛ ☝ ☟</br></br>
-<em>Fleuron</em></br>
-☙ ❦ ❧</br></br>
+<em>Arrows</em><br>
+↑ ↗ → ↘ ↓ ↙ ← ↖ ↔ ↕<br><br>
+<em>Manicule</em><br>
+☜ ☚ ☞ ☛ ☝ ☟<br><br>
+<em>Fleuron</em><br>
+☙ ❦ ❧<br><br>
  -->
-<em>Rights</em></br>
-© ® ℗ ™</br></br>
-<em>Paragraph markers</em></br>
-¶ §</br></br>
+<em>Rights</em><br>
+© ® ℗ ™<br><br>
+<em>Paragraph markers</em><br>
+¶ §<br><br>
 <!-- 
-<em>Asterisk</em></br>
-* ⁑ ⁂</br></br>
+<em>Asterisk</em><br>
+* ⁑ ⁂<br><br>
  -->
-<em>Dividers</em></br>
-| ¦</br></br>
-<em>At &</em></br>
-@ &</br></br>
-<em>Markers</em></br>
-† ‡ ◊</br></br>
-<em>Ordinals</em></br>
-ª º</br></br>
-<em>ASCII-variations</em></br>
+<em>Dividers</em><br>
+| ¦<br><br>
+<em>At &</em><br>
+@ &<br><br>
+<em>Markers</em><br>
+† ‡ ◊<br><br>
+<em>Ordinals</em><br>
+ª º<br><br>
+<em>ASCII-variations</em><br>
 ^ ~
 </p>
 
 <!-- 
 <h1>OpenType features</h1>
-<p><em>Stylistic set #1</em></br>
-a á ă â ä à ā ą å ã æ <span class="red">→</span> <span class="ss01">a á ă â ä à ā ą å ã æ</span></br></br>
-<em>Stylistic set #2</em></br>
-g ğ ģ ġ <span class="red">→</span> <span class="ss02">g ğ ģ ġ</span></br></br>
-<em>Capital Eszett as contexual alternate</em></br>
-<span class="nocalt">AßEN</span> <span class="case"><span class="red">→</span> AßEN</span></br></br>
+<p><em>Stylistic set #1</em><br>
+a á ă â ä à ā ą å ã æ <span class="red">→</span> <span class="ss01">a á ă â ä à ā ą å ã æ</span><br><br>
+<em>Stylistic set #2</em><br>
+g ğ ģ ġ <span class="red">→</span> <span class="ss02">g ğ ģ ġ</span><br><br>
+<em>Capital Eszett as contexual alternate</em><br>
+<span class="nocalt">AßEN</span> <span class="case"><span class="red">→</span> AßEN</span><br><br>
 <!~~ 
-<em>Capital spacing</em></br>
-MINIMUM <span class="case"><span class="red">→</span> MINIMUM</span></br></br>
+<em>Capital spacing</em><br>
+MINIMUM <span class="case"><span class="red">→</span> MINIMUM</span><br><br>
  ~~>
-<em>Capital punctuation baseline shift</em></br>
-·•¡#¿—H–-­«»‹›≈~∙÷=>≥∞<≤¬−×≠+±↑↗→↘↓↙←↖↔↕@^ <span class="red">→</span> <span class="case">·•¡#¿—H–-­«»‹›≈~∙÷=>≥∞<≤¬−×≠+±↑↗→↘↓↙←↖↔↕@^</span></br></br>
+<em>Capital punctuation baseline shift</em><br>
+·•¡#¿—H–-­«»‹›≈~∙÷=>≥∞<≤¬−×≠+±↑↗→↘↓↙←↖↔↕@^ <span class="red">→</span> <span class="case">·•¡#¿—H–-­«»‹›≈~∙÷=>≥∞<≤¬−×≠+±↑↗→↘↓↙←↖↔↕@^</span><br><br>
 <!~~ 
-<em>Lower- & upper-case <span class="case">&</span></em></br>
-& <span class="red">→</span> <span class="case">&</span></br></br>
+<em>Lower- & upper-case <span class="case">&</span></em><br>
+& <span class="red">→</span> <span class="case">&</span><br><br>
  ~~>
 <!~~ 
-<em>Dutch ij- and IJ-digraph with acute</em></br>
-íj ÍJ <span class="red">→</span> <span id="lang" lang="nl">íj ÍJ</span></br></br>
+<em>Dutch ij- and IJ-digraph with acute</em><br>
+íj ÍJ <span class="red">→</span> <span id="lang" lang="nl">íj ÍJ</span><br><br>
  ~~>
-<em>Turkish dotted i and dotless ı capitalisation</em></br>
-ı i I İ <span class="red"><span class="case">→</span></span> <font style="text-transform: uppercase;"><span id="lang" lang="tr">ı i I İ</span></font></br></br>
-<em>Catalàn punt volant</em></br>
-cel·la CEL·LA <span class="red">→</span> <span id="lang" lang="ca">cel·la CEL·LA</span></br></br>
+<em>Turkish dotted i and dotless ı capitalisation</em><br>
+ı i I İ <span class="red"><span class="case">→</span></span> <font style="text-transform: uppercase;"><span id="lang" lang="tr">ı i I İ</span></font><br><br>
+<em>Catalàn punt volant</em><br>
+cel·la CEL·LA <span class="red">→</span> <span id="lang" lang="ca">cel·la CEL·LA</span><br><br>
 </p>
  -->
 
 <h1>Italian</h1>
-<center><em>Antonio Fogazzaro</br>
-Il Dolore nell’Arte</br>
-<span class="case">DISCORSO</span></br>
-<span class="case">MILANO</span></br>
-<span class="case">CASA EDITRICE BALDINI, CASTOLDI & C.º</span></br>
-‘Galleria Vittorio Emanuele, 17 e 80’</br>
-1901</br>
-<span class="case">PROPRIETÀ LETTERARIA</span></br>
-<span class="case">MILANO—TIP. PIROLA & CELLA DI P. CELLA</span></em></center></br>
+<center><em>Antonio Fogazzaro<br>
+Il Dolore nell’Arte<br>
+<span class="case">DISCORSO</span><br>
+<span class="case">MILANO</span><br>
+<span class="case">CASA EDITRICE BALDINI, CASTOLDI & C.º</span><br>
+‘Galleria Vittorio Emanuele, 17 e 80’<br>
+1901<br>
+<span class="case">PROPRIETÀ LETTERARIA</span><br>
+<span class="case">MILANO—TIP. PIROLA & CELLA DI P. CELLA</span></em></center><br>
 
-<center>NOTA.—Il presente discorso, tenuto la prima volta in</br>
-Torino l’11 aprile 1900 per invito di quella Società di</br>
-Cultura, venne quindi pubblicato nella ‘Rassegna Nazionale’.</center></br>
+<center>NOTA.—Il presente discorso, tenuto la prima volta in<br>
+Torino l’11 aprile 1900 per invito di quella Società di<br>
+Cultura, venne quindi pubblicato nella ‘Rassegna Nazionale’.</center><br>
 
-<p><em>I</em></br>
+<p><em>I</em><br>
 Sull’orlo di un lago bizzarro che io amo, verde ai due capi, sottile e torto per sinuose gole di colli selvaggi e di montagne tragiche, sereno a mezzo il corso nell’arco di un golfo idilliaco, si affaccia allo specchio maggiore delle acque una densa e signorile corona di ombra. Sovente per le vie solitarie di quell’ombra fui preso dal senso di una bellezza che più si prometta di quanto si sveli. Non la scoprivo intera nel tremolar lucente del lago tra i tronchi, nelle pensose montagne assise a levante del bosco, nelle alte scene lontane, dorate di sole, che mi apparivano tratto tratto a settentrione. Mi sorgeva invece nel cuore e me lo riempiva di sè l’idea di una possibile parola unica nella quale consuonassero tante diverse voci di cose; di una profonda parola di bellezza, tentante e inafferrabile come la parola di accordi musicali che annuncino, preparino una successiva rivelazione di suoni e invece si spengano senza seguito nel silenzio. Così penetrato dall’anima occulta delle cose che mi figuravo desiderosa e incapace di esprimersi a me com’ero io di comprender lei, movevo alla più recondita sede di quel regno di ombra dove i maggiori alberi, fronteggiandosi in giro, congiungendosi a grande altezza in un’ascensione unica, fanno di sè ghirlanda e tempio a un cupo fantasma.
-<p>Una giovine donna, bellissima, dai capelli scomposti, dalle vesti cadenti, siede là sopra un alto seggio, piegato il busto gentile in avanti, puntati i gomiti alle ginocchia, strette le guance fra i pugni chiusi, fissi gli occhi tordidi nel vuoto. Il viso rivela una intelligenza forte che affonda nella follia. Nessuna cura stringe più costei nè del mondo nè di sè. Nessun vivente presuma, per esserle stato caro, poterle recar conforto. Ella non torcerebbe un momento gli occhi suoi avidi dalla visione di angoscia che la impietra; e tuttavia ci balena che possa repente balzar dal seggio con uno strido, avventarsi là dove guarda, tanto potente vita spirò nel marmo il grande artista che le pose nome «Desolazione». Si soffre davanti all’alta Dolorosa, e si gode intensamente di soffrire. Ci partiamo pensosi e la visione di lei ne persegue al sole, per le ombre che il vento scompiglia, lungo le rive sonore del lago scintillante. Non ci guasta l’incanto dei colori e dei suoni ma vi spira una malinconia segreta che lo rende più soave, infonde alle voci delle cose un accento nuovo e profondo. Pare che l’enigma di bellezza oscura onde avemmo dianzi turbato il cuore vi ritorni, lo prema più forte, quasi vi si disveli. I susurri del fogliame paiono prima dire dire incalzando e poi dolersi, nel venir meno, di non essere intesi.</br></br>
-<center></br></br>* * *</br></center>
+<p>Una giovine donna, bellissima, dai capelli scomposti, dalle vesti cadenti, siede là sopra un alto seggio, piegato il busto gentile in avanti, puntati i gomiti alle ginocchia, strette le guance fra i pugni chiusi, fissi gli occhi tordidi nel vuoto. Il viso rivela una intelligenza forte che affonda nella follia. Nessuna cura stringe più costei nè del mondo nè di sè. Nessun vivente presuma, per esserle stato caro, poterle recar conforto. Ella non torcerebbe un momento gli occhi suoi avidi dalla visione di angoscia che la impietra; e tuttavia ci balena che possa repente balzar dal seggio con uno strido, avventarsi là dove guarda, tanto potente vita spirò nel marmo il grande artista che le pose nome «Desolazione». Si soffre davanti all’alta Dolorosa, e si gode intensamente di soffrire. Ci partiamo pensosi e la visione di lei ne persegue al sole, per le ombre che il vento scompiglia, lungo le rive sonore del lago scintillante. Non ci guasta l’incanto dei colori e dei suoni ma vi spira una malinconia segreta che lo rende più soave, infonde alle voci delle cose un accento nuovo e profondo. Pare che l’enigma di bellezza oscura onde avemmo dianzi turbato il cuore vi ritorni, lo prema più forte, quasi vi si disveli. I susurri del fogliame paiono prima dire dire incalzando e poi dolersi, nel venir meno, di non essere intesi.<br><br>
+<center><br><br>* * *<br></center>
 
 <h1>French</h1>
-<p><em>Étienne François Dralet « L’art du taupier »</em></br>
+<p><em>Étienne François Dralet « L’art du taupier »</em><br>
 La zoologie range la Taupe dans la classe des mammifères, dans l’ordre des carnassiers, dans la famille des insectivores, dans la tribu des Talpidés, où elle constitue le genre Talpa, placé entre ceux Desman (Myogale) et Condylure (Condylura).
 <p>Jusqu’à présent, on connaît trois espèces dans le genre Taupe: la Taupe Woogura, la Taupe aveugle et la Taupe d’Europe, ou commune.
 <p>La Taupe Woogura (Talpa Woogura), récemment découverte au Japon, ne diffère de celle commune que par son pelage de couleur fauve sale et en ce qu’elle ne possède que trois paires d’incisives à chaque mâchoire, tandis que les deux autres espèces en ont quatre à la mâchoire inférieure; ses mœurs sont identiques.
 <p>« La Taupe aveugle (Talpa cæca) est ainsi nommée, parce que son œil est recouvert par une membrane mince, translucide, percée en avant de la pupille d’un trou très-fin, non dilatable, par lequel on peut voir le globe de l’organe. Quant aux autres points de l’organisation, la Taupe aveugle se distingue peu de la Taupe vulgaire; elle aurait cependant la trompe plus longue, les incisives supérieures plus larges, les lèvres, les pieds et la queue blancs au lieu d’être gris. Son pelage épais et velouté est gris-noir foncé, la pointe des poils étant d’un noir brun; sa taille est la même que celle de la Taupe commune. » (A. E. Brehm, l’Homme et les animaux, t. Ier, p. 756–757.) [Illustration: Fig. 1.—La Taupe commune.]
 <p>La Taupe commune ou d’Europe (Talpa Europæa) est un petit mammifère fouisseur, à corps long et cylindrique, à pattes très-courtes, à tête prolongée en avant en forme de groin ou de boutoir, avec des yeux si petits et si bien cachés sous les poils qu’on a longtemps nié leur existence, dépourvue de conque de l’oreille externe, munie enfin d’un simple rudiment de queue. Son corps est recouvert d’un poil fin, serré, court, mou, imitant le velours, de couleur noire avec des reflets grisâtres et rougeâtres; la longueur totale, du bout du nez à l’extrémité de la queue, est de om, 15 à om, 16 chez les adultes.
 <p>« La Taupe commune se trouve dans toute l’Europe, à quelques exceptions près, et arrive jusque dans l’Asie centrale et septentrionale. Beaucoup de naturalistes ne voient dans la Taupe américaine qu’une variété de notre espèce. En Europe, le midi de la France, la Lombardie et le nord de l’Italie dessinent sa limite méridionale. De là, elle remonte vers le nord jusqu’à Dovrefjeld; en Grande-Bretagne, jusque vers l’Écosse centrale; en Russie, jusqu’au milieu du bassin de la Dwina. Elle manque complétement dans les Orcades, les Shetlands, la plus grande partie des Hébrides et en Islande. En Asie, elle va du Caucase jusqu’à la Léna. Dans les Alpes, elle monte jusqu’à une altitude de 2,000 mètres. Partout elle est commune et se multiplie d’une manière surprenante, là où elle n’a pas d’ennemis. » (Brehm, ut supra, p. 747.)
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Spanish</h1>
-<span class="ss02"><p><em>Gabriel García Márquez «Cien años de soledad»</em></br>
+<span class="ss02"><p><em>Gabriel García Márquez «Cien años de soledad»</em><br>
 Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos. El mundo era tan reciente, que muchas cosas carecían de nombre, y para mencionarlas había que señalarías con el dedo. Todos los años, por el mes de marzo, una familia de gitanos desarrapados plantaba su carpa cerca de la aldea, y con un grande alboroto de pitos y timbales daban a conocer los nuevos inventos. Primero llevaron el imán. Un gitano corpulento, de barba montaraz y manos de gorrión, que se presentó con el nombre de Melquiades, hizo una truculenta demostración pública de lo que él mismo llamaba la octava maravilla de los sabios alquimistas de Macedonia. Fue de casa en casa arrastrando dos lingotes metálicos, y todo el mundo se espantó al ver que los calderos, las pailas, las tenazas y los anafes se caían de su sitio, y las maderas crujían por la desesperación de los clavos y los tornillos tratando de desenclavarse, y aun los objetos perdidos desde hacía mucho tiempo aparecían por donde más se les había buscado, y se arrastraban en desbandada turbulenta detrás de los fierros mágicos de Melquíades. «Las cosas, tienen vida propia pregonaba el gitano con áspero acento, todo es cuestión de despertarles el ánima.» José Arcadio Buendía, cuya desaforada imaginación iba siempre más lejos que el ingenio de la naturaleza, y aun más allá del milagro y la magia, pensó que era posible servirse de aquella invención inútil para desentrañar el oro de la tierra. Melquíades, que era un hombre honrado, le previno: «Para eso no sirve.» Pero José Arcadio Buendía no creía en aquel tiempo en la honradez de los gitanos, así que cambió su mulo y una partida de chivos por los dos lingotes imantados. Úrsula Iguarán, su mujer, que contaba con aquellos animales para ensanchar el desmedrado patrimonio doméstico, no consiguió disuadirlo. «Muy pronto ha de sobrarnos oro para empedrar la casa», replicó su marido. Durante varios meses se empeñó en demostrar el acierto de sus conjeturas. Exploró palmo a palmo la región, inclusive el fondo del río, arrastrando los dos lingotes de hierro y recitando en voz alta el conjuro de Melquíades. Lo único que logró desenterrar fue una armadura del siglo XV con todas sus partes soldadas por un cascote de óxido, cuyo interior tenía la resonancia hueca de un enorme calabazo lleno de piedras. Cuando José Arcadio Buendía y los cuatro hombres de su expedición lograron desarticular la armadura, encontraron dentro un esqueleto calcificado que llevaba colgado en el cuello un relicario de cobre con un rizo de mujer.
 
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <div id="lang" lang="ca"><h1>Catalan</h1>
-<p><em>Llorenç Riber «Els camins del paradís perdut»</em></br>
-<span class="case">EN QUINA MANERA VINGUÉ A SANT BRANDAN EL DESIG DE CERCAR EL PARADÍS PERDUT.</span></br>
+<p><em>Llorenç Riber «Els camins del paradís perdut»</em><br>
+<span class="case">EN QUINA MANERA VINGUÉ A SANT BRANDAN EL DESIG DE CERCAR EL PARADÍS PERDUT.</span><br>
 Mossenyer Sant Brandan fou home de gran penitència i d’estreta abstinència i de molta virtut; i regia, amb l’imperi de sa crossa abacial, una lenta ramada negrejant de tres milia monjos. Una volta s’esdevingué que a l’hora de vespres arribà al monestir que governava el sant abad, un monjo d’edat madura, i de bona vida i d’estranya terra, qui havia nom Barint, i era son nebot. El dit sant Brandan li demanà de moltes coses, ço és, què era estat, què li havia esdevingut; i si mai havia vista o oïda alguna meravella. Com fos que el sant oncle el pregàs molt carament i amorosa, llavors el dit Barint començà a plorar i se gità per terra i s’anegà en profunda oració, en la qual va romandre com esbalaït. Graciosament Sant Brandan el prengué en sos braços i l’aixecà, i li va dir, amb un besar mel·lifluent, aquestes gracioses paraules: —¿Quina és, fill, la causa d’aquesta tan greu fellonia? ¿Creus que el teu adveniment ens ha fet enuig? Certa cosa és que de la teva vinguda gran plaer n’haguérem. Per ço s’és menester que a tots nosaltres donis alegria i consolació, i ens diguis alguna bona paraula de Déu d’on la nostra ànima en pasturi; i que ens recontis les diverses meravelles que veieres en les partides i en les errors de la mar oceana per on navegares llargament.- A l’encariment d’aquesta petició poderosa com un conjur, s’abellí l’esquerp Barint, el qual trencant el silenci, començà a espandir-se en paraules abundants. I va dir:
 <p>—Mon fill Menoc era el procurador dels pobres del Crist. Com fos desitjós de major solitud, fugí del nostre cenobi, i camina, caminaràs, a la bella ventura, trobà una illa, no gaire lluny d’una muntanya, la qual hom anomena Lapifil. Embolcallada per un cel indulgent aquesta illa és sobiranament delitosa. L’amor del cel i la tendra verdor de la terra l’hi retingueren; i hi sojornà gran temps. Durant el qual, arribà fins a mi un novell ardit, ço és, que el monjo fugitiu comandava gran multitud de monjos sota la seva preladia i que Déu mostrava per ell grans signes i miracles. La qual cosa suscità en mon cor irrefrenable enyorament de veure’l; i en vaig pendre el camí. Com ja hi era prop, Déu li revelà l’arribada meva i prevenint-la de tres jorns, m’exí a carrera amb sos germans. Anàvem embarcats en nau. Quan la nau s’acostà a la dita illa, veiérem que de diverses partides, vestits diversament, eixint-nos a camí, venien companyes de monjos, contínues com un formiguer qui emigra; brunzents i denses com un eixam. Diversament vestits i arribant de contrades diverses, emperò combregaven en una fe i en una esperança i en una caritat. Tenien una església on s’ajuntaven per l’ofici divinal. I no menjaven altra cosa sinó pa i nous i arrels d’herba. Cantaven aquests monjos les completes ensems, i després se recloïen en llurs cel·les. Cascún tenia la seva, i allà s’estava en oració fins el prim-son. Al cant primer del gall reposaven una mica. Jo i mon fillol trescàrem tota la illa; i la trescàrem tant que arribàrem a la vorera del mar, a la banda d’occident. Allà tenia ell la nau on s’era embarcat; i me va dir: —Mon pare, muntau en nau i naveguem cap a Llevant, cap a aquella illa que és dita Terra de promissió dels sants, la qual havem de donar als nostres successors qui vindran després de nosaltres.
 
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Portuguese</h1>
-<p><em>‘Vasco da Gama’ by David Corazzi</em></br>
+<p><em>‘Vasco da Gama’ by David Corazzi</em><br>
 Entre as causas que espertaram o animo e brio dos portuguezes para se abalançarem á empreza dos descobrimentos, podem apontar-se como principaes: o desejo de dilatar a fé christã em todo o mundo conhecido; a sêde de gloria e de renome; a ambição de grangear fortuna conduzindo para o reino as especiarias, o ouro e pedras preciosas em que abundam as regiões orientaes; e a curiosidade de desvendar os segredos da natureza n’aquellas remotissimas paragens.
 <p>E não se julgue que as navegações do seculo XV foram iniciadas sem plano, sem destino. Pelo contrario. Os nossos intrepidos mareantes levavam a sua rota já marcada, e não levantavam ferro sem se aperceberem de todos os conhecimentos e apparelhos necessarios ao cosmographo. A cultura intellectual do povo portuguez attingira o grau de desenvolvimento bastante grande para acompanhar o movimento scientifico e litterario das mais adiantadas nações da Europa, e com as suas viagens n’aquella época teve principio a historia verdadeira das navegações ao longo da Africa. Até ali tudo é vago, indeciso, fabuloso.
 <p>Portugal estava mais proximo, que nenhum outro povo, do litoral africano; tinha já tomado Ceuta; dobrara o cabo Bojador; e sabia, em virtude da passagem do cabo da Boa Esperança, que existia communicação entre o Atlantico e o mar das Indias. Por tudo isto nutria no peito a generosa aspiração de levar o nome da patria e do filho de Maria aos paizes em que nasce a aurora. Tal era o desejo, a vontade nacional. Ora, sempre que um povo nutre uma idéa grandiosa, surge de entre a multidão um ‘grande homem’, o qual é—porque assim digamos—a personalisação do sentimento popular. Esse grande homem, esse representante da vontade unica de todos os portuguezes foi Vasco da Gama.
 <p>Affirmam os chronistas que elle nasceu em Sines, e que teve por paes a Estevão da Gama e Isabel Sodré; e ainda que pouco escrevam, d’onde possamos inferir como correra a sua infancia e puericia, é comtudo facil presumir que principiou a sua carreira nos mares da Africa, e que sendo encarregado de negocios importantes, d’elles se desempenhou a contento do seu rei. A biographia de Vasco da Gama só é clara quando el-rei D. Manuel o escolheu para levar a cabo a empreza que sonhara. O facto de haver sido eleito pelo monarcha ‘afortunado’ bem mostra que o Gama era navegante experimentado, e de animo feito e capaz de grandes cousas. E assim acontecia. Entre as qualidades que lhe adornavam o espirito, avultavam a energia com que exercia o mando, a constancia nos designios, e a inflexibilidade na administração da justiça.
 <p>Assomado de genio, commetteu atrocidades, é certo; mas, se ao lermos a descripção de suas inclemencias e durezas, nos lembrarmos das circumstancias em que foram praticadas, veremos que muitas, se não todas, dictou-as a necessidade de manter a disciplina, ou de domar a aspereza dos inimigos.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <div id="lang" lang="ro"><h1>Romanian</h1>
-<p><em>Max Blecher «Întâmplări în irealitatea imediată»</em></br>
+<p><em>Max Blecher «Întâmplări în irealitatea imediată»</em><br>
 În apropierea casei noastre se afla un magazin cu mașini de cusut unde mă duceam în fiecare zi și stăteam ore întregi. Proprietarul lui era un băiat tânăr, Eugen, care tocmai isprăvise serviciul militar și își găsise un rost în oraș deschizând această prăvălie. Avea o soră mai mică decât el cu un an, Clara. Trăiau împreună undeva într-o mahala și ziua se ocupau de prăvălie; n-aveau nici cunoștințe, nici rude.
 <p>Prăvălia era o simplă odaie particulară închiriată întâia oară pentru comerț. Pereții mai păstrau încă zugrăveala lor de salon, cu ghirlănzi violete de liliac și urmele rectangulare și decolorate ale locurilor unde fuseseră atârnate tablourile, în mijlocul plafonului rămăsese o lampă de bronz cu o calotă de majolică de culoare roșie închisă, acoperită pe margine cu foi verzi de acantă reliefate din faianță. Era un obiect plin de ornamente, vechi și desuet însă impozant – ceva ce semăna cu un monument funerar ori cu un general veteran purtând la paradă bătrâna lui uniformă.
 <p>Mașinile de cusut se înșirau bine aliniate pe trei rânduri, lăsând între ele două alei largi până în fund. Eugen avea grijă să stropească podeaua fiecare dimineață cu o cutie veche de conserve găurită în fund. Șuvița de apă care se scurgea era foarte subțire și Eugen o mânuia cu dexteritate desenând pe podea spirale și opturi savante. Câteodată se iscălea și scria data zilei. Zugrăveala de pe pereți reclama în mod evident asemenea delicateți.
@@ -371,90 +410,90 @@ Entre as causas que espertaram o animo e brio dos portuguezes para se abalançar
 <p>În dosul cortinei Eugen cânta din vioară. Ținea notele pe masă, stătea îngheboșat asupra lor descifrând cu răbdare portativele încâlcite ca și cum ar fi descurcat un ghem de ațe cu multe noduri pentru a scoate din ele un fir unic și subțire, firul bucății muzicale. Toată după-amiaza ardea pe un cufăr o lampă mică de petrol umplând încăperea cu o lumii moartă și deorganizând pe perete umbra enormă a violonistului.
 <p>Veneam atât de des acolo încât cu timpul devenii un fel de oaspete mobilă, o prelungire a canapelei vechi de mușama pe care stăteam imobil, un lucru de care nu se ocupa nimeni și nu stânjenea pe nimeni.
 În fundul cabinei Clara își făcea toaleta de după-masă. Își ținea rochiile într-un dulăpior și se privea într-o oglindă spartă răzimată de lampă, pe cufăr. Era o oglindă atât de veche încât toată poleiala era ștearsă pe alocuri și prin petele transparente apăreau obiectele reale din dosul oglinzii amestecându-se cu imaginile reflectate, ca într-o fotografie cu clișee suprapuse.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>German</h1>
-<p><em>Hermann Heiberg „Todsünden“</em></br>
+<p><em>Hermann Heiberg „Todsünden“</em><br>
 Unter den großen Verdiensten, die der Träger dieses vielgefeierten Namens sich erworben, steht nicht in letzter Linie das: in jenen drangvollen Zeiten, als eine kraftvolle Gegenwartskunst mit einer schwächlichen Nachklangskunst zusammenprallte, der neuen Dichtung in den weiteren Kreisen des bis dahin gleichgültig gebliebenen Publikums Bahn gebrochen zu haben.<p>
 Es geschah dies durch seine Bücher „Plaudereien mit der Herzogin von Seeland“ und „Apotheker Heinrich.“<p>
 Aber wie, Heiberg ein Bahnbrecher? Er war allerdings sehr viel weniger ein solcher, als die, welche das Wort Realismus auf ihre Fahne geschrieben hatten. Er—so wenig wie Theodor Fontane—brach auch keineswegs so ganz mit der Vergangenheit, wie jene es zu thun meinten; er—so wenig wie Theodor Fontane—stellte keine großartigen, langatmigen und langweiligen Programme auf; er—so wenig wie Theodor Fontane—spielte sich als Begründer einer ganz neuen, noch nie dagewesenen Poesie auf. Dafür vollbrachten Theodor Fontane und Hermann Heiberg realistische Thaten; sie waren unter den ersten in Deutschland, welche die Wirklichkeitskunst begründeten. In den siebziger Jahren erschien ganz im Stillen Fontanes „L’Adultera“; Heiberg schrieb 81 seine graziösen, entzückenden Plaudereien und zwar nur, „um seine mißmutigen Gedanken zu töten,“ keineswegs aber, am allerwenigsten, um Belegstücke zu liefern, welche die einzige Berechtigung des neuen Dogmas darthun sollten.<p>
 Er schrieb sie freilich gerade in der Zeit, als jener heiße Kampf entbrannte; doch hat das vielleicht nicht so sehr den maß- und geschmackvollen Realismus, der seine Dichtungen kennzeichnet, hervorgerufen, als sein durch seine Vergangenheit geschärfter Wirklichkeitssinn. Er »war« Realist, er wurd’ es nicht erst. Denn er hatte gelebt, und er hatte erlebt, eh’ er die Feder ergriff; er war ein reifer Mann, als er sein erstes Buch schrieb; er erfüllte buchstäblich die Forderung der Concourts, (wenn ich nicht irre, waren es die beiden Brüder, welche sie aufstellten,) daß man erst vierzig Jahre zählen müsse, bevor man sich Realist nennen dürfe. Aber Realist! Meines Wissens hat sich Heiberg nie so genannt, und da seine Bücher nicht „die einzige Berechtigung des Realismus“ beweisen wollten, da er sich nicht auf ein einseitiges Dogmenverkünden und Dogmenbeweisen kapriziert hatte, sondern in Wahrheit nichts anderes als wirken, nämlich die Sinne und die Seele des Lesers nach seinem Willen regieren, sie mit den Bildern und Vorstellungen, welche seine Ideen forderten, füllen wollte—etwas, was bis jetzt alle Dichter seit Homer, ohne Ausnahme, erstrebten —, so nahte seinen Büchern das Publikum sich unbefangen und ohne jegliche Voreingenommenheit. Dem Publikum ist es nämlich in der That ja ganz gleichgültig, wer vor ihm steht, ob es ein Idealist, Romantiker, Realist oder was immer sei—als ob überhaupt die Wirklichkeit diese Gegensätze so scharf begrenzt anseinanderhielte!—es will nur eins: es will bezwungen sein; der Leser wünscht zu fühlen, daß der Künstler Gewalt über ihn habe, er will sein Gefangener sein…
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>English</h1>
-<p><em>Francis Henry Gribble “Lausanne”</em></br>
-Though Lausanne is so near Geneva, its history, in historical times, has been widely different from that of the neighbouring town. Geneva enjoyed a modified independence from an early date, and became completely independent early in the sixteenth century. Lausanne, until nearly 300 years later, endured the domination, first of Savoy, and subsequently of Berne. <span class="red">¶</span> The early history is obscure and full of vexed questions as well as unfamiliar names; but the central fact is that the Counts of Savoy—they were not promoted to be Dukes of Savoy until later—took possession of the Canton of Vaud, as well as of the Chablais and the lower Valais, after the death of the last of the Zaeringen, at the beginning of the thirteenth century. For the next 300 years they exercised overlordship, limited by the charters of the towns, and, in the case of Lausanne, by the jurisdiction of the Bishop—a complicated state of things which the Swiss historical societies may be left to unravel. <span class="red">¶</span> It seems clear, however, that the Savoyards were no hard taskmasters. ‘The country of Vaud,’ says its historian, Louis Vulliemin, ‘was happy and proud to belong to them. They exacted little from it, and accorded it their powerful protection. The various States used to assemble at Moudon, the central town, summoned by the Council of Moudon, or by the Governor of Vaud, acting as the representative of the Prince. There was no palace. They met in an inn, or in the house of one of the citizens of the neighbourhood. Often they assembled in such small numbers that, for lack of a quorum, no decision could be taken… No burdensome or unduly progressive measures were adopted. As a rule, the good old customs were confirmed. When a departure from them was resolved upon, it became law by receiving the sanction of the Prince. The business of the herald was to see that it was proclaimed, in the proper places, in a loud and intelligible voice. The Prince had sworn an oath to impose no new legislation that was not in accordance with the will of the nation as expressed by the estates of the realm.’ <span class="red">¶</span> The most notable of the Governors was Peter of Savoy—the same Peter of Savoy whom we meet in English history, fighting in the civil wars of the days of Simon de Montfort. His headquarters were in the Castle of Chillon, where he not only dispensed justice, but also amended the criminal law. It was the barbarous rule of the time that an offender who had been fined for a misdemeanour should have his nose cut off if he were unable to pay; Peter compelled even the Bishops to abandon that cruel custom. For the rest, to quote Vulliemin: ‘He received his vassals in the great hall of the Castle, where their coats of arms hung on the wall around that of the House of Savoy. The blowing of a horn announced that the meal was served. The ladies arrived in their emblazoned best. The chaplain read the grace from a volume bound in violet and gold—the precious depositary of Divine law and ecclesiastical ritual. After the feast came the hour of merry recreations. The Court fool and the minstrels took their seats by the side of the Prince, and the nobility thus passed their lives in junketing.’</br></br>
-<center></br></br>* * *</br></center>
+<p><em>Francis Henry Gribble “Lausanne”</em><br>
+Though Lausanne is so near Geneva, its history, in historical times, has been widely different from that of the neighbouring town. Geneva enjoyed a modified independence from an early date, and became completely independent early in the sixteenth century. Lausanne, until nearly 300 years later, endured the domination, first of Savoy, and subsequently of Berne. <span class="red">¶</span> The early history is obscure and full of vexed questions as well as unfamiliar names; but the central fact is that the Counts of Savoy—they were not promoted to be Dukes of Savoy until later—took possession of the Canton of Vaud, as well as of the Chablais and the lower Valais, after the death of the last of the Zaeringen, at the beginning of the thirteenth century. For the next 300 years they exercised overlordship, limited by the charters of the towns, and, in the case of Lausanne, by the jurisdiction of the Bishop—a complicated state of things which the Swiss historical societies may be left to unravel. <span class="red">¶</span> It seems clear, however, that the Savoyards were no hard taskmasters. ‘The country of Vaud,’ says its historian, Louis Vulliemin, ‘was happy and proud to belong to them. They exacted little from it, and accorded it their powerful protection. The various States used to assemble at Moudon, the central town, summoned by the Council of Moudon, or by the Governor of Vaud, acting as the representative of the Prince. There was no palace. They met in an inn, or in the house of one of the citizens of the neighbourhood. Often they assembled in such small numbers that, for lack of a quorum, no decision could be taken… No burdensome or unduly progressive measures were adopted. As a rule, the good old customs were confirmed. When a departure from them was resolved upon, it became law by receiving the sanction of the Prince. The business of the herald was to see that it was proclaimed, in the proper places, in a loud and intelligible voice. The Prince had sworn an oath to impose no new legislation that was not in accordance with the will of the nation as expressed by the estates of the realm.’ <span class="red">¶</span> The most notable of the Governors was Peter of Savoy—the same Peter of Savoy whom we meet in English history, fighting in the civil wars of the days of Simon de Montfort. His headquarters were in the Castle of Chillon, where he not only dispensed justice, but also amended the criminal law. It was the barbarous rule of the time that an offender who had been fined for a misdemeanour should have his nose cut off if he were unable to pay; Peter compelled even the Bishops to abandon that cruel custom. For the rest, to quote Vulliemin: ‘He received his vassals in the great hall of the Castle, where their coats of arms hung on the wall around that of the House of Savoy. The blowing of a horn announced that the meal was served. The ladies arrived in their emblazoned best. The chaplain read the grace from a volume bound in violet and gold—the precious depositary of Divine law and ecclesiastical ritual. After the feast came the hour of merry recreations. The Court fool and the minstrels took their seats by the side of the Prince, and the nobility thus passed their lives in junketing.’<br><br>
+<center><br><br>* * *<br></center>
 
 <h1>English</h1>
-<p><em>“Copyright Act of 1790” the United States government</em></br></br>
-§ 1</br>
-Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, That from and after the passing of this act, the author and authors of any map, chart, book or books already printed within these United States, being a citizen or citizens thereof, or resident within the same, his or their executors, administrators or assigns, who halt or have not transferred to any other person the copyright of such map, chart, book or books, share or shares thereof; and any other person or persons, being a citizen or citizens of these United States, or residents therein, his or their executors, administrators or assigns, who halt or have purchased or legally acquired the copyright of any such map, chart, book or books, in order to print, reprint, publish or vend the same, shall have the sole right and liberty of printing, reprinting, publishing and vending such map, chart, book or books, for the term of fourteen years from the recording the title thereof in the clerk’s office, as is herein after directed: And that the author and authors of any map, chart, book or books already made and composed, and not printed or published, or that shall hereafter be made and composed, being a citizen or citizens of these United States, or resident therein, and his or their executors, administrators or assigns, shall have the sole right and liberty of printing, reprinting, publishing and vending such map, chart, book or books, for the like term of fourteen years from the time of recording the title thereof in the clerk’s office as aforesaid. And if, at the expiration of the said term, the author or authors, or any of them, be living, and a citizen or citizens of these United States, or resident therein, the same exclusive right shall be continued to him or them, his or their executors, administrators or assigns, for the further term of fourteen years; Provided, He or they shall cause the title thereof to be a second time recorded and published in the same manner as is herein after directed, and that within six months before the expiration of the first term of fourteen years aforesaid.</br></br>
-<center></br></br>* * *</br></center>
+<p><em>“Copyright Act of 1790” the United States government</em><br><br>
+§ 1<br>
+Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, That from and after the passing of this act, the author and authors of any map, chart, book or books already printed within these United States, being a citizen or citizens thereof, or resident within the same, his or their executors, administrators or assigns, who halt or have not transferred to any other person the copyright of such map, chart, book or books, share or shares thereof; and any other person or persons, being a citizen or citizens of these United States, or residents therein, his or their executors, administrators or assigns, who halt or have purchased or legally acquired the copyright of any such map, chart, book or books, in order to print, reprint, publish or vend the same, shall have the sole right and liberty of printing, reprinting, publishing and vending such map, chart, book or books, for the term of fourteen years from the recording the title thereof in the clerk’s office, as is herein after directed: And that the author and authors of any map, chart, book or books already made and composed, and not printed or published, or that shall hereafter be made and composed, being a citizen or citizens of these United States, or resident therein, and his or their executors, administrators or assigns, shall have the sole right and liberty of printing, reprinting, publishing and vending such map, chart, book or books, for the like term of fourteen years from the time of recording the title thereof in the clerk’s office as aforesaid. And if, at the expiration of the said term, the author or authors, or any of them, be living, and a citizen or citizens of these United States, or resident therein, the same exclusive right shall be continued to him or them, his or their executors, administrators or assigns, for the further term of fourteen years; Provided, He or they shall cause the title thereof to be a second time recorded and published in the same manner as is herein after directed, and that within six months before the expiration of the first term of fourteen years aforesaid.<br><br>
+<center><br><br>* * *<br></center>
 
 <h1>Danish</h1>
-<p><em>Peter Seeberg „Forsinkelse“</em></br>
+<p><em>Peter Seeberg „Forsinkelse“</em><br>
 Dust tog aldrig sovevogn den ene gang om året, hvor han foretog sin lange rejse til kongressen. Han forklarede hende, at han hellere ville sidde med hovedet inde i sin frakke i hjørnet af en anden klasses kupé. Intet var bedre. Bumpe lidt med nakken mod trævæggen, falde hen med ekspressens lange løb under sig, sove ind et øjeblik, vågne til blank vågenhed med uldfrotteret varme i ansigtet, slå frakken til side, trække ruden ned og stikke det svulne ansigt ud til afkøling i den regnfyldte blæst. Lade sig dumpe i sæde igen og lade dråberne flyve hen over hovedet, til der blev svalt i den tomme kupé. Tænke på livet. Store øjeblikke. Tale med mennesker, der kom ind og som gik igen. Stå ud på stationer. Møde mennesker i ventesale, mens én eller anden formalitet, som kun køreplanseksperterne forstod, holdt toget tilbage tolv minutter, en halv time, eller en time og treogtyve minutter. Drikke en kop kaffe, nyde en cognac. Han ville ikke undvære det. Derfor skulle ingen få ham til at benytte sovevogn.
 <p>Hun smilte ad ham, mens han talte. Han lagde mærke til, at hendes venstre øje var en lille bitte smule større end hendes højre øje, at hendes venstre øjenbryn lå en lille bitte smule lavere over øjet end det højre bryn over det højre øje.
 <p>Det var gået så let at møde hende. Han havde netop fået trukket sin mappe ind gennem den raske svingdør, da hun bumpede mod den ene dørfløj i dens knaldende tilbagebevægelse. Hun havde opfanget dens slag med kufferten, men havde ikke straks kunnet skyde den op. Da havde han været der og havde draget den op for hende og havde undskyldt sig. Hun havde leet af ham og havde sat sig ind og stillet kufferten fra sig og taget handskerne af og set sig om i ventesalen, hvor der sad et par mænd og sov med hovederne på bordet, mens en mager kvinde sad rank på en bænk og så lige frem for sig og en servitrice stod bag en buffet og skyllede glas i en zink.
 <p>Der var så højt i rummet. De havde stået begge og sundet sig, men så havde han taget hendes kuffert og de havde set på hinanden og havde fulgtes ad hen til et bord uden for lampelysets skarpeste felt, hvor de havde sat sig ned, og han havde fået bestilt lidt kaffe til dem, mens han uafladeligt så på hende, der hele tiden kom til at smile ad ham.
 <p>Alt var en lille smule skævt ved hende, havde han snart opdaget. Munden hang en lille kende ned ved den ene mundvig, den ene kind var næsten ukendeligt fuldere end den anden, ja denne lille skævhed gik igen i alle synlige legemsdele, men det gjorde ham kun godt. Han fandt det tilmed sandsynligt, at han selv i hendes øjne besad lignende småfejl, ja, han ønskede, at hun måtte se alle hans skavanker på samme måde, som han havde set hendes.
 <p>Han fik sagt sit navn i forbindelse med en historie, som han selv figurerede i, men det var ham ikke gørligt blot at spørge hende, hvad hun hed. Det skulle komme af sig selv, syntes han. Det havde været tåbeligt. Netop det havde været det tåbeligste, fordi det ikke mere var til at genoprette. Ikke én eneste af annoncerne havde virket.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Swedish</h1>
-<p><em>August Strindberg „Röda rummet”</em></br>
+<p><em>August Strindberg „Röda rummet”</em><br>
 Och det är höst igen; det är en klar novembermorgon då Arvid Falk beger sig från sin numera eleganta bostad på Storgatan till den manska flickpensionen vid Karl <nobr>XIII</nobr>:s torg, där han skall göra sitt inträde som lärare i Svenska Språket och Historien. Han har väl begagnat höstmånaderna för att göra sitt återinträde i det civiliserade samhället och har därvid erfarit vilken barbar han under sina strövtåg blivit; han har avlagt sin rövarhatt och skaffat sig en ny, hög, vilken till en början hade svårt att sitta kvar; han har köpt sig handskar, men var så förvildad, att när mamselln i boden frågade hans nummer, svarade han 15, vilket framkallade en hel hop små skratt från de många mamsellerna därinne; modet har undergått stora förändringar, sedan han sist köpte sig kläder och han tycker sig som en söndagssprätt, när han går fram på gatorna, och han speglar sig då och då i bodfönsterna för att se efter om allting sitter rätt. Nu går han av och an på trottoaren utanför Dramatiska Teatern och väntar att klockan i Jakob skall slå nio; han känner sig orolig och besvärad, alldeles som när han själv skulle gå i skolan; trottoaren är för kort, och han tycker sig löpa som en hund i en kedja, när han vänder och vänder på sina spår; ett ögonblick tänker han allvarsamt på att sträcka ut promenaden, långt ut, ty han vet att man kommer till Lill-Jans om man fortsätter gatan framåt och han erinrar sig den morgonen då samma trottoar ledde honom ut från det samhälle han flydde till friheten, naturen och – slaveriet!
 <p>Klockan blir nio! Han står i tamburen; dörrarne till skolsalen äro stängda; i skymningen ser han så många små barnplagg hänga runtomkring väggarne; hattar, boas, kråkor, baschliks, vantar, muffar ligga på borden och i fönsternischerna och på golven stå hela regementen med knäppkängor och galoscher. Men det luktar icke fuktiga kläder och vått läder som i tamburen på riksdagen, eller arbetarförbundet Nordstjärnan, eller – ah, det gick en doft som av nyslaget hö förbi – den kom bestämt från den där lilla muffen, som är vit som en kattunge med svarta noppor och blått sidenfoder med hängande tofsar; han kunde icke underlåta att ta den i sin hand och låta parfymen new-mown hay – men farstudörren öppnas, och in kommer en liten tioåring åtföljd av sin jungfru; hon ser på magistern med ett par stora orädda ögon och gör en liten kokett nigning, vilken magistern nästan förlägen besvarar med en bugning, varvid den lilla skönheten ler – och jungfrun också! Hon kommer för sent, men det tyckes icke skrämma henne, ty hon låter jungfrun ta av sig ytterkläder och bottiner med en min så lugn som om hon kommit till en bal. Nu – vilka ljud inifrån rummen – det knäppte i hans bröst – vad var det? – Ah – Det var ju orgeln! Hm! Gamla orgeln! Ja!
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Norwegian</h1>
-<p><em>Fridtjof Nansen «Fram over Polhavet»</em></br>
+<p><em>Fridtjof Nansen «Fram over Polhavet»</em><br>
 Om kvelden den dagen – 28. september – flyttet vi endelig inn i vår nye hytte. Men det blev en kold natt, den første vi hadde der. Hittil hadde vi jo hele tiden ligget sammen i én pose, og selv den vi hadde laget ved å sy sammen de to ullteppene våre, hadde vært noenlunde tilstrekkelig. Men nu mente vi at det ikke skulde være nødvendig å ligge i fellespose lenger; når vi brente tranlamper i hytten, skulde vi få den så varm at vi godt kunde nøie oss med å ligge på hver vår køi med et ullteppe over oss, og følgelig hadde vi sprettet posen op. Lamper fikk vi ved å bukke op kantene på noen nysølvplater, fylle dem med knust spekk, og så legge noen tøistykker fra bandasjene i apoteket op i dem til veker. De brant utmerket, lyste også så godt at vi syntes det var koselig å se på. Men nok til å varme hytten, som ennu var nokså utett, var og blev det ikke, og vi lå og frøs og skalv hele natten; vi syntes mest det var den sureste natt vi hadde hatt. Næste morgen smakte frokosten fortreffelig, og det var meget kokende bjørnebuljong vi kjørte i oss for å få litt varme i kroppen igjen. Vi tok straks og forandret det, slik at vi langs bakveggen av hytten fikk istand en brisk så bred at vi kunde ligge begge ved siden av hverandre; ullteppene blev sydd sammen igjen, bjørnefelder bredde vi under oss, så vi efter omstendighetene lå godt, og vi gjorde ikke oftere forsøk på å skille lag om natten. Det var ikke mulig å få underlaget noenlunde jevnt med de kantete, knudrete stenene som var det eneste som stod til vår rådighet, nu da alt var frosset, og hele vinteren lå vi derfor og kastet og vred på oss for å få et tålelig leie innimellem alle knultrene; men hårdt var det og blev det, alltid var vi ømme på flere steder av kroppen, og det gikk så vidt at vi fikk sår på hoftene av å ligge. Men sove gjorde vi nu like fullt. I det ene hjørnet av hytten bygget vi en liten peis til å koke og steke på; i taket ovenover skar vi et rundt hull gjennem hvalross-skinnet, og av bjørneskinn laget vi oss en peishette, som førte op dit. Vi hadde ikke kokt der lenge før vi innså nødvendigheten av å bygge en pipe, for å hindre vinden fra å slå ned. Hytten blev nemlig så fylt av røk at det stundom ikke var til å holde ut. Det eneste materiale vi hadde til bygging var is og sne; men av det laget vi på taket en flott pipe, som gjorde tjenesten og gav god trekk. Riktig varig var den ellers ikke; hullet i den vidde sig stadig ved bruk, og det var ikke fritt for at det stundom kunde dryppe ned i peisen. Men det var da rik tilgang på den slags byggefang, så det var ikke vanskelig å fornye pipen når den blev skrøpelig. Det måtte vi gjøre et par ganger i løpet av vinteren. På altfor utsatte punkter anbragte vi hvalrosskjøtt, ben og annet slikt for å bedre på den.
 <p>Vårt matstell var så enkelt som mulig. Det var å koke bjørnekjøtt og suppe (buljong) om morgenen og steke biff om kvelden. Middag holdt vi ikke. Det var svære mengder vi satte til livs hvert mål, og merkelig var det at vi aldri blev kjed av denne maten, men stadig åt med glupende mathug. Alt efter som det falt sig, spiste vi spekk til eller dyppet kjøttstykkene i litt tran. Det kunde også gå lange tider da vi spiste næsten bare kjøtt og ikke smakte videre fett; men fikk vi så lyst på det fete igjen, kunde det hende vi fisket op noen brente spekkstykker i lampene, eller spiste restene av de spekkstykkene vi hadde smeltet lampetran av. Dem kalte vi bakkels, og syntes de var ualmindelig lekre. Vi fantaserte stadig om hvor det vilde vært deilig om vi kunde hatt litt sukker på dem.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Icelandic</h1>
-<p><em>„Hjartað í miðju alls“ eftir Þröst Helgason</em></br>
+<p><em>„Hjartað í miðju alls“ eftir Þröst Helgason</em><br>
 Halldór Laxness kvaddi sér fyrst hljóðs sem rithöfundur árið 1919 með skáldsögunni Barni náttúrunnar. Halldór var aðeins sautján ára þegar bókin kom út en það mátti samt ekki tæpara standa því, eins og hann sagði sjálfur frá, fékk hann vitrun fyrir dyrum úti þegar hann var sjö ára um að hann myndi deyja á sautjánda ári.
 <p>Vorið 1918 var ég semsé orðinn sextán vetra og lítill tími til stefnu. Ekki var ég fyrr kominn heim af gagnfræðaprófi þetta vor en ég tók til óspiltra mála að skrifa þá bók sem á reið að eftir mig lægi þegar liði upp af mér, vonandi í leiftri af himni, næsta vor. Bókina ætlaði ég að grundvalla á sýn merkilegrar stúlku sem einusinni hafði horft á mig án þess að mæla orð, einsog á myndinni af Dante þegar hann mætti Beatrice á brúarsporðinum við Arnó-fljót og hvorugt mælti orð. Eftir það hafði ég gert því skóna að öll viska heimsins mundi búa í svona stúlku; amk birtast gegnum hana; þó er það von mín að slíkrar stúlku hafi beðið skemmtilegri ævi en sú sem boðuð er stúlkunni í Barni náttúrunnar. Kanski skiptir það ekki máli; nema þatta var skáldsagan sem ég hafði heitstrengt að skrifa áður en ég yrði sautján ára; deya síðan glaður.
-<p>Bókin hlaut góðar viðtökur hjá gagnrýnendum. Jakob Jóhannesson Smári sagði í grein í Skírni að engum þyrfti að dyljast að höfundur Barns náttúrunnar væri efni í skáld þótt verkið hefði nokkra galla; „… grunar mig, að hann eigi eftir að auðga íslenskar bókmenntir með góðum skáldskap, ef honum endist aldur og heilsa.“ Í Alþýðublaðinu birtist einnig ítarlegur ritdómur eftir Arnfinn Jónsson sem, eins og Jakob, gerir smávægilegar athugasemdir við bókina, en segist telja að vænta megi hins besta frá höfundinum „þegar honum vex aldur og viska“. Arnfinnur bætir svo þessum orðum við: „Og hver veit nema að Halldór frá Laxnesi eigi eftir að verða óskabarn íslensku þjóðarinnar.“</br></br>
-<em>Æskuár þreifað fyrir sér</em></br>
+<p>Bókin hlaut góðar viðtökur hjá gagnrýnendum. Jakob Jóhannesson Smári sagði í grein í Skírni að engum þyrfti að dyljast að höfundur Barns náttúrunnar væri efni í skáld þótt verkið hefði nokkra galla; „… grunar mig, að hann eigi eftir að auðga íslenskar bókmenntir með góðum skáldskap, ef honum endist aldur og heilsa.“ Í Alþýðublaðinu birtist einnig ítarlegur ritdómur eftir Arnfinn Jónsson sem, eins og Jakob, gerir smávægilegar athugasemdir við bókina, en segist telja að vænta megi hins besta frá höfundinum „þegar honum vex aldur og viska“. Arnfinnur bætir svo þessum orðum við: „Og hver veit nema að Halldór frá Laxnesi eigi eftir að verða óskabarn íslensku þjóðarinnar.“<br><br>
+<em>Æskuár þreifað fyrir sér</em><br>
 Halldór Laxness fæddist í steinbæ á Laugavegi 32 í Reykjavík 23. apríl 1902. Á þessum árum var Reykjavík aðeins þorp sem um 10% þjóðarinnar bjuggu í, jafnmargir bjuggu í smábæjum víða um landið en 80% í sveitum. En Reykjavík stækkaði ört næstu áratugina. Þar bjó þriðjungur þjóðarinnar árið 1940, annar þriðjungur bjó þá í öðrum bæjum en aðeins um 40% í sveitum. Upp úr aldamótunum var Reykjavík í óða önn að verða miðstöð íslensks þjóðlífs, hún varð miðpunktur viðskipta, stjórnmála og menningar. Halldór staldraði hins vegar stutt við í verðandi höfuðstað landsins. Þegar hann var þriggja ára flutti hann ásamt foreldrum sínum upp í Mosfellsdal þar sem þau hófu búskap í Laxnesi.
 <p>Halldór var sonur Guðjóns Helga Helgasonar, bónda og vegaverkstjóra, og Sigríðar Halldórsdóttur húsfreyju. Bæði voru þau listhneigð. Guðjón lék á fiðlu og var söngmaður góður eins og Sigríður. Halldóri var ungum haldið að tónlistariðkun, lærði hann meðal annars á píanó en einnig naut hann tilsagnar í dráttlist hjá ekki ómerkari listmálara en Þórarni B. Þorlákssyni. En skáldhneigðin varð öllu öðru yfirsterkari og á þrettánda ári hafði Halldór skrifað sexhundruð blaðsíðna reyfara, sem hann kallaði svo, „reyfara á móti Endurlausnarkenningunni og frú Torfhildi Hólm“. Sagan hét Afturelding og hefur ekkert varðveist af handriti hennar; sagði Halldór að hann hefði gefið hana upp á bátinn er hann fermdist enda hefði sumt í henni ekki samræmst þankagangi kristinna manna.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Afrikaans</h1>
-<p><em>André P. Brink „’n Droë wit seisoen”</em></br>
+<p><em>André P. Brink „’n Droë wit seisoen”</em><br>
 Daar was ’n kort beriggie oor die begrafnisreëlings in die koerant en ek was van plan om dit by te woon, maar dit het skeefgeloop. Ek moes laat die oggend inkom middestad toe vir ’n ete-afspraak met ’n besoekende skryfster en kon die begrafnis as voorwendsel gebruik om die vroumens vroegtydig af te skud: een van die roomkoek-etende dames wat oor bloed, trane en ongehude moeders skryf en ’n hoed opsit vir afsprake; met ’n leserskring van tienduisende, en daarom onmisbaar vir ons tydskrif. Gevolglik was ek klaar nie in ’n goeie luim toe ek, ’n kwartier laat, van my parkeerplek af begin aanstryk in die rigting van die Carlton-sentrum nie. Ek was afgetrokke, en eers in die omgewing van die Hooggeregshof het iets tot my deurgedring. Ek het geaarsel, en opgekyk, en gaan staan. Wat was dan aan die gang? Eers ná ’n rukkie het dit my getref: die stilte. Dit was asof die gewone middestadgedruis om my weggesak het. Oral het mense stilgestaan. Motors het nie meer gery nie. Asof die hart van die stad in ’n doodskramp opgehou klop het: asof ’n ontsaglike hand in dié borskas ingegryp en die hart in ’n dodelike greep vasgevat het. Tog wás daar geluid, en juis iets soos ’n hartklop – ’n lae gedreun, byna te laag vir die oor om op te vang, asof dit direk deur die vlees en gebeente in die liggaam geïnsinueer word. Soos ’n onderaardse rammeling, maar anders as die mynskokke wat mens daagliks in Johannesburg waarneem. Naderhand het ons beweging ook gewaar. Onder van die stasie se kant af het ’n trae wal van mense in die straat aangekom en die stilte voor hulle uitgestoot: ’n dowwe, onkeerbare falanks van swartes. Hulle het nie geskreeu nie, daar was geen rumoer nie. Maar dié in die voorste linies het met hul gebalde vuiste in die lug geloop, soos takke en dryfhoute wat uitsteek bo die oppervlak van ’n swaar aankomende vloed.
 <p>Uit die strate waar ons was, het swartmense in die rigting van die aankomende massa begin beweeg, ook swyend, asof die kolk hulle ingesleep het. Ons wittes – skielik baie min van ons in die yslike ruimte tussen die ontoegeeflike beton van die geboue – het begin wegskuifel na mure en pilare. Niemand het gepraat of selfs ’n skielike beweging uitgevoer nie. Die hele aksie was vertraag soos in ’n kykweer-skoot op TV. Eers later het ek te hore gekom dat daar dié dag uitspraak gegee is in een van die baie terrorismeverhore van die afgelope maande; en die skare was van Soweto af op pad om daar te wees op die uur van die uitspraak. Hulle het nie daar aangekom nie. Terwyl ek nog daar gestaan het, het die polisiesirenes begin loei en van alle kante af het vangwaens en pantsermotors aangekom. Dié geluid het ons almal plotseling uit die ban van die situasie geruk. Net daarna het die geraas soos ’n golf oor die middestad gebreek. Maar teen daardie tyd het ek al padgegee. Nou het ek minstens ’n verskoning gehad om aan my skryfster te verduidelik waarom ek laat was. Ek het nog steeds die begrafnis as voorwendsel gebruik om teen twee-uur van haar afskeid te neem. Maar ek het nie meer lus gehad om te gaan nie; ek het net nie meer kans gesien nie. By die CNA in Commissionerstraat het ek ’n kaartjie van deelneming gekoop, dit sommer in die winkel ingevul en dit in Jeppestraat gaan pos, op pad terug na my motor. Toe teruggekom huis toe – niemand het my tog die middag op kantoor verwag nie – en byna kompulsief opnuut begin blaai deur alles waarmee Ben my opgesaal het. Tot dusver het ek nog nie ’n dankie-nota van Susan ontvang nie. Maar ek het ook nie my adres op my kaartjie aangedui nie en ek twyfel of sy weet waar ek woon. Dit maak tog nie saak nie. Eintlik is dit vir ons almal beter so.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Lithuanian</h1>
-<p><em>Antanas Škėma „Balta Drobulė“</em></br>
-<center>Palaiminti idiotai, nes</br>
-jie yra laimingiausieji</br>
-žmonės žemėje.</br>
-</br>
-Didžiausioji išmintis lyg</br>
-kvailumas; didžiausia</br>
-gražbylystė lyg mikčiojimas.</br>
-</br>
-Laotse</br>
-</br>
-Lapių vargonininkas mikčiojo</br>
-kalbėdamas, bet giedojo jis</br>
-gražiai.</br>
-</br>
+<p><em>Antanas Škėma „Balta Drobulė“</em><br>
+<center>Palaiminti idiotai, nes<br>
+jie yra laimingiausieji<br>
+žmonės žemėje.<br>
+<br>
+Didžiausioji išmintis lyg<br>
+kvailumas; didžiausia<br>
+gražbylystė lyg mikčiojimas.<br>
+<br>
+Laotse<br>
+<br>
+Lapių vargonininkas mikčiojo<br>
+kalbėdamas, bet giedojo jis<br>
+gražiai.<br>
+<br>
 Iš žmonių pasakojimų</center>
 <p>B.M.T. Broadway line. Ekspresas sustoja. Antanas Garšva išeina į peroną. Šešios iki keturių po piet. Jis žingsniuoja apytuščiu peronu. Dvi negrės žaliom sukniom stebi išeinančius. Garšva užtraukia škotiškų marškinių ziperį. Šąla rankų ir kojų pirštai, nors rugpiūčio mėnuo New Yorke. Jis lipa laiptais aukštyn. Blizga išblizginti mokasinai. Ant dešinio mažojo piršto – auksinis žiedas, motinos dovana, senelės prisiminimas. Žiede išgraviruota: 1864 metai, sukilimo metai. Šviesiaplaukis bajoras pagarbiai suklupo prie moters kojų. Gal aš mirsiu, gerbiamoji ponia, jei žūsiu – paskutinieji mano žodžiai bus – aš jus myliu, atleiskite už drąsą, aš myliu tave…
 <p>Garšva eina požeminiu koridoriumi. Į 34-tąją gatvę. Vitrinose stovi manekenai. Kodėl neįrengia panoptikumų šitokiose vitrinose? Sakysim, vaškinis Napoleonas rymo užkišęs ranką už atlapo, o šalia jo – vaškinė mergaitė iš Bronxo. Suknios kaina tik dvidešimt keturi doleriai. Tik tik tik tik. Širdis per greit plaka. Noriu, kad sušiltų rankų ir kojų pirštai. Negerai šalti prieš darbą. Mano kišenėje tabletės. Tvarkoj. Daugelis genijų sirgo. Be glad you're neurotic. Knygą parašė Louis E. Bisch, M.D., .Ph.D. Du daktarai viename. Dvigubas Louis E. Bisch tvirtina: Aleksandras Didysis, Cezaris, Napoleonas, Michelangelo, Pascalis, Pope, Poe, O. Henry, Walt Whitmanas, Moljeras, Stevensonas – neurastenikai. Sąrašas įtikinąs. Pabaigoje: dr. L.E. Bisch ir Antanas Garšva.
 <p>Ir Antanas Garšva pasuka dešinėn. Vėl laiptai. Per daug laiptų, jie kartojasi. Surrealizmas žlunga? Tegul. Aš pastatysiu šventos Onos bažnyčią Washington skvere (tesiunta Napoleonas, norėjęs ją perkelti į Paryžių), ir į vidų įeis dailios vienuolės su geltonom žvakėm nekaltose rankose. Elena matė, kaip iš Vilniaus 1941 metais vienuoles vežė bolševikai. Jas vežė nuvalkiotame sunkvežimukyje, toji gatvė nelygiai išgrįsta, sunkvežimukas kratė, ir stačios vienuolės griuvinėjo, jos nebuvo sportininkės. Kampuose stovėjo sargybiniai ir šautuvų buožėmis stumdė ant jų virstančias vienuoles. Vienai jie praskėlė kaktą, ir vienuolė nenušluostė kraujo, gal ji neturėjo nosinės.
 <p>Antanas Garšva, pro „Gimbels“ konfekcijono stiklines duris, išeina į gatvę. Jis prilaiko duris, kol prasmunka šlakuota mergina, krūtys aiškiai dirbtinės, šešiasdešimt septyni centai pora. Jis jos nebematys. Elena – jis jos nebematys. Elena, aš tau padovanosiu karneolio žiedą ir užmirštą tramvajaus vagoną Queens aikštėje. Elena, tu man nulipdysi bajoro galvą, ji namo karnize, Pylimo gatvėje, Vilniuje. Elena… nenorėk, kad verkčiau.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Polish</h1>
-<p><em>Henryk Sienkiewicz „Quo Vadis?”</em></br>
+<p><em>Henryk Sienkiewicz „Quo Vadis?”</em><br>
 <center>Rozdział 1</center>
 <p>Petroniusz obudził się zaledwie koło południa i jak zwykle, zmęczony bardzo. Poprzedniego dnia był na uczcie u Nerona, która przeciągnęła się do późna w noc. Od pewnego czasu zdrowie jego zaczęło się psuć. Sam mówił, że rankami budzi się jakby zdrętwiały i bez możności zebrania myśli. Ale poranna kąpiel i staranne wygniatanie ciała przez wprawionych do tego niewolników przyśpieszało stopniowo obieg jego 1eniwej krwi, rozbudzało go, cuciło, wracało mu siły, tak że z elaeothesium, to jest z ostatniego kąpielowego przedziału, wychodził jeszcze jakby wskrzeszony, z oczyma błyszczącymi dowcipem i wesołością, odmłodzon, pełen życia, wykwintny, tak niedościgniony, że sam Otho nie mógł się z nim porównać, i prawdziwy, jak go nazywano: arbiter elegantiarum.
 <p>W łaźniach publicznych bywał rzadko: chyba że zdarzył się jakiś budzący podziw retor, o którym mówiono w mieście; lub gdy w efebiach odbywały się wyjątkowo zajmujące zapasy. Zresztą miał w swej insuli własne kąpiele, które słynny wspólnik Sewerusa, Celer, rozszerzył mu, przebudował i urządził z tak nadzwyczajnym smakiem, iż sam Nero przyznawał im wyższość nad cezariańskimi, chociaż cezariańskie były obszerniejsze i urządzone z nierównie większym przepychem.
@@ -462,24 +501,24 @@ Iš žmonių pasakojimų</center>
 <p>Lecz po pewnym czasie przemówił – i otworzywszy oczy jął rozpytywać o pogodę, a następnie o gemmy, które jubiler Idomen obiecał mu przysłać na dzień dzisiejszy do obejrzenia… Pokazało się, że pogoda jest piękna, połączona z lekkim powiewem od Gór Albańskich, i że gemmy nie przyszły. Petroniusz znów przymknął oczy i wydał rozkaz, by przeniesiono go do tepidarium, gdy wtem spoza kotary wychylił się nomenclator oznajmiając, że młody Markus Winicjusz, przybyły świeżo z Azji Mniejszej, przyszedł go odwiedzić.
 <p>Petroniusz kazał wpuścić gościa do tepidarium, dokąd i sam się przeniósł. Winicjusz był synem jego starszej siostry, która przed laty wyszła za Marka Winicjusza, męża konsularnego z czasów Tyberiuszowych. Młody służył obecnie pod Korbulonem przeciw Partom i po ukończonej wojnie wracał do miasta. Petroniusz miał dla niego pewną słabość, graniczącą z przywiązaniem, albowiem Markus był pięknym i atletycznym młodzieńcem, a zarazem umiał zachowywać pewną estetyczną miarę w zepsuciu, co Petroniusz cenił nad wszystko.
 Pozdrowienie Petroniuszowi! – rzekł młody człowiek wchodząc sprężystym krokiem do tepidarium – niech wszyscy bogowie darzą cię pomyślnością, a zwłaszcza Asklepios i Kipryda, albowiem pod ich podwójną opieką nic złego spotkać cię nie może.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Czech</h1>
-<p><em>Václav Havel: „Moc bezmocných“</em></br>
-I</br>
+<p><em>Václav Havel: „Moc bezmocných“</em><br>
+I<br>
 Východní Evropou obchází strašidlo, kterému na Západě říkají „disidentství“.
 Toto strašidlo nespadlo z nebe. Je přirozeným projevem a nevyhnutelným důsledkem současné historické fáze systému, jímž obchází. Zrodila ho totiž situace, kdy tento systém už dávno není a z ti­sícerých důvodů už nemůže být založen na čisté a brutální mocenské svévoli, vylučující jakýkoliv nekonformní projev, kdy je ale na druhé straně už do té míry politicky statický, že téměř znemožňuje, aby se takový projev natrvalo uplatňoval v prostředí jeho oficiálních struktur.
 <p>Kdo vlastně tito takzvaní „disidenti“ jsou? Z čeho jejich postoj vyrůstá a jaký má smysl? V čem je smysl oněch „nezávislých iniciativ“, v nichž se „disi­denti“ spojují, a jaké mají tyto iniciativy reálné šan­ce? Je na místě užívat v souvislosti s jejich působením pojmu „opozice“? Pokud ano, čím taková „opo­zice“ – v rámci tohoto systému – vlastně je, jak působí, jakou roli ve společnosti sehrává, v co doufá a v co může doufat? Je vůbec v silách a možnostech „disidentů“ – jako lidí, kteří jsou vně všech mocen­ských struktur a v postavení jakýchsi „podobčanů“ – nějak na společnost a společenský systém působit? Mohou vůbec něco změnit?
-<p>Myslím, že úvaha o těchto otázkách – jako úvaha o možnostech „bezmocných“ – nemůže dost dobře začít jinak než úvahou o povaze moci v poměrech, kde tito „bezmocní“ působí.</br></br>
-II</br>
+<p>Myslím, že úvaha o těchto otázkách – jako úvaha o možnostech „bezmocných“ – nemůže dost dobře začít jinak než úvahou o povaze moci v poměrech, kde tito „bezmocní“ působí.<br><br>
+II<br>
 Náš systém bývá nejčastěji charakterizován jako dik­tatura, totiž diktatura politické byrokracie nad nive­lizovanou společností.
 <p>Obávám se, že už samo toto označení – byť jinak jakkoli pochopitelné – skutečnou povahu moci v tomto systému spíš zatemňuje než osvětluje.
 <p>Co se nám totiž pod tímto pojmem vybavuje?
 <p>Řekl bych, že je v našem povědomí tradičně spo­jen s představou určité poměrně malé skupiny osob, která se v nějaké zemi násilím zmocní vlády nad většinou společnosti; která opírá svou moc odkrytě o přímé mocenské nástroje, jimiž disponuje; a kte­rou lze poměrně snadno sociálně oddělit od ovláda­né většiny. K této „tradiční“ či „klasické“ představě diktatury jaksi bytostně patří předpoklad její dočasnosti, historické efemérnosti a nezakotvenosti; její existence se nám zdá být těsně svázána s životem osob, které ji nastolily; bývá to záležitost spíš lokál­ního rozsahu a významu, a ať už se taková diktatura legitimuje tou či onou ideologií, svou moc přeci jen odvozuje především od počtu a výzbroje svých vojáků a policistů. Jako své hlavní nebezpečí přitom chápe možnost, že se objeví někdo, kdo bude po této stránce vybaven lépe a kdo vládnoucí skupinu svrhne.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Slovak</h1>
-<p><em>Jozef Miloslav Hurban „Od Silvestra do Troch kráľov“</em></br>
+<p><em>Jozef Miloslav Hurban „Od Silvestra do Troch kráľov“</em><br>
 Kto nezná pána Šúplatu? A jeho šmatlavú ženičku kto nevidel na rínku v Bruchoslaviciach?
 <p>Hop, ale hop! Čože sú to za otázky v zábavníku Nitre?
 <p>Tak je, páni moji a panie moje, prosím za odpustenie. Ja som veru myslel, že som v bruchoslavickom kasíne, a medzitým to nie je tak, lebo stojím teraz pred veľacteným slovenským obecenstvom, najmä tým, ktoré číta Nitru.
@@ -491,18 +530,18 @@ Kto nezná pána Šúplatu? A jeho šmatlavú ženičku kto nevidel na rínku v 
 <p>Ale, aby nám dakto nepovedal, že sa len sami chválime, bár sme ináč presvedčení, že dobré sa samo chváli, pristúpime už radšej len k samej historke.
 <p>Na Silvestra večer sedel vo svojej chyži pán Šúplata Ďorď, aspoň sa on takto podpisúval, keď komu maličké napomenutie ohľadne zloženia interesu alebo kapitálu posielal. Bol to, ako už teraz každý šípiť môže, slovenský kapitalista.
 <p>Toto bude náš hrdina, takže sme mohli bezpečne aj po jeho mene našu noveletku pomenovať a ani kritici zo Včely by nám to neboli mohli nadhadzovať ako zlé; ale máme pätnásť príčin, pre ktoré sme túto prvú slovenskú noveletku len tak pomenovali, ako stojí už na jej čele napísané.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Hungarian</h1>
-<p><em>Krasznahorkai László »Az ellenállás melankóliája«</em></br></br>
-<center>Telik, de nem múlik.</br>
-Rendkívüli állapotok</br>
+<p><em>Krasznahorkai László »Az ellenállás melankóliája«</em><br><br>
+<center>Telik, de nem múlik.<br>
+Rendkívüli állapotok<br>
 Bevezetés</center>
 <p>Minthogy a fagyba dermedt dél-alföldi településeket a Tiszától majdnem a Kárpátok lábáig összekötő személyvonat a sínek mentén tanácstalanul őgyelgő vasutas zavaros magyarázatai s a peronra idegesen ki-kiszaladó állomásfőnök egyre határozottabb ígéretei ellenére sem érkezett meg („Hát, kérem, ez megint fölszívódott…” – legyintett kajánul savanyú képpel a vasutas), a mindössze két, csupán efféle, úgynevezett „különleges esetben” pályára ereszthető rozzant, fapados vagonból és egy kiöregedett, beteg 424-esből összeállított mentesítő szerelvény a rá amúgy sem vonatkozó s máskülönben is hozzávetőleges menetrendhez képest jó másfél órás késéssel indult csak el, hogy a nyugat felől hiába várt személy elmaradását meglehetős közönnyel és tétova beletörődéssel fogadó helybéliek ily módon mégiscsak célhoz érjenek a szárnyvonal még hátralévő, közel ötven kilométeres útján. Mindez már senkit sem lepett meg igazán, hiszen az uralkodó állapotok természetesen ugyanúgy éreztették hatásukat a vasúti közlekedésben, mint bármi másban: a megszokások rendje megkérdőjeleződött, a mindennapi beidegződéseket szétzilálta egy megfékezhetetlenül terebélyesedő zűrzavar, a jövő alattomos, a múlt felidézhetetlen, a hétköznapi élet működése pedig kiszámíthatatlan lett, egészen a belenyugvásig, amikor már az sem elképzelhetetlen, hogy egyetlen ajtó nem nyílik többé, és a földben a búza befelé nő, mert a bomlasztó ártalomnak csupán a tünetei voltak észlelhetők, az ok fölmérhetetlen és megfoghatatlan maradt, így aztán egyebet nem is lehetett tenni, mint szívósan rávetődni mindarra, ami még megragadható, amiként tették most is az emberek, a falu állomásán, a jogos, de többnyire korlátozott ülőhelyek reményében megrohamozván a fagytól nehezen nyíló ajtókat. A fölösleges küzdelemből (mert állva, mint nemsokára kiderült, senki nem maradt) a szokásos téli rokonlátogatása után épp hazafelé igyekvő Pflaumné is jócskán kivette a részét, s mire félretaszigálva az előtte állókat s apró termetét meghazudtoló erővel föltartóztatva az utána nyomulókat, végre sikerült a menetiránnyal szemben egy ablak melletti ülést megszereznie, jó ideig nem is tudta különválasztani felháborodását a kíméletlen tülekvés láttán attól a bosszúság és szorongás között hullámzó érzéstől, hogy első osztályra váltott jegyével itt már mit sem érve a fokhagymás kolbász, a vegyes pálinka és az olcsó dohány maró bűzében, ordibáló, böfögő, „közönséges parasztok” szinte fenyegető gyűrűjében lesz kénytelen elviselni a manapság amúgy is kockázatos utazás egyetlen húsbavágó kérdését, azt ugyanis, hogy egyáltalán hazajut-e még. Teljes elszigeteltségben élő, koruknál fogva már mozdíthatatlan nővérei sohasem bocsátották volna meg, ha évek óta rendszeres tél eleji látogatását ezúttal elmulasztja, így hát kizárólag miattuk nem mondott le erről a veszélyes vállalkozásról, holott mint mindenki, maga is tisztában volt azzal, hogy valami körülötte gyökeresen megváltozott, s hogy ebben a helyzetben az a legokosabb, ha nem teszi ki magát semmiféle kockázatnak. Okosnak lenni ugyanakkor, józanul megítélni, hogy mi várható, igazán nem volt könnyű, mert akárha a levegő örökállandó összetételében történt volna hirtelen egy alapos, ám kimutathatatlan módosulás, a maga megközelíthetetlenségében mindeddig hibátlanul működő, megnevezhetetlen elv, mely forgatja, ahogy mondani szokás, a vilá got, s aminek egyetlen nyoma éppenséggel ez a világ, mintha egyszeriben veszített volna az erejéből, s emiatt aztán a veszély bizonyosságának gyötrő tudatánál is tűrhetetlenebbnek bizonyult az a közös előérzet, hogy hamarosan bármi megtörténhet, és pontosan ez a „bármi”, a gyöngülésében mutatkozó törvény volt nyugtalanítóbb minden személyes szerencsétlenségnél, s fosztotta meg egyre inkább az embereket a hűvös mérlegelés lehetőségétől.</p>
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Estonian</h1>
-<p><em>Anton Hansen Tammsaare «Kõrboja peremees»</em></br>
+<p><em>Anton Hansen Tammsaare «Kõrboja peremees»</em><br>
 Koju jõudes asus Kõrboja perenaine vanale Madlile appi, kes küttis saunaahju ja kandis suurde katlasse ämbriga vett. Seni kui ahi tossas ja vesi katlas soenes, liikusid perenaise silmad ja käed toas ning õues. Üks oli tal selge: ühe päevaga polnud võimalik Kõrbojal midagi põhjalikku ette võtta, isegi tubades mitte. Ainult ühe toa, nurgapealse, vastu rohtaeda, selle tegi perenaine põhjalikumalt puhtaks, sest siin oli veel üsna kenasti värvi põrandalaudadel ja tapeedid seintel õige asjad. Siia tahtis ta elama asuda, sest see oli juba ammust aega nime järele tema tuba olnud ja sellepärast vähem tarvitatud. Seadis voodit, äigas aknaid, riputas neile puhtad riided ette, pani mõne lille klaasiga kummutile, pistis sinna-tänna mõne halja oksa. Läks pärast õue, võttis luua ja töötas, nii et tolmupilved keerlesid. Aitas sigadele rohtu kitkuda, seda katki raiuda, söögiks teha ja ette kanda. Pesi mingisuguseid riistu, kuhu võiks tõsta suppi ja kallata piima. Tegi ja toimetas, mis kätte juhtus, aga üht ei teinud ta mitte: ei mõelnud toidule, nagu tahaks ta täna elada ainult tööst ja tegemistest, peost ja rõõmust.
 <p>Vana Mousi katsus esiteks perenaisele järele sörkida, aga peagi mõistis ta oma teo asjatust, sest perenaisel polnud täna nähtavasti mingit mõistlikku eesmärki, ta tellerdas mõtteta ühest paigast teise. Mousi istus viimaks keset õue maha ja mõõtis oma väsinud silmega perenaise samme, pärast laskis ta kõhuli ja sulus rammestunud laud, ainult aeg-ajalt neid praotades.
 <p>Päike oli veel mõni hea süld üleval, kui Kõrboja heinalised koju tulid ja leidsid, et saun on kuum ning vesi katlas palav.
@@ -516,25 +555,25 @@ Koju jõudes asus Kõrboja perenaine vanale Madlile appi, kes küttis saunaahju 
 <p>«Toho tont!» hüüdis Mikk, «või noor perenaine ise.»
 <p>Töölised pidid ennast leilitama minema, kuid tuli pisut oodata: vana Rein ise oli esimest head võtma läinud, taheti lasta tema enne välja tulla. Naispere pidi viimseks jääma, sest temal oli toa ümber jooksmist, oli koperdamist köögis ja aidas ning tagatipuks laudas, kui tuli kari kellade kõlinal ja krantsi haukumisel.
 <p>Anna jättis töö ja toimetuse, kui tulid heinalised. Ta laskis need teha, kes olid Kõrbojal harjunud tegema, ja käis ise pisut ringi ning vaatas, kust äärest siin küll peale hakata, kui siin kord hakkama saab. Ta läks rohtaeda, mille onu kord suurejooneliselt rajanud ja mis nüüd niisama suurejooneliselt raisku lastud minna. Nähtavasti on siin loomadki ajuti pidutsenud, puud katki tallanud, latvu napsinud. Põõsad kaovad umbrohtu, mis lokkab kui meeletu. Nõges, ohakas, kobruleht ja takjas, putk, kastehein ning orasrohi, aianurgas tapud, mis ronivad mööda vardaid ja aeda. Juba langeb neile kaste, juba hakkavad nad uimastama õhku, juba uimastavad nad sedagi, kes siin kõnnib ja hingab.
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <h1>Croatian</h1>
-<p><em>Janko Polić Kamov „Na dnu“</em></br></br>
-<em>Dio prvi</em></br>
+<p><em>Janko Polić Kamov „Na dnu“</em><br><br>
+<em>Dio prvi</em><br>
 U malenoj, ispratoj flašici poslao je Arsen nekoliko pljuvački na analizu svojemu liječniku. On je bio dobio plućni katar, izbacujući dnevno čitave tucete žutih i punih komada. Arsen ih prispodabljaše koralima i spužvama, tako bijahu izdjelani. A za boju govoraše, da je žuta kao kanarinac ili žganac. Nije on podavao osobite važnosti svemu tome i već se je bio smirio s mišlju, da je to kronični katar, koji neće ni proljetno sunce presušiti.
 <p>Jer eto – proljeće je tapkalo mladim, nestašnim noškama, obavitim u sjajnim čarapama. I šuma je listala kao da iza okanca proviruju nosići ženske mladosti. I ptice se natrkivahu dječjim ćeretanjem noseći let kroz granje kao djevojče, što zavija suknju, a sve na njoj govori da je za udaju. I prve kapi znoja virkahu ko polucije sazrijevajuće mladosti. Arsen je gledao cijelu tu proljet od neba do zemlje, hvatajući se očima lijetanja oblaka, što su raskuštrani prolazili nad njim, bijeli kao nevinost i puni kao suza. A on je samo pljuckao zemlju, ne štedeći djevice, što srtaše u ogrljaj temperamentnoga sunca.
 <p>Arsen se je tome smijuckao. „Govorahu: proljeće, proljeće – a proljeće je došlo i sve ostade pri starom.“ Preturio je zimu čitajući, drljajući i psujući. Liječnik mu zabrani pušiti, a Arsen, videći, da je bez pušenja svako liječenje dosadno, primi se iz prikrajka jedne cigarete, a jedna čaša vuče drugu. Onda je počeo izlaziti, najprije gegavo kao seoske ekipaže, pa sve čvršće, sve stalnije do automobila. Nosio je i štap, ali više od nervoznosti, negoli od nužde. On je dapače počeo zalaziti i u gostione i pronašao, da pijača na katar ugodno djeluje. Arsen je to sa žarom dokazivao: „Evo, prospavaš se, a izjutra se raskašlješ i sipaš kao iz rukava. A glavno je, da se nepotrebno i trulo izbaci.“ Njegovi drugovi od čaše kimahu dobrodušno glavom slušajući njegova oduševljena razlaganja, koja svršavahu: „A što je još glavnije, iza pijače dobiješ apetit, a apetit, braćo, apetit je sve!“ I dobivaše apetit – štono riječ – mladoga šteneta. To je bio veliki argumenat kod njegove majke. Majka kao majka. Njoj je prvo, da njezina djeca imadu apetit, pogotovo kad sama kuha.
 <p>Uopće, Arsen je s pravim zanimanjem promatrao čitavi taj „kataralni proces“, a kako je bio neke vrsti piskarala, on je tu uhvatio mnogu prispodobu. Primjerice: „Tamo se bio nadvio gust i mastan oblak, što izgledaše kao katarska pljuvačka, tek što bijaše bijele boje.“ „A zvono zazveči ko sazreo katar.“ „I Matija se Prugovečki tako nadme, kao da se raskašljao u društvu, gdje ne smije da pljune.“ A kao što katar, tako i sve one nuzgrednosti od diareje do stitichezze. Tako je on prigodne pjesme nazivao kroničnom lijavicom, a za literaturu volio je od uobičajenog „sterilna“ upotrebljavati „stitična“.
 <p>Ali jednoga dana – onako od slučaja – zapazi, da je bacio krv. Čistu krv. I prije bijaše po koja pljuvačka isprepletena rđastim kao željezo prutima, ali tome ne podavaše nikakove važnosti. Sada bijaše to mrka, čista krv. A u prsima je kuhalo, u grlu je vrelo. Progovori, i glas mu se pričini sasma drugim. Nikada ne začu takvog zvuka. Razbit, mlak ko pištanje razvodnjelog tla. Kašalj ne presta. Htio je udisati zraka, ali stade se i više gušiti kao da čitavi njegov organizam ne podnaša ni svijetla ni svježine ni zdravlja. Krv!</p>
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 <div id="lang" lang="tr"><h1>Turkish</h1>
-<p><em>Orhan Pamuk “Cevdet Bey ve Oğulları”</em></br>
+<p><em>Orhan Pamuk “Cevdet Bey ve Oğulları”</em><br>
 “Geceliğin kolu da, sırtım da… Bütün sınıf da… Çarşaflar da… Of, of, of, bütün yatak da sırılsıklam! Evet, her şey sırılsıklam ve ben uyandım!” diye mırıldandı Cevdet Bey. Her şey az önce gördüğü rüyadaki gibi sırılsıklamdı. Yatağında homurdanarak döndü, rüyayı hatırladı ve korktu. Rüyada, Kula’daki sübyan mektebinde hocanın karşısında oturuyordu. Başını ıslak yastıktan kaldırıp doğruldu. “Evet, hocanın karşısında oturuyorduk. Bütün okul diz boyu suya gömülmüştü,” diye söylendi. “Niye gö­ mülmüştü?” Çünkü okulun tavanı akıyordu. Tavandan akan tuzlu sular benim alnımdan ve göğsümden dökülüyor, bütün odaya yayılıyordu. Hoca da değneği ile bütün sınıfa beni gös­ teriyor, “Hep bu Cevdet’in yüzünden,” diyordu. Hocanın değ- neğiyle kendisini nasıl gösterdiğini, bütün arkadaşlarının dönüp suçlayarak ve küçümseyerek kendisine nasıl baktıklarını, kendisinden iki yaş büyük ağbisinin de herkesten çok kendisini küçümsediğini gözünün önünde canlandırınca ürperdi. Ama gözünü kırpmadan bütün sınıfı bir solukta falakadan geçiren, bir tokatla bir oğlanı bayıltan hoca, bir türlü gelip tavandan akan sular için kendisini cezalandırmıyordu. Cevdet Bey, “Herkesten başkaydım, yalnızdım, beni küçümsüyorlardı,” diye düşündü.
 <p>“Ama hiçbiri gelip bana dokunmaya cesaret edemiyor, sular da bütün okulu döktürüyordu!” Korkunç rüya bir anda neşeli ve hoş bir anı oluverdi: “Ben başkaydım, yalnızdım, ama beni cezalandıramıyorlardı.” Bir kere okulun damına çıkıp, kiremitleri kırdığını hatırlayarak ayağa kalktı. “Kiremitleri kırmıştım. Kaç yaşındaydım? Yedi yaşındaydım. Şimdi otuzyediyim, nişanlandım, yakında evleneceğim.” Nişanlısını hatırlayınca heyecanlandı. “Evet, yakında evleneceğim, sonra… Aman hâlâ oyalanıyorum! Geç kaldım!” Vakti anlamak için önce pencereye koştu, perdelerin arasından dışarıya baktı. Dışarıda tuhaf bir ışık ve sis vardı. Güneşin doğduğunu anladı. Sonra bu eski alışkanlığına kızarak dönüp, saatine baktı: Alaturka yarım. “Aman, aman geç kal­ mayayım!” diye söylenerek helaya koştu.
 <p>Yıkanıp temizlenince neşesi daha da arttı. Tıraş olurken gene rüyayı düşündü. Sonra Şükrü Paşa’nın konağına gideceğini hatırlayıp, o yeni ve temiz pantolonla ceketi, yakası kolalı kartonlaşmış gömleği ve zarif bulduğu kravatı taktı. Başına nişan töreninden önce kalıplattığı fesini oturttu. Küçük masa aynasında kendini seyretti ve istediği gibi olduğuna karar verdi, ama gene de içinde bir hüzün uyandı. Bütün bu şık kıyafette, nişanlısının konağına gideceği için telâşlanmasında gülünç birşeyler ol­ malıydı. Bu küçük ve zararsız hüzünle perdeleri açtı. Sis Şeh- zadebaşı Camii’nin minarelerini örtmüş, ama kubbeyi gizleye­ memişti. Yan bahçedeki çardak her zamankinden daha yeşildi. “Sıcak bir gün olacak!” diye düşündü. Çardağın altında bir kedi ağır ağır yalanıyordu. Cevdet Bey bir şey hatırlayarak pencereden uzandı ve gördü: Kupa arabası da gelmiş, evin önünde durmuştu. Atlar kuyruklarını sallıyorlar, Cevdet Bey’i bekleyen arabacı kapının önünde sigara içiyordu. Cevdet Bey hatırladığı sigara paketini ve çakmağını, cüzdanını ve bir kere daha baktığı saatini ceplerine yerleştirerek odadan çıktı.
 </p></div>
-<center></br></br>* * *</br></center>
+<center><br><br>* * *<br></center>
 
 </div>
 </body>
