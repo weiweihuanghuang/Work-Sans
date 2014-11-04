@@ -18,93 +18,93 @@ html {
 */
 }
 @font-face {
-    font-family: 'aliceblack';
-    src: url('Alice/src/Test%20Fonts/Alice-Black.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-black-webfont.woff2') format('woff2');
+    font-family: 'worksansblack';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Black.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-black-webfont.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: 'aliceextrabold';
-    src: url('Alice/src/Test%20Fonts/Alice-Extrabold.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-extrabold-webfont.woff2') format('woff2');
+    font-family: 'worksansextrabold';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Extrabold.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-extrabold-webfont.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
-    font-family: 'alicebold';
-    src: url('Alice/src/Test%20Fonts/Alice-Bold.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-bold-webfont.woff2') format('woff2');
+    font-family: 'worksansbold';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Bold.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-bold-webfont.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'alicesemibold';
-    src: url('Alice/src/Test%20Fonts/Alice-Semibold.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-semibold-webfont.woff2') format('woff2');
+    font-family: 'worksanssemibold';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Semibold.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-semibold-webfont.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: 'alicemedium';
-    src: url('Alice/src/Test%20Fonts/Alice-Medium.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-medium-webfont.woff2') format('woff2');
+    font-family: 'worksansmedium';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Medium.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-medium-webfont.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: 'aliceregular';
-    src: url('Alice/src/Test%20Fonts/Alice-Regular.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-regular-webfont.woff2') format('woff2');
+    font-family: 'worksansregular';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Regular.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-regular-webfont.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: 'alicelight';
-    src: url('Alice/src/Test%20Fonts/Alice-Light.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-light-webfont.woff2') format('woff2');
+    font-family: 'worksanslight';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Light.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-light-webfont.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'aliceextralight';
-    src: url('Alice/src/Test%20Fonts/Alice-ExtraLight.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-extralight-webfont.woff2') format('woff2');
+    font-family: 'worksansextralight';
+    src: url('fonts/src/Test%20Fonts/WorkSans-ExtraLight.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-extralight-webfont.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
-    font-family: 'alicethin';
-    src: url('Alice/src/Test%20Fonts/Alice-Thin.otf') format('opentype'),
-    	url('Alice/src/Test%20Fonts/alice-thin-webfont.woff2') format('woff2');
+    font-family: 'worksansthin';
+    src: url('fonts/src/Test%20Fonts/WorkSans-Thin.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/worksans-thin-webfont.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
 }
 
-.alicethin {
-	font-family: alicethin;
+.worksansthin {
+	font-family: 'worksansthin';
 }
-.aliceextralight {
-	font-family: aliceextralight;
+.worksansextralight {
+	font-family: 'worksansextralight';
 }
-.alicelight {
-	font-family: alicelight;
+.worksanslight {
+	font-family: 'worksanslight';
 }
-.aliceregular {
-	font-family: aliceregular;
+.worksansregular {
+	font-family: 'worksansregular';
 }
-.aliceregular {
-	font-family: aliceregular;
+.worksansregular {
+	font-family: 'worksansregular';
 }
-.alicesemibold {
-	font-family: alicesemibold;
+.worksanssemibold {
+	font-family: 'worksanssemibold';
 }
-.alicebold {
-	font-family: alicebold;
+.worksansbold {
+	font-family: 'worksansbold';
 }
-.aliceextrabold {
-	font-family: aliceextrabold;
+.worksansextrabold {
+	font-family: 'worksansextrabold';
 }
-.aliceblack {
-	font-family: aliceblack;
+.worksansblack {
+	font-family: 'worksansblack';
 }
