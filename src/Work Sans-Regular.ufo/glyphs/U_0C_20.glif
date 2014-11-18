@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0C20" format="1">
+  <advance width="598"/>
+  <unicode hex="0C20"/>
+  <outline>
+	<component base="U0C30"/>
+	<component base="circle.mark" xOffset="-29" yOffset="-45"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>0</integer>
+	  <key>public.markColor</key>
+	  <string>0.85,0.26,0.06,1</string>
+	</dict>
+  </lib>
+</glyph>

@@ -10,6 +10,9 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+18 November 2014 (Wei Huang) ‘Work Sans’ v0.9
+- Telugu glyph set uploaded – thought not exported to fonts in Test Fonts folder
+
 4 November 2014 (Wei Huang) ‘Work Sans’ v0.8
 - Font Renamed to ‘Work Sans’ from the working title ‘Alice’.
 

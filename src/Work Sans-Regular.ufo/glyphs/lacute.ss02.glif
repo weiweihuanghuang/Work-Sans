@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute.ss02" format="1">
+  <advance width="268"/>
+  <outline>
+	<contour>
+	  <point x="98" y="800" type="line"/>
+	  <point x="162" y="800" type="line"/>
+	  <point x="223" y="930" type="line"/>
+	  <point x="135" y="930" type="line"/>
+	</contour>
+	<component base="l.ss02"/>
+  </outline>
+</glyph>

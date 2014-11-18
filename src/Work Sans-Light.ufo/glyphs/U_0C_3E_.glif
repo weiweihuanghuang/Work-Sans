@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0C3E" format="1">
+  <advance width="783"/>
+  <unicode hex="0C3E"/>
+  <outline>
+	<contour>
+	  <point x="241" y="433" type="line"/>
+	  <point x="241" y="543" type="line"/>
+	  <point x="-284" y="543" type="line"/>
+	  <point x="-284" y="433" type="line"/>
+	</contour>
+	<component base="U0C3E.mark"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>0</integer>
+	  <key>public.markColor</key>
+	  <string>0.85,0.26,0.06,1</string>
+	</dict>
+  </lib>
+</glyph>

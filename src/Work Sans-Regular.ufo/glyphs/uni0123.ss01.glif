@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0123.ss01" format="1">
+  <advance width="621"/>
+  <outline>
+	<contour>
+	  <point x="323" y="778" type="line"/>
+	  <point x="253" y="587" type="line"/>
+	  <point x="341" y="587" type="line"/>
+	  <point x="383" y="778" type="line"/>
+	</contour>
+	<component base="g.ss01"/>
+  </outline>
+</glyph>

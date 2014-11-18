@@ -7,9 +7,11 @@ Work Sans is a superfamily based loosely on early Grotesques — i.e. [Stephenso
 
 Source files have been partly prepared for use in [Metapolator](http://www.metapolator.com). 
 
-*Note: UFOs are exported from Glyphs App and will currently not export properly due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)'.*
+*Note: UFOs are exported from Glyphs App and will currently not export properly due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked grey are brace/bracket glyphs*
 
-The project started in June 2014 and the brief is to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014.
+The project started in June 2014 and the brief was to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014.
+
+The Telugu glyph set comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been cleaned up, the rest are originally from Ramabhadra.
 
 ## Preview
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0C2C" format="1">
+  <advance width="685"/>
+  <unicode hex="0C2C"/>
+  <outline>
+	<contour>
+	  <point x="657" y="409"/>
+	  <point x="550" y="504"/>
+	  <point x="442" y="504" type="curve" smooth="yes"/>
+	  <point x="399" y="504" type="line"/>
+	  <point x="399" y="393" type="line"/>
+	  <point x="410" y="399"/>
+	  <point x="420" y="402"/>
+	  <point x="437" y="402" type="curve" smooth="yes"/>
+	  <point x="490" y="402"/>
+	  <point x="557" y="360"/>
+	  <point x="557" y="248" type="curve"/>
+	  <point x="657" y="239" type="line"/>
+	</contour>
+	<component base="U0C2D.part"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>0</integer>
+	  <key>public.markColor</key>
+	  <string>0.85,0.26,0.06,1</string>
+	</dict>
+  </lib>
+</glyph>

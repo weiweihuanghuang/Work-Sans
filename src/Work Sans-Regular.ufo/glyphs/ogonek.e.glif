@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonek.e" format="1">
+  <advance width="584"/>
+  <outline>
+	<contour>
+	  <point x="296" y="-2"/>
+	  <point x="242" y="-46"/>
+	  <point x="242" y="-113" type="curve" smooth="yes"/>
+	  <point x="242" y="-173"/>
+	  <point x="289" y="-215"/>
+	  <point x="361" y="-215" type="curve" smooth="yes"/>
+	  <point x="390" y="-215"/>
+	  <point x="423" y="-209"/>
+	  <point x="442" y="-197" type="curve"/>
+	  <point x="426" y="-146" type="line"/>
+	  <point x="410" y="-156"/>
+	  <point x="388" y="-158"/>
+	  <point x="371" y="-158" type="curve" smooth="yes"/>
+	  <point x="334" y="-158"/>
+	  <point x="308" y="-137"/>
+	  <point x="308" y="-101" type="curve" smooth="yes"/>
+	  <point x="308" y="-63"/>
+	  <point x="345" y="-26"/>
+	  <point x="425" y="20" type="curve"/>
+	  <point x="379" y="40" type="line"/>
+	</contour>
+	<contour>
+	  <point x="379" y="40" type="move" name="_ogonek"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.Export</key>
+	  <false/>
+	</dict>
+  </lib>
+</glyph>

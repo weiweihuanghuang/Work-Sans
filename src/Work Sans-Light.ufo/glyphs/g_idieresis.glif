@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g_idieresis" format="1">
+  <advance width="679"/>
+  <outline>
+	<component base="g"/>
+	<component base="idieresis" xOffset="491"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.Export</key>
+	  <false/>
+	</dict>
+  </lib>
+</glyph>

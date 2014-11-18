@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex.cap" format="1">
+  <advance width="500"/>
+  <outline>
+	<component base="caron.cap" yOffset="1641" yScale="-1"/>
+	<contour>
+	  <point x="250" y="660" type="move" name="_top"/>
+	</contour>
+  </outline>
+</glyph>

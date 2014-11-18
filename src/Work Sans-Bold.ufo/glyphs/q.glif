@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="q" format="1">
+  <advance width="627"/>
+  <unicode hex="0071"/>
+  <outline>
+	<contour>
+	  <point x="386" y="500" type="line"/>
+	  <point x="378" y="338" type="line"/>
+	  <point x="358" y="281" type="line"/>
+	  <point x="358" y="-210" type="line"/>
+	  <point x="588" y="-210" type="line"/>
+	  <point x="588" y="281" type="line"/>
+	  <point x="588" y="500" type="line"/>
+	</contour>
+	<component base="bowl" xOffset="-55" yOffset="500" yScale="-1"/>
+  </outline>
+</glyph>

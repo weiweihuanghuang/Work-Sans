@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0C1D" format="1">
+  <advance width="1238"/>
+  <unicode hex="0C1D"/>
+  <outline>
+	<contour>
+	  <point x="1099" y="-8"/>
+	  <point x="1210" y="83"/>
+	  <point x="1210" y="262" type="curve" smooth="yes"/>
+	  <point x="1210" y="395"/>
+	  <point x="1114" y="507"/>
+	  <point x="1007" y="507" type="curve" smooth="yes"/>
+	  <point x="991" y="507"/>
+	  <point x="962" y="505"/>
+	  <point x="951" y="504" type="curve"/>
+	  <point x="951" y="406" type="line"/>
+	  <point x="991" y="407" type="line" smooth="yes"/>
+	  <point x="1044" y="409"/>
+	  <point x="1109" y="358"/>
+	  <point x="1109" y="255" type="curve" smooth="yes"/>
+	  <point x="1109" y="161"/>
+	  <point x="1047" y="104"/>
+	  <point x="991" y="104" type="curve" smooth="yes"/>
+	  <point x="944" y="104"/>
+	  <point x="885" y="118"/>
+	  <point x="862" y="231" type="curve"/>
+	  <point x="799" y="148" type="line"/>
+	  <point x="799" y="80"/>
+	  <point x="857" y="-8"/>
+	  <point x="979" y="-8" type="curve" smooth="yes"/>
+	</contour>
+	<component base="bot.dotmark" xOffset="504"/>
+	<component base="U0C0B.part" xOffset="-416" xScale="1.014"/>
+	<component base="U0C30"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>0</integer>
+	  <key>public.markColor</key>
+	  <string>0.85,0.26,0.06,1</string>
+	</dict>
+  </lib>
+</glyph>

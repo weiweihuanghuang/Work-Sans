@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcaron.ss02" format="1">
-  <advance width="440"/>
-  <outline>
-    <component base="l.ss02"/>
-    <component base="caron.alt" xOffset="268"/>
-  </outline>
-</glyph>
