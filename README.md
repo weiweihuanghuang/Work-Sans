@@ -11,7 +11,7 @@ Source files have been partly prepared for use in [Metapolator](http://www.metap
 
 The project started in June 2014 and the brief was to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014.
 
-The Telugu glyph set comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been cleaned up, the rest are originally from Ramabhadra.
+The Telugu glyph set comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been manually cleaned up, the rest are automatically cleaned up with FontForge from Ramabhadra.
 
 ## Preview
 
