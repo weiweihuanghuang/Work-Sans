@@ -41,7 +41,7 @@ html {
 @font-face {
     font-family: 'worksanssemibold';
     src: url('fonts/src/Test%20Fonts/WorkSans-Semibold.otf') format('opentype'),
-    	url('fonts/src/Test%20Fonts/WorkSans-Semibold.woff2') format('woff2');
+    	url('fonts/src/Test%20Fonts/WorkSans-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
 }
@@ -68,8 +68,8 @@ html {
 }
 @font-face {
     font-family: 'worksansextralight';
-    src: url('fonts/src/Test%20Fonts/WorkSans-ExtraLight.otf') format('opentype'),
-    	url('fonts/src/Test%20Fonts/WorkSans-Extralight.woff2') format('woff2');
+    src: url('fonts/src/Test%20Fonts/WorkSans-Extralight.otf') format('opentype'),
+    	url('fonts/src/Test%20Fonts/WorkSans-ExtraLight.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
 }
