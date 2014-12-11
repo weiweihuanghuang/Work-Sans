@@ -7,7 +7,7 @@ Work Sans is a superfamily based loosely on early Grotesques — i.e. [Stephenso
 
 Source files have been partly prepared for use in [Metapolator](http://www.metapolator.com). 
 
-*Note: UFOs are exported from Glyphs App and will currently not export properly due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked grey are brace/bracket glyphs*
+*Note: There are no UFOs as UFOs exported from Glyphs App will currently not generate in Robofont and so on due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked orange are bracket layers and glyphs marked yellow are using brace layers.*
 
 The project started in June 2014 and the brief was to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014.
 
