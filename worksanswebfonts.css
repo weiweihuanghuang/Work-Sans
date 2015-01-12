@@ -81,6 +81,17 @@ html {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'worksanshairline';
+    src: url('fonts/src/Fonts/WorkSans-Hairline.otf') format('opentype'),
+    	url('fonts/src/Fonts/WorkSans-Hairline.woff2') format('woff2');
+    font-weight: 50;
+    font-style: normal;
+}
+
+.worksanshairline {
+	font-family: 'worksanshairline';
+}
 .worksansthin {
 	font-family: 'worksansthin';
 }
@@ -108,7 +119,6 @@ html {
 .worksansblack {
 	font-family: 'worksansblack';
 }
-
 .fractions {
 	-moz-font-feature-settings:"frac" 1, "kern" 1; 
 	-moz-font-feature-settings:"frac=1, kern=1"; 
