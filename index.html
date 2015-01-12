@@ -3,12 +3,34 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Work Sans specimen</title>
 <link rel="stylesheet" type="text/css" href="worksanswebfonts.css">
-<script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script type="text/javascript">
   WebFont.load({
 	custom: {
 	  families: ['worksansthin', 'worksansextralight', 'worksanslight', 'worksansregular', 'worksansmedium', 'worksanssemibold', 'worksansbold', 'worksansextrabold', 'worksansblack']
 	}
   });
+</script>
+<script type="text/javascript">
+$(function() {
+    var aFontsWeightArray = new Array('worksansthin', 'worksansextralight', 'worksanslight', 'worksansregular', 'worksansmedium', 'worksanssemibold', 'worksansbold', 'worksansextrabold', 'worksansblack');
+    var aFontsWeightNameArray = new Array('Thin', 'Extra Light', 'Light', 'Regular', 'Medium', 'Semibold', 'Bold', 'Extra Bold', 'Black');
+    $('#slider').slider({
+        value: 7,
+        min: 0,
+        max: 8,
+        step: 1,
+        slide: function(event, ui) {
+            var sFontsWeightArray = aFontsWeightArray[ui.value];
+            var sFontsWeightNameArray = aFontsWeightNameArray[ui.value];
+            $('.thefontfamily').text(sFontsWeightNameArray);
+            $('#widetext').css('font-family', sFontsWeightArray);
+        }
+    });
+    $('.thefontfamily').text((aFontsWeightNameArray[$('#slider').slider('value')]));
+});
 </script>
 <style type="text/css" media="screen">
 body {
@@ -43,6 +65,10 @@ h1 {
 	font-weight: normal;
 }
 
+h1:first-child {
+	margin-top:1em;
+}
+
 header {
 	font-size: 96px;
 	margin-top:0.2em;
@@ -68,10 +94,6 @@ em {
 	font-style: normal;
 	font-weight: normal;
 }
-
-div#widetext { margin: 0 2% 20px; text-align: center }
-
-div#widetext span {text-align: center}
 
 div#bodytext { margin: 0 auto; line-height: 1.5em; }
 
@@ -198,14 +220,33 @@ a:active {
 .wf-fonta-n4-loading .bixtext, .wf-fontb-n4-loading .bixtext, .wf-fontc-n4-loading .bixtext, .wf-fontd-n4-loading .bixtext, .wf-fontd-n5-loading .bixtext,  .wf-fontd-n6-loading .bixtext, .wf-fontd-n7-loading .bixtext, .wf-fontd-n8-loading .bixtext,  .wf-fontd-n9-loading .bixtext, .wf-loading .bixtext {
 	visibility:hidden;
 }
+.ui-slider .ui-slider-handle { width: 10%; height:18px; top:-8px; margin-left: -5%; margin-right: -5%; border: none; background: #e6e6e6;}
+#slider {
+	width: 90%; 
+	margin: 1em auto; 
+	height: 4px; 
+	border: 0; 
+	background: #bbb
+}
+
+div#widetext { 
+	margin: 0 2%;
+	text-align: center;
+	font-family:'worksansextrabold';
+	font-size:72px;
+	line-height: 120%
+}
+
+div#widetext span {text-align: center}
+
 </style>
 </head>
 <body>
-
+<div id="slider"></div>
 <div id="widetext">
-<span style="font-family:'worksansblack';font-size:72px; line-height: 120%;">WORK SANS; HÄFTIGT £38. * života 47µF &c. großen €2.80 hafði służył 6'2" Zwłaszcza erősödő † vådeskud 360° sociálního „osiągnięć?” 1940 kjøtt * Office of ľubiša §4/a Øl kærtegn ¶ Skírðist @ AßEN * Paradís? <span class="fractions">1/2</span> ¡fill! E=m∙c² <span class="ss01">Abnegación</span> p. 756–757 « l’extrémité » äpäräpä…</span>
+WORK SANS <span class="thefontfamily">Black</span>; HÄFTIGT £38. * života 47µF &c. großen €2.80 hafði służył 6'2" Zwłaszcza erősödő † vådeskud 360° sociálního „osiągnięć?” 1940 kjøtt * Office of ľubiša §4/a Øl kærtegn ¶ Skírðist @ AßEN * Paradís? <span class="fractions">1/2</span> ¡fill! E=m∙c² <span class="ss01">Abnegación</span> p. 756–757 « l’extrémité » äpäräpä…<br>
 </div>
-
+<div class="bigtext"><h1><a href="https://github.com/weiweihuanghuang/Work-Sans/archive/v1.00.zip">Download Work Sans v1.00 (9 weights)</a></h1></div>
 <div id="bodytext">
 <p>“Work Sans” is a superfamily in progress based loosely on early Grotesques — i.e. <a href="https://www.flickr.com/photos/stewf/14444337254/">Stephenson Blake</a>, <a href="https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/">Miller & Richard</a> and <a href="https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up">Bauerschen Giesserei</a>. There will be 9 weights across 5 widths. The core of the fonts are designed for on-screen medium-sized text usage (14px-48px). The fonts closer to the extreme widths and weights are designed for display use. Features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
 <p>Work Sans covers Adobe Latin 3 and supports Afrikaans, Basque, Breton, Catalan, Croatian(Latin), Czech, Danish, Dutch, English, Estonian, Faroese, Finnish, French, Gaelic, Gagauz(Latin), German, Hungarian, Icelandic, Indonesian, Irish, Italian, Javanese(Latin), Latvian, Lithuanian, Malay(Latin), Moldovan(Latin), Kashubian, Norwegian, Polish, Portuguese, Romanian(Latin), Sami(Southern, Northern, Inari, and Lule), Serbian(Latin), Silesian, Slovak, Slovenian, Sorbian, Spanish, Swahili, Swedish, Turkish and Walloon.
