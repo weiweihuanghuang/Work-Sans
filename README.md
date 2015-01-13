@@ -13,6 +13,9 @@ The project started in June 2014 and the brief was to have a [minimum viable pro
 
 The Telugu glyph set comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been manually cleaned up, the rest are automatically cleaned up with FontForge from Ramabhadra.
 
+## Suggestion, Comments, Contributions
+If you spot any errors or have any suggestions for improvements please email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>. Otherwise you can fork this project and modify it too.
+
 ## To do
 - Windows rendering optimsation.
 - Extend the OpenType features.
