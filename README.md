@@ -3,7 +3,7 @@
 
 A SIL Open Font project titled 'Work Sans' (former working title 'Alice') for Latin and Telugu.
 
-Work Sans is a superfamily based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). There will be 9 weights across 5 widths. The core of the fonts are designed for on-screen medium-sized text usage (14px-48px). The fonts closer to the extreme widths and weights are designed for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
+Work Sans is a superfamily based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). There will be 9 weights across 5 widths. The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still very usable in print. The fonts closer to the extreme widths and weights are designed more for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
 
 Source files have been partly prepared for use in [Metapolator](http://www.metapolator.com). 
 
