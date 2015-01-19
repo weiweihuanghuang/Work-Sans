@@ -10,6 +10,12 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+19 January 2015 (Wei Huang) ‘Work Sans’ v1.02
+- (Minor) Fixed right side of bold 'J'
+- (Technical) Fixed incompatible glyphs for interpolation in .glyphs file
+- (Technical) Improved Hinting
+- (Technical) Synchronised vertical metrics following Google Fonts recommendations
+
 10 December 2014 (Wei Huang) ‘Work Sans’ v0.99
 - Completed kerning
 
