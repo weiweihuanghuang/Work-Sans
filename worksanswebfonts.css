@@ -19,72 +19,72 @@ html {
 }
 @font-face {
     font-family: 'worksansblack';
-    src: url('fonts/src/Fonts/WorkSans-Black.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Black.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Black.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansextrabold';
-    src: url('fonts/src/Fonts/WorkSans-Extrabold.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Extrabold.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Extrabold.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Extrabold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansbold';
-    src: url('fonts/src/Fonts/WorkSans-Bold.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Bold.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Bold.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksanssemibold';
-    src: url('fonts/src/Fonts/WorkSans-SemiBold.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-SemiBold.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-SemiBold.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansmedium';
-    src: url('fonts/src/Fonts/WorkSans-Medium.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Medium.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Medium.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansregular';
-    src: url('fonts/src/Fonts/WorkSans-Regular.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Regular.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Regular.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksanslight';
-    src: url('fonts/src/Fonts/WorkSans-Light.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Light.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Light.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansextralight';
-    src: url('fonts/src/Fonts/WorkSans-ExtraLight.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-ExtraLight.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-ExtraLight.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansthin';
-    src: url('fonts/src/Fonts/WorkSans-Thin.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Thin.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Thin.woff2') format('woff2'),
+    	url('fonts/src/Fonts/WorkSans-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'worksanshairline';
-    src: url('fonts/src/Fonts/WorkSans-Hairline.otf') format('opentype'),
-    	url('fonts/src/Fonts/WorkSans-Hairline.woff2') format('woff2');
+    src: url('fonts/src/Fonts/WorkSans-Hairline.woff2') format('woff2'),
+		url('fonts/src/Fonts/WorkSans-Hairline.woff') format('woff');
     font-weight: 50;
     font-style: normal;
 }
