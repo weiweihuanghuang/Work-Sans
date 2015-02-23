@@ -10,16 +10,26 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
-11 February 2015 (Wei Huang) ‘Work Sans’ v1.1
+23 February 2015 (Wei Huang) ‘Work Sans’ v1.05
+  
+  *** Updated source only, will generate broken fonts ***
+
+- Added small caps letters, numerals and punctuation with kerning
+- Added indices (numerals in circles)
+- Added square, circle and diamond shapes
+- Added superior and inferior punctuation
+- Updated Opentype feature code
+
+11 February 2015 (Wei Huang) ‘Work Sans’ v1.04
   
   *** Updated source only, will generate broken fonts ***
 
 - Added more superscript glyphs
 - Created inferior, numerator and denominator numerals
 - Kerning for little numerals
-- Minor design changes and glph harmonisation
+- Minor design changes and glyph harmonisation
 
-7 February 2015 (Wei Huang) ‘Work Sans’ v1.1
+7 February 2015 (Wei Huang) ‘Work Sans’ v1.03
   
   *** Updated source only, will generate broken fonts ***
 
