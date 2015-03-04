@@ -10,6 +10,20 @@ Basic Font Information
 
 To contribute to the project contact Wei Huang at wweeiihhuuaanngg@gmail.com 
 
+4 March 2015 (Wei Huang) ‘Work Sans’ v1.06
+
+  *** Updated source only ***
+
+- Deleted all kerning pairs smaller than 1
+- Fix color of numerals
+- Added arrows
+- Added c_t, s_t ligature
+- Added alt R, G
+- Added swashes
+- Added ornaments, symbols, dingbats
+- Fixed outline errors
+- Improved instances for family generation
+
 23 February 2015 (Wei Huang) ‘Work Sans’ v1.05
   
   *** Updated source only, will generate broken fonts ***
