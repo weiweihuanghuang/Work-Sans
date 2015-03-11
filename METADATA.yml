@@ -1,0 +1,21 @@
+---
+unified font repository version: "0.2"
+unified font repository url: https://github.com/raphaelbastide/Unified-Font-Repository/
+typeface family:
+  name: Work Sans
+  tags:
+  - sans-serif
+  - grotesque
+  repository url: https://github.com/weiweihuanghuang/Work-Sans
+  project url: http://weiweihuanghuang.github.io/Work-Sans/
+  tools:
+  - Glyphs App
+  - TTX
+  - FontForge
+  - ttfautohint
+  similar fonts:
+  - Akzizdenz Grotesk
+  - FF Bau
+  sample text:
+  - en_us: The quick brown fox jumps over the lazy dog
+...
