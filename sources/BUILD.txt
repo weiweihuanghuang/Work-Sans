@@ -22,8 +22,10 @@ You will need:
   https://github.com/behdad/fonttools/
 - sfnt2woff
   https://people.mozilla.org/~jkew/woff/
-- woff2
+- woff2_compress
   https://github.com/google/woff2
+
+Bram Stein has created homebrew formulas for the above tools @ https://github.com/bramstein/homebrew-webfonttools
 
 Once the TTFs have been generated, they need to processed with the generatefamily.sh script. To run this script, make sure the exported TTFs are in the same folder as the script. Open Terminal at the folder and enter:
 
@@ -34,6 +36,10 @@ This script will:
 1. Dumps the `GLYF` table of each TTF in the folder.
 2. Performs a find and replace using Python to set the ROUND_XY_TO_GRID[3] bit in composite glyphs in each generated TTX file.
 3. Recompiles TTFs from the edited TTX file.
-4. Runs ttfautohint and creates autohinted TTFs (with control-files for some weights that define custom hinting to correct autohinting mistakes when rendered in ClearType GDI).
+4. Runs ttfautohint and creates autohinted TTFs (with control-files for some weights that define custom hinting to correct autohinting mistakes when rendered in ClearType GDI which is commonly encountered in Firefox on Windows 7).
 
 [3] Setting the ROUND_XY_TO_GRID bit in composite glyphs causes components to be shifted by an integer pixel amount which preserves the hinted shape. This reduces file size so that ttfautohint does not need to rehint composite glyphs to create consistent rendering – especially important for glyphs such as super-/sub-script numerals and fractions which use components that are shifted.
+
+Converting to woff and woff2
+----------------------------
+sfnt2woff and woff2_compress are used to generate woff and woff2 fonts. Follow the resepective programs' instructions to do so.
