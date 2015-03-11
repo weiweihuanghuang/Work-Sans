@@ -1,0 +1,42 @@
+Q left 25 (-75, 10)
+Ccedilla left 17 (-50, 10)
+ccedilla left 22 (-50, 10)
+
+# Middle of g too thick
+g touch 36 yshift 0.375 @23,24 #bot of bot of top bowl
+g touch 40-43 yshift -0.375 @23,24 #top of mid-stroke
+g touch 59-64 yshift 0.25 @23,24 #bot of mid-stroke
+g touch 56,57,66,67 yshift -0.5 @23,24 #top of bot-stroke
+g touch 68 yshift -0.75 @23,24 #mid-point of top of bot-stroke
+gbreve touch 37 yshift 0.375 @23,24 #bot of bot of top bowl
+gbreve touch 51-54 yshift -0.375 @23,24 #top of mid-stroke
+gbreve touch 70-75 yshift 0.25 @23,24 #bot of mid-stroke
+gbreve touch 67,68,77,78 yshift -0.5 @23,24 #top of bot-stroke
+gbreve touch 79 yshift -0.75 @23,24 #mid-point of top of bot-stroke
+uni0123 touch 40 yshift 0.375 @23,24 #bot of bot of top bowl
+uni0123 touch 44-47 yshift -0.375 @23,24 #top of mid-stroke
+uni0123 touch 63-68 yshift 0.25 @23,24 #bot of mid-stroke
+uni0123 touch 60,61,70,71 yshift -0.5 @23,24 #top of bot-stroke
+uni0123 touch 72 yshift -0.75 @23,24 #mid-point of top of bot-stroke
+
+g touch 35-38 yshift 0.25 @21,22 #bot of bot of top bowl
+g touch 40-43 yshift -0.625 @21,22 #top of mid-stroke
+g touch 60-63 yshift -0.375 @21,22 #bot of mid-stroke
+g touch 56-59,64-68 yshift -0.5 @21,22 #top of bot-stroke
+gbreve touch 46-48 yshift 0.25 @21,22 #bot of bot of top bowl
+gbreve touch 51-54 yshift -0.625 @21,22 #top of mid-stroke
+gbreve touch 71-74 yshift -0.375 @21,22 #bot of mid-stroke
+gbreve touch 67-70,75-79 yshift -0.5 @21,22 #top of bot-stroke
+uni0123 touch 39-42 yshift 0.25 @21,22 #bot of bot of top bowl
+uni0123 touch 44-47 yshift -0.625 @21,22 #top of mid-stroke
+uni0123 touch 64-67 yshift -0.375 @21,22 #bot of mid-stroke
+uni0123 touch 60-63,68-72 yshift -0.5 @21,22 #top of bot-stroke
+
+# breve too short
+breve touch 5,6,10,11 yshift 1 @23,24
+gbreve touch 2,3,7,8 yshift 1 @23,24
+# accents too low
+breve touch 0-11 yshift 1 @21,22
+gbreve touch 0-11 yshift 1 @21,22
+uni0123 touch 0,1 yshift 1 @21,22
+uni0123 touch 0,1 yshift 1 @21,22

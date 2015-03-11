@@ -1,0 +1,39 @@
+Introduction
+------------
+I use Glyphs App to work on Work Sans. As stated in README.md I am not offering UFOs since the UFOs generated from Glyphs App will not interpolate properly due to using Glyphs App only features. If there is demand, in the future I may upload a compatible UFO set for interpolation.
+
+Generating Fonts
+----------------
+There are three sets of instances in Glyphs app, two that are named with font weights, the third named using its stem weights. The first set (10 weights from Hairline to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. The third were for testing.
+
+The OTFs generated with Glyphs App (Remove Overlap, Autohint) will be usable immediately in desktop applications.
+
+The TTFs (Remove Overlap) will need to be processed and hinted with ttfautohint.
+
+[1] http://www.glyphsapp.com/tutorials/vertical-metrics
+[2] https://code.google.com/p/googlefontdirectory/wiki/HowToGenerateWebNativeFonts
+
+Generating hinted TTFs
+----------------------
+You will need:
+- ttfautohint 
+  http://www.freetype.org/ttfautohint/
+- Fonttools/TTX
+  https://github.com/behdad/fonttools/
+- sfnt2woff
+  https://people.mozilla.org/~jkew/woff/
+- woff2
+  https://github.com/google/woff2
+
+Once the TTFs have been generated, they need to processed with the generatefamily.sh script. To run this script, make sure the exported TTFs are in the same folder as the script. Open Terminal at the folder and enter:
+
+sh generatefamily.sh
+
+This script will:
+
+1. Dumps the `GLYF` table of each TTF in the folder.
+2. Performs a find and replace using Python to set the ROUND_XY_TO_GRID[3] bit in composite glyphs in each generated TTX file.
+3. Recompiles TTFs from the edited TTX file.
+4. Runs ttfautohint and creates autohinted TTFs (with control-files for some weights that define custom hinting to correct autohinting mistakes when rendered in ClearType GDI).
+
+[3] Setting the ROUND_XY_TO_GRID bit in composite glyphs causes components to be shifted by an integer pixel amount which preserves the hinted shape. This reduces file size so that ttfautohint does not need to rehint composite glyphs to create consistent rendering – especially important for glyphs such as super-/sub-script numerals and fractions which use components that are shifted.

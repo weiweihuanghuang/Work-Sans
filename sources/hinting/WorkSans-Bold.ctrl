@@ -1,0 +1,45 @@
+Q left 25 (-75, 10)
+Ccedilla left 18 (-50, 10)
+ccedilla left 19 (-50, 10)
+
+a touch 15 yshift 0.25 @22
+aogonek touch 22 yshift 0.25 @22
+ae touch 51,59,60 yshift 0.625 @22
+
+e touch 23,24 yshift -0.675 @14
+e touch 26 yshift 0.375 @14
+ae touch 46,47 yshift -0.675 @14
+ae touch 50 yshift 0.375 @14
+
+g touch 37-38 yshift 0.375 @14
+g touch 0,44,45 yshift -0.75 @14
+g touch 63,64 yshift 0.5 @14
+gbreve touch 20-21 yshift 0.375 @14
+gbreve touch 27-29 yshift -0.75 @14
+gbreve touch 69,80 yshift 0.5 @14
+
+g touch 37-38 yshift 0.375 @21-22 # bot of bot of top bowl
+g touch 0,44,45 yshift -0.75 @21-22 # top of mid stroke
+g touch 62-65 yshift -0.75 @21-22 # bot of mid stroke
+g touch 58,68,69 yshift -0.5 @21-22 # top of bot stroke
+gbreve touch 20-21 yshift 0.375 @21-22
+gbreve touch 26-29 yshift -0.75 @21-22
+gbreve touch 69,70,79,80 yshift -0.75 @21-22
+gbreve touch 73-75 yshift -0.5 @21-22
+uni0123 touch 41,42 yshift 0.375 @21-22
+uni0123 touch 4,47-49 yshift -0.75 @21-22
+uni0123 touch 66-69 yshift -0.75 @21-22
+uni0123 touch 62,72,73 yshift -0.5 @21-22
+g_j.liga touch 50-51 yshift 0.375 @21-22
+g_j.liga touch 12,57,58 yshift -0.75 @21-22
+g_j.liga touch 89-92 yshift -0.75 @21-22
+g_j.liga touch 85,95,96 yshift -0.5 @21-22
+
+gbreve touch 0-13 yshift 1 @14-16
+breve touch 0-13 yshift 1 @14-16
+
+macron touch 0-3 yshift 1 @14-16,21,22
+#Euro touch 13,14,31,32 yshift 0.75 @17,18
+#Euro touch 15,16,29,30 yshift -0.125 @17,18
+#Euro touch 8,9,35,36 yshift -0.75 @17,18
+#Euro touch 6,7,37,38 yshift 0.125 @17,18

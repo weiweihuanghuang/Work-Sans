@@ -1,0 +1,14 @@
+Q left 25 (-75, 10)
+Ccedilla left 20 (-50, 10)
+ccedilla left 20 (-50, 10)
+gbreve touch 0-13 yshift 1 @15,16
+breve touch 0-13 yshift 1 @15,16
+macron touch 0-3 yshift 1 @15,16
+
+a touch 16 yshift 0.25 @25,26
+a touch 37 yshift -0.25 @25,26 # bot of mid stroke
+a touch 44 yshift -0.125 @25,26 # top of bot storke
+
+aogonek touch 21 yshift 0.25 @25,26
+aogonek touch 51 yshift -0.25 @25,26 # bot of mid stroke
+aogonek touch 58 yshift -0.125 @25,26 # top of bot storke
