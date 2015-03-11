@@ -4,6 +4,8 @@ A SIL Open Font project titled 'Work Sans' (former working title 'Alice') for La
 
 Work Sans is a superfamily based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still very usable in print. The fonts closer to the extreme widths and weights are designed more for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
 
+This typeface was funded by Google and will be available on Google Fonts shortly – many thanks to Dave Crossland for the commission.
+
 
 ## [Download v1.20 (OTF, TTF, WOFF, EOT)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.20.zip)
 
@@ -28,7 +30,7 @@ There is a Telugu glyph set (Work Sans-Telugu.glyphs) that comes from [Ramabhadr
 
 *Note: There are no UFOs as UFOs exported from Glyphs App will currently not generate in Robofont and so on due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked orange are bracket layers and glyphs marked yellow are using brace layers.*
 
-Refer to [BUILD.txt](/source/BUILD.txt) for documentation on my process for hinting and generating webfonts.
+Refer to [BUILD.txt](/sources/BUILD.txt) for documentation on my process for hinting and generating webfonts.
 
 
 ## License
