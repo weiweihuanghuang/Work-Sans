@@ -37,6 +37,10 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+13 March 2015 (Wei Huang) ‘Work Sans’ v1.21
+- Adjusted spacing and kerning for /quote* glyphs
+- Adjusted spacing for symbols
+
 11 March 2015 (Wei Huang) ‘Work Sans’ v1.2
 - Fixed more outline errors
 - Improved hinting
