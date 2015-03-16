@@ -37,6 +37,13 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+16 March 2015 (Wei Huang) 'Work Sans' v1.22
+- Edit symbols and shapes spacing
+- Added /ldot.ss02 /uni013C.ss02 /fl.ss02
+- Added /period.tf/comma.tf/colon.tf/semicolon.tf/space.tf
+- Fixed /S.swsh `swsh` code
+- Fixed /equal superior `swsh` code
+
 13 March 2015 (Wei Huang) ‘Work Sans’ v1.21
 - Adjusted spacing and kerning for /quote* glyphs
 - Adjusted spacing for symbols
