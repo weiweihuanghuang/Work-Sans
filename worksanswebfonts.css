@@ -19,72 +19,72 @@ html {
 }
 @font-face {
     font-family: 'worksansblack';
-    src: url('fonts/src/Fonts/WorkSans-Black.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Black.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Black.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansextrabold';
-    src: url('fonts/src/Fonts/WorkSans-Extrabold.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Extrabold.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Extrabold.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Extrabold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansbold';
-    src: url('fonts/src/Fonts/WorkSans-Bold.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Bold.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Bold.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksanssemibold';
-    src: url('fonts/src/Fonts/WorkSans-SemiBold.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-SemiBold.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-SemiBold.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansmedium';
-    src: url('fonts/src/Fonts/WorkSans-Medium.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Medium.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Medium.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansregular';
-    src: url('fonts/src/Fonts/WorkSans-Regular.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Regular.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Regular.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksanslight';
-    src: url('fonts/src/Fonts/WorkSans-Light.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Light.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Light.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansextralight';
-    src: url('fonts/src/Fonts/WorkSans-ExtraLight.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-ExtraLight.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-ExtraLight.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'worksansthin';
-    src: url('fonts/src/Fonts/WorkSans-Thin.woff2') format('woff2'),
-    	url('fonts/src/Fonts/WorkSans-Thin.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Thin.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'worksanshairline';
-    src: url('fonts/src/Fonts/WorkSans-Hairline.woff2') format('woff2'),
-		url('fonts/src/Fonts/WorkSans-Hairline.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Hairline.woff2') format('woff2'),
+		url('Work-Sans/fonts/webfonts/woff/WorkSans-Hairline.woff') format('woff');
     font-weight: 50;
     font-style: normal;
 }
@@ -135,14 +135,23 @@ html {
 	-webkit-font-feature-settings:"case" 1, "kern" 1; 
 	font-feature-settings:"case" 1, "kern" 1;
 }
+.cpsp {
+	-moz-font-feature-settings:"cpsp" 1, "kern" 1; 
+	-moz-font-feature-settings:"cpsp=1, kern=1"; 
+	-ms-font-feature-settings:"cpsp" 1, "kern" 1; 
+	-o-font-feature-settings:"cpsp" 1, "kern" 1; 
+	-webkit-font-feature-settings:"cpsp" 1, "kern" 1; 
+	font-feature-settings:"cpsp" 1, "kern" 1;
+}
 
 .dlig {
-	-moz-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "dlig"; 
 	-moz-font-feature-settings:"kern=1, liga=1, dlig=1"; 
-	-ms-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
-	-o-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
-	-webkit-font-feature-settings:"kern" 1, "liga" 1, "dlig" 1; 
-	font-feature-settings:"kern" 1, "liga" 1, "dlig" 1;
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "dlig"; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "dlig"; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "dlig"; 
+	font-feature-settings:"kern" 1, "liga" 1, "dlig";
+	font-variant-ligatures: discretionary-ligatures;
 }
 
 .nocalt {
@@ -179,4 +188,187 @@ html {
 	-o-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1; 
 	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1; 
 	font-feature-settings:"kern" 1, "liga" 1, "ss01" 1, "ss02" 1;
+}
+
+.ss03 {
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1; 
+	-moz-font-feature-settings:"kern=1, liga=1, ss03=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1; 
+	font-feature-settings:"kern" 1, "liga" 1, "ss03" 1;
+}
+
+.ss04 {
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1; 
+	-moz-font-feature-settings:"kern=1, liga=1, ss04=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1; 
+	font-feature-settings:"kern" 1, "liga" 1, "ss04" 1;
+}
+
+.ss05 {
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1; 
+	-moz-font-feature-settings:"kern=1, liga=1, ss05=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1; 
+	font-feature-settings:"kern" 1, "liga" 1, "ss05" 1;
+}
+
+.smallcaps {
+	-moz-font-feature-settings:"c2sc";
+	-moz-font-feature-settings:"c2sc=1";
+	-ms-font-feature-settings:"c2sc";
+	-o-font-feature-settings:"c2sc";
+	-webkit-font-feature-settings:"c2sc";
+	font-feature-settings:"c2sc";
+}
+
+.ss03c2sc {
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1, "c2sc"; 
+	-moz-font-feature-settings:"kern=1, liga=1, ss03=1, c2sc=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1, "c2sc"; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1, "c2sc"; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss03" 1, "c2sc"; 
+	font-feature-settings:"kern" 1, "liga" 1, "ss03" 1, "c2sc";
+}
+
+.ss04c2sc {
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1, "c2sc"; 
+	-moz-font-feature-settings:"kern=1, liga=1, ss04=1, c2sc=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1, "c2sc"; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1, "c2sc"; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss04" 1, "c2sc"; 
+	font-feature-settings:"kern" 1, "liga" 1, "ss04" 1, "c2sc";
+}
+
+.ss05c2sc {
+	-moz-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1, "c2sc"; 
+	-moz-font-feature-settings:"kern=1, liga=1, ss05=1, c2sc=1"; 
+	-ms-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1, "c2sc"; 
+	-o-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1, "c2sc"; 
+	-webkit-font-feature-settings:"kern" 1, "liga" 1, "ss05" 1, "c2sc"; 
+	font-feature-settings:"kern" 1, "liga" 1, "ss05" 1, "c2sc";
+}
+
+.superiors {
+	-moz-font-feature-settings:"sups";
+	-moz-font-feature-settings:"sups=1";
+	-ms-font-feature-settings:"sups";
+	-o-font-feature-settings:"sups";
+	-webkit-font-feature-settings:"sups";
+	font-feature-settings:"sups";
+	font-variant-position: sup;
+}
+
+.inferiors {
+	-moz-font-feature-settings:"subs";
+	-moz-font-feature-settings:"subs=1";
+	-ms-font-feature-settings:"subs";
+	-o-font-feature-settings:"subs";
+	-webkit-font-feature-settings:"subs";
+	font-feature-settings:"subs";
+	font-variant-position: sub;
+}
+
+.ordn {
+	-moz-font-feature-settings:"ordn";
+	-moz-font-feature-settings:"ordn=1";
+	-ms-font-feature-settings:"ordn";
+	-o-font-feature-settings:"ordn";
+	-webkit-font-feature-settings:"ordn";
+	font-feature-settings:"ordn";
+	font-variant-numeric: ordinal;
+}
+
+.nalt {
+	-moz-font-feature-settings:"nalt";
+	-moz-font-feature-settings:"nalt=1";
+	-ms-font-feature-settings:"nalt";
+	-o-font-feature-settings:"nalt";
+	-webkit-font-feature-settings:"nalt";
+	font-feature-settings:"nalt";
+}
+
+.szero {
+	-moz-font-feature-settings:"zero";
+	-moz-font-feature-settings:"zero=1";
+	-ms-font-feature-settings:"zero";
+	-o-font-feature-settings:"zero";
+	-webkit-font-feature-settings:"zero";
+	font-variant-numeric: slashed-zero
+}
+
+.tf {
+	-moz-font-feature-settings:"tnum";
+	-moz-font-feature-settings:"tnum=1";
+	-ms-font-feature-settings:"tnum";
+	-o-font-feature-settings:"tnum";
+	-webkit-font-feature-settings:"tnum";
+	font-variant-numeric: tabular-nums;
+}
+
+.of {
+	-moz-font-feature-settings:"onum";
+	-moz-font-feature-settings:"onum=1";
+	-ms-font-feature-settings:"onum";
+	-o-font-feature-settings:"onum";
+	-webkit-font-feature-settings:"onum";
+	font-variant-numeric: oldstyle-nums;
+}
+
+.tosf {
+	-moz-font-feature-settings:"onum", "tnum";
+	-moz-font-feature-settings:"onum=1, tnum=1";
+	-ms-font-feature-settings:"onum", "tnum";
+	-o-font-feature-settings:"onum", "tnum";
+	-webkit-font-feature-settings:"onum", "tnum";
+	font-variant-numeric: oldstyle-nums, oldstyle-nums;
+}
+
+.ornm {
+	-moz-font-feature-settings:"ornm" 1;
+	-moz-font-feature-settings:"ornm=1";
+	-ms-font-feature-settings:"ornm" 1;
+	-o-font-feature-settings:"ornm" 1;
+	-webkit-font-feature-settings:"ornm" 1;
+	font-variant-alternates: ornaments(1)
+}
+
+.titl {
+	-moz-font-feature-settings:"titl" 1;
+	-moz-font-feature-settings:"titl=1";
+	-ms-font-feature-settings:"titl" 1;
+	-o-font-feature-settings:"titl" 1;
+	-webkit-font-feature-settings:"titl" 1;
+	font-variant-caps: titling-caps;
+}
+
+.swsh {
+	-moz-font-feature-settings:"swsh" 1; 
+	-moz-font-feature-settings:"swsh=1"; 
+	-ms-font-feature-settings:"swsh" 1; 
+	-o-font-feature-settings:"swsh" 1; 
+	-webkit-font-feature-settings:"swsh" 1; 
+	font-feature-settings:"swsh" 1;
+}
+
+.swsh2 {
+	-moz-font-feature-settings:"swsh" 2; 
+	-moz-font-feature-settings:"swsh=2"; 
+	-ms-font-feature-settings:"swsh" 2; 
+	-o-font-feature-settings:"swsh" 2; 
+	-webkit-font-feature-settings:"swsh" 2; 
+	font-feature-settings:"swsh" 2;
+}
+
+.cswh {
+	-moz-font-feature-settings:"cswh" 1; 
+	-moz-font-feature-settings:"cswh=1"; 
+	-ms-font-feature-settings:"cswh" 1; 
+	-o-font-feature-settings:"cswh" 1; 
+	-webkit-font-feature-settings:"cswh" 1; 
+	font-feature-settings:"cswh" 1;
 }
