@@ -26,8 +26,8 @@ html {
 }
 @font-face {
     font-family: 'worksansextrabold';
-    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Extrabold.woff2') format('woff2'),
-    	url('Work-Sans/fonts/webfonts/woff/WorkSans-Extrabold.woff') format('woff');
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-ExtraBold.woff2') format('woff2'),
+    	url('Work-Sans/fonts/webfonts/woff/WorkSans-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
