@@ -6,9 +6,6 @@ from fontTools.ttx import makeOutputFileName
 
 inputTTF = sys.argv[1]
 
-# set the working directory for a shortcut
-# os.chdir('/Users/weihuang/Google Drive/Type Design/Google/Outputs/Test/Hinting')
-
 # open the source file and read it
 font = TTFont(inputTTF)
 extension = os.path.splitext(inputTTF)[1]
