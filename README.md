@@ -28,7 +28,7 @@ The project started in June 2014 and the brief was to have a [minimum viable pro
 
 There is a Telugu glyph set (Work Sans-Telugu.glyphs) that comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been manually cleaned up, the rest are automatically cleaned up with FontForge from Ramabhadra. The Latin glyphs in Work Sans-Telugu.glyphs are out of date.
 
-*Note: There are no UFOs as UFOs exported from Glyphs App will currently not generate in Robofont and so on due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked orange are bracket layers and glyphs marked yellow are using brace layers.*
+*Note: There are no UFOs as UFOs exported from Glyphs App will currently not generate in Robofont and so on due to using Glyphs 2 features '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked orange are bracket layers and glyphs marked yellow are using brace layers.*
 
 Refer to [BUILD.txt](/sources/BUILD.txt) for documentation on my process for hinting and generating webfonts.
 

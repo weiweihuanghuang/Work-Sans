@@ -1,10 +1,16 @@
 Introduction
 ------------
-I use Glyphs App to work on Work Sans. As stated in README.md I am not offering UFOs since the UFOs generated from Glyphs App will not interpolate properly due to using Glyphs App only features. If there is demand, in the future I may upload a compatible UFO set for interpolation.
+I use Glyphs App to work on Work Sans. As stated in README.md I am not offering UFOs since the UFOs generated from Glyphs 2 will not interpolate properly due to using Glyphs 2 only features. If there is demand, in the future I may upload a compatible UFO set for interpolation.
 
 Generating Fonts
 ----------------
-There are three sets of instances in Glyphs app, two that are named with font weights, the third named using its stem weights. The first set (10 weights from Hairline to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. The third were for testing.
+* * *
+
+The fonts must be generated from Glyphs 2, not Glyphs 1 as it is using features available only in Glyphs 2 to correct interpolation bumps. 
+
+* * *
+
+There are three sets of instances in the .glyphs file, two that are named with font weights, the third named using its stem weights. The first set (10 weights from Hairline to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. The third were for testing.
 
 The OTFs generated with Glyphs App (Remove Overlap, Autohint) will be usable immediately in desktop applications.
 
