@@ -16,7 +16,7 @@ if 'glyf' in font:
         if glyph.isComposite():
             glyph.expand(glyf)
             for component in  glyph.components:
-                component.flags = 0x4
+                component.flags |= 0x4
             glyph.compact(glyf)
 outputTTF = makeOutputFileName(inputTTF, '', extension)
 font.save(outputTTF)
