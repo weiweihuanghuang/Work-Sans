@@ -37,6 +37,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+18 May 2015 (Wei Huang) 'Work Sans' v1.25
+- Fixed alignment zone mistake.
+
 18 May 2015 (Wei Huang) 'Work Sans' v1.24
 - Improved Postscript hinting
 - Simplified alignment zones and stems
