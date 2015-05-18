@@ -7,7 +7,7 @@ Work Sans is a superfamily based loosely on early Grotesques — i.e. [Stephenso
 This typeface was funded by Google and will be available on Google Fonts shortly – many thanks to Dave Crossland for the commission.
 
 
-## [Download v1.23 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.23.zip)
+## [Download v1.24 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.24.zip)
 
 ## [View a webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
