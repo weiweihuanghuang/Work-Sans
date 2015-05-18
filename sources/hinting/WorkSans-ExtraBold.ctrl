@@ -12,6 +12,9 @@ g touch 60-63 yshift -0.5 @17,18
 gbreve touch 50-52 yshift 0.375 @17,18
 gbreve touch 14,57,58 yshift -0.75 @17,18
 gbreve touch 73-76 yshift -0.5 @17,18
+uni0123 touch 41-43 yshift 0.375 @17,18
+uni0123 touch 4,48,49 yshift -0.75 @17,18
+uni0123 touch 64-67 yshift -0.5 @17,18
 
 # Middle of g too thick
 g touch 38 yshift 0.375 @21,22

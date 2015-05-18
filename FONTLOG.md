@@ -37,6 +37,11 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+18 May 2015 (Wei Huang) 'Work Sans' v1.24
+- Improved Postscript hinting
+- Simplified alignment zones and stems
+- Fixed tittle in j for Thin master
+
 16 March 2015 (Wei Huang) 'Work Sans' v1.22
 - Edit symbols and shapes spacing
 - Added /ldot.ss02 /uni013C.ss02 /fl.ss02
