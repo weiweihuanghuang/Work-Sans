@@ -6,7 +6,7 @@ code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atild
 name = Uppercase;
 },
 {
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve H I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K L Lacute Lcaron Ldot Lslash M N Nacute Ncaron Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron S Sacute Scaron Germandbls T Tcaron U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W X Y Yacute Ydieresis Z Zacute Zcaron Zdotaccent uni0122 uni0136 uni013B uni0145 uni0156 uni015E uni0162 uni0218 uni021A E.swsh.001 Eacute.swsh.001 Ecaron.swsh.001 Ecircumflex.swsh.001 Edieresis.swsh.001 Edotaccent.swsh.001 Egrave.swsh.001 Emacron.swsh.001 M.swsh.001 R.swsh.001 Racute.swsh.001 Rcaron.swsh.001 uni0156.swsh.001 Iacute_J.loclNLD R.ss03 Racute.ss03 Rcaron.ss03 uni0156.ss03 G.ss04 Gbreve.ss04 uni0122.ss04 IJ.ss05 Iacute_J.loclNLD.ss05 A.swsh Aacute.swsh Abreve.swsh Acircumflex.swsh Adieresis.swsh Agrave.swsh Amacron.swsh Aogonek.swsh Atilde.swsh E.swsh Eacute.swsh Ecaron.swsh Ecircumflex.swsh Edieresis.swsh Edotaccent.swsh Egrave.swsh Emacron.swsh F.swsh L.swsh Lacute.swsh Lcaron.swsh uni013B.swsh Lslash.swsh M.swsh N.swsh Nacute.swsh Ncaron.swsh uni0145.swsh Ntilde.swsh R.swsh Racute.swsh Rcaron.swsh uni0156.swsh S.swsh Sacute.swsh Scaron.swsh uni015E.swsh uni0218.swsh T.swsh Tcaron.swsh uni0162.swsh uni021A.swsh W.swsh Udieresis.titl a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae b c cacute ccaron ccedilla d eth dcaron dcroat e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve h i idotless iacute icircumflex idieresis idotaccent igrave ij imacron iogonek j k l lacute lcaron ldot lslash m n nacute ncaron ntilde o oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe p thorn q r racute rcaron s sacute scaron germandbls longs t tcaron u uacute ucircumflex udieresis ugrave uhungarumlaut umacron uni0123 uni0137 uni013C uni0146 uni0157 uni015F uni0163 uni0219 uni021B uogonek uring v w x y yacute ydieresis z zacute zcaron zdotaccent germandbls.calt longs.component iacute_j.loclNLD g.ss01 gbreve.ss01 uni0123.ss01 l.ss02 lacute.ss02 lcaron.ss02 lslash.ss02 r.swsh racute.swsh rcaron.swsh uni0157.swsh t.swsh tcaron.swsh uni0163.swsh uni021B.swsh y.swsh yacute.swsh ydieresis.swsh c_t fi fl s_t longs_i longs_l longs_s longs_l.ss02 uni0122.sc uni0136.sc uni013B.sc uni0145.sc uni0156.sc uni015E.sc uni0218.sc uni0162.sc uni021A.sc a.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc d.sc eth.sc dcaron.sc dcroat.sc e.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc f.sc g.sc gbreve.sc h.sc i.sc iacute.sc iacute_j.loclNLD.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc ij.sc imacron.sc iogonek.sc j.sc k.sc l.sc lacute.sc lcaron.sc ldot.sc lslash.sc m.sc n.sc nacute.sc ncaron.sc ntilde.sc o.sc oacute.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc oslash.sc otilde.sc oe.sc p.sc thorn.sc q.sc r.sc racute.sc rcaron.sc s.sc sacute.sc scaron.sc germandbls.sc ij.sc.ss05 iacute_j.loclNLD.sc.ss05 t.sc tcaron.sc u.sc uacute.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc v.sc w.sc x.sc y.sc yacute.sc ydieresis.sc z.sc zacute.sc zcaron.sc zdotaccent.sc uni0156.sc.ss03 r.sc.ss03 racute.sc.ss03 rcaron.sc.ss03 uni0122.sc.ss04 g.sc.ss04 gbreve.sc.ss04 ordfeminine ordmasculine pi";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve H I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K L Lacute Lcaron Ldot Lslash M N Nacute Ncaron Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron S Sacute Scaron Germandbls T Tcaron U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W X Y Yacute Ydieresis Z Zacute Zcaron Zdotaccent uni0122 uni0136 uni013B uni0145 uni0156 uni015E uni0162 uni0218 uni021A E.swsh.001 Eacute.swsh.001 Ecaron.swsh.001 Ecircumflex.swsh.001 Edieresis.swsh.001 Edotaccent.swsh.001 Egrave.swsh.001 Emacron.swsh.001 M.swsh.001 R.swsh.001 Racute.swsh.001 Rcaron.swsh.001 uni0156.swsh.001 Iacute_J.loclNLD R.ss03 Racute.ss03 Rcaron.ss03 uni0156.ss03 G.ss04 Gbreve.ss04 uni0122.ss04 IJ.ss05 Iacute_J.loclNLD.ss05 A.swsh Aacute.swsh Abreve.swsh Acircumflex.swsh Adieresis.swsh Agrave.swsh Amacron.swsh Aogonek.swsh Atilde.swsh E.swsh Eacute.swsh Ecaron.swsh Ecircumflex.swsh Edieresis.swsh Edotaccent.swsh Egrave.swsh Emacron.swsh F.swsh L.swsh Lacute.swsh Lcaron.swsh uni013B.swsh Lslash.swsh M.swsh N.swsh Nacute.swsh Ncaron.swsh uni0145.swsh Ntilde.swsh R.swsh Racute.swsh Rcaron.swsh uni0156.swsh S.swsh Sacute.swsh Scaron.swsh uni015E.swsh uni0218.swsh T.swsh Tcaron.swsh uni0162.swsh uni021A.swsh W.swsh Adieresis.titl Odieresis.titl Udieresis.titl a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae b c cacute ccaron ccedilla d eth dcaron dcroat e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve h i idotless iacute icircumflex idieresis idotaccent igrave ij imacron iogonek j k l lacute lcaron ldot lslash m n nacute ncaron ntilde o oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe p thorn q r racute rcaron s sacute scaron germandbls longs t tcaron u uacute ucircumflex udieresis ugrave uhungarumlaut umacron uni0123 uni0137 uni013C uni0146 uni0157 uni015F uni0163 uni0219 uni021B uogonek uring v w x y yacute ydieresis z zacute zcaron zdotaccent germandbls.calt longs.component iacute_j.loclNLD g.ss01 gbreve.ss01 uni0123.ss01 l.ss02 lacute.ss02 lcaron.ss02 lslash.ss02 r.swsh racute.swsh rcaron.swsh uni0157.swsh t.swsh tcaron.swsh uni0163.swsh uni021B.swsh y.swsh yacute.swsh ydieresis.swsh c_t fi fl s_t longs_i longs_l longs_s longs_l.ss02 uni0122.sc uni0136.sc uni013B.sc uni0145.sc uni0156.sc uni015E.sc uni0218.sc uni0162.sc uni021A.sc a.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc b.sc c.sc cacute.sc ccaron.sc ccedilla.sc d.sc eth.sc dcaron.sc dcroat.sc e.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc f.sc g.sc gbreve.sc h.sc i.sc iacute.sc iacute_j.loclNLD.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc ij.sc imacron.sc iogonek.sc j.sc k.sc l.sc lacute.sc lcaron.sc ldot.sc lslash.sc m.sc n.sc nacute.sc ncaron.sc ntilde.sc o.sc oacute.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc oslash.sc otilde.sc oe.sc p.sc thorn.sc q.sc r.sc racute.sc rcaron.sc s.sc sacute.sc scaron.sc germandbls.sc ij.sc.ss05 iacute_j.loclNLD.sc.ss05 t.sc tcaron.sc u.sc uacute.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc v.sc w.sc x.sc y.sc yacute.sc ydieresis.sc z.sc zacute.sc zcaron.sc zdotaccent.sc uni0156.sc.ss03 r.sc.ss03 racute.sc.ss03 rcaron.sc.ss03 uni0122.sc.ss04 g.sc.ss04 gbreve.sc.ss04 ordfeminine ordmasculine pi";
 name = call;
 },
 {
@@ -37,7 +37,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-05-19 12:11:23 +0000";
+date = "2015-06-03 08:36:15 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -129453,7 +129453,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = weightClass;
-value = 100;
+value = "100";
 },
 {
 name = winDescent;
@@ -129510,7 +129510,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = weightClass;
-value = 200;
+value = "200";
 },
 {
 name = winDescent;
@@ -129594,8 +129594,7 @@ value = (
     "f_t.liga",
     "t_t.liga",
     "Adieresis.titl.001",
-    "Odieresis.titl.001",
-    uniF8FF
+    "Odieresis.titl.001"
 );
 },
 {
@@ -129653,8 +129652,7 @@ value = (
     "f_t.liga",
     "t_t.liga",
     "Adieresis.titl.001",
-    "Odieresis.titl.001",
-    uniF8FF
+    "Odieresis.titl.001"
 );
 },
 {
@@ -129706,8 +129704,7 @@ value = "930";
 name = "Remove Glyphs";
 value = (
     "Adieresis.titl.001",
-    "Odieresis.titl.001",
-    uniF8FF
+    "Odieresis.titl.001"
 );
 },
 {
@@ -129819,8 +129816,6 @@ value = "240";
 {
 name = "Remove Glyphs";
 value = (
-    "Adieresis.titl",
-    "Odieresis.titl",
     "uniF8FF.001"
 );
 },
@@ -129877,8 +129872,6 @@ value = "240";
 {
 name = "Remove Glyphs";
 value = (
-    "Adieresis.titl",
-    "Odieresis.titl",
     "uniF8FF.001"
 );
 }
@@ -129929,8 +129922,6 @@ value = "240";
 {
 name = "Remove Glyphs";
 value = (
-    "Adieresis.titl",
-    "Odieresis.titl",
     "uniF8FF.001"
 );
 }
@@ -130003,7 +129994,7 @@ active = 0;
 customParameters = (
 {
 name = weightClass;
-value = 100;
+value = "100";
 },
 {
 name = winAscent;
@@ -130061,7 +130052,7 @@ active = 0;
 customParameters = (
 {
 name = weightClass;
-value = 200;
+value = "200";
 },
 {
 name = winAscent;
@@ -130158,8 +130149,7 @@ value = (
     "f_t.liga",
     "t_t.liga",
     "Adieresis.titl.001",
-    "Odieresis.titl.001",
-    uniF8FF
+    "Odieresis.titl.001"
 );
 },
 {
@@ -130218,8 +130208,7 @@ value = (
     "f_t.liga",
     "t_t.liga",
     "Adieresis.titl.001",
-    "Odieresis.titl.001",
-    uniF8FF
+    "Odieresis.titl.001"
 );
 },
 {
@@ -130272,8 +130261,7 @@ value = "930";
 name = "Remove Glyphs";
 value = (
     "Adieresis.titl.001",
-    "Odieresis.titl.001",
-    uniF8FF
+    "Odieresis.titl.001"
 );
 },
 {
@@ -130375,8 +130363,6 @@ value = "930";
 {
 name = "Remove Glyphs";
 value = (
-    "Adieresis.titl",
-    "Odieresis.titl",
     "uniF8FF.001"
 );
 },
@@ -130428,8 +130414,6 @@ value = "930";
 {
 name = "Remove Glyphs";
 value = (
-    "Adieresis.titl",
-    "Odieresis.titl",
     "uniF8FF.001"
 );
 },
@@ -130481,8 +130465,6 @@ value = "930";
 {
 name = "Remove Glyphs";
 value = (
-    "Adieresis.titl",
-    "Odieresis.titl",
     "uniF8FF.001"
 );
 },
@@ -130495,66 +130477,6 @@ interpolationWeight = 230;
 interpolationWidth = 5;
 name = Black;
 weightClass = Heavy;
-},
-{
-active = 0;
-interpolationWeight = 16;
-interpolationWidth = 5;
-name = "16 Master";
-},
-{
-active = 0;
-interpolationWeight = 30;
-interpolationWidth = 5;
-name = "30";
-},
-{
-active = 0;
-interpolationWeight = 40.7364;
-interpolationWidth = 5;
-name = "41";
-},
-{
-active = 0;
-interpolationWeight = 57.4399;
-interpolationWidth = 5;
-name = "57";
-},
-{
-active = 0;
-interpolationWeight = 80;
-interpolationWidth = 5;
-name = "80";
-},
-{
-active = 0;
-interpolationWeight = 106.533;
-interpolationWidth = 5;
-name = "107";
-},
-{
-active = 0;
-interpolationWeight = 137.057;
-interpolationWidth = 5;
-name = "137";
-},
-{
-active = 0;
-interpolationWeight = 169.555;
-interpolationWidth = 5;
-name = "170";
-},
-{
-active = 0;
-interpolationWeight = 201.663;
-interpolationWidth = 5;
-name = "202";
-},
-{
-active = 0;
-interpolationWeight = 230;
-interpolationWidth = 5;
-name = "230";
 }
 );
 kerning = {
@@ -138160,5 +138082,5 @@ tH = 152;
 };
 };
 versionMajor = 1;
-versionMinor = 26;
+versionMinor = 27;
 }

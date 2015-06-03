@@ -37,6 +37,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+3 Jun 2015 (Wei Huang) 'Work Sans' v1.27
+- Fixed uniF8FF and .titl glyphs
+
 18 May 2015 (Wei Huang) 'Work Sans' v1.26
 - Improved Postscript hinting (for desktop fonts)
 
