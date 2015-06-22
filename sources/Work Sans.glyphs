@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+tj
+);
 classes = (
 {
 automatic = 1;
@@ -37,7 +40,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-06-03 08:36:15 +0000";
+date = "2015-06-22 13:46:11 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -35631,7 +35634,7 @@ unicode = 012F;
 },
 {
 glyphname = j;
-lastChange = "2015-05-19 12:11:16 +0000";
+lastChange = "2015-06-22 13:43:46 +0000";
 layers = (
 {
 associatedMasterId = "1C7CD022-87C7-4E11-B656-E47B18819458";
@@ -36048,8 +36051,8 @@ type = TopGhost;
 },
 {
 horizontal = 1;
-origin = "{1, 11}";
-target = "{1, 5}";
+origin = "{1, 5}";
+target = "{1, 11}";
 },
 {
 origin = "{0, 1}";
@@ -36083,18 +36086,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"106 598 OFFCURVE",
-"115 607 OFFCURVE",
-"115 620 CURVE SMOOTH",
-"115 633 OFFCURVE",
-"106 642 OFFCURVE",
-"93 642 CURVE SMOOTH",
 "80 642 OFFCURVE",
 "71 633 OFFCURVE",
 "71 620 CURVE SMOOTH",
 "71 607 OFFCURVE",
 "80 598 OFFCURVE",
-"93 598 CURVE SMOOTH"
+"93 598 CURVE SMOOTH",
+"106 598 OFFCURVE",
+"115 607 OFFCURVE",
+"115 620 CURVE SMOOTH",
+"115 633 OFFCURVE",
+"106 642 OFFCURVE",
+"93 642 CURVE SMOOTH"
 );
 }
 );
@@ -129442,6 +129445,10 @@ value = "760";
 {
 name = typoDescender;
 value = "240";
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 16;
@@ -129499,6 +129506,10 @@ value = "760";
 {
 name = typoDescender;
 value = "240";
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 30;
@@ -129556,6 +129567,10 @@ value = "760";
 {
 name = typoDescender;
 value = "240";
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 41;
@@ -129614,6 +129629,10 @@ name = "Rename Glyphs";
 value = (
     "uniF8FF.001=uniF8FF"
 );
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 57;
@@ -129672,6 +129691,10 @@ name = "Rename Glyphs";
 value = (
     "uniF8FF.001=uniF8FF"
 );
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 80;
@@ -129724,6 +129747,10 @@ name = "Rename Glyphs";
 value = (
     "uniF8FF.001=uniF8FF"
 );
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 107;
@@ -129772,6 +129799,10 @@ value = "760";
 {
 name = typoDescender;
 value = "240";
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 137;
@@ -129822,6 +129853,10 @@ value = (
 {
 name = "Rename Glyphs";
 value = "Adieresis.titl.001=Adieresis.titl, Odieresis.titl.001=Odieresis.titl";
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 170;
@@ -129874,6 +129909,10 @@ name = "Remove Glyphs";
 value = (
     "uniF8FF.001"
 );
+},
+{
+name = Autohint;
+value = "1";
 }
 );
 interpolationWeight = 202;
@@ -129924,6 +129963,10 @@ name = "Remove Glyphs";
 value = (
     "uniF8FF.001"
 );
+},
+{
+name = Autohint;
+value = 1;
 }
 );
 interpolationWeight = 230;
@@ -129982,6 +130025,14 @@ value = (
     "Odieresis.titl.001",
     "uniF8FF.001"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 16;
@@ -130040,6 +130091,14 @@ value = (
     "Odieresis.titl.001",
     "uniF8FF.001"
 );
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 30;
@@ -130098,6 +130157,14 @@ value = (
     "Odieresis.titl.001",
     "uniF8FF.001"
 );
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 41;
@@ -130157,6 +130224,14 @@ name = "Rename Glyphs";
 value = (
     "uniF8FF.001=uniF8FF"
 );
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 57;
@@ -130216,6 +130291,14 @@ name = "Rename Glyphs";
 value = (
     "uniF8FF.001=uniF8FF"
 );
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 80;
@@ -130269,6 +130352,14 @@ name = "Rename Glyphs";
 value = (
     "uniF8FF.001=uniF8FF"
 );
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 107;
@@ -130318,6 +130409,14 @@ value = (
     "Odieresis.titl.001",
     "uniF8FF.001"
 );
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 137;
@@ -130369,6 +130468,14 @@ value = (
 {
 name = "Rename Glyphs";
 value = "Adieresis.titl.001=Adieresis.titl, Odieresis.titl.001=Odieresis.titl";
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 170;
@@ -130420,6 +130527,14 @@ value = (
 {
 name = "Rename Glyphs";
 value = "Adieresis.titl.001=Adieresis.titl, Odieresis.titl.001=Odieresis.titl";
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 202;
@@ -130471,6 +130586,14 @@ value = (
 {
 name = "Rename Glyphs";
 value = "Adieresis.titl.001=Adieresis.titl, Odieresis.titl.001=Odieresis.titl";
+},
+{
+name = "Save as TrueType";
+value = "1";
+},
+{
+name = Autohint;
+value = "New Value";
 }
 );
 interpolationWeight = 230;
@@ -138082,5 +138205,5 @@ tH = 152;
 };
 };
 versionMajor = 1;
-versionMinor = 27;
+versionMinor = 28;
 }
