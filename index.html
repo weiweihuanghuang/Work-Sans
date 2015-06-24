@@ -4,16 +4,18 @@
 <meta name="description" content="Work Sans is a typeface based loosely on early Grotesques. The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still can be used in print well." />	
 <title>Work Sans specimen</title>
 <link rel="stylesheet" type="text/css" href="worksanswebfonts.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-<script type="text/javascript">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+<script>
   WebFont.load({
-	custom: {
-	  families: ['worksansthin', 'worksansextralight', 'worksanslight', 'worksansregular', 'worksansmedium', 'worksanssemibold', 'worksansbold', 'worksansextrabold', 'worksansblack']
-	}
+    google: {
+      families: ['worksanshairline', 'worksansthin', 'worksansextralight', 'worksanslight', 'worksansregular', 'worksansmedium', 'worksanssemibold', 'worksansbold', 'worksansextrabold', 'worksansblack']
+    }
   });
 </script>
+
 <script type="text/javascript">
 $(function() {
     var aFontsWeightArray = new Array('worksanshairline', 'worksansthin', 'worksansextralight', 'worksanslight', 'worksansregular', 'worksansmedium', 'worksanssemibold', 'worksansbold', 'worksansextrabold', 'worksansblack');
@@ -157,7 +159,17 @@ a:active {
 	font-family: 'worksansregular';
 	margin: 0 0 4px ;
 }
-.wf-fonta-n4-loading .bixtext, .wf-fontb-n4-loading .bixtext, .wf-fontc-n4-loading .bixtext, .wf-fontd-n4-loading .bixtext, .wf-fontd-n5-loading .bixtext,  .wf-fontd-n6-loading .bixtext, .wf-fontd-n7-loading .bixtext, .wf-fontd-n8-loading .bixtext,  .wf-fontd-n9-loading .bixtext, .wf-loading .bixtext {
+.wf-worksanshairline-n4-loading .bigtext,
+.wf-worksansthin-n4-loading .bigtext,
+.wf-worksansextralight-n4-loading .bigtext,
+.wf-worksanslight-n4-loading .bigtext,
+.wf-worksansregular-n4-loading .bigtext,
+.wf-worksansmedium-n4-loading .bigtext,
+.wf-worksanssemibold-n4-loading .bigtext,
+.wf-worksansbold-n4-loading .bigtext,
+.wf-worksansextrabold-n4-loading .bigtext,
+.wf-worksansblack-n4-loading .bigtext,
+.wf-loading .bixtext {
 	visibility:hidden;
 }
 .ui-slider .ui-slider-handle { width: 10%; height:18px; top:-8px; margin-left: -5%; margin-right: -5%; border: none; background: #e6e6e6;}
