@@ -1,6 +1,6 @@
 for i in *.ttf; do
-    python setflag.py "$i"
-    echo "Set flag for $i"
+    python process.py "$i"
+    echo "Processing $i"
 done
 
 for i in Hairline Thin; do

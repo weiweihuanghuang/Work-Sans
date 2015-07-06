@@ -1,6 +1,6 @@
 Introduction
 ------------
-I use Glyphs App to work on Work Sans. As stated in README.md I am not offering UFOs since the UFOs generated from Glyphs 2 will not interpolate properly due to using Glyphs 2 only features. If there is demand, in the future I may upload a compatible UFO set for interpolation.
+I use Glyphs App 2 to work on Work Sans. As stated in README.md I am not offering UFOs since the UFOs generated from Glyphs 2 will not interpolate properly due to using Glyphs 2 only features. If there is demand, in the future I may upload a compatible UFO set for interpolation.
 
 Generating Fonts
 ----------------
@@ -10,7 +10,7 @@ The fonts must be generated from Glyphs 2, not Glyphs 1 as it is using features 
 
 * * *
 
-There are three sets of instances in the .glyphs file, two that are named with font weights, the third named using its stem weights. The first set (10 weights from Hairline to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. When exporting fonts, export at the 'OTF' tab and check 'Remove Overlap' (hinting and format settings are already set in the Instances panel for each instance).
+There are two sets of instances in the .glyphs file. The first set (10 weights from Hairline to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. When exporting fonts, export at the 'OTF' tab and check 'Remove Overlap' (hinting and format settings are already set in the Instances panel for each instance).
 
 The OTFs generated with Glyphs App will be usable immediately in desktop applications.
 
@@ -39,10 +39,12 @@ sh generatefamily.sh
 
 This script will:
 
-1. Call fontTools in Python to set the ROUND_XY_TO_GRID [3] bit by changing the flags on components from "0x0" to "0x4".
-2. Runs ttfautohint and creates autohinted TTFs (with control-files for some weights that define custom hinting to correct autohinting mistakes when rendered in ClearType GDI which is commonly encountered in Firefox on Windows 7).
+1. Run a script which will call fontTools in Python to set the ROUND_XY_TO_GRID [3] bit by changing the flags on components from "0x0" to "0x4". It will then remove any NAME table IDs with a PlatformID="1" attribute [4].
+2. Run ttfautohint and creates autohinted TTFs (with control-files for some weights that define custom hinting to correct autohinting mistakes when rendered in ClearType GDI which is commonly encountered in Firefox on Windows 7).
 
 [3] Setting the ROUND_XY_TO_GRID bit in composite glyphs causes components to be shifted by an integer pixel amount which preserves the hinted shape. This reduces file size so that ttfautohint does not need to rehint composite glyphs to create consistent rendering – especially important for glyphs such as super-/sub-script numerals and fractions which use components that are shifted.
+
+[4] These IDs are needed for Mac OS 9 and are considered wasted space.
 
 Converting to woff and woff2
 ----------------------------

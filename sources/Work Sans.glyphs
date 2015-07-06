@@ -37,7 +37,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-07-06 16:28:27 +0000";
+date = "2015-07-06 18:08:35 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -130559,6 +130559,7 @@ value = (
 );
 interpolationWeight = 170;
 interpolationWidth = 5;
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -138292,5 +138293,5 @@ tH = 152;
 };
 };
 versionMajor = 1;
-versionMinor = 29;
+versionMinor = 30;
 }

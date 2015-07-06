@@ -11,7 +11,7 @@ The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web
 This typeface was funded by Google and will be available on Google Fonts shortly – many thanks to Dave Crossland for the commission.
 
 
-## [Download v1.29 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.29.zip)
+## [Download v1.30 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.30.zip)
 
 ## [View a webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
