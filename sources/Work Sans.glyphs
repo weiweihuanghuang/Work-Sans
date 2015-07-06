@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-tj
-);
 classes = (
 {
 automatic = 1;
@@ -40,7 +37,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-06-22 13:46:11 +0000";
+date = "2015-07-06 16:28:27 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -129449,6 +129446,11 @@ value = "240";
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 16;
@@ -129510,6 +129512,11 @@ value = "240";
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 30;
@@ -129571,6 +129578,11 @@ value = "240";
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 41;
@@ -129633,6 +129645,11 @@ value = (
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 57;
@@ -129695,6 +129712,11 @@ value = (
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 80;
@@ -129751,6 +129773,11 @@ value = (
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 107;
@@ -129803,6 +129830,11 @@ value = "240";
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 137;
@@ -129857,6 +129889,11 @@ value = "Adieresis.titl.001=Adieresis.titl, Odieresis.titl.001=Odieresis.titl";
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 170;
@@ -129913,6 +129950,11 @@ value = (
 {
 name = Autohint;
 value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 202;
@@ -129966,7 +130008,12 @@ value = (
 },
 {
 name = Autohint;
-value = 1;
+value = "1";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 230;
@@ -129975,7 +130022,6 @@ name = Black;
 weightClass = Heavy;
 },
 {
-active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -130028,11 +130074,16 @@ value = (
 },
 {
 name = "Save as TrueType";
-value = 1;
+value = "1";
 },
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 16;
@@ -130041,7 +130092,6 @@ name = Hairline;
 weightClass = Thin;
 },
 {
-active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -130099,6 +130149,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 30;
@@ -130107,7 +130162,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -130165,6 +130219,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 41;
@@ -130173,7 +130232,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130232,6 +130290,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 57;
@@ -130240,7 +130303,6 @@ name = Light;
 weightClass = Light;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130299,6 +130361,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 80;
@@ -130306,7 +130373,6 @@ interpolationWidth = 5;
 name = Regular;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130360,6 +130426,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 107;
@@ -130368,7 +130439,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130417,6 +130487,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 137;
@@ -130425,7 +130500,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130476,6 +130550,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 170;
@@ -130484,7 +130563,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130535,6 +130613,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 202;
@@ -130543,7 +130626,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -130594,6 +130676,11 @@ value = "1";
 {
 name = Autohint;
 value = "New Value";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 interpolationWeight = 230;
@@ -138205,5 +138292,5 @@ tH = 152;
 };
 };
 versionMajor = 1;
-versionMinor = 28;
+versionMinor = 29;
 }

@@ -37,6 +37,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+3 Jun 2015 (Wei Huang) 'Work Sans' v1.29
+- set fsType to 0
+
 3 Jun 2015 (Wei Huang) 'Work Sans' v1.28
 - Fixed tittle of /j
 
