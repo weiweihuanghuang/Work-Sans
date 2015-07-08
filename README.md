@@ -6,12 +6,12 @@ Work Sans is a typeface family based loosely on early Grotesques — i.e. [Steph
 
 The fonts under **/fonts/desktop** are OTF fonts for desktop programs such as the Adobe Suite or Office (Office fonts are only styled linked for Regular and Bold). The metrics are set so that they are more consistent across desktop programs.
 
-The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web use. They have been autohinted with ttfautohint and manually corrected (see Notes below).
+The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web use. They have been autohinted with ttfautohint and manually corrected (see Notes below). There are acutally two separate families here: ""Work Sans"" Thin to Black (9 weights as per CSS restrictions), and a separate familiy "Work Sans Hairline".
 
 This typeface was funded by Google and will be available on Google Fonts shortly – many thanks to Dave Crossland for the commission.
 
 
-## [Download v1.30 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.30.zip)
+## [Download v1.31 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.31.zip)
 
 ## [View a webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 

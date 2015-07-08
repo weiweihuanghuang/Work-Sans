@@ -3,9 +3,9 @@ for i in *.ttf; do
     echo "Processing $i"
 done
 
-for i in Hairline Thin; do
-    ttfautohint -n -w G -x 0 -f latn WorkSans-$i#1.ttf WorkSans-$i.ttf
-    echo "WorkSans-$i.ttf hinted"
+for i in WorkSansHairline-Regular WorkSans-Thin; do
+    ttfautohint -n -w G -x 0 -f latn $i#1.ttf $i.ttf
+    echo "$i.ttf hinted"
 done
 for i in ExtraLight Light Regular Medium SemiBold Bold ExtraBold Black ; do
     ttfautohint -n -w G -x 0 -f latn --control-file=hinting/WorkSans-$i.ctrl WorkSans-$i#1.ttf WorkSans-$i.ttf

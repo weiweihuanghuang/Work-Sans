@@ -37,7 +37,14 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-3 Jul 2015 (Wei Huang) 'Work Sans' v1.30
+8 Jul 2015 (Wei Huang) 'Work Sans' v1.31
+- Changed WorkSan-Hairline into a separate family to fit into CSS restrictions:
+- Rename name table id 6 from WorkSans-Hairline to WorkSansHairline-Regular
+- a usWeightClass of 400
+- Remove name tables 16 and 17
+- Added Panose <bWeight value="1"/>
+
+6 Jul 2015 (Wei Huang) 'Work Sans' v1.30
 - Added style linking for Bold in TTF
 - Removed any NAME table IDs with a PlatformID="1" attribute
 
