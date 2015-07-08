@@ -83,9 +83,9 @@ html {
 
 @font-face {
     font-family: 'worksanshairline';
-    src: url('Work-Sans/fonts/webfonts/woff2/WorkSans-Hairline.woff2') format('woff2'),
-		url('Work-Sans/fonts/webfonts/woff/WorkSans-Hairline.woff') format('woff');
-    font-weight: 50;
+    src: url('Work-Sans/fonts/webfonts/woff2/WorkSansHairline-Regular.woff2') format('woff2'),
+		url('Work-Sans/fonts/webfonts/woff/WorkSansHairline-Regular.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
 }
 
