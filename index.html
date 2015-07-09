@@ -8,13 +8,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
 
 <script type="text/javascript">
-WebFontConfig = {
+  WebFontConfig = {
 	custom: { families: ['worksanshairline', 'worksansthin', 'worksansextralight', 'worksanslight', 'worksansregular', 'worksansmedium', 'worksanssemibold', 'worksansbold', 'worksansextrabold', 'worksansblack'] }
-};
-</script>
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 
 <script type="text/javascript">
 $(function() {
@@ -35,6 +42,7 @@ $(function() {
     $('.thefontfamily').text((aFontsWeightNameArray[$('#slider').slider('value')]));
 });
 </script>
+
 <style type="text/css" media="screen">
 body {
 	background-color: #ffffff;
@@ -169,7 +177,9 @@ a:active {
 .wf-worksansbold-n4-loading .bigtext,
 .wf-worksansextrabold-n4-loading .bigtext,
 .wf-worksansblack-n4-loading .bigtext,
-.wf-loading .bixtext {
+.wf-loading .bigtext,
+.wf-loading #widetext,
+.wf-loading .thefontfamily {
 	visibility:hidden;
 }
 .ui-slider .ui-slider-handle { width: 10%; height:18px; top:-8px; margin-left: -5%; margin-right: -5%; border: none; background: #e6e6e6;}
