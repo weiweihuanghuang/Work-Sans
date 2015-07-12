@@ -37,6 +37,11 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+12 Jul 2015 (Wei Huang) 'Work Sans' v1.32
+- Changed usWeightClass to start at 250 by changing Thin, ExtraLight (in TTF) and Hairline (in OTF) as per https://github.com/weiweihuanghuang/Work-Sans/issues/13#issuecomment-119579341
+- Changed mid stroke of /S in Black master to balance counters
+- Added comments to hinting .ctrl files
+
 8 Jul 2015 (Wei Huang) 'Work Sans' v1.31
 - Changed WorkSan-Hairline into a separate family to fit into CSS restrictions:
 - Rename name table id 6 from WorkSans-Hairline to WorkSansHairline-Regular
