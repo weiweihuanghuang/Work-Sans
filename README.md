@@ -15,10 +15,12 @@ This typeface was funded by Google and will be available on Google Fonts shortly
 
 ## [View a webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
+
 <a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/waterfall.png)
 
 ![Screenshot of a test](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/preview.png)</a>
 
+## [Or print out a PDF specimen](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/Work-Sans-Print-Specimen.pdf).
 
 ## Suggestion, Comments, Contributions
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.
