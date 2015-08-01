@@ -2,25 +2,26 @@
 
 A SIL Open Font project titled 'Work Sans' (former working title 'Alice') for Latin.
 
-Work Sans is a typeface family based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still can be used in print well. The fonts closer to the extreme weights are designed more for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
+Work Sans is a 9 weight typeface family based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still can be used in print well. The fonts at the extreme weights are designed more for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
 
 The fonts under **/fonts/desktop** are OTF fonts for desktop programs such as the Adobe Suite or Office (Office fonts are only styled linked for Regular and Bold). The metrics are set so that they are more consistent across desktop programs.
 
-The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web use. They have been autohinted with ttfautohint and manually corrected (see Notes below). There are acutally two separate families here: ""Work Sans"" Thin to Black (9 weights as per CSS restrictions), and a separate familiy "Work Sans Hairline".
+The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web use. They have been autohinted with ttfautohint and manually corrected (see Notes below).
 
-This typeface was funded by Google and will be available on Google Fonts shortly – many thanks to Dave Crossland for the commission.
+This typeface was funded by Google and will are available on Google Fonts – many thanks to Dave Crossland for the commission.
 
+## [Work Sans at Google Fonts](https://www.google.com/fonts/specimen/Work+Sans)
 
-## [Download v1.32 (OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.32.zip)
+## [Download v1.40 (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.32.zip)
 
 ## [View a webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
+
+## [Print out a PDF specimen](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/Work-Sans-Print-Specimen.pdf).
 
 
 <a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/waterfall.png)
 
 ![Screenshot of a test](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/preview.png)</a>
-
-## [Or print out a PDF specimen](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/Work-Sans-Print-Specimen.pdf).
 
 ## Suggestion, Comments, Contributions
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.

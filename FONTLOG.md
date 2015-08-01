@@ -37,6 +37,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+12 Jul 2015 (Wei Huang) 'Work Sans' v1.40
+- Subsumed Hairline weight into Work Sans 9 weight family – according to Google Font engineers scheme. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. Reflow will occur from previous versions on these weights.
+
 12 Jul 2015 (Wei Huang) 'Work Sans' v1.32
 - Changed usWeightClass to start at 250 by changing Thin, ExtraLight (in TTF) and Hairline (in OTF) as per https://github.com/weiweihuanghuang/Work-Sans/issues/13#issuecomment-119579341
 - Changed mid stroke of /S in Black master to balance counters

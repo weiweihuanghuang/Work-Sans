@@ -10,7 +10,7 @@ The fonts must be generated from Glyphs 2, not Glyphs 1 as it is using features 
 
 * * *
 
-There are two sets of instances in the .glyphs file. The first set (10 weights from Hairline to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. When exporting fonts, export at the 'OTF' tab and check 'Remove Overlap' (hinting and format settings are already set in the Instances panel for each instance).
+There are two sets of instances in the .glyphs file. The first set (9 weights from Thin to Black) are for generating OTFs and follow Microsoft's recommendations for setting vertical metrics[1]. The second set are for generating TTFs for webfonts and follows Google Font's webfont recommendations[2]. When exporting fonts, export at the 'OTF' tab and check 'Remove Overlap' (hinting and format settings are already set in the Instances panel for each instance).
 
 The OTFs generated with Glyphs App will be usable immediately in desktop applications.
 

@@ -1,3 +1,5 @@
+# Weight 50
+
 # bottom of C- c- cedilla 
 Ccedilla left 19 (-50, 10)
 ccedilla left 19 (-50, 10)
@@ -34,12 +36,6 @@ s touch 12 yshift -0.125 @31-36 #bot
 uni015F touch 54 yshift 0.125 @31-36 #top
 uni015F touch 32 yshift -0.125 @31-36 #bot
 
-# middle of a too bold
-a touch 17 yshift -0.125 @29,30
-aogonek touch 23 yshift -0.125 @29,30
-
 # middle of a too light
-a touch 38 yshift -0.25 @31,32,35,36
-a touch 39 yshift -0.125 @33,34
-aogonek touch 54 yshift -0.25 @31,32,35,36
-aogonek touch 55 yshift -0.125 @33,34
+a touch 38 yshift -0.25 @35,36
+aogonek touch 54 yshift -0.25 @35,36
