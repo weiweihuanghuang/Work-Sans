@@ -16,6 +16,11 @@ html {
 	text-rendering: optimizeLegibility;
 	text-rendering: geometricPrecision;
 */
+	font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-o-font-feature-settings: "kern" on, "liga" on, "calt" on;
 }
 @font-face {
     font-family: 'worksansblack';
