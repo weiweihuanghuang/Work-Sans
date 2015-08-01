@@ -86,17 +86,6 @@ html {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'worksanshairline';
-    src: url('Work-Sans/fonts/webfonts/woff2/WorkSansHairline-Regular.woff2') format('woff2'),
-		url('Work-Sans/fonts/webfonts/woff/WorkSansHairline-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-.worksanshairline {
-	font-family: 'worksanshairline';
-}
 .worksansthin {
 	font-family: 'worksansthin';
 }
