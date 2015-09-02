@@ -10,18 +10,23 @@ The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web
 
 This typeface was funded by Google and will are available on Google Fonts – many thanks to Dave Crossland for the commission.
 
-## [Work Sans at Google Fonts](https://www.google.com/fonts/specimen/Work+Sans)
+### 10 weights → 9 weights
+Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google Fonts engineer's recommendations. 'Hairline' has been removed. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. **Reflow will occur from previous versions on these weights.**
 
-## [Download v1.40 (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.32.zip)
+## [Work Sans at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
 
-## [View a webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
+## [Or download v1.40 (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.32.zip)
 
-## [Print out a PDF specimen](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/Work-Sans-Print-Specimen.pdf).
+## [View the webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
+## [Print out the PDF specimen](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/Work-Sans-Print-Specimen.pdf).
 
 <a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/waterfall.png)
 
 ![Screenshot of a test](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/preview.png)</a>
+
+## Italics?
+I hope to create italics for Work Sans but currently do not have the time or budget unfortunately.
 
 ## Suggestion, Comments, Contributions
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.
