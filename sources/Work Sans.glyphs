@@ -2793,7 +2793,7 @@ unicode = 0116;
 },
 {
 glyphname = Egrave;
-lastChange = "2015-09-13 15:33:18 +0000";
+lastChange = "2015-09-13 16:58:18 +0000";
 layers = (
 {
 components = (
@@ -2801,9 +2801,8 @@ components = (
 name = E;
 },
 {
-disableAlignment = 1;
 name = gravecmb.cap;
-transform = "{1, 0, 0, 1, 104, 0}";
+transform = "{1, 0, 0, 1, 339, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
