@@ -165,7 +165,7 @@ code = "sub M.swsh by M.swsh.001;\012sub g by g.ss01;\012sub gbreve by gbreve.ss
 name = salt;
 },
 {
-code = "sub @Uppercase germandbls' @Uppercase by germandbls.calt;\012sub @Uppercase @Uppercase germandbls' by germandbls.calt;\012sub @Uppercase @cmb' by @cmbcap;";
+code = "sub @Uppercase germandbls' @Uppercase by germandbls.calt;\012sub @Uppercase @Uppercase germandbls' by germandbls.calt;\012sub @Uppercase @cmb' by @cmbcap;\012sub @asc @cmb' by @cmbcap;";
 name = calt;
 },
 {
@@ -21072,7 +21072,7 @@ unicode = 010F;
 {
 color = 1;
 glyphname = dcroat;
-lastChange = "2015-09-13 13:20:15 +0000";
+lastChange = "2015-09-13 14:56:38 +0000";
 layers = (
 {
 anchors = (
@@ -21138,6 +21138,16 @@ nodes = (
 width = 627;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{310, 0}";
+},
+{
+name = top;
+position = "{473, 730}";
+}
+);
 associatedMasterId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
 background = {
 components = (
@@ -22195,7 +22205,7 @@ unicode = 0066;
 {
 color = 1;
 glyphname = g;
-lastChange = "2015-09-13 13:25:41 +0000";
+lastChange = "2015-09-13 14:57:29 +0000";
 layers = (
 {
 anchors = (
@@ -22288,6 +22298,10 @@ width = 578;
 },
 {
 anchors = (
+{
+name = bottom;
+position = "{287, -210}";
+},
 {
 name = top;
 position = "{277, 500}";
