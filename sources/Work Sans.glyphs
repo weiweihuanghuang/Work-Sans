@@ -6594,7 +6594,7 @@ unicode = 00DE;
 {
 color = 1;
 glyphname = Q;
-lastChange = "2015-09-13 11:45:45 +0000";
+lastChange = "2015-09-15 08:39:50 +0000";
 layers = (
 {
 anchors = (
@@ -6701,6 +6701,16 @@ nodes = (
 width = 729;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{365, -210}";
+},
+{
+name = top;
+position = "{365, 660}";
+}
+);
 associatedMasterId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
 background = {
 components = (
@@ -28892,7 +28902,7 @@ unicode = 016F;
 {
 color = 1;
 glyphname = v;
-lastChange = "2015-09-13 13:41:06 +0000";
+lastChange = "2015-09-15 08:42:32 +0000";
 layers = (
 {
 anchors = (
@@ -28998,6 +29008,16 @@ nodes = (
 width = 588;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{294, 0}";
+},
+{
+name = top;
+position = "{294, 500}";
+}
+);
 associatedMasterId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
 background = {
 paths = (
@@ -29109,7 +29129,7 @@ unicode = 0076;
 {
 color = 1;
 glyphname = w;
-lastChange = "2015-09-13 13:42:01 +0000";
+lastChange = "2015-09-15 08:42:49 +0000";
 layers = (
 {
 anchors = (
@@ -29179,6 +29199,16 @@ nodes = (
 width = 856;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{471, 0}";
+},
+{
+name = top;
+position = "{471, 500}";
+}
+);
 associatedMasterId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
 background = {
 paths = (
@@ -45739,7 +45769,7 @@ leftKerningGroup = i.sc;
 {
 color = 1;
 glyphname = q.sc;
-lastChange = "2015-09-13 17:25:45 +0000";
+lastChange = "2015-09-15 08:43:16 +0000";
 layers = (
 {
 anchors = (
@@ -45836,6 +45866,16 @@ nodes = (
 width = 660;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{330, -210}";
+},
+{
+name = top;
+position = "{330, 560}";
+}
+);
 associatedMasterId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
 background = {
 components = (
