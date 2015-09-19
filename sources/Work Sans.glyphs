@@ -8581,13 +8581,13 @@ unicode = 1E9E;
 },
 {
 glyphname = T;
-lastChange = "2015-09-18 18:39:39 +0000";
+lastChange = "2015-09-19 11:05:46 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{318, 0}";
+position = "{302, 0}";
 },
 {
 name = bottomC;
@@ -8634,7 +8634,7 @@ width = 604;
 anchors = (
 {
 name = bottom;
-position = "{326, 0}";
+position = "{343, 0}";
 },
 {
 name = bottomC;
@@ -8681,7 +8681,7 @@ width = 686;
 anchors = (
 {
 name = bottom;
-position = "{276, 0}";
+position = "{272, 0}";
 },
 {
 name = bottomC;
@@ -10870,7 +10870,7 @@ unicode = 0218;
 },
 {
 glyphname = uni021A;
-lastChange = "2015-09-13 11:54:43 +0000";
+lastChange = "2015-09-23 18:47:27 +0000";
 layers = (
 {
 components = (
@@ -10878,8 +10878,9 @@ components = (
 name = T;
 },
 {
+disableAlignment = 1;
 name = commaaccent;
-transform = "{1, 0, 0, 1, 45, 0}";
+transform = "{1, 0, 0, 1, 318, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -10892,8 +10893,9 @@ components = (
 name = T;
 },
 {
+disableAlignment = 1;
 name = commaaccent;
-transform = "{1, 0, 0, 1, 84, 0}";
+transform = "{1, 0, 0, 1, 326, 0}";
 }
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
@@ -10908,6 +10910,7 @@ components = (
 name = T;
 },
 {
+disableAlignment = 1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 276, 0}";
 }
