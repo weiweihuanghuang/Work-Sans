@@ -26260,7 +26260,7 @@ unicode = 006B;
 },
 {
 glyphname = l;
-lastChange = "2015-09-19 20:34:46 +0000";
+lastChange = "2015-09-20 18:57:46 +0000";
 layers = (
 {
 anchors = (
@@ -26336,7 +26336,7 @@ position = "{278, 0}";
 },
 {
 name = top;
-position = "{144, 700}";
+position = "{144, 730}";
 },
 {
 name = topright;
@@ -26612,7 +26612,7 @@ unicode = 0140;
 },
 {
 glyphname = lslash;
-lastChange = "2015-09-19 20:35:25 +0000";
+lastChange = "2015-09-20 18:57:59 +0000";
 layers = (
 {
 anchors = (
@@ -26676,7 +26676,7 @@ position = "{317, 0}";
 },
 {
 name = top;
-position = "{183, 700}";
+position = "{183, 730}";
 },
 {
 name = topright;
@@ -34198,7 +34198,7 @@ rightMetricsKey = g.ss01;
 },
 {
 glyphname = l.ss02;
-lastChange = "2015-09-19 20:19:21 +0000";
+lastChange = "2015-09-20 18:58:25 +0000";
 layers = (
 {
 anchors = (
@@ -34254,7 +34254,7 @@ position = "{250, 10}";
 },
 {
 name = top;
-position = "{154, 700}";
+position = "{154, 730}";
 },
 {
 name = topright;
@@ -34553,7 +34553,7 @@ leftKerningGroup = h;
 },
 {
 glyphname = lslash.ss02;
-lastChange = "2015-09-19 20:31:04 +0000";
+lastChange = "2015-09-20 18:58:32 +0000";
 layers = (
 {
 anchors = (
@@ -34617,7 +34617,7 @@ position = "{280, 10}";
 },
 {
 name = top;
-position = "{182, 700}";
+position = "{182, 730}";
 },
 {
 name = topright;
