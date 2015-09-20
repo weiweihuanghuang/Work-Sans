@@ -35454,7 +35454,7 @@ width = 684;
 },
 {
 glyphname = t.swsh;
-lastChange = "2015-09-19 20:32:40 +0000";
+lastChange = "2015-09-20 19:20:40 +0000";
 layers = (
 {
 anchors = (
@@ -35473,6 +35473,10 @@ position = "{119, 281}";
 {
 name = ogonek;
 position = "{302, 9}";
+},
+{
+name = top;
+position = "{119, 730}";
 },
 {
 name = topright;
@@ -35540,6 +35544,10 @@ name = ogonek;
 position = "{373, 17}";
 },
 {
+name = top;
+position = "{171, 730}";
+},
+{
 name = topright;
 position = "{292, 767}";
 }
@@ -35603,6 +35611,10 @@ position = "{156, 250}";
 {
 name = ogonek;
 position = "{407, 10}";
+},
+{
+name = top;
+position = "{193, 730}";
 },
 {
 name = topright;
