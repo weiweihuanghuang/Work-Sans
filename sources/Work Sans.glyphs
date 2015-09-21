@@ -47442,15 +47442,9 @@ width = 944;
 },
 {
 glyphname = imacron.sc;
-lastChange = "2015-08-01 13:34:13 +0000";
+lastChange = "2015-09-21 08:10:54 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{371, 144}";
-}
-);
 components = (
 {
 name = i.sc;
@@ -47479,12 +47473,6 @@ name = Bold;
 width = 336;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{441, 144}";
-}
-);
 components = (
 {
 name = i.sc;
