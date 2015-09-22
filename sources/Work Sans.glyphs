@@ -43323,13 +43323,17 @@ rightKerningGroup = t.sc;
 },
 {
 glyphname = a.sc;
-lastChange = "2015-09-18 20:37:51 +0000";
+lastChange = "2015-09-22 09:04:58 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{297, 0}";
+},
+{
+name = bottomC;
+position = "{532, 0}";
 },
 {
 name = ogonek;
