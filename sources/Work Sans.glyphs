@@ -89301,7 +89301,7 @@ width = 0;
 },
 {
 glyphname = caroncmb.cap;
-lastChange = "2015-09-13 11:08:55 +0000";
+lastChange = "2015-09-25 07:39:26 +0000";
 layers = (
 {
 anchors = (
@@ -89341,13 +89341,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"48 876 LINE",
-"-6 807 LINE",
-"-60 876 LINE",
-"-221 876 LINE",
-"-113 709 LINE",
-"101 709 LINE",
-"209 876 LINE"
+"54 876 LINE",
+"0 807 LINE",
+"-54 876 LINE",
+"-215 876 LINE",
+"-107 709 LINE",
+"107 709 LINE",
+"215 876 LINE"
 );
 }
 );
