@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-/Lcaron.swsh
-);
 classes = (
 {
 automatic = 1;
@@ -89360,7 +89357,7 @@ width = 0;
 },
 {
 glyphname = hungarumlautcmb.cap;
-lastChange = "2015-09-13 15:27:19 +0000";
+lastChange = "2015-10-11 08:12:10 +0000";
 layers = (
 {
 anchors = (
@@ -89383,7 +89380,7 @@ transform = "{1, 0, 0, 1, -71, 0}";
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
 name = Light;
-width = 600;
+width = 0;
 },
 {
 anchors = (
@@ -89406,7 +89403,7 @@ transform = "{1, 0, 0, 1, -77, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 600;
+width = 0;
 },
 {
 anchors = (
@@ -89429,7 +89426,7 @@ transform = "{1, 0, 0, 1, -127, 0}";
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
 name = Bold;
-width = 600;
+width = 0;
 }
 );
 },
