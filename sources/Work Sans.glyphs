@@ -1,6 +1,8 @@
 {
 DisplayStrings = (
-"/acutecmb.cap  \U00C9\U00E9 /caroncmb.cap  /Ecaron/ecaron \012e\U00E8\U00E9/uhungarumlaut.sc \U00EA/ecaron \U00EB/emacron/edotaccent \012E\U00C8\U00C9/Ohungarumlaut \U00CA/Ecaron \U00CB/Emacron/Edotaccent \012\U00C1/Cacute \U00C9\U00CD/Lacute/Nacute \U00D3/Racute/Sacute \U00DA\U00DD/Zacute/Eacute.swsh.001/Racute.swsh.001/Iacute_J.loclNLD/Racute.ss03/Iacute_J.loclNLD.ss05/Aacute.swsh/Eacute.swsh/Lacute.swsh/Nacute.swsh  /Racute.swsh/Sacute.swsh/aacute.sc/cacute.sc/eacute.sc/iacute.sc/iacute_j.loclNLD.sc/lacute.sc/nacute.sc/oacute.sc/racute.sc/sacute.sc/uacute.sc/yacute.sc/zacute.sc/iacute_j.loclNLD.sc.ss05  \012/gravecmb.cap \U00C0\U00C8\U00CC\U00D2\U00D9/Egrave.swsh.001/Agrave.swsh/Egrave.swsh/agrave.sc/egrave.sc/igrave.sc/ograve.sc/ugrave.sc \012/hungarumlautcmb.cap  /Ohungarumlaut/Uhungarumlaut/ohungarumlaut.sc/uhungarumlaut.sc \012/caroncmb.cap/Ccaron/Dcaron/Ecaron/Ncaron/Rcaron/Scaron/Tcaron/Zcaron/Ecaron.swsh.001/Rcaron.swsh.001/Rcaron.ss03/Ecaron.swsh/Ncaron.swsh/Rcaron.swsh/Scaron.swsh/Tcaron.swsh/ccaron.sc/dcaron.sc/ecaron.sc/ncaron.sc/rcaron.sc/scaron.sc/tcaron.sc/zcaron.sc \012  /circumflexcmb.cap  \U00C2\U00CA\U00CE\U00D4\U00DB/Ecircumflex.swsh.001/Acircumflex.swsh/Ecircumflex.swsh/acircumflex.sc/ecircumflex.sc/icircumflex.sc/ocircumflex.sc/ucircumflex.sc \012\012\U00C0\U00CC\U00C8\U00C9\U00D2\U00D9/Uhungarumlaut/Ohungarumlaut \U00C8\U00CD/Iacute_J.loclNLD/lcaron.ss02 \012/Agrave.swsh/Egrave.swsh \012/agrave.sc/eacute.sc/iacute.sc/igrave.sc/ograve.sc/ohungarumlaut.sc/ugrave.sc/uhungarumlaut.sc/zcaron.sc \012"
+"/acutecmb.cap  \U00C9\U00E9 /caroncmb.cap  /Ecaron/ecaron \012e\U00E8\U00E9/uhungarumlaut.sc \U00EA/ecaron \U00EB/emacron/edotaccent \012E\U00C8\U00C9/Ohungarumlaut \U00CA/Ecaron \U00CB/Emacron/Edotaccent \012\U00C1/Cacute \U00C9\U00CD/Lacute/Nacute \U00D3/Racute/Sacute \U00DA\U00DD/Zacute/Eacute.swsh.001/Racute.swsh.001/Iacute_J.loclNLD/Racute.ss03/Iacute_J.loclNLD.ss05/Aacute.swsh/Eacute.swsh/Lacute.swsh/Nacute.swsh  /Racute.swsh/Sacute.swsh/aacute.sc/cacute.sc/eacute.sc/iacute.sc/iacute_j.loclNLD.sc/lacute.sc/nacute.sc/oacute.sc/racute.sc/sacute.sc/uacute.sc/yacute.sc/zacute.sc/iacute_j.loclNLD.sc.ss05  \012/gravecmb.cap \U00C0\U00C8\U00CC\U00D2\U00D9/Egrave.swsh.001/Agrave.swsh/Egrave.swsh/agrave.sc/egrave.sc/igrave.sc/ograve.sc/ugrave.sc \012/hungarumlautcmb.cap  /Ohungarumlaut/Uhungarumlaut/ohungarumlaut.sc/uhungarumlaut.sc \012/caroncmb.cap/Ccaron/Dcaron/Ecaron/Ncaron/Rcaron/Scaron/Tcaron/Zcaron/Ecaron.swsh.001/Rcaron.swsh.001/Rcaron.ss03/Ecaron.swsh/Ncaron.swsh/Rcaron.swsh/Scaron.swsh/Tcaron.swsh/ccaron.sc/dcaron.sc/ecaron.sc/ncaron.sc/rcaron.sc/scaron.sc/tcaron.sc/zcaron.sc \012  /circumflexcmb.cap  \U00C2\U00CA\U00CE\U00D4\U00DB/Ecircumflex.swsh.001/Acircumflex.swsh/Ecircumflex.swsh/acircumflex.sc/ecircumflex.sc/icircumflex.sc/ocircumflex.sc/ucircumflex.sc \012\012\U00C0\U00CC\U00C8\U00C9\U00D2\U00D9/Uhungarumlaut/Ohungarumlaut \U00C8\U00CD/Iacute_J.loclNLD/lcaron.ss02 \012/Agrave.swsh/Egrave.swsh \012/agrave.sc/eacute.sc/iacute.sc/igrave.sc/ograve.sc/ohungarumlaut.sc/ugrave.sc/uhungarumlaut.sc/zcaron.sc \012",
+"/gravecmb.asc    /acutecmb.asc    /hungarumlautcmb.asc    /circumflexcmb.asc    /caroncmb.asc    /gravecmb.cap    /acutecmb.cap    /hungarumlautcmb.cap    /circumflexcmb.cap    /caroncmb.cap",
+/E.swsh.001/Eacute.swsh.001/Ecaron.swsh.001/Ecircumflex.swsh.001/Edieresis.swsh.001/Edotaccent.swsh.001/Egrave.swsh.001/Emacron.swsh.001/M.swsh.001/R.swsh.001/Racute.swsh.001/Rcaron.swsh.001/uni0156.swsh.001/A.swsh/Aacute.swsh/Abreve.swsh/Acircumflex.swsh/Adieresis.swsh/Agrave.swsh/Amacron.swsh/Aogonek.swsh/Atilde.swsh/E.swsh/Eacute.swsh/Ecaron.swsh/Ecircumflex.swsh/Edieresis.swsh/Edotaccent.swsh/Egrave.swsh/Emacron.swsh/Eogonek.swsh/F.swsh/L.swsh/Lacute.swsh/Lcaron.swsh/uni013B.swsh/Lslash.swsh/M.swsh/N.swsh/Nacute.swsh/Ncaron.swsh/uni0145.swsh/Ntilde.swsh/R.swsh/Racute.swsh/Rcaron.swsh/uni0156.swsh/S.swsh/Sacute.swsh/Scaron.swsh/uni015E.swsh/uni0218.swsh/T.swsh/Tcaron.swsh/uni0162.swsh/uni021A.swsh/W.swsh/n.swsh/nacute.swsh/ncaron.swsh/uni0146.swsh/ntilde.swsh/r.swsh/racute.swsh/rcaron.swsh/uni0157.swsh/t.swsh/tcaron.swsh/uni0163.swsh/uni021B.swsh/y.swsh/yacute.swsh/ydieresis.swsh
 );
 classes = (
 {
@@ -248,6 +250,12 @@ alignmentZones = (
 );
 ascender = 730;
 capHeight = 660;
+customParameters = (
+{
+name = "Preview Ascender";
+value = "1000";
+}
+);
 descender = -210;
 guideLines = (
 {
@@ -298,6 +306,12 @@ alignmentZones = (
 );
 ascender = 730;
 capHeight = 660;
+customParameters = (
+{
+name = "Preview Ascender";
+value = "1000";
+}
+);
 descender = -210;
 guideLines = (
 {
@@ -355,6 +369,12 @@ alignmentZones = (
 );
 ascender = 700;
 capHeight = 660;
+customParameters = (
+{
+name = "Preview Ascender";
+value = "1000";
+}
+);
 descender = -210;
 guideLines = (
 {
@@ -15224,7 +15244,7 @@ rightKerningGroup = I;
 },
 {
 glyphname = A.swsh;
-lastChange = "2015-09-13 12:10:35 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 anchors = (
@@ -15293,21 +15313,21 @@ width = 874;
 anchors = (
 {
 name = bottom;
-position = "{540, 0}";
+position = "{575, 0}";
 },
 {
 name = ogonek;
-position = "{844, 0}";
+position = "{879, 0}";
 },
 {
 name = top;
-position = "{540, 660}";
+position = "{575, 660}";
 }
 );
 components = (
 {
 name = __swash_topleft;
-transform = "{1, 0, 0, 1, 10, 0}";
+transform = "{1, 0, 0, 1, 45, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -15316,41 +15336,41 @@ paths = (
 {
 closed = 1;
 nodes = (
-"240 -110 OFFCURVE",
-"299 -58 OFFCURVE",
-"336 42 CURVE SMOOTH",
-"509 495 LINE",
-"538 584 LINE",
-"540 584 LINE",
-"571 492 LINE",
-"759 0 LINE",
-"844 0 LINE",
-"588 660 LINE",
-"493 660 LINE",
-"273 95 LINE SMOOTH",
-"231 -12 OFFCURVE",
-"205 -40 OFFCURVE",
-"137 -40 CURVE SMOOTH",
-"72 -40 OFFCURVE",
-"35 -21 OFFCURVE",
-"23 65 CURVE",
-"-35 22 LINE",
-"-29 -60 OFFCURVE",
-"33 -110 OFFCURVE",
-"138 -110 CURVE SMOOTH"
+"275 -110 OFFCURVE",
+"334 -58 OFFCURVE",
+"371 42 CURVE SMOOTH",
+"544 495 LINE",
+"573 584 LINE",
+"575 584 LINE",
+"606 492 LINE",
+"794 0 LINE",
+"879 0 LINE",
+"623 660 LINE",
+"528 660 LINE",
+"308 95 LINE SMOOTH",
+"266 -12 OFFCURVE",
+"240 -40 OFFCURVE",
+"172 -40 CURVE SMOOTH",
+"107 -40 OFFCURVE",
+"70 -21 OFFCURVE",
+"58 65 CURVE",
+"0 22 LINE",
+"6 -60 OFFCURVE",
+"68 -110 OFFCURVE",
+"173 -110 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"715 183 LINE",
-"715 258 LINE",
-"362 258 LINE",
-"362 183 LINE"
+"750 183 LINE",
+"750 258 LINE",
+"397 258 LINE",
+"397 183 LINE"
 );
 }
 );
-width = 870;
+width = 905;
 },
 {
 anchors = (
@@ -15450,7 +15470,7 @@ width = 586;
 },
 {
 glyphname = Aacute.swsh;
-lastChange = "2015-09-13 11:04:46 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -15473,12 +15493,12 @@ name = A.swsh;
 },
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 540, 0}";
+transform = "{1, 0, 0, 1, 575, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -15498,7 +15518,7 @@ width = 919;
 },
 {
 glyphname = Abreve.swsh;
-lastChange = "2015-08-01 13:34:14 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -15521,12 +15541,12 @@ name = A.swsh;
 },
 {
 name = breve;
-transform = "{1, 0, 0, 1, 290, 160}";
+transform = "{1, 0, 0, 1, 325, 160}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -15546,7 +15566,7 @@ width = 919;
 },
 {
 glyphname = Acircumflex.swsh;
-lastChange = "2015-09-13 11:04:46 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -15569,12 +15589,12 @@ name = A.swsh;
 },
 {
 name = circumflexcmb.cap;
-transform = "{1, 0, 0, 1, 540, 0}";
+transform = "{1, 0, 0, 1, 575, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -15594,7 +15614,7 @@ width = 919;
 },
 {
 glyphname = Adieresis.swsh;
-lastChange = "2015-08-01 13:34:13 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -15617,12 +15637,12 @@ name = A.swsh;
 },
 {
 name = dieresis;
-transform = "{1, 0, 0, 1, 287, 160}";
+transform = "{1, 0, 0, 1, 322, 160}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -15642,7 +15662,7 @@ width = 919;
 },
 {
 glyphname = Agrave.swsh;
-lastChange = "2015-10-11 11:00:13 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 background = {
@@ -15811,7 +15831,7 @@ transform = "{1, 0, 0, 1, 530, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 background = {
@@ -15901,7 +15921,7 @@ width = 919;
 },
 {
 glyphname = Amacron.swsh;
-lastChange = "2015-08-01 13:34:13 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -15924,12 +15944,12 @@ name = A.swsh;
 },
 {
 name = macron;
-transform = "{1, 0, 0, 1, 290, 160}";
+transform = "{1, 0, 0, 1, 325, 160}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -15949,7 +15969,7 @@ width = 919;
 },
 {
 glyphname = Aogonek.swsh;
-lastChange = "2015-08-01 13:34:14 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -15972,12 +15992,12 @@ name = A.swsh;
 },
 {
 name = ogonek.A;
-transform = "{1, 0, 0, 1, 205, 0}";
+transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -15997,7 +16017,7 @@ width = 919;
 },
 {
 glyphname = Atilde.swsh;
-lastChange = "2015-08-01 13:34:13 +0000";
+lastChange = "2015-10-11 11:23:33 +0000";
 layers = (
 {
 components = (
@@ -16020,12 +16040,12 @@ name = A.swsh;
 },
 {
 name = tilde;
-transform = "{1, 0, 0, 1, 289, 160}";
+transform = "{1, 0, 0, 1, 324, 160}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 870;
+width = 905;
 },
 {
 components = (
@@ -17723,7 +17743,7 @@ width = 786;
 },
 {
 glyphname = N.swsh;
-lastChange = "2015-09-18 20:01:22 +0000";
+lastChange = "2015-10-11 11:24:26 +0000";
 layers = (
 {
 anchors = (
@@ -17790,7 +17810,7 @@ nodes = (
 );
 }
 );
-width = 873;
+width = 694;
 },
 {
 anchors = (
@@ -17857,7 +17877,7 @@ nodes = (
 );
 }
 );
-width = 915;
+width = 734;
 },
 {
 anchors = (
@@ -17961,7 +17981,7 @@ width = 694;
 },
 {
 glyphname = Nacute.swsh;
-lastChange = "2015-09-13 11:04:46 +0000";
+lastChange = "2015-10-11 11:24:26 +0000";
 layers = (
 {
 components = (
@@ -17975,7 +17995,7 @@ transform = "{1, 0, 0, 1, 353, 0}";
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
 name = Light;
-width = 873;
+width = 694;
 },
 {
 components = (
@@ -17989,7 +18009,7 @@ transform = "{1, 0, 0, 1, 371, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 915;
+width = 734;
 },
 {
 components = (
@@ -18009,7 +18029,7 @@ width = 746;
 },
 {
 glyphname = Ncaron.swsh;
-lastChange = "2015-09-13 11:04:46 +0000";
+lastChange = "2015-10-11 11:24:26 +0000";
 layers = (
 {
 components = (
@@ -18023,7 +18043,7 @@ transform = "{1, 0, 0, 1, 353, 0}";
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
 name = Light;
-width = 873;
+width = 694;
 },
 {
 components = (
@@ -18037,7 +18057,7 @@ transform = "{1, 0, 0, 1, 371, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 915;
+width = 734;
 },
 {
 components = (
@@ -18057,7 +18077,7 @@ width = 746;
 },
 {
 glyphname = uni0145.swsh;
-lastChange = "2015-10-11 11:05:39 +0000";
+lastChange = "2015-10-11 11:24:26 +0000";
 layers = (
 {
 components = (
@@ -18071,7 +18091,7 @@ transform = "{1, 0, 0, 1, 347, 0}";
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
 name = Light;
-width = 873;
+width = 694;
 },
 {
 components = (
@@ -18085,7 +18105,7 @@ transform = "{1, 0, 0, 1, 397, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 915;
+width = 734;
 },
 {
 components = (
@@ -18105,7 +18125,7 @@ width = 746;
 },
 {
 glyphname = Ntilde.swsh;
-lastChange = "2015-08-01 13:34:14 +0000";
+lastChange = "2015-10-11 11:24:26 +0000";
 layers = (
 {
 components = (
@@ -18119,7 +18139,7 @@ transform = "{1, 0, 0, 1, 102, 160}";
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
 name = Light;
-width = 873;
+width = 694;
 },
 {
 components = (
@@ -18133,7 +18153,7 @@ transform = "{1, 0, 0, 1, 120, 160}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 915;
+width = 734;
 },
 {
 components = (
@@ -28039,7 +28059,7 @@ unicode = 006C;
 },
 {
 glyphname = lacute;
-lastChange = "2015-10-11 11:07:52 +0000";
+lastChange = "2015-10-11 11:22:30 +0000";
 layers = (
 {
 background = {
@@ -91984,7 +92004,7 @@ unicode = 0328;
 {
 color = 6;
 glyphname = gravecmb.asc;
-lastChange = "2015-10-11 11:06:16 +0000";
+lastChange = "2015-10-11 11:19:38 +0000";
 layers = (
 {
 anchors = (
@@ -92109,7 +92129,7 @@ width = 0;
 {
 color = 6;
 glyphname = acutecmb.asc;
-lastChange = "2015-10-11 11:06:16 +0000";
+lastChange = "2015-10-11 11:19:37 +0000";
 layers = (
 {
 anchors = (
@@ -92323,7 +92343,7 @@ width = 0;
 {
 color = 6;
 glyphname = circumflexcmb.asc;
-lastChange = "2015-10-11 11:06:16 +0000";
+lastChange = "2015-10-11 11:17:11 +0000";
 layers = (
 {
 anchors = (
@@ -92373,23 +92393,6 @@ anchors = (
 {
 name = _top;
 position = "{0, 730}";
-}
-);
-components = (
-{
-name = circumflexcmb.cap;
-transform = "{1, 0, 0, 1, 0, 64}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"-36 800 LINE",
-"28 800 LINE",
-"89 930 LINE",
-"1 930 LINE"
-);
 }
 );
 };
