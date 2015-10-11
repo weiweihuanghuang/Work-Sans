@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+/Lcaron.swsh
+);
 classes = (
 {
 automatic = 1;
@@ -15609,7 +15612,7 @@ width = 738;
 },
 {
 glyphname = Lcaron.swsh;
-lastChange = "2015-09-13 11:04:46 +0000";
+lastChange = "2015-10-11 08:03:46 +0000";
 layers = (
 {
 components = (
@@ -15617,8 +15620,8 @@ components = (
 name = L.swsh;
 },
 {
-name = caroncmb.cap;
-transform = "{1, 0, 0, 1, 107, 0}";
+name = caron.alt;
+transform = "{1, 0, 0, 1, 171, -30}";
 }
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
@@ -15631,8 +15634,8 @@ components = (
 name = L.swsh;
 },
 {
-name = caroncmb.cap;
-transform = "{1, 0, 0, 1, 148, 0}";
+name = caron.alt;
+transform = "{1, 0, 0, 1, 211, -30}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -15645,8 +15648,8 @@ components = (
 name = L.swsh;
 },
 {
-name = caroncmb.cap;
-transform = "{1, 0, 0, 1, 166, 0}";
+name = caron.alt;
+transform = "{1, 0, 0, 1, 336, 1}";
 }
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
@@ -34393,7 +34396,7 @@ rightKerningGroup = d;
 },
 {
 glyphname = lcaron.ss02;
-lastChange = "2015-08-01 13:34:14 +0000";
+lastChange = "2015-10-11 08:03:35 +0000";
 layers = (
 {
 components = (
@@ -34408,7 +34411,7 @@ transform = "{1, 0, 0, 1, 166, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 280;
+width = 270;
 },
 {
 components = (
