@@ -22888,7 +22888,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2015-08-01 13:34:14 +0000";
+lastChange = "2015-10-11 09:51:15 +0000";
 layers = (
 {
 components = (
@@ -22903,7 +22903,7 @@ transform = "{1, 0, 0, 1, 524, 0}";
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
-width = 641;
+width = 630;
 },
 {
 components = (
@@ -47024,7 +47024,7 @@ rightKerningGroup = i.sc;
 },
 {
 glyphname = iacute_j.loclNLD.sc;
-lastChange = "2015-09-19 13:10:01 +0000";
+lastChange = "2015-10-11 09:52:25 +0000";
 layers = (
 {
 components = (
@@ -47059,7 +47059,7 @@ transform = "{1, 0, 0, 1, 268, 0}";
 },
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 136, -100}";
+transform = "{1, 0, 0, 1, 657, -100}";
 },
 {
 disableAlignment = 1;
@@ -89285,7 +89285,7 @@ width = 0;
 },
 {
 glyphname = acutecmb.cap;
-lastChange = "2015-10-11 08:14:38 +0000";
+lastChange = "2015-10-11 10:09:19 +0000";
 layers = (
 {
 anchors = (
@@ -89294,16 +89294,24 @@ name = _top;
 position = "{0, 660}";
 }
 );
+background = {
+components = (
+{
+name = acutecmb;
+transform = "{1, 0, 0, 1, 5, 160}";
+}
+);
+};
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 name = Regular;
 paths = (
 {
 closed = 1;
 nodes = (
-"-42 743 LINE",
-"23 743 LINE",
-"109 891 LINE",
-"15 891 LINE"
+"-43 743 LINE",
+"21 743 LINE",
+"107 902 LINE",
+"23 902 LINE"
 );
 }
 );
@@ -89361,6 +89369,29 @@ nodes = (
 "14 743 LINE",
 "92 891 LINE",
 "74 891 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 660}";
+}
+);
+associatedMasterId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
+layerId = "C032A63D-DFEB-454F-8AFB-208DB440416A";
+name = "Regular Oct 11 15, 12:07";
+paths = (
+{
+closed = 1;
+nodes = (
+"-42 743 LINE",
+"23 743 LINE",
+"109 891 LINE",
+"15 891 LINE"
 );
 }
 );
