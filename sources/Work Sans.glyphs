@@ -1,8 +1,7 @@
 {
 DisplayStrings = (
 "/acutecmb.cap  \U00C9\U00E9 /caroncmb.cap  /Ecaron/ecaron \012e\U00E8\U00E9/uhungarumlaut.sc \U00EA/ecaron \U00EB/emacron/edotaccent \012E\U00C8\U00C9/Ohungarumlaut \U00CA/Ecaron \U00CB/Emacron/Edotaccent \012\U00C1/Cacute \U00C9\U00CD/Lacute/Nacute \U00D3/Racute/Sacute \U00DA\U00DD/Zacute/Eacute.swsh.001/Racute.swsh.001/Iacute_J.loclNLD/Racute.ss03/Iacute_J.loclNLD.ss05/Aacute.swsh/Eacute.swsh/Lacute.swsh/Nacute.swsh  /Racute.swsh/Sacute.swsh/aacute.sc/cacute.sc/eacute.sc/iacute.sc/iacute_j.loclNLD.sc/lacute.sc/nacute.sc/oacute.sc/racute.sc/sacute.sc/uacute.sc/yacute.sc/zacute.sc/iacute_j.loclNLD.sc.ss05  \012/gravecmb.cap \U00C0\U00C8\U00CC\U00D2\U00D9/Egrave.swsh.001/Agrave.swsh/Egrave.swsh/agrave.sc/egrave.sc/igrave.sc/ograve.sc/ugrave.sc \012/hungarumlautcmb.cap  /Ohungarumlaut/Uhungarumlaut/ohungarumlaut.sc/uhungarumlaut.sc \012/caroncmb.cap/Ccaron/Dcaron/Ecaron/Ncaron/Rcaron/Scaron/Tcaron/Zcaron/Ecaron.swsh.001/Rcaron.swsh.001/Rcaron.ss03/Ecaron.swsh/Ncaron.swsh/Rcaron.swsh/Scaron.swsh/Tcaron.swsh/ccaron.sc/dcaron.sc/ecaron.sc/ncaron.sc/rcaron.sc/scaron.sc/tcaron.sc/zcaron.sc \012  /circumflexcmb.cap  \U00C2\U00CA\U00CE\U00D4\U00DB/Ecircumflex.swsh.001/Acircumflex.swsh/Ecircumflex.swsh/acircumflex.sc/ecircumflex.sc/icircumflex.sc/ocircumflex.sc/ucircumflex.sc \012\012\U00C0\U00CC\U00C8\U00C9\U00D2\U00D9/Uhungarumlaut/Ohungarumlaut \U00C8\U00CD/Iacute_J.loclNLD/lcaron.ss02 \012/Agrave.swsh/Egrave.swsh \012/agrave.sc/eacute.sc/iacute.sc/igrave.sc/ograve.sc/ohungarumlaut.sc/ugrave.sc/uhungarumlaut.sc/zcaron.sc \012",
-"/gravecmb.asc    /acutecmb.asc    /hungarumlautcmb.asc    /circumflexcmb.asc    /caroncmb.asc    /gravecmb.cap    /acutecmb.cap    /hungarumlautcmb.cap    /circumflexcmb.cap    /caroncmb.cap",
-/E.swsh.001/Eacute.swsh.001/Ecaron.swsh.001/Ecircumflex.swsh.001/Edieresis.swsh.001/Edotaccent.swsh.001/Egrave.swsh.001/Emacron.swsh.001/M.swsh.001/R.swsh.001/Racute.swsh.001/Rcaron.swsh.001/uni0156.swsh.001/A.swsh/Aacute.swsh/Abreve.swsh/Acircumflex.swsh/Adieresis.swsh/Agrave.swsh/Amacron.swsh/Aogonek.swsh/Atilde.swsh/E.swsh/Eacute.swsh/Ecaron.swsh/Ecircumflex.swsh/Edieresis.swsh/Edotaccent.swsh/Egrave.swsh/Emacron.swsh/Eogonek.swsh/F.swsh/L.swsh/Lacute.swsh/Lcaron.swsh/uni013B.swsh/Lslash.swsh/M.swsh/N.swsh/Nacute.swsh/Ncaron.swsh/uni0145.swsh/Ntilde.swsh/R.swsh/Racute.swsh/Rcaron.swsh/uni0156.swsh/S.swsh/Sacute.swsh/Scaron.swsh/uni015E.swsh/uni0218.swsh/T.swsh/Tcaron.swsh/uni0162.swsh/uni021A.swsh/W.swsh/n.swsh/nacute.swsh/ncaron.swsh/uni0146.swsh/ntilde.swsh/r.swsh/racute.swsh/rcaron.swsh/uni0157.swsh/t.swsh/tcaron.swsh/uni0163.swsh/uni021B.swsh/y.swsh/yacute.swsh/ydieresis.swsh
+"/gravecmb.cap  /gravecmb.asc    /acutecmb.asc    /hungarumlautcmb.asc    /circumflexcmb.asc   /acutecmb.asc   /caroncmb.asc   /caroncmb.cap    /gravecmb.cap    /acutecmb.cap    /hungarumlautcmb.cap    /circumflexcmb.cap    /caroncmb.cap"
 );
 classes = (
 {
@@ -92004,7 +92003,7 @@ unicode = 0328;
 {
 color = 6;
 glyphname = gravecmb.asc;
-lastChange = "2015-10-11 11:19:38 +0000";
+lastChange = "2015-10-11 11:30:07 +0000";
 layers = (
 {
 anchors = (
@@ -92032,19 +92031,14 @@ nodes = (
 }
 );
 };
-layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
-name = Light;
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-54 930 LINE",
-"-9 793 LINE",
-"5 793 LINE",
-"-38 930 LINE"
-);
+name = acutecmb.asc;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
+layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
+name = Light;
 width = 0;
 },
 {
@@ -92061,26 +92055,26 @@ name = _top;
 position = "{0, 730}";
 }
 );
-components = (
-{
-name = gravecmb.cap;
-transform = "{1, 0, 0, 1, -15, 57}";
-}
-);
-};
-layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
-name = Regular;
 paths = (
 {
 closed = 1;
 nodes = (
-"-99 930 LINE",
+"-111 930 LINE",
 "-38 800 LINE",
-"26 800 LINE",
-"-11 930 LINE"
+"24 800 LINE",
+"-28 930 LINE"
 );
 }
 );
+};
+components = (
+{
+name = acutecmb.asc;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
+name = Regular;
 width = 0;
 },
 {
@@ -92109,19 +92103,14 @@ nodes = (
 }
 );
 };
-layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
-name = Bold;
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-176 913 LINE",
-"-85 746 LINE",
-"78 746 LINE",
-"20 913 LINE"
-);
+name = acutecmb.asc;
+transform = "{-1, 0, 0, 1, 7, 0}";
 }
 );
+layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
+name = Bold;
 width = 0;
 }
 );
@@ -92129,7 +92118,7 @@ width = 0;
 {
 color = 6;
 glyphname = acutecmb.asc;
-lastChange = "2015-10-11 11:19:37 +0000";
+lastChange = "2015-10-11 11:29:28 +0000";
 layers = (
 {
 anchors = (
@@ -92138,13 +92127,13 @@ name = _top;
 position = "{0, 730}";
 }
 );
-guideLines = (
+background = {
+anchors = (
 {
-position = "{-5, 793}";
+name = _top;
+position = "{0, 730}";
 }
 );
-layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -92156,6 +92145,25 @@ nodes = (
 );
 }
 );
+};
+guideLines = (
+{
+position = "{-5, 793}";
+}
+);
+layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
+name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"74 930 LINE",
+"58 930 LINE",
+"-5 793 LINE",
+"9 793 LINE"
+);
+}
+);
 width = 0;
 },
 {
@@ -92165,8 +92173,13 @@ name = _top;
 position = "{0, 730}";
 }
 );
-layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
-name = Regular;
+background = {
+anchors = (
+{
+name = _top;
+position = "{0, 730}";
+}
+);
 paths = (
 {
 closed = 1;
@@ -92175,6 +92188,20 @@ nodes = (
 "28 800 LINE",
 "89 930 LINE",
 "1 930 LINE"
+);
+}
+);
+};
+layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"-24 800 LINE",
+"38 800 LINE",
+"111 930 LINE",
+"28 930 LINE"
 );
 }
 );
@@ -92447,7 +92474,7 @@ width = 0;
 {
 color = 6;
 glyphname = caroncmb.asc;
-lastChange = "2015-10-11 11:06:16 +0000";
+lastChange = "2015-10-11 11:26:40 +0000";
 layers = (
 {
 anchors = (
@@ -92514,12 +92541,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"60 930 LINE",
-"0 852 LINE",
-"-60 930 LINE",
+"62 930 LINE",
+"0 849 LINE",
+"-62 930 LINE",
 "-133 930 LINE",
-"-49 800 LINE",
-"49 800 LINE",
+"-50 800 LINE",
+"50 800 LINE",
 "133 930 LINE"
 );
 }
