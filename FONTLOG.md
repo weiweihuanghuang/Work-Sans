@@ -1,25 +1,22 @@
-FONTLOG for Work Sans
----------------------
+FONTLOG for Aozone Sans
+-----------------------
 
-This file provides detailed information on the Work Sans font software.
-This information should be distributed along with the Work Sans fonts
+This file provides detailed information on the Aozone Sans font software.
+This information should be distributed along with the Aozone Sans fonts
 and any derivative works.
 
 
 Basic Font Information
 ----------------------
 
-‘Work Sans’ fonts are a set of fonts supporting Latin. They are designed for body text and display text on for on-screen reading.
+‘Aozone Sans’ fonts are a set of fonts supporting Latin. They are based on '[Work Sans](https://github.com/weiweihuanghuang/Work-Sans)'. The only difference is the detached ring in /Aring.
 
 *Note: There are no UFOs as UFOs exported from Glyphs App will currently not generate in Robofont and so on due to using '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked orange are bracket layers and glyphs marked yellow are using brace layers.*
-
-There is a Telugu glyph set (Work Sans-Telugu.glyphs) that comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been manually cleaned up, the rest are automatically cleaned up with FontForge from Ramabhadra. The Latin glyphs in Work Sans-Telugu.glyphs are out of date.
-
 
 Information for Contributors
 ----------------------------
 
-Work Sans is released under the OFL 1.1 - http://scripts.sil.org/OFL
+Aozone Sans is released under the OFL 1.1 - http://scripts.sil.org/OFL
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
@@ -36,6 +33,11 @@ ChangeLog
 
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
+
+18 Oct 2015 (Wei Huang) 'Aozone Sans' v1.40
+- Default /Aring now has detached ring
+- Moved old /Aring to /Aring.ss06
+- Renamed to 'AOzone Sans'
 
 12 Jul 2015 (Wei Huang) 'Work Sans' v1.40
 - Subsumed Hairline weight into Work Sans 9 weight family – according to Google Font engineers scheme. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. Reflow will occur from previous versions on these weights.
