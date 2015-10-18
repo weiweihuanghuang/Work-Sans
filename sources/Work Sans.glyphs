@@ -61,7 +61,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-08-01 13:10:48 +0000";
+date = "2015-10-11 11:36:24 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -106592,5 +106592,5 @@ tH = 152;
 };
 };
 versionMajor = 1;
-versionMinor = 400;
+versionMinor = 500;
 }
