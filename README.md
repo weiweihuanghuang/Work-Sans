@@ -15,7 +15,7 @@ Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google
 
 ## [Work Sans at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
 
-## [Or download v1.40 (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.32.zip)
+## [Or download v1.50 (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.50.zip)
 
 ## [View the webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
@@ -24,9 +24,6 @@ Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google
 <a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/waterfall.png)
 
 ![Screenshot of a test](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/preview.png)</a>
-
-## Italics?
-I hope to create italics for Work Sans but currently do not have the time or budget unfortunately.
 
 ## Suggestion, Comments, Contributions
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.

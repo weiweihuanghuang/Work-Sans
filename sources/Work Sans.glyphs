@@ -1,7 +1,6 @@
 {
 DisplayStrings = (
-"/acutecmb.cap  \U00C9\U00E9 /caroncmb.cap  /Ecaron/ecaron \012e\U00E8\U00E9/uhungarumlaut.sc \U00EA/ecaron \U00EB/emacron/edotaccent \012E\U00C8\U00C9/Ohungarumlaut \U00CA/Ecaron \U00CB/Emacron/Edotaccent \012\U00C1/Cacute \U00C9\U00CD/Lacute/Nacute \U00D3/Racute/Sacute \U00DA\U00DD/Zacute/Eacute.swsh.001/Racute.swsh.001/Iacute_J.loclNLD/Racute.ss03/Iacute_J.loclNLD.ss05/Aacute.swsh/Eacute.swsh/Lacute.swsh/Nacute.swsh  /Racute.swsh/Sacute.swsh/aacute.sc/cacute.sc/eacute.sc/iacute.sc/iacute_j.loclNLD.sc/lacute.sc/nacute.sc/oacute.sc/racute.sc/sacute.sc/uacute.sc/yacute.sc/zacute.sc/iacute_j.loclNLD.sc.ss05  \012/gravecmb.cap \U00C0\U00C8\U00CC\U00D2\U00D9/Egrave.swsh.001/Agrave.swsh/Egrave.swsh/agrave.sc/egrave.sc/igrave.sc/ograve.sc/ugrave.sc \012/hungarumlautcmb.cap  /Ohungarumlaut/Uhungarumlaut/ohungarumlaut.sc/uhungarumlaut.sc \012/caroncmb.cap/Ccaron/Dcaron/Ecaron/Ncaron/Rcaron/Scaron/Tcaron/Zcaron/Ecaron.swsh.001/Rcaron.swsh.001/Rcaron.ss03/Ecaron.swsh/Ncaron.swsh/Rcaron.swsh/Scaron.swsh/Tcaron.swsh/ccaron.sc/dcaron.sc/ecaron.sc/ncaron.sc/rcaron.sc/scaron.sc/tcaron.sc/zcaron.sc \012  /circumflexcmb.cap  \U00C2\U00CA\U00CE\U00D4\U00DB/Ecircumflex.swsh.001/Acircumflex.swsh/Ecircumflex.swsh/acircumflex.sc/ecircumflex.sc/icircumflex.sc/ocircumflex.sc/ucircumflex.sc \012\012\U00C0\U00CC\U00C8\U00C9\U00D2\U00D9/Uhungarumlaut/Ohungarumlaut \U00C8\U00CD/Iacute_J.loclNLD/lcaron.ss02 \012/Agrave.swsh/Egrave.swsh \012/agrave.sc/eacute.sc/iacute.sc/igrave.sc/ograve.sc/ohungarumlaut.sc/ugrave.sc/uhungarumlaut.sc/zcaron.sc \012",
-"/gravecmb.cap  /gravecmb.asc    /acutecmb.asc    /hungarumlautcmb.asc    /circumflexcmb.asc   /acutecmb.asc   /caroncmb.asc   /caroncmb.cap    /gravecmb.cap    /acutecmb.cap    /hungarumlautcmb.cap    /circumflexcmb.cap    /caroncmb.cap \012/lacute/lacute.ss02"
+"L\U00B7L"
 );
 classes = (
 {
@@ -61,7 +60,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-10-11 11:36:24 +0000";
+date = "2015-12-06 15:28:48 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -83,8 +82,7 @@ code = "feature locl;\012feature c2sc;\012feature smcp;\012feature subs;\012feat
 name = aalt;
 },
 {
-automatic = 1;
-code = "sub A by a.sc;\012sub Aacute by aacute.sc;\012sub Abreve by abreve.sc;\012sub Acircumflex by acircumflex.sc;\012sub Adieresis by adieresis.sc;\012sub Agrave by agrave.sc;\012sub Amacron by amacron.sc;\012sub Aogonek by aogonek.sc;\012sub Aring by aring.sc;\012sub Atilde by atilde.sc;\012sub AE by ae.sc;\012sub B by b.sc;\012sub C by c.sc;\012sub Cacute by cacute.sc;\012sub Ccaron by ccaron.sc;\012sub Ccedilla by ccedilla.sc;\012sub D by d.sc;\012sub Eth by eth.sc;\012sub Dcaron by dcaron.sc;\012sub Dcroat by dcroat.sc;\012sub E by e.sc;\012sub Eacute by eacute.sc;\012sub Ecaron by ecaron.sc;\012sub Ecircumflex by ecircumflex.sc;\012sub Edieresis by edieresis.sc;\012sub Edotaccent by edotaccent.sc;\012sub Egrave by egrave.sc;\012sub Emacron by emacron.sc;\012sub Eogonek by eogonek.sc;\012sub F by f.sc;\012sub G by g.sc;\012sub Gbreve by gbreve.sc;\012sub H by h.sc;\012sub I by i.sc;\012sub IJ by ij.sc;\012sub Iacute by iacute.sc;\012sub Icircumflex by icircumflex.sc;\012sub Idieresis by idieresis.sc;\012sub Idotaccent by idotaccent.sc;\012sub Igrave by igrave.sc;\012sub Imacron by imacron.sc;\012sub Iogonek by iogonek.sc;\012sub J by j.sc;\012sub K by k.sc;\012sub L by l.sc;\012sub Lacute by lacute.sc;\012sub Lcaron by lcaron.sc;\012sub Ldot by ldot.sc;\012sub Lslash by lslash.sc;\012sub M by m.sc;\012sub N by n.sc;\012sub Nacute by nacute.sc;\012sub Ncaron by ncaron.sc;\012sub Ntilde by ntilde.sc;\012sub O by o.sc;\012sub Oacute by oacute.sc;\012sub Ocircumflex by ocircumflex.sc;\012sub Odieresis by odieresis.sc;\012sub Ograve by ograve.sc;\012sub Ohungarumlaut by ohungarumlaut.sc;\012sub Omacron by omacron.sc;\012sub Oslash by oslash.sc;\012sub Otilde by otilde.sc;\012sub OE by oe.sc;\012sub P by p.sc;\012sub Thorn by thorn.sc;\012sub Q by q.sc;\012sub R by r.sc;\012sub Racute by racute.sc;\012sub Rcaron by rcaron.sc;\012sub S by s.sc;\012sub Sacute by sacute.sc;\012sub Scaron by scaron.sc;\012sub Germandbls by germandbls.sc;\012sub T by t.sc;\012sub Tcaron by tcaron.sc;\012sub U by u.sc;\012sub Uacute by uacute.sc;\012sub Ucircumflex by ucircumflex.sc;\012sub Udieresis by udieresis.sc;\012sub Ugrave by ugrave.sc;\012sub Uhungarumlaut by uhungarumlaut.sc;\012sub Umacron by umacron.sc;\012sub Uogonek by uogonek.sc;\012sub Uring by uring.sc;\012sub V by v.sc;\012sub W by w.sc;\012sub X by x.sc;\012sub Y by y.sc;\012sub Yacute by yacute.sc;\012sub Ydieresis by ydieresis.sc;\012sub Z by z.sc;\012sub Zacute by zacute.sc;\012sub Zcaron by zcaron.sc;\012sub Zdotaccent by zdotaccent.sc;\012sub uni0122 by uni0122.sc;\012sub uni0136 by uni0136.sc;\012sub uni013B by uni013B.sc;\012sub uni0145 by uni0145.sc;\012sub uni0156 by uni0156.sc;\012sub uni015E by uni015E.sc;\012sub uni0162 by uni0162.sc;\012sub uni0218 by uni0218.sc;\012sub uni021A by uni021A.sc;\012sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;\012sub zero by zero.sc;\012sub one by one.sc;\012sub two by two.sc;\012sub three by three.sc;\012sub four by four.sc;\012sub five by five.sc;\012sub six by six.sc;\012sub seven by seven.sc;\012sub eight by eight.sc;\012sub nine by nine.sc;\012sub periodcentered by periodcentered.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub periodcentered.loclCAT by periodcentered.loclCAT.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesingle by quotesingle.sc;\012sub ampersand by ampersand.sc;\012";
+code = "sub A by a.sc;\012sub Aacute by aacute.sc;\012sub Abreve by abreve.sc;\012sub Acircumflex by acircumflex.sc;\012sub Adieresis by adieresis.sc;\012sub Agrave by agrave.sc;\012sub Amacron by amacron.sc;\012sub Aogonek by aogonek.sc;\012sub Aring by aring.sc;\012sub Atilde by atilde.sc;\012sub AE by ae.sc;\012sub B by b.sc;\012sub C by c.sc;\012sub Cacute by cacute.sc;\012sub Ccaron by ccaron.sc;\012sub Ccedilla by ccedilla.sc;\012sub D by d.sc;\012sub Eth by eth.sc;\012sub Dcaron by dcaron.sc;\012sub Dcroat by dcroat.sc;\012sub E by e.sc;\012sub Eacute by eacute.sc;\012sub Ecaron by ecaron.sc;\012sub Ecircumflex by ecircumflex.sc;\012sub Edieresis by edieresis.sc;\012sub Edotaccent by edotaccent.sc;\012sub Egrave by egrave.sc;\012sub Emacron by emacron.sc;\012sub Eogonek by eogonek.sc;\012sub F by f.sc;\012sub G by g.sc;\012sub Gbreve by gbreve.sc;\012sub H by h.sc;\012sub I by i.sc;\012sub IJ by ij.sc;\012sub Iacute by iacute.sc;\012sub Icircumflex by icircumflex.sc;\012sub Idieresis by idieresis.sc;\012sub Idotaccent by idotaccent.sc;\012sub Igrave by igrave.sc;\012sub Imacron by imacron.sc;\012sub Iogonek by iogonek.sc;\012sub J by j.sc;\012sub K by k.sc;\012sub L by l.sc;\012sub Lacute by lacute.sc;\012sub Lcaron by lcaron.sc;\012sub Ldot by ldot.sc;\012sub Lslash by lslash.sc;\012sub M by m.sc;\012sub N by n.sc;\012sub Nacute by nacute.sc;\012sub Ncaron by ncaron.sc;\012sub Ntilde by ntilde.sc;\012sub O by o.sc;\012sub Oacute by oacute.sc;\012sub Ocircumflex by ocircumflex.sc;\012sub Odieresis by odieresis.sc;\012sub Ograve by ograve.sc;\012sub Ohungarumlaut by ohungarumlaut.sc;\012sub Omacron by omacron.sc;\012sub Oslash by oslash.sc;\012sub Otilde by otilde.sc;\012sub OE by oe.sc;\012sub P by p.sc;\012sub Thorn by thorn.sc;\012sub Q by q.sc;\012sub R by r.sc;\012sub Racute by racute.sc;\012sub Rcaron by rcaron.sc;\012sub S by s.sc;\012sub Sacute by sacute.sc;\012sub Scaron by scaron.sc;\012sub Germandbls by germandbls.sc;\012sub T by t.sc;\012sub Tcaron by tcaron.sc;\012sub U by u.sc;\012sub Uacute by uacute.sc;\012sub Ucircumflex by ucircumflex.sc;\012sub Udieresis by udieresis.sc;\012sub Ugrave by ugrave.sc;\012sub Uhungarumlaut by uhungarumlaut.sc;\012sub Umacron by umacron.sc;\012sub Uogonek by uogonek.sc;\012sub Uring by uring.sc;\012sub V by v.sc;\012sub W by w.sc;\012sub X by x.sc;\012sub Y by y.sc;\012sub Yacute by yacute.sc;\012sub Ydieresis by ydieresis.sc;\012sub Z by z.sc;\012sub Zacute by zacute.sc;\012sub Zcaron by zcaron.sc;\012sub Zdotaccent by zdotaccent.sc;\012sub uni0122 by uni0122.sc;\012sub uni0136 by uni0136.sc;\012sub uni013B by uni013B.sc;\012sub uni0145 by uni0145.sc;\012sub uni0156 by uni0156.sc;\012sub uni015E by uni015E.sc;\012sub uni0162 by uni0162.sc;\012sub uni0218 by uni0218.sc;\012sub uni021A by uni021A.sc;\012sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;\012sub zero by zero.sc;\012sub one by one.sc;\012sub two by two.sc;\012sub three by three.sc;\012sub four by four.sc;\012sub five by five.sc;\012sub six by six.sc;\012sub seven by seven.sc;\012sub eight by eight.sc;\012sub nine by nine.sc;\012sub periodcentered by periodcentered.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub periodcentered.loclCAT by periodcentered.loclCAT.sc;\012sub periodcentered.loclCAT.case by periodcentered.loclCAT.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesingle by quotesingle.sc;\012sub ampersand by ampersand.sc;\012";
 name = c2sc;
 },
 {
@@ -773,7 +771,7 @@ unicode = 00C4;
 },
 {
 glyphname = Agrave;
-lastChange = "2015-10-11 10:56:53 +0000";
+lastChange = "2015-12-06 15:24:36 +0000";
 layers = (
 {
 background = {
@@ -15178,7 +15176,7 @@ rightMetricsKey = J;
 },
 {
 glyphname = Iacute_J.loclNLD.ss05;
-lastChange = "2015-09-13 15:46:06 +0000";
+lastChange = "2015-12-09 11:13:15 +0000";
 layers = (
 {
 components = (
@@ -15203,11 +15201,11 @@ width = 561;
 components = (
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 141, 0}";
+transform = "{1, 0, 0, 1, 495, 0}";
 },
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 495, 0}";
+transform = "{1, 0, 0, 1, 141, 0}";
 },
 {
 name = IJ.ss05;
@@ -15222,11 +15220,11 @@ width = 626;
 components = (
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 151, 0}";
+transform = "{1, 0, 0, 1, 522, 0}";
 },
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 522, 0}";
+transform = "{1, 0, 0, 1, 151, 0}";
 },
 {
 name = IJ.ss05;
@@ -15661,7 +15659,7 @@ width = 919;
 },
 {
 glyphname = Agrave.swsh;
-lastChange = "2015-10-11 11:23:33 +0000";
+lastChange = "2015-12-06 15:25:14 +0000";
 layers = (
 {
 background = {
@@ -15749,72 +15747,10 @@ width = 874;
 },
 {
 background = {
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"240 -110 OFFCURVE",
-"299 -58 OFFCURVE",
-"336 42 CURVE SMOOTH",
-"509 495 LINE",
-"538 584 LINE",
-"540 584 LINE",
-"571 492 LINE",
-"759 0 LINE",
-"844 0 LINE",
-"588 660 LINE",
-"493 660 LINE",
-"273 95 LINE SMOOTH",
-"231 -12 OFFCURVE",
-"205 -40 OFFCURVE",
-"137 -40 CURVE SMOOTH",
-"72 -40 OFFCURVE",
-"35 -21 OFFCURVE",
-"23 65 CURVE",
-"-35 22 LINE",
-"-29 -60 OFFCURVE",
-"33 -110 OFFCURVE",
-"138 -110 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"715 183 LINE",
-"715 258 LINE",
-"362 258 LINE",
-"362 183 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"294 366 LINE",
-"230 377 OFFCURVE",
-"184 419 OFFCURVE",
-"184 480 CURVE SMOOTH",
-"184 558 OFFCURVE",
-"242 595 OFFCURVE",
-"330 595 CURVE SMOOTH",
-"527 595 LINE",
-"527 660 LINE",
-"313 660 LINE SMOOTH",
-"186 660 OFFCURVE",
-"104 593 OFFCURVE",
-"104 481 CURVE SMOOTH",
-"104 382 OFFCURVE",
-"178 315 OFFCURVE",
-"263 302 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"422 891 LINE",
-"508 743 LINE",
-"573 743 LINE",
-"516 891 LINE"
-);
+name = Agrave;
+transform = "{1, 0, 0, 1, 245, 0}";
 }
 );
 };
@@ -15825,7 +15761,7 @@ name = A.swsh;
 {
 disableAlignment = 1;
 name = gravecmb.cap;
-transform = "{1, 0, 0, 1, 530, 0}";
+transform = "{1, 0, 0, 1, 565, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -16442,7 +16378,7 @@ width = 918;
 },
 {
 glyphname = Egrave.swsh;
-lastChange = "2015-10-11 11:00:26 +0000";
+lastChange = "2015-12-06 15:25:40 +0000";
 layers = (
 {
 background = {
@@ -16530,72 +16466,10 @@ width = 797;
 },
 {
 background = {
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"200 366 LINE",
-"136 377 OFFCURVE",
-"90 419 OFFCURVE",
-"90 480 CURVE SMOOTH",
-"90 558 OFFCURVE",
-"148 595 OFFCURVE",
-"236 595 CURVE SMOOTH",
-"433 595 LINE",
-"433 660 LINE",
-"219 660 LINE SMOOTH",
-"92 660 OFFCURVE",
-"10 593 OFFCURVE",
-"10 481 CURVE SMOOTH",
-"10 382 OFFCURVE",
-"84 315 OFFCURVE",
-"169 302 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"327 660 LINE",
-"327 0 LINE",
-"407 0 LINE",
-"407 660 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"369 75 LINE",
-"369 0 LINE",
-"805 0 LINE",
-"805 75 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"369 372 LINE",
-"369 297 LINE",
-"705 297 LINE",
-"705 372 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"369 660 LINE",
-"369 585 LINE",
-"790 585 LINE",
-"790 660 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"440 891 LINE",
-"526 743 LINE",
-"591 743 LINE",
-"534 891 LINE"
-);
+name = Egrave;
+transform = "{1, 0, 0, 1, 219, 0}";
 }
 );
 };
@@ -16606,7 +16480,7 @@ name = E.swsh;
 {
 disableAlignment = 1;
 name = gravecmb.cap;
-transform = "{1, 0, 0, 1, 548, 0}";
+transform = "{1, 0, 0, 1, 543, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -49051,9 +48925,21 @@ rightKerningGroup = i.sc;
 },
 {
 glyphname = iacute_j.loclNLD.sc;
-lastChange = "2015-10-11 09:52:25 +0000";
+lastChange = "2015-12-06 15:23:38 +0000";
 layers = (
 {
+background = {
+components = (
+{
+name = i.sc;
+},
+{
+disableAlignment = 1;
+name = acutecmb.cap;
+transform = "{1, 0, 0, 1, 98, -100}";
+}
+);
+};
 components = (
 {
 name = i.sc;
@@ -49067,8 +48953,9 @@ name = acutecmb.cap;
 transform = "{1, 0, 0, 1, 550, -100}";
 },
 {
+disableAlignment = 1;
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 550, -100}";
+transform = "{1, 0, 0, 1, 98, -100}";
 }
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
@@ -49076,6 +48963,18 @@ name = Light;
 width = 641;
 },
 {
+background = {
+components = (
+{
+name = i.sc;
+},
+{
+disableAlignment = 1;
+name = acutecmb.cap;
+transform = "{1, 0, 0, 1, 144, -100}";
+}
+);
+};
 components = (
 {
 name = i.sc;
@@ -49091,7 +48990,7 @@ transform = "{1, 0, 0, 1, 657, -100}";
 {
 disableAlignment = 1;
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 662, -100}";
+transform = "{1, 0, 0, 1, 144, -100}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -49099,6 +48998,18 @@ name = Regular;
 width = 784;
 },
 {
+background = {
+components = (
+{
+name = i.sc;
+},
+{
+disableAlignment = 1;
+name = acutecmb.cap;
+transform = "{1, 0, 0, 1, 168, -100}";
+}
+);
+};
 components = (
 {
 name = i.sc;
@@ -49112,8 +49023,9 @@ name = acutecmb.cap;
 transform = "{1, 0, 0, 1, 788, -100}";
 },
 {
+disableAlignment = 1;
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 788, -100}";
+transform = "{1, 0, 0, 1, 168, -100}";
 }
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
@@ -56712,7 +56624,7 @@ rightKerningGroup = g.sc;
 },
 {
 glyphname = iacute_j.loclNLD.sc.ss05;
-lastChange = "2015-09-13 15:59:00 +0000";
+lastChange = "2015-12-09 11:19:39 +0000";
 layers = (
 {
 components = (
@@ -56761,11 +56673,11 @@ name = ij.sc.ss05;
 },
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 477, -100}";
+transform = "{1, 0, 0, 1, 160, -100}";
 },
 {
 name = acutecmb.cap;
-transform = "{1, 0, 0, 1, 160, -100}";
+transform = "{1, 0, 0, 1, 477, -100}";
 }
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
@@ -98391,6 +98303,7 @@ name = Black;
 weightClass = Heavy;
 },
 {
+active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -98461,6 +98374,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
+active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -98531,6 +98445,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98602,6 +98517,7 @@ name = Light;
 weightClass = Light;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98672,6 +98588,7 @@ interpolationWidth = 5;
 name = Regular;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98738,6 +98655,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98799,6 +98717,7 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98863,6 +98782,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98926,6 +98846,7 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+active = 0;
 customParameters = (
 {
 name = winAscent;
