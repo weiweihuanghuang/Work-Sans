@@ -1,0 +1,47 @@
+# Weight 41
+
+# bottom of C- c- cedilla 
+Ccedilla left 19 (-50, 10)
+ccedilla left 19 (-50, 10)
+
+# middle of S s too bold
+S touch 13 yshift -0.125 @33-41 #top
+S touch 34 yshift 0.125 @33-41 #bot
+Scaron touch 20 yshift -0.125 @33-41 #top
+Scaron touch 41 yshift 0.125 @33-41 #bot
+Sacute touch 17 yshift -0.125 @33-41 #top
+Sacute touch 38 yshift 0.125 @33-41 #bot
+uni015E touch 54 yshift -0.125 @33-41 #top
+uni015E touch 32 yshift 0.125 @33-41 #bot
+
+s touch 32 yshift -0.125 @33-41 #top
+s touch 12 yshift 0.125 @33-41 #bot
+uni015F touch 52 yshift -0.125 @33-41 #top
+uni015F touch 32 yshift 0.125 @33-41 #bot
+
+# middle of S s too light
+S touch 13 yshift 0.125 @42-49 #top
+S touch 34 yshift -0.125 @42-49 #bot
+S touch 12 yshift 0.125 @42-49 #top
+S touch 32 yshift -0.125 @42-49 #bot
+Scaron touch 20 yshift 0.125 @42-49 #top
+Scaron touch 41 yshift -0.125 @42-49 #bot
+Sacute touch 17 yshift 0.125 @42-49 #top
+Sacute touch 38 yshift -0.125 @42-49 #bot
+uni015E touch 54 yshift 0.125 @42-49 #top
+uni015E touch 32 yshift -0.125 @42-49 #bot
+
+s touch 32 yshift 0.125 @42-49 #top
+s touch 12 yshift -0.125 @42-49 #bot
+uni015F touch 52 yshift 0.125 @42-49 #top
+uni015F touch 32 yshift -0.125 @42-49 #bot
+
+# middle of a too light
+a touch 40 yshift -0.25 @42-47
+aogonek touch 53 yshift -0.25 @42-47
+
+a touch 40 yshift -0.125 @48-50
+aogonek touch 53 yshift -0.125 @48-50
+
+# middle of e too dark
+e touch 0,1 yshift 0.25 @15,17,18,19
