@@ -37,7 +37,7 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-11 Oct 2015 (Wei Huang) 'Work Sans' v1.50
+03 Jan 2016 (Wei Huang) 'Work Sans' v1.50
 - Fixed some bugs (iacute_j, localCAT, among others)
 
 13 Sep 2015 – 25 Sep 2015 (Denis Moyogo Jacquerye) 'Work Sans' v1.50
@@ -211,6 +211,6 @@ W: https://github.com/weiweihuanghuang
 D: Designer - concept, design and production of original font
 
 N: Denis Moyogo Jacquerye
-E: wweeiihhuuaanngg@gmail.com
+E:
 W: https://github.com/moyogo
 D: Production

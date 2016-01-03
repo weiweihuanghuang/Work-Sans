@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-"L\U00B7L"
-);
 classes = (
 {
 automatic = 1;
@@ -60,7 +57,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2015-12-06 15:28:48 +0000";
+date = "2016-01-03 06:15:05 +0000";
 designer = "Wei Huang";
 designerURL = "wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -567,7 +564,7 @@ unicode = 0041;
 },
 {
 glyphname = Aacute;
-lastChange = "2015-09-13 11:04:46 +0000";
+lastChange = "2016-01-03 05:45:44 +0000";
 layers = (
 {
 components = (
@@ -771,7 +768,7 @@ unicode = 00C4;
 },
 {
 glyphname = Agrave;
-lastChange = "2015-12-06 15:24:36 +0000";
+lastChange = "2016-01-03 05:45:21 +0000";
 layers = (
 {
 background = {
@@ -818,7 +815,7 @@ name = A;
 {
 disableAlignment = 1;
 name = gravecmb.cap;
-transform = "{1, 0, 0, 1, 320, 0}";
+transform = "{1, 0, 0, 1, 325, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -9989,7 +9986,7 @@ unicode = 00DC;
 },
 {
 glyphname = Ugrave;
-lastChange = "2015-10-11 10:57:24 +0000";
+lastChange = "2016-01-03 05:44:57 +0000";
 layers = (
 {
 background = {
@@ -10035,7 +10032,7 @@ name = U;
 {
 disableAlignment = 1;
 name = gravecmb.cap;
-transform = "{1, 0, 0, 1, 350, 0}";
+transform = "{1, 0, 0, 1, 375, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -10136,7 +10133,7 @@ name = U;
 {
 disableAlignment = 1;
 name = gravecmb.cap;
-transform = "{1, 0, 0, 1, 340, 0}";
+transform = "{1, 0, 0, 1, 382, 0}";
 }
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
@@ -35864,7 +35861,7 @@ rightKerningGroup = d;
 },
 {
 glyphname = lacute.ss02;
-lastChange = "2015-10-11 11:31:24 +0000";
+lastChange = "2016-01-03 05:44:30 +0000";
 layers = (
 {
 components = (
@@ -35872,8 +35869,15 @@ components = (
 name = l.ss02;
 },
 {
+disableAlignment = 1;
 name = acutecmb.asc;
-transform = "{1, 0, 0, 1, 135, 0}";
+transform = "{1, 0, 0, 1, 124, 0}";
+}
+);
+guideLines = (
+{
+angle = 90;
+position = "{95, 730}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -35886,8 +35890,9 @@ components = (
 name = l.ss02;
 },
 {
+disableAlignment = 1;
 name = acutecmb.asc;
-transform = "{1, 0, 0, 1, 154, 0}";
+transform = "{1, 0, 0, 1, 136, 0}";
 }
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
@@ -98303,7 +98308,6 @@ name = Black;
 weightClass = Heavy;
 },
 {
-active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -98374,7 +98378,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-active = 0;
 customParameters = (
 {
 name = weightClass;
@@ -98445,7 +98448,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98517,7 +98519,6 @@ name = Light;
 weightClass = Light;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98588,7 +98589,6 @@ interpolationWidth = 5;
 name = Regular;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98655,7 +98655,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98717,7 +98716,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98782,7 +98780,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
@@ -98846,7 +98843,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-active = 0;
 customParameters = (
 {
 name = winAscent;
