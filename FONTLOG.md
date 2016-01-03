@@ -37,6 +37,13 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+03 Jan 2016 (Wei Huang) 'Work Sans' v1.50
+- Fixed some bugs (iacute_j, localCAT, among others)
+
+13 Sep 2015 – 25 Sep 2015 (Denis Moyogo Jacquerye) 'Work Sans' v1.50
+- Created combining diacritics from diacritics already in fonts
+- Added anchors
+
 12 Jul 2015 (Wei Huang) 'Work Sans' v1.40
 - Subsumed Hairline weight into Work Sans 9 weight family – according to Google Font engineers scheme. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. Reflow will occur from previous versions on these weights.
 
@@ -200,5 +207,10 @@ alphabetical order.
 
 N: Wei Huang
 E: wweeiihhuuaanngg@gmail.com
-W:
+W: https://github.com/weiweihuanghuang
 D: Designer - concept, design and production of original font
+
+N: Denis Moyogo Jacquerye
+E:
+W: https://github.com/moyogo
+D: Production

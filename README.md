@@ -8,14 +8,14 @@ The fonts under **/fonts/desktop** are OTF fonts for desktop programs such as th
 
 The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web use. They have been autohinted with ttfautohint and manually corrected (see Notes below).
 
-This typeface was funded by Google and will are available on Google Fonts – many thanks to Dave Crossland for the commission.
+This typeface was funded by Google and is distributed by Google Fonts – many thanks to Dave Crossland for the commission.
 
 ### 10 weights → 9 weights
 Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google Fonts engineer's recommendations. 'Hairline' has been removed. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. **Reflow will occur from previous versions on these weights.**
 
 ## [Work Sans at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
 
-## [Or download v1.40 (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.40.zip)
+## [Or download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.50.zip)
 
 ## [View the webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
@@ -25,9 +25,6 @@ Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google
 
 ![Screenshot of a test](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/preview.png)</a>
 
-## Italics?
-I hope to create italics for Work Sans but currently do not have the time or budget unfortunately.
-
 ## Suggestion, Comments, Contributions
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.
 
@@ -36,9 +33,9 @@ If you spot any errors or have any suggestions for improvements you can fork thi
 
 Source files were partly prepared for use in [Metapolator](http://www.metapolator.com). 
 
-The project started in June 2014 and the brief was to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014.
+The project started in June 2014 and the brief was to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014. Work Sans was first available on Google fonts in July 2015.
 
-There is a Telugu glyph set (Work Sans-Telugu.glyphs) that comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been manually cleaned up, the rest are automatically cleaned up with FontForge from Ramabhadra. The Latin glyphs in Work Sans-Telugu.glyphs are out of date.
+There was a Telugu glyph set in a previous [commit](https://github.com/weiweihuanghuang/Work-Sans/tree/622700a5d00c49c0d1aefbe4e321fd0c3667aa45) (Work Sans-Telugu.glyphs) that comes from [Ramabhadra](http://teluguvijayam.org/fonts.html) by Silicon Andhra. Glyphs marked red in the file are those that have been manually cleaned up, the rest were automatically cleaned up with FontForge from Ramabhadra. The Latin glyphs in Work Sans-Telugu.glyphs are out of date.
 
 *Note: There are no UFOs as UFOs exported from Glyphs App will currently not generate in Robofont and so on due to using Glyphs 2 features '[Bracket trick](http://www.glyphsapp.com/tutorials/alternating-glyph-shapes)' and '[Brace trick](http://www.glyphsapp.com/tutorials/additional-masters-for-individual-glyphs-the-brace-trick)' to solve interpolation bumps. Glyphs marked orange are bracket layers and glyphs marked yellow are using brace layers.*
 
