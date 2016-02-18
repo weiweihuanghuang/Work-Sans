@@ -37,6 +37,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+18 Feb 2016 (Wei Huang) 'Work Sans' v1.51
+- Fixed /m stem in Black Master
+
 03 Jan 2016 (Wei Huang) 'Work Sans' v1.50
 - Fixed some bugs (iacute_j, localCAT, among others)
 

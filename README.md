@@ -15,7 +15,7 @@ Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google
 
 ## [Work Sans at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
 
-## [Or download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.50.zip)
+## [Or download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.51.zip)
 
 ## [View the webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 

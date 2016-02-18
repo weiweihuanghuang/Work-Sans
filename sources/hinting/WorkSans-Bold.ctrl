@@ -31,9 +31,9 @@ uni0123 touch 4,47-49 yshift -0.75 @21-22
 uni0123 touch 66-69 yshift -0.75 @21-22
 uni0123 touch 62,72,73 yshift -0.5 @21-22
 g_j.liga touch 50-51 yshift 0.375 @21-22
-g_j.liga touch 12,57,58 yshift -0.75 @21-22
-g_j.liga touch 89-92 yshift -0.75 @21-22
-g_j.liga touch 85,95,96 yshift -0.5 @21-22
+g_j.liga touch 12,56,57 yshift -0.75 @21-22
+g_j.liga touch 88-91 yshift -0.75 @21-22
+g_j.liga touch 84,94,95 yshift -0.5 @21-22
 
 gbreve touch 0-13 yshift 1 @14-16
 breve touch 0-13 yshift 1 @14-16
