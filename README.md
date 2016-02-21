@@ -1,5 +1,10 @@
 #Work Sans
 
+### [Use at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
+
+### [Download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.51.zip)
+
+
 A SIL Open Font project titled 'Work Sans' (former working title 'Alice') for Latin.
 
 Work Sans is a 9 weight typeface family based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still can be used in print well. The fonts at the extreme weights are designed more for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
@@ -13,17 +18,13 @@ This typeface was funded by Google and is distributed by Google Fonts – many t
 ### 10 weights → 9 weights
 Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google Fonts engineer's recommendations. 'Hairline' has been removed. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. **Reflow will occur from previous versions on these weights.**
 
-## [Work Sans at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
+### [Web specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
-## [Or download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.51.zip)
+### [Print PDF Specimen](documentation/Work-Sans-Print-Specimen.pdf?raw=true).
 
-## [View the webfont specimen](http://weiweihuanghuang.github.io/Work-Sans/).
+<a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://raw.githubusercontent.com/weiweihuanghuang/Work-Sans/master/documentation/images/waterfall.jpg)
 
-## [Print out the PDF specimen](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/Work-Sans-Print-Specimen.pdf).
-
-<a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/waterfall.png)
-
-![Screenshot of a test](https://github.com/weiweihuanghuang/Work-Sans/raw/master/documentation/images/preview.png)</a>
+![Screenshot of a test](https://raw.githubusercontent.com/weiweihuanghuang/Work-Sans/master/documentation/images/preview.png)</a>
 
 ## Suggestion, Comments, Contributions
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.
