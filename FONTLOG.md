@@ -37,6 +37,10 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+9 Apr 2016 (Wei Huang) 'Work Sans' v1.52
+- Fixed compatibility issues causing blank x.sc and y.sc
+- Fixed Black master *.sc glyph darkness
+
 18 Feb 2016 (Wei Huang) 'Work Sans' v1.51
 - Fixed /m stem in Black Master
 
