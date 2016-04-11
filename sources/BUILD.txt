@@ -17,7 +17,7 @@ The OTFs generated with Glyphs App will be usable immediately in desktop applica
 The TTFs will need to be processed and then hinted with ttfautohint.
 
 [1] http://www.glyphsapp.com/tutorials/vertical-metrics
-[2] https://code.google.com/p/googlefontdirectory/wiki/HowToGenerateWebNativeFonts
+[2] https://github.com/googlefonts/gf-docs/blob/master/HowToGenerateWebNativeFonts.md
 
 Generating hinted TTFs
 ----------------------
