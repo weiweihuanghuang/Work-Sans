@@ -1,8 +1,8 @@
-#Work Sans
+# Work Sans
 
 ### [Use at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
 
-### [Download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.51.zip)
+### [Download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.6.zip)
 
 
 A SIL Open Font project titled 'Work Sans' (former working title 'Alice') for Latin.
