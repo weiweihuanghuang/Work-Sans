@@ -4,7 +4,6 @@
 
 ### [Download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.6.zip)
 
-
 A SIL Open Font project titled 'Work Sans' (former working title 'Alice') for Latin.
 
 Work Sans is a 9 weight typeface family based loosely on early Grotesques — i.e. [Stephenson Blake](https://www.flickr.com/photos/stewf/14444337254/), [Miller & Richard](https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/) and [Bauerschen Giesserei](https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up). The core of the fonts are optimised for on-screen medium-sized text usage (14px-48px) – but still can be used in print well. The fonts at the extreme weights are designed more for display use. Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.
@@ -15,7 +14,7 @@ The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web
 
 This typeface was funded by Google and is distributed by Google Fonts – many thanks to Dave Crossland for the commission.
 
-### 10 weights → 9 weights
+#### 10 weights → 9 weights
 Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google Fonts engineer's recommendations. 'Hairline' has been removed. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. **Reflow will occur from previous versions on these weights.**
 
 ### [Web specimen](http://weiweihuanghuang.github.io/Work-Sans/).
@@ -30,8 +29,7 @@ Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google
 If you spot any errors or have any suggestions for improvements you can fork this project, create an [Issue](../../issues) or email me at <a href="mailto:wweeiihhuuaanngg@gmail.com">wweeiihhuuaanngg@gmail.com</a>.
 
 
-##Notes
-
+## Notes
 Source files were partly prepared for use in [Metapolator](http://www.metapolator.com). 
 
 The project started in June 2014 and the brief was to have a [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (alpha release with 9 weights) by December 2014. Work Sans was first available on Google fonts in July 2015.
@@ -43,14 +41,22 @@ There was a Telugu glyph set in a previous [commit](https://github.com/weiweihua
 Refer to [BUILD.txt](/sources/BUILD.txt) for documentation on my process for hinting and generating webfonts.
 
 
-## License
+## All the Thanks
+Hjerteleg takk til Tone Sjåstad for her suport, patience, encouragement and inspiration throughout the process. 
 
+Many thanks to the following who provided valuable feedback and encouragement:
+Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Dan Milne, Scott Rankin, Dan Reynolds, David Jonathan Ross, Adam Twardoch, David Wise. Thanks to [Desmond Wong](http://desmondwong.com/) for his assistance. 
+
+Thanks to Simon Egli for inviting me to work together on Metapolator in the first place.
+
+Thanks to everyone who was in my pocket the whole time.
+
+## License
 Work Sans is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
 
 To view the copyright and specific terms and conditions please refer to [LICENSE.txt](LICENSE.txt).
 
 ## Repository Layout
-
 This font repository follows the Unified Font Repository v2.0, 
 a standard way to organize font project source files. Learn more at 
 https://github.com/raphaelbastide/Unified-Font-Repository
