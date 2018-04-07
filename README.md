@@ -15,7 +15,7 @@ The fonts under **/fonts/webfonts** contain TTF, WOFF, and WOFF2 formats for web
 
 This typeface was funded by Google and is distributed by Google Fonts – many thanks to Dave Crossland for the commission.
 
-### 10 weights → 9 weights
+#### 10 weights → 9 weights
 Previous to September 2015, Work Sans had 10 weights, now it has 9 due to Google Fonts engineer's recommendations. 'Hairline' has been removed. The new 'Thin' is the same as 'HairLine' in previous versions. 'Light' and 'ExtraLight' also changed accordingly. **Reflow will occur from previous versions on these weights.**
 
 ### [Web specimen](http://weiweihuanghuang.github.io/Work-Sans/).
@@ -42,6 +42,16 @@ There was a Telugu glyph set in a previous [commit](https://github.com/weiweihua
 
 Refer to [BUILD.txt](/sources/BUILD.txt) for documentation on my process for hinting and generating webfonts.
 
+
+## All the Thanks
+Hjerteleg takk til Tone Sjåstad for her suport, patience, encouragement and inspiration throughout the process. 
+
+Many thanks to the following who provided valuable feedback and encouragement:
+Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Dan Milne, Scott Rankin, Dan Reynolds, David Jonathan Ross, Adam Twardoch, David Wise. Thanks to [Desmond Wong](http://desmondwong.com/) for his assistance. 
+
+Thanks to Simon Egli for inviting me to work together on Metapolator in the first place.
+
+Thanks to everyone who was in my pocket the whole time.
 
 ## License
 
