@@ -42,7 +42,7 @@ Refer to [BUILD.txt](/sources/BUILD.txt) for documentation on my process for hin
 
 
 ## All the Thanks
-Hjerteleg takk til Tone Sjåstad for her suport, patience, encouragement and inspiration throughout the process. 
+Hjerteleg tusen takk til Tone Sjåstad for her suport, patience, encouragement and inspiration throughout the process. 
 
 Many thanks to the following who provided valuable feedback and encouragement:
 Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Dan Milne, Scott Rankin, Dan Reynolds, David Jonathan Ross, Adam Twardoch, David Wise. Thanks to [Desmond Wong](http://desmondwong.com/) for his assistance. 
