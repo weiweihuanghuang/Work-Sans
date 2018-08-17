@@ -93851,22 +93851,22 @@ unicode = 200A;
 {
 color = 3;
 glyphname = punctuationspace;
-lastChange = "2018-08-15 10:57:08 +0000";
+lastChange = "2018-08-17 06:25:18 +0000";
 layers = (
 {
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
-width = 336;
+width = 168;
 },
 {
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
-width = 532;
+width = 266;
 },
 {
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
-width = 612;
+width = 306;
 }
 );
-widthMetricsKey = "=period*2";
+widthMetricsKey = "=period";
 unicode = 2008;
 },
 {
