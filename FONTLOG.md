@@ -218,12 +218,27 @@ When you make modifications, be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
+N: CrystalType
+E: stellarmaris.novachrystalia@gmail.com
+W: https://github.com/crystaltype
+D: Vietnamese Design and Production
+
+N: Dennis Graeul
+E: dennis@dennisgrauel.com
+W: http://dennisgrauel.com
+D: Production
+
 N: Wei Huang
 E: wweeiihhuuaanngg@gmail.com
 W: https://github.com/weiweihuanghuang
-D: Designer - concept, design and production of original font
+D: Concept, Design and Production
 
 N: Denis Moyogo Jacquerye
 E:
 W: https://github.com/moyogo
+D: Production
+
+N: Desmond Wong
+E: desmondhwong@gmail.com
+W: http://desmondwong.com
 D: Production
