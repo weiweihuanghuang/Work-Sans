@@ -223,7 +223,7 @@ E: stellarmaris.novachrystalia@gmail.com
 W: https://github.com/crystaltype
 D: Vietnamese Design and Production
 
-N: Dennis Graeul
+N: Dennis Grauel
 E: dennis@dennisgrauel.com
 W: http://dennisgrauel.com
 D: Production
