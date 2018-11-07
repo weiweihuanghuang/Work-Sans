@@ -54,7 +54,7 @@ Thanks to everyone who was in my pocket the whole time.
 ## License
 Work Sans is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
 
-To view the copyright and specific terms and conditions please refer to [LICENSE.txt](LICENSE.txt).
+To view the copyright and specific terms and conditions please refer to [OFL.txt](OFL.txt).
 
 ## Repository Layout
 This font repository follows the Unified Font Repository v2.0, 
