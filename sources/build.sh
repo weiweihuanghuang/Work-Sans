@@ -1,8 +1,5 @@
 cp WorkSans-Upright.glyphs WorkSans-UprightBuild.glyphs
 
-# Add bracket layers to build version
-# python2 tools/fixBrackets.py WorkSans-UprightBuild.glyphs
-
 fontmake -o variable -g WorkSans-UprightBuild.glyphs
 
 mv variable_ttf/WorkSans-VF.ttf WorkSans-VF.ttf
