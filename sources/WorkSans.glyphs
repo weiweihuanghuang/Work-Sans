@@ -3,8 +3,7 @@
 DisplayStrings = (
 "/Uhorn/Ohorn/uhorn/ohorn/Ahookabove/ahookabove \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb \012/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde \012/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde \012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde \012/Etilde/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde \012/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde \012\012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/Ohorn/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde/ohorn/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/Uhorn/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde/uhorn/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde",
 "/ldot/lslash  //space\012\012\012L\012HUB/Germandbls EL/Lslash ZFPÞT/Tbar YVWARKXOØQGCS\012naqudlij/g.ss01 frtoecðsßgkxvz\0120917426583\012/zero.osf/one.osf/two.osf/four.osf/seven.osf/five.osf/three.osf/nine.osf/six.osf/eight.osf \012/zerosuperior ¹/foursuperior/sevensuperior/ninesuperior ²/sixsuperior/fivesuperior/eightsuperior ³/zeroinferior/oneinferior/fourinferior/seveninferior/nineinferior/twoinferior/sixinferior/fiveinferior/eightinferior/threeinferior/zerosuperior/sevensuperior/zeroinferior/seveninferior \012.,/quotesinglbase/quoteleft/quoteright ':;-/endash *!?¡¿/exclamdown.case/questiondown.case \012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger \012\012R\012HUTZAÆYVWXOØSJ\012hlnijpuaoøðßftgsyvwxz\0120617238954\012/zero.osf/one.osf/two.osf/three.osf/nine.osf/five.osf/four.osf/seven.osf/six.osf/eight.osf \012.,/quotesinglbase/quoteleft/quoteright ':-*!?\012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger °\012\012.,:;-/endash/guilsinglleft/guilsinglright {}[]()///backslash *!?&@#\012H, /quoteleft H/quoteright  /quoteleft H/quoteleft  /quoteright H/quoteright  /quotesinglbase H/quoteright  /quotesinglbase H/quoteleft  'H'\012\012L /leftArrow/rightArrow/northEastArrow/southWestArrow/downArrow/upArrow/southEastArrow/northWestArrow/leftHookArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012R /leftArrow/rightArrow/northEastArrow/southWestArrow/upArrow/downArrow/southEastArrow/northWestArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012\012Triple:\012h/hbar blnijpruoødq/a.ss01/g.ss01 ecðagsßftvywxkz\012HOTYAVWXZ",
-"Done:\012/apple/apple.001/Adieresis.titl/Adieresis.titl.136_230/Odieresis.titl/Odieresis.titl.136_230 \012/cedi/cedi.201_230 ¢/cent.201_230/colonsign/colonsign.201_230 $/dollar.201_230/guarani/guarani.201_230/naira/naira.169_230/peseta/peseta.169_230/peso/peso.136_230/won/won.169_230/dollar.tf/dollar.tf.201_230/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.79_230 ¶/paragraph.79_230 ©®/cent.tf/cent.tf.201_230 \012\012Brace:\012aæes/Udieresis.titl",
-"/apple/cedi ¢/colonsign $/guarani/dollar.tf/cent.tf/naira/peseta/won/peso/Adieresis.titl/Odieresis.titl/curvedStemParagraphSignOrnament ¶"
+"Done:\012/apple/apple.001/Adieresis.titl/Adieresis.titl.136_230/Odieresis.titl/Odieresis.titl.136_230 \012/cedi/cedi.201_230 ¢/cent.201_230/colonsign/colonsign.201_230 $/dollar.201_230/guarani/guarani.201_230/naira/naira.169_230/peseta/peseta.169_230/peso/peso.136_230/won/won.169_230/dollar.tf/dollar.tf.201_230/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.79_230 ¶/paragraph.79_230 ©®/cent.tf/cent.tf.201_230 \012\012Brace:\012aæes/Udieresis.titl"
 );
 classes = (
 {
@@ -1449,7 +1448,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = 243;
+value = -243;
 },
 {
 name = typoLineGap;
@@ -1474,15 +1473,6 @@ value = 343;
 {
 name = winAscent;
 value = 1105;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 250;
-}
-);
 }
 );
 descender = -210;
@@ -1563,7 +1553,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = 243;
+value = -243;
 },
 {
 name = typoLineGap;
@@ -1588,15 +1578,6 @@ value = 343;
 {
 name = winAscent;
 value = 1105;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -210;
@@ -1699,7 +1680,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = 243;
+value = -243;
 },
 {
 name = typoLineGap;
@@ -1724,15 +1705,6 @@ value = 343;
 {
 name = winAscent;
 value = 1105;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-}
-);
 }
 );
 descender = -210;
@@ -7917,7 +7889,7 @@ width = 498;
 }
 );
 leftKerningGroup = J;
-rightKerningGroup = I;
+rightKerningGroup = U;
 unicode = 004A;
 },
 {
@@ -36594,11 +36566,11 @@ name = i;
 },
 {
 name = j;
-transform = "{1, 0, 0, 1, 309, 0}";
+transform = "{1, 0, 0, 1, 308, 0}";
 }
 );
 layerId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
-width = 617;
+width = 616;
 }
 );
 leftKerningGroup = i;
@@ -128673,14 +128645,6 @@ customParameters = (
 {
 name = "Save as TrueType";
 value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
-{
-name = weightClass;
-value = 250;
 }
 );
 interpolationCustom = -1;
@@ -128697,14 +128661,6 @@ customParameters = (
 {
 name = weightClass;
 value = 275;
-},
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
 }
 );
 interpolationCustom = -1;
@@ -128719,14 +128675,6 @@ weightClass = ExtraLight;
 },
 {
 customParameters = (
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
 {
 name = "Rename Glyphs";
 value = (
@@ -128747,14 +128695,6 @@ weightClass = Light;
 {
 customParameters = (
 {
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
-{
 name = "Rename Glyphs";
 value = (
 "apple.001=apple"
@@ -128771,14 +128711,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
 {
 name = "Rename Glyphs";
 value = (
@@ -128800,14 +128732,6 @@ weightClass = Medium;
 },
 {
 customParameters = (
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
 {
 name = "Rename Glyphs";
 value = (
@@ -128831,14 +128755,6 @@ weightClass = SemiBold;
 },
 {
 customParameters = (
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
 {
 name = "Rename Glyphs";
 value = (
@@ -128866,14 +128782,6 @@ weightClass = Bold;
 },
 {
 customParameters = (
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
 {
 name = "Rename Glyphs";
 value = (
@@ -128907,14 +128815,6 @@ weightClass = ExtraBold;
 },
 {
 customParameters = (
-{
-name = "Save as TrueType";
-value = 1;
-},
-{
-name = Autohint;
-value = 0;
-},
 {
 name = "Rename Glyphs";
 value = (
@@ -129067,13 +128967,11 @@ trademark = -21;
 v = -5;
 };
 "@MMK_L_I" = {
-"@MMK_R_A" = -8;
 "@MMK_R_AE" = -14;
 "@MMK_R_a" = -7;
 "@MMK_R_a.sc" = -15;
 "@MMK_R_g" = -9;
 "@MMK_R_o" = -7;
-"@MMK_R_period" = -22;
 "@MMK_R_s" = -7;
 braceright = -13;
 braceright.case = -13;
@@ -132006,7 +131904,6 @@ v = -7;
 v.sc = -10;
 };
 "@MMK_L_I" = {
-"@MMK_R_A" = -11;
 "@MMK_R_AE" = -19;
 "@MMK_R_a" = -18;
 "@MMK_R_g" = -11;
@@ -132014,7 +131911,6 @@ v.sc = -10;
 "@MMK_R_l" = -6;
 "@MMK_R_n" = -5;
 "@MMK_R_o" = -8;
-"@MMK_R_period" = -20;
 "@MMK_R_s" = -9;
 "@MMK_R_u" = -8;
 "@MMK_R_z" = -7;
@@ -134676,9 +134572,7 @@ X = -30;
 "@MMK_R_Y" = -30;
 };
 "@MMK_L_I" = {
-"@MMK_R_A" = -25;
 "@MMK_R_AE" = -25;
-"@MMK_R_period" = -22;
 slash = -60;
 };
 "@MMK_L_K" = {
@@ -135234,7 +135128,6 @@ x = -50;
 x.sc = -70;
 };
 "@MMK_L_i" = {
-"@MMK_R_i" = 1;
 "@MMK_R_quotesingle" = 25;
 slash = -10;
 };

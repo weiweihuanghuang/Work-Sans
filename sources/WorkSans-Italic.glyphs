@@ -1264,7 +1264,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = 243;
+value = -243;
 },
 {
 name = typoLineGap;
@@ -1284,20 +1284,11 @@ value = 0;
 },
 {
 name = winDescent;
-value = 343;
+value = 322;
 },
 {
 name = winAscent;
 value = 1105;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 250;
-}
-);
 }
 );
 descender = -210;
@@ -1382,7 +1373,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = 243;
+value = -243;
 },
 {
 name = typoLineGap;
@@ -1407,15 +1398,6 @@ value = 343;
 {
 name = winAscent;
 value = 1105;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -210;
@@ -1519,7 +1501,7 @@ value = 930;
 },
 {
 name = typoDescender;
-value = 243;
+value = -243;
 },
 {
 name = typoLineGap;
@@ -1544,15 +1526,6 @@ value = 343;
 {
 name = winAscent;
 value = 1105;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-}
-);
 }
 );
 descender = -210;
@@ -8180,7 +8153,7 @@ width = 483;
 }
 );
 leftKerningGroup = J;
-rightKerningGroup = I;
+rightKerningGroup = U;
 unicode = 004A;
 },
 {
@@ -116279,10 +116252,8 @@ trademark = -21;
 v = -5;
 };
 "@MMK_L_I" = {
-"@MMK_R_a" = -5;
 "@MMK_R_a.sc" = -15;
 "@MMK_R_g" = -6;
-"@MMK_R_o" = -7;
 "@MMK_R_s" = -5;
 braceright = -11;
 braceright.case = -11;
@@ -122704,7 +122675,6 @@ x = -50;
 x.sc = -70;
 };
 "@MMK_L_i" = {
-"@MMK_R_i" = 1;
 "@MMK_R_l" = -5;
 "@MMK_R_quotesingle" = 25;
 j = 1;
