@@ -1,37 +1,22 @@
-cp WorkSans-Upright.glyphs WorkSans-UprightBuild.glyphs
+### WIP macOS build script for Work Sans VF, based on a build script by Mike LaGuttuta
 
-fontmake -o variable -g WorkSans-UprightBuild.glyphs
+glyphsSource="WorkSans.glyphs"
+VFname="WorkSans-VF"
 
-mv variable_ttf/WorkSans-VF.ttf WorkSans-VF.ttf
+fontmake -o variable -g $glyphsSource
 
-rm -rf WorkSans-UprightBuild.glyphs
-rm -rf master_ufo
-rm -rf variable_ttf
+# mv variable_ttf/${VFname}.ttf ${VFname}.ttf
 
-python ./addItalics.py WorkSans-VF.ttf
+# rm -rf master_ufo
+# rm -rf variable_ttf
 
-gftools fix-nonhinting WorkSans-VF.ttf WorkSans-VF.ttf
-gftools fix-dsig --autofix WorkSans-VF.ttf
-gftools fix-gasp WorkSans-VF.ttf
-ttfautohint WorkSans-VF.ttf WorkSans-VF-Hinted.ttf --verbose
+# python tools/swapBracketTrick.py ${VFname}.ttf "Upright"
 
-python ./gftools-fix-vf-meta.py WorkSans-VF-Hinted.ttf
+# gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
+# gftools fix-dsig --autofix ${VFname}.ttf
+# gftools fix-gasp ${VFname}.ttf
 
-## move font into folder of dist/, with timestamp, then fontbake the font
-    python3 ./distdate-and-fontbake.py WorkSans-VF-Hinted.ttf
-    rm -rf variable_ttf
+# python tools/gftools-fix-vf-meta.py ${VFname}.ttf
 
-# ttx WorkSans-VF.ttf
-
-# rm -rf WorkSans-VF.ttf
-# rm -rf WorkSans-Upright-VF-backup-fonttools-prep-gasp.ttf
-
-# cat WorkSans-Upright-VF.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat tools/patch1.xml | tr '\n' '\r')," | tr '\r' '\n' > WorkSans-Upright-VF-STAT.ttx
-
-# rm -rf WorkSans-Upright-VF.ttx
-
-# ttx WorkSans-Upright-VF-STAT.ttx
-
-# rm -rf WorkSans-Upright-VF-STAT.ttx
-
-# mv WorkSans-Upright-VF-STAT.ttf WorkSans-UprightBeta-VF.ttf
+# ## move font into folder of dist/, with timestamp, then fontbake the font
+# python3 tools/distdate-and-fontbake.py ${VFname}.ttf

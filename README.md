@@ -49,11 +49,17 @@ Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Da
 
 Thanks to the following people for their assitance and contributions:
 
-[CrystalType](https://github.com/crystaltype), 
-[Dennis Grauel](https://dennisgrauel.com/), 
-[Denis Moyogo Jacquerye](https://github.com/moyogo), 
-[Desmond Wong](http://desmondwong.com/), 
-[Kia Tasbihgou](http://www.kiatas.me/), 
+[CrystalType](https://github.com/crystaltype)
+
+[Dennis Grauel](https://dennisgrauel.com/)
+
+[Denis Moyogo Jacquerye](https://github.com/moyogo)
+
+[Stephen Nixon](http://www.thundernixon.com/)
+
+[Desmond Wong](http://desmondwong.com/)
+
+[Kia Tasbihgou](http://www.kiatas.me/)
 
 Thanks to Simon Egli for inviting me to work together on Metapolator in the first place.
 
