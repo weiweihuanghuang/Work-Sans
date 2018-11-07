@@ -45,7 +45,15 @@ Refer to [BUILD.txt](/sources/BUILD.txt) for documentation on my process for hin
 Hjerteleg tusen takk til Tone Sjåstad for her suport, patience, encouragement and inspiration throughout the process. 
 
 Many thanks to the following who provided valuable feedback and encouragement:
-Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Dan Milne, Scott Rankin, Dan Reynolds, David Jonathan Ross, Adam Twardoch, David Wise. Thanks to [Desmond Wong](http://desmondwong.com/) for his assistance. 
+Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Dan Milne, Scott Rankin, Dan Reynolds, David Jonathan Ross, Adam Twardoch, David Wise. 
+
+Thanks to the following people for their assitance and contributions
+
+[CrystalType](https://github.com/crystaltype)
+[Dennis Grauel](https://dennisgrauel.com/)
+[Denis Moyogo Jacquerye](https://github.com/moyogo)
+[Desmond Wong](http://desmondwong.com/)
+[Kia Tasbihgou](http://www.kiatas.me/)
 
 Thanks to Simon Egli for inviting me to work together on Metapolator in the first place.
 
