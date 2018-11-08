@@ -3,7 +3,8 @@
 DisplayStrings = (
 "/Uhorn/Ohorn/uhorn/ohorn/Ahookabove/ahookabove \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb \012/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde \012/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde \012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde \012/Etilde/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde \012/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde \012\012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/Ohorn/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde/ohorn/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/Uhorn/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde/uhorn/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde",
 "/ldot/lslash  //space\012\012\012L\012HUB/Germandbls EL/Lslash ZFPÞT/Tbar YVWARKXOØQGCS\012naqudlij/g.ss01 frtoecðsßgkxvz\0120917426583\012/zero.osf/one.osf/two.osf/four.osf/seven.osf/five.osf/three.osf/nine.osf/six.osf/eight.osf \012/zerosuperior ¹/foursuperior/sevensuperior/ninesuperior ²/sixsuperior/fivesuperior/eightsuperior ³/zeroinferior/oneinferior/fourinferior/seveninferior/nineinferior/twoinferior/sixinferior/fiveinferior/eightinferior/threeinferior/zerosuperior/sevensuperior/zeroinferior/seveninferior \012.,/quotesinglbase/quoteleft/quoteright ':;-/endash *!?¡¿/exclamdown.case/questiondown.case \012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger \012\012R\012HUTZAÆYVWXOØSJ\012hlnijpuaoøðßftgsyvwxz\0120617238954\012/zero.osf/one.osf/two.osf/three.osf/nine.osf/five.osf/four.osf/seven.osf/six.osf/eight.osf \012.,/quotesinglbase/quoteleft/quoteright ':-*!?\012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger °\012\012.,:;-/endash/guilsinglleft/guilsinglright {}[]()///backslash *!?&@#\012H, /quoteleft H/quoteright  /quoteleft H/quoteleft  /quoteright H/quoteright  /quotesinglbase H/quoteright  /quotesinglbase H/quoteleft  'H'\012\012L /leftArrow/rightArrow/northEastArrow/southWestArrow/downArrow/upArrow/southEastArrow/northWestArrow/leftHookArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012R /leftArrow/rightArrow/northEastArrow/southWestArrow/upArrow/downArrow/southEastArrow/northWestArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012\012Triple:\012h/hbar blnijpruoødq/a.ss01/g.ss01 ecðagsßftvywxkz\012HOTYAVWXZ",
-"Done:\012/apple/apple.001/Adieresis.titl/Adieresis.titl.136_230/Odieresis.titl/Odieresis.titl.136_230 \012/cedi/cedi.201_230 ¢/cent.201_230/colonsign/colonsign.201_230 $/dollar.201_230/guarani/guarani.201_230/naira/naira.169_230/peseta/peseta.169_230/peso/peso.136_230/won/won.169_230/dollar.tf/dollar.tf.201_230/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.79_230 ¶/paragraph.79_230 ©®/cent.tf/cent.tf.201_230 \012\012Brace:\012aæes/Udieresis.titl"
+"Done:\012/apple/apple.001/Adieresis.titl/Adieresis.titl.136_230/Odieresis.titl/Odieresis.titl.136_230 \012/cedi/cedi.201_230 ¢/cent.201_230/colonsign/colonsign.201_230 $/dollar.201_230/guarani/guarani.201_230/naira/naira.169_230/peseta/peseta.169_230/peso/peso.136_230/won/won.169_230/dollar.tf/dollar.tf.201_230/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.79_230 ¶/paragraph.79_230 ©®/cent.tf/cent.tf.201_230 \012\012Brace:\012aæes/Udieresis.titl",
+"/Sacutedotaccent/Scommaaccent"
 );
 classes = (
 {
@@ -66,7 +67,7 @@ value = 1400;
 name = Axes;
 value = (
 {
-Name = Weight;
+Name = weight;
 Tag = wght;
 }
 );
@@ -126806,7 +126807,6 @@ width = 530;
 );
 },
 {
-export = 0;
 glyphname = indexring;
 layers = (
 {
@@ -128643,8 +128643,8 @@ instances = (
 {
 customParameters = (
 {
-name = "Save as TrueType";
-value = 1;
+name = weightClass;
+value = 250;
 }
 );
 interpolationCustom = -1;
@@ -128834,6 +128834,543 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 230;
+interpolationWidth = 0;
+instanceInterpolations = {
+"99EB5860-B45A-4B60-BB0B-F826C8F71D42" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = weightClass;
+value = 250;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 16;
+interpolationWidth = 0;
+instanceInterpolations = {
+"1C7CD022-87C7-4E11-B656-E47B18819458" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = weightClass;
+value = 275;
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 28;
+interpolationWidth = 0;
+instanceInterpolations = {
+"1C7CD022-87C7-4E11-B656-E47B18819458" = 0.8125;
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 0.1875;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"apple.001=apple"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 50;
+interpolationWidth = 0;
+instanceInterpolations = {
+"1C7CD022-87C7-4E11-B656-E47B18819458" = 0.46875;
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 0.53125;
+};
+name = Light;
+weightClass = Light;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"apple.001=apple"
+);
+}
+);
+interpolationWeight = 80;
+interpolationWidth = 5;
+instanceInterpolations = {
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 1;
+};
+name = Regular;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"apple.001=apple",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 107;
+interpolationWidth = 0;
+instanceInterpolations = {
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 0.82;
+"99EB5860-B45A-4B60-BB0B-F826C8F71D42" = 0.18;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"peso.136_230=peso",
+"Adieresis.titl.136_230=Adieresis.titl",
+"Odieresis.titl.136_230=Odieresis.titl",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 137;
+interpolationWidth = 0;
+instanceInterpolations = {
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 0.62;
+"99EB5860-B45A-4B60-BB0B-F826C8F71D42" = 0.38;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"naira.169_230=naira",
+"peseta.169_230=peseta",
+"won.169_230=won",
+"peso.136_230=peso",
+"Adieresis.titl.136_230=Adieresis.titl",
+"Odieresis.titl.136_230=Odieresis.titl",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 170;
+interpolationWidth = 0;
+instanceInterpolations = {
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 0.4;
+"99EB5860-B45A-4B60-BB0B-F826C8F71D42" = 0.6;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"cedi.201_230=cedi",
+"cent.201_230=cent",
+"colonsign.201_230=colonsign",
+"dollar.201_230=dollar",
+"guarani.201_230=guarani",
+"dollar.tf.201_230=dollar.tf",
+"cent.tf.201_230=cent.tf",
+"naira.169_230=naira",
+"peseta.169_230=peseta",
+"won.169_230=won",
+"peso.136_230=peso",
+"Adieresis.titl.136_230=Adieresis.titl",
+"Odieresis.titl.136_230=Odieresis.titl",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 202;
+interpolationWidth = 0;
+instanceInterpolations = {
+"4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = 0.18667;
+"99EB5860-B45A-4B60-BB0B-F826C8F71D42" = 0.81333;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"cedi.201_230=cedi",
+"cent.201_230=cent",
+"colonsign.201_230=colonsign",
+"dollar.201_230=dollar",
+"guarani.201_230=guarani",
+"dollar.tf.201_230=dollar.tf",
+"cent.tf.201_230=cent.tf",
+"naira.169_230=naira",
+"peseta.169_230=peseta",
+"won.169_230=won",
+"peso.136_230=peso",
+"Adieresis.titl.136_230=Adieresis.titl",
+"Odieresis.titl.136_230=Odieresis.titl",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
 }
 );
 interpolationCustom = -1;

@@ -47,7 +47,7 @@ value = 1400;
 name = Axes;
 value = (
 {
-Name = Weight;
+Name = weight;
 Tag = wght;
 }
 );
@@ -114709,7 +114709,6 @@ width = 399;
 );
 },
 {
-export = 0;
 glyphname = indexring;
 layers = (
 {
@@ -116112,6 +116111,552 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 230;
+interpolationWidth = 13;
+instanceInterpolations = {
+"EA77C764-8343-414A-A941-E69667BA8F3A" = 1;
+};
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
+weightClass = Black;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = weightClass;
+value = 250;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 16;
+interpolationWidth = 13;
+instanceInterpolations = {
+"F97236B5-7CBD-4FD1-81B0-6670342ADB4E" = 1;
+};
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = Thin;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = weightClass;
+value = 275;
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 28;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 0.1875;
+"F97236B5-7CBD-4FD1-81B0-6670342ADB4E" = 0.8125;
+};
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"apple.001=apple"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 50;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 0.53125;
+"F97236B5-7CBD-4FD1-81B0-6670342ADB4E" = 0.46875;
+};
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = Light;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"apple.001=apple"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 80;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 1;
+};
+isItalic = 1;
+name = Italic;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"apple.001=apple",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 107;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 0.82;
+"EA77C764-8343-414A-A941-E69667BA8F3A" = 0.18;
+};
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = Medium;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"peso.136_230=peso",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 137;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 0.62;
+"EA77C764-8343-414A-A941-E69667BA8F3A" = 0.38;
+};
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = SemiBold;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"naira.169_230=naira",
+"peseta.169_230=peseta",
+"won.169_230=won",
+"peso.136_230=peso",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 170;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 0.4;
+"EA77C764-8343-414A-A941-E69667BA8F3A" = 0.6;
+};
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+weightClass = Bold;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"cedi.201_230=cedi",
+"cent.201_230=cent",
+"colonsign.201_230=colonsign",
+"dollar.201_230=dollar",
+"guarani.201_230=guarani",
+"dollar.tf.201_230=dollar.tf",
+"cent.tf.201_230=cent.tf",
+"naira.169_230=naira",
+"peseta.169_230=peseta",
+"won.169_230=won",
+"peso.136_230=peso",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
+}
+);
+interpolationCustom = -1;
+interpolationWeight = 202;
+interpolationWidth = 13;
+instanceInterpolations = {
+"DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301" = 0.18667;
+"EA77C764-8343-414A-A941-E69667BA8F3A" = 0.81333;
+};
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
+weightClass = ExtraBold;
+},
+{
+exports = 0;
+customParameters = (
+{
+name = "Rename Glyphs";
+value = (
+"cedi.201_230=cedi",
+"cent.201_230=cent",
+"colonsign.201_230=colonsign",
+"dollar.201_230=dollar",
+"guarani.201_230=guarani",
+"dollar.tf.201_230=dollar.tf",
+"cent.tf.201_230=cent.tf",
+"naira.169_230=naira",
+"peseta.169_230=peseta",
+"won.169_230=won",
+"peso.136_230=peso",
+"curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
+"paragraph.79_230=paragraph"
+);
+},
+{
+name = winDescent;
+value = 343;
+},
+{
+name = winAscent;
+value = 1105;
+},
+{
+name = typoLineGap;
+value = 448;
+},
+{
+name = typoDescender;
+value = 240;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaDescender;
+value = -343;
+},
+{
+name = hheaAscender;
+value = 1105;
+},
+{
+name = Autohint;
+value = 1;
 }
 );
 interpolationCustom = -1;
