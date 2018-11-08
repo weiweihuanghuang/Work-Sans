@@ -128645,6 +128645,10 @@ customParameters = (
 {
 name = weightClass;
 value = 250;
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128661,6 +128665,10 @@ customParameters = (
 {
 name = weightClass;
 value = 275;
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128680,6 +128688,10 @@ name = "Rename Glyphs";
 value = (
 "apple.001=apple"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128699,6 +128711,10 @@ name = "Rename Glyphs";
 value = (
 "apple.001=apple"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128718,6 +128734,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128741,6 +128761,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128767,6 +128791,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128801,6 +128829,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128834,6 +128866,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128846,7 +128882,6 @@ name = Black;
 weightClass = Black;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = winDescent;
@@ -128879,10 +128914,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 },
 {
 name = weightClass;
@@ -128899,7 +128930,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = weightClass;
@@ -128936,10 +128966,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -128953,7 +128979,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Rename Glyphs";
@@ -128992,10 +129017,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -129009,7 +129030,6 @@ name = Light;
 weightClass = Light;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = winDescent;
@@ -129042,10 +129062,6 @@ value = 760;
 {
 name = typoDescender;
 value = 240;
-},
-{
-name = Autohint;
-value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -129062,7 +129078,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Rename Glyphs";
@@ -129103,10 +129118,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -129120,7 +129131,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Rename Glyphs";
@@ -129163,10 +129173,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -129180,7 +129186,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Rename Glyphs";
@@ -129226,10 +129231,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -129244,7 +129245,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Rename Glyphs";
@@ -129297,10 +129297,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -129314,7 +129310,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Rename Glyphs";
@@ -129367,10 +129362,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
