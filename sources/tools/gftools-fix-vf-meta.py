@@ -19,7 +19,8 @@ axis (covers 95% of GF cases).
 """
 from argparse import ArgumentParser
 from fontTools.ttLib import TTFont, newTable
-from fontTools.ttLib.tables import otTables
+from fontTools.ttLib.tables import otTablesos
+import os
 
 
 OS_2_WEIGHT_CLASS = {
