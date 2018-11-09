@@ -22,7 +22,7 @@ rm -rf master_ufo
 rm -rf instance_ufo
 rm -rf variable_ttf
 
-Add featureVariation for bracket trick glyphs
+# Add featureVariation for bracket trick glyphs
 python tools/swapBracketTrick.py ${VFname}.ttf "$1"
 mv ${VFname}-swap.ttf ${VFname}.ttf
 
