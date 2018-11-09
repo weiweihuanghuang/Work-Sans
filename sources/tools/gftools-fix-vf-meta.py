@@ -19,7 +19,7 @@ axis (covers 95% of GF cases).
 """
 from argparse import ArgumentParser
 from fontTools.ttLib import TTFont, newTable
-from fontTools.ttLib.tables import otTablesos
+from fontTools.ttLib.tables import otTables
 import os
 
 
@@ -121,7 +121,7 @@ def fix_nametable(ttfont):
     fullname = '{} {}'.format(family_name, default_style)
     table.setName(unicode(fullname), 4, 3, 1, 1033)
 
-    psname = '{}-{}'.format(family_name, default_style.replace(' ', ''))
+    psname = '{}-{}'.format(family_name.replace(' ', ''), default_style.replace(' ', ''))
     table.setName(unicode(psname), 6, 3, 1, 1033)
 
     # uniqueid basedon fontmake output version;vendorid;psname
@@ -151,7 +151,7 @@ def create_stat_table(ttfont):
     this, we'll create a STAT using the font's fvar table."""
     stat = newTable('STAT')
     stat.table = otTables.STAT()
-    stat.table.Version = 0x00010002
+    stat.table.Version = 0x00010001
 
     # # Build DesignAxisRecords from fvar
     stat.table.DesignAxisRecord = otTables.AxisRecordArray()

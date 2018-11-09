@@ -3,10 +3,7 @@
 DisplayStrings = (
 "/Uhorn/Ohorn/uhorn/ohorn/Ahookabove/ahookabove \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb \012/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde \012/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde \012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde \012/Etilde/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde \012/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde \012\012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/Ohorn/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde/ohorn/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/Uhorn/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde/uhorn/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde",
 "/ldot/lslash  //space\012\012\012L\012HUB/Germandbls EL/Lslash ZFPÞT/Tbar YVWARKXOØQGCS\012naqgudlijfrtoecðsßkxvz\0120917426583\012/zero.osf/one.osf/two.osf/four.osf/seven.osf/five.osf/three.osf/nine.osf/six.osf/eight.osf \012/zerosuperior ¹/foursuperior/sevensuperior/ninesuperior ²/sixsuperior/fivesuperior/eightsuperior ³/zeroinferior/oneinferior/fourinferior/seveninferior/nineinferior/twoinferior/sixinferior/fiveinferior/eightinferior/threeinferior/zerosuperior/sevensuperior/zeroinferior/seveninferior \012.,/quotesinglbase/quoteleft/quoteright ':;-/endash *!?¡¿/exclamdown.case/questiondown.case \012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger \012\012R\012HUTZAÆYVWXOØSJ\012hlnijpuaoøðßftgsyvwxz\0120617238954\012/zero.osf/one.osf/two.osf/three.osf/nine.osf/five.osf/four.osf/seven.osf/six.osf/eight.osf \012.,/quotesinglbase/quoteleft/quoteright ':-*!?\012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger °\012\012.,:;-/endash/guilsinglleft/guilsinglright {}[]()///backslash *!?&@#\012H, /quoteleft H/quoteright  /quoteleft H/quoteleft  /quoteright H/quoteright  /quotesinglbase H/quoteright  /quotesinglbase H/quoteleft  'H'\012\012L /leftArrow/rightArrow/northEastArrow/southWestArrow/downArrow/upArrow/southEastArrow/northWestArrow/leftHookArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012R /leftArrow/rightArrow/northEastArrow/southWestArrow/upArrow/downArrow/southEastArrow/northWestArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012\012Triple:\012h/hbar blnijpruoødqecðagsßftvywxkz\012HOTYAVWXZ",
-"JGCOQSU/OE \012BPRÞGCOQDS/OE \012AÆEFCGJLPRSYVWMKXZ\012AÆKXZYVWMNR (diag)\012sðoceaæ/oe bpdqßgt \012ltfjy (bot top tail)\012kxzyvw (diag)\012",
-"Done:\012/apple/apple.001 \012/cedi/cedi.201_230 ¢/cent.201_230/colonsign/colonsign.201_230 $/dollar.201_230/guarani/guarani.201_230/naira/naira.169_230/peseta/peseta.169_230/peso/peso.136_230/won/won.169_230/dollar.tf/dollar.tf.201_230/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.79_230 ¶/paragraph.79_230 ©®/cent.tf/cent.tf.201_230 \012\012Brace:\012æes",
-"$/dollar.tf/dollar.201_230/dollar.tf.201_230",
-"{"
+"Done:\012/apple/apple.001 \012/cedi/cedi.201_230 ¢/cent.201_230/colonsign/colonsign.201_230 $/dollar.201_230/guarani/guarani.201_230/naira/naira.169_230/peseta/peseta.169_230/peso/peso.136_230/won/won.169_230/dollar.tf/dollar.tf.201_230/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.79_230 ¶/paragraph.79_230 ©®/cent.tf/cent.tf.201_230 \012\012Brace:\012æes"
 );
 classes = (
 {
@@ -70,6 +67,10 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301";
 }
 );
 date = "2018-11-06 02:08:55 +0000";
@@ -115487,6 +115488,10 @@ customParameters = (
 {
 name = weightClass;
 value = 250;
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115505,6 +115510,10 @@ customParameters = (
 {
 name = weightClass;
 value = 275;
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115526,6 +115535,10 @@ name = "Rename Glyphs";
 value = (
 "apple.001=apple"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115547,6 +115560,10 @@ name = "Rename Glyphs";
 value = (
 "apple.001=apple"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115567,6 +115584,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115590,6 +115611,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115616,6 +115641,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115649,6 +115678,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115682,6 +115715,10 @@ value = (
 "curvedStemParagraphSignOrnament.79_230=curvedStemParagraphSignOrnament",
 "paragraph.79_230=paragraph"
 );
+},
+{
+name = "Save as TrueType";
+value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115733,10 +115770,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115788,10 +115821,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115846,10 +115875,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115904,10 +115929,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -115961,10 +115982,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -116021,10 +116038,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -116084,10 +116097,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -116154,10 +116163,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
@@ -116224,10 +116229,6 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationCustom = -1;
