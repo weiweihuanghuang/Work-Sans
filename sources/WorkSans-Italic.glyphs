@@ -71,6 +71,10 @@ value = 1;
 {
 name = "Variable Font Origin";
 value = "DBFAC7D3-9CB2-48DD-9F53-AD59A4BD1301";
+},
+{
+name = vendorID;
+value = WEI;
 }
 );
 date = "2018-11-09 06:50:14 +0000";

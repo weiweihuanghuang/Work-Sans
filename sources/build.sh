@@ -1,38 +1,67 @@
 ### WIP macOS build script for Work Sans Upright and Italic VF, based on a build script by Mike LaGuttuta
+# To add brace trick glyphs, define them in $BraceGlyphs variable, and save the source VF in the same folder as the script
 
 # Setting the Source and VF name, determine if it's for Italic or Upright source from the argument passed to this script
-if [ "$1" == "Italic" ]; then
+
+glyphsSource="WorkSans-build.glyphs"
+VFname="WorkSans-VF"
+GXname="WorkSansGX"
+
+if [ "$1" == "Upright" ]; then
+	# Setting which brace glyphs will get copied from the VF generated from glyphs app
+	BraceGlyphs="a,ae,e,s"
+elif [ "$1" == "Italic" ]; then
+	BraceGlyphs="ae,e,s"
 	# Italic
-	glyphsSource="WorkSans-Italic.glyphs"
-	VFname="WorkSans-ItalicItalic-VF"
-elif [ "$1" == "Upright" ]; then
-	# Upright
-	glyphsSource="WorkSans.glyphs"
-	VFname="WorkSans-VF"
+	glyphsSource=${glyphsSource/"-build.glyphs"/"-Italic-build.glyphs"}
+	VFname=${VFname/"-VF"/"-Italic-VF"}
+	GXname=${GXname/"GX"/"ItalicGX"}
 fi
 
 # Call fontmake to generate variable font
 fontmake -o variable -g $glyphsSource
 echo "${VFname}.ttf generated"
 
-# Clean up folders
+# Clean up files
 mv variable_ttf/${VFname}.ttf ${VFname}.ttf
 
 rm -rf master_ufo
 rm -rf instance_ufo
 rm -rf variable_ttf
 
-# # Add featureVariation for bracket trick glyphs
-# python tools/swapBracketTrick.py ${VFname}.ttf "$1"
-# mv ${VFname}-swap.ttf ${VFname}.ttf
+ttx ${VFname}.ttf
+rm ${VFname}.ttf
+ttx ${GXname}.ttf
+mv ${GXname}.ttx tools/${GXname}.ttx
+
+# Copy brace glyphs from variable font generated from Glyphs App
+# Run script to find and copy TTGlyph and glyphVariations elements from source file and copy into target file
+xml tr tools/replaceBraceGlyphs.xsl \
+    -s replacements=${GXname}.ttx \
+    -s replacenames=$BraceGlyphs \
+    ${VFname}.ttx > ${VFname}-brace.ttx
+echo "Brace glyphs added"
+
+# Clean up files
+rm tools/${GXname}.ttx
+rm ${VFname}.ttx
+ttx ${VFname}-brace.ttx
+rm ${VFname}-brace.ttx
+mv ${VFname}-brace.ttf ${VFname}.ttf
+
+# Add featureVariation for bracket trick glyphs
+python tools/replaceBracketTrick.py ${VFname}.ttf "$1"
+mv ${VFname}-swap.ttf ${VFname}.ttf
+echo "Bracket glyphs added"
 
 # Fix non-hinting, DSIG and GASP table
 gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
 gftools fix-gasp ${VFname}.ttf
-echo "nonhinting, dsig, gasp fixed"
+echo "nonhinting, gasp fixed"
 
-# Clean up backup file
-rm -rf ${VFname}-backup-fonttools-prep-gasp.ttf
+# Clean up files
+rm ${VFname}-backup-fonttools-prep-gasp.ttf
+# rm ${GXname}.ttf
 
 # # Fix VF Metadata
 # python tools/gftools-fix-vf-meta.py ${VFname}.ttf
@@ -41,21 +70,21 @@ rm -rf ${VFname}-backup-fonttools-prep-gasp.ttf
 # rm ${VFname}.ttf
 # mv ${VFname}.ttf.fix ${VFname}.ttf
 
-# Correct nameID 6 (remove space)
-python tools/NAMEpatch.py ${VFname}.ttf
-rm ${VFname}.ttf
-mv ${VFname}#1.ttf ${VFname}.ttf
-echo "nameID 6 fixed"
+# # Correct nameID 6 (remove space)
+# python tools/NAMEpatch.py ${VFname}.ttf
+# rm ${VFname}.ttf
+# mv ${VFname}#1.ttf ${VFname}.ttf
+# echo "nameID 6 fixed"
 
 # Fix DSIG
 gftools fix-dsig --autofix ${VFname}.ttf
 
-if [ "$1" = "Italic" ]; then
-	# Rename *-ItalicItalic to -Italic
-	for i in *.ttf; do
-	    mv "$i" "${i//ItalicItalic/Italic}"
-	done
-fi
+# if [ "$1" = "Italic" ]; then
+# 	# Rename *-ItalicItalic to -Italic
+# 	for i in *.ttf; do
+# 	    mv "$i" "${i//ItalicItalic/Italic}"
+# 	done
+# fi
 
 # fontbakery check-googlefonts ${VFname}.ttf --ghmarkdown fontbakery-report.md
 
