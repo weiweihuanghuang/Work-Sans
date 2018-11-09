@@ -1,0 +1,4 @@
+STATIC FONT BUILD
+	- Export from Glyphs App Version 2.5.2 (1176)
+		- Remove Overlap
+		- Autohint

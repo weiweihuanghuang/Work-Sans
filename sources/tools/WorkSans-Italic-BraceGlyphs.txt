@@ -1,0 +1,14 @@
+apple.001
+cedi.201_230
+cent.201_230
+colonsign.201_230
+dollar.201_230
+guarani.201_230
+dollar.tf.201_230
+cent.tf.201_230
+naira.169_230
+peseta.169_230
+won.169_230
+peso.136_230
+curvedStemParagraphSignOrnament.79_230
+paragraph.79_230

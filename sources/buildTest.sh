@@ -3,17 +3,17 @@
 
 # Setting the Source and VF name, determine if it's for Italic or Upright source from the argument passed to this script
 
-glyphsSource="WorkSans.glyphs"
+glyphsSource="WorkSans-build.glyphs"
 VFname="WorkSans-VF"
 GXname="WorkSansGX"
 
 if [ "$1" == "Upright" ]; then
 	# Setting which brace glyphs will get copied from the VF generated from glyphs app
-	BraceGlyphs="Odieresis.titl,Udieresis.titl,a,ae,e,s"
+	BraceGlyphs="a,ae,e,s"
 elif [ "$1" == "Italic" ]; then
 	BraceGlyphs="ae,e,s"
 	# Italic
-	glyphsSource=${glyphsSource/".glyphs"/"-Italic.glyphs"}
+	glyphsSource=${glyphsSource/"-build.glyphs"/"-Italic-build.glyphs"}
 	VFname=${VFname/"-VF"/"-Italic-VF"}
 	GXname=${GXname/"GX"/"ItalicGX"}
 fi
@@ -22,7 +22,7 @@ fi
 fontmake -o variable -g $glyphsSource
 echo "${VFname}.ttf generated"
 
-# Clean up folders
+# Clean up files
 mv variable_ttf/${VFname}.ttf ${VFname}.ttf
 
 rm -rf master_ufo
@@ -40,8 +40,9 @@ xml tr tools/replaceBraceGlyphs.xsl \
     -s replacements=${GXname}.ttx \
     -s replacenames=$BraceGlyphs \
     ${VFname}.ttx > ${VFname}-brace.ttx
+echo "Brace glyphs added"
 
-# Clean up folders
+# Clean up files
 rm tools/${GXname}.ttx
 rm ${VFname}.ttx
 ttx ${VFname}-brace.ttx
@@ -49,16 +50,18 @@ rm ${VFname}-brace.ttx
 mv ${VFname}-brace.ttf ${VFname}.ttf
 
 # Add featureVariation for bracket trick glyphs
-python tools/swapBracketTrick.py ${VFname}.ttf "$1"
+python tools/replaceBracketTrick.py ${VFname}.ttf "$1"
 mv ${VFname}-swap.ttf ${VFname}.ttf
+echo "Bracket glyphs added"
 
 # Fix non-hinting, DSIG and GASP table
 gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
 gftools fix-gasp ${VFname}.ttf
-echo "nonhinting, dsig, gasp fixed"
+echo "nonhinting, gasp fixed"
 
-# Clean up backup file
+# Clean up files
 rm ${VFname}-backup-fonttools-prep-gasp.ttf
+# rm ${GXname}.ttf
 
 # # Fix VF Metadata
 # python tools/gftools-fix-vf-meta.py ${VFname}.ttf
