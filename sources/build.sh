@@ -1,9 +1,12 @@
+#!/bin/bash
+set -e
+
 ### WIP macOS build script for Work Sans Upright and Italic VF, based on a build script by Mike LaGuttuta
 # To add brace trick glyphs, define them in $BraceGlyphs variable, and save the source VF in the same folder as the script
 
 # Setting the Source and VF name, determine if it's for Italic or Upright source from the argument passed to this script
 
-glyphsSource="WorkSans-build.glyphs"
+glyphsSource="WorkSans.glyphs"
 VFname="WorkSans-VF"
 GXname="WorkSansGX"
 
@@ -13,18 +16,21 @@ if [ "$1" == "Upright" ]; then
 elif [ "$1" == "Italic" ]; then
 	BraceGlyphs="ae,e,s"
 	# Italic
-	glyphsSource=${glyphsSource/"-build.glyphs"/"-Italic-build.glyphs"}
+	glyphsSource=${glyphsSource/".glyphs"/"-Italic.glyphs"}
 	VFname=${VFname/"-VF"/"-Italic-VF"}
 	GXname=${GXname/"GX"/"ItalicGX"}
 fi
 
+python tools/makeGlyphsFileWithExportingBracketGlyphs.py "${glyphsSource}" "$1"
+glyphsBuildSource=${glyphsSource/".glyphs"/"-build.glyphs"}
+
 # Call fontmake to generate variable font
-fontmake -o variable -g $glyphsSource
+fontmake -o variable -g $glyphsBuildSource
 echo "${VFname}.ttf generated"
 
 # Clean up files
 mv variable_ttf/${VFname}.ttf ${VFname}.ttf
-
+rm $glyphsBuildSource
 rm -rf master_ufo
 rm -rf instance_ufo
 rm -rf variable_ttf

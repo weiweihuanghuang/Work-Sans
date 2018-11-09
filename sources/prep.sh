@@ -7,5 +7,4 @@ for i in *.glyphs; do
 		style="Upright"
 	fi
     python tools/makeGlyphsFileWithOnlyBraceGlyphs.py "$i" "$style"
-    python tools/makeGlyphsFileWithExportingBracketGlyphs.py "$i" "$style"
 done

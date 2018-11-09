@@ -25,11 +25,11 @@ if style == "Upright":
                                  "peseta": "peseta.169_230",
                                  "uni20A9": "uni20A9.169_230"}),
         ([{"wght": (0.564, 1)}], {"uni20B1": "uni20B1.136_230",
-                                  "Adieresis.tf": "Adieresis.tf.136_230",
-                                  "Udieresis.tf": "Udieresis.tf.136_230"}),
+                                  "Adieresis.titl": "Adieresis.titl.136_230",
+                                  "Udieresis.titl": "Udieresis.titl.136_230"}),
         ([{"wght": (0.424, 1)}], {"uni2761": "uni2761.79_230",
                                   "paragraph": "paragraph.79_230",
-                                  "Odieresis.tf": "Odieresis.tf.106_230"}),
+                                  "Odieresis.titl": "Odieresis.titl.106_230"}),
     ]
 elif style == "Italic":
     condSubst = [
