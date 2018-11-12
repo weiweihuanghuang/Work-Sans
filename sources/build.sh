@@ -21,12 +21,12 @@ elif [ "$1" == "Italic" ]; then
 	GXname=${GXname/"GX"/"ItalicGX"}
 fi
 
-python tools/makeGlyphsFileWithExportingBracketGlyphs.py "${glyphsSource}" "$1"
+python tools/makeBuildGlyphsFile.py "${glyphsSource}" "$1"
 glyphsBuildSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 
 # Call fontmake to generate variable font
 fontmake -o variable -g $glyphsBuildSource
-echo "${VFname}.ttf generated"
+echo "\t${VFname}.ttf generated"
 
 # Clean up files
 mv variable_ttf/${VFname}.ttf ${VFname}.ttf
@@ -42,11 +42,11 @@ mv ${GXname}.ttx tools/${GXname}.ttx
 
 # Copy brace glyphs from variable font generated from Glyphs App
 # Run script to find and copy TTGlyph and glyphVariations elements from source file and copy into target file
+echo "\tAdding brace glyphs..."
 xml tr tools/replaceBraceGlyphs.xsl \
     -s replacements=${GXname}.ttx \
     -s replacenames=$BraceGlyphs \
     ${VFname}.ttx > ${VFname}-brace.ttx
-echo "Brace glyphs added"
 
 # Clean up files
 rm tools/${GXname}.ttx
@@ -56,9 +56,9 @@ rm ${VFname}-brace.ttx
 mv ${VFname}-brace.ttf ${VFname}.ttf
 
 # Add featureVariation for bracket trick glyphs
+echo "\tAdding bracket glyphs..."
 python tools/replaceBracketTrick.py ${VFname}.ttf "$1"
 mv ${VFname}-swap.ttf ${VFname}.ttf
-echo "Bracket glyphs added"
 
 # Fix non-hinting, DSIG and GASP table
 gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf

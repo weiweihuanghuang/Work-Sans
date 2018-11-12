@@ -7,7 +7,7 @@ from glyphsLib import GSLayer
 
 file = sys.argv[1]
 font = GSFont(file)
-print "Preparing %s" % file
+print "\tPreparing %s" % file
 
 # Append Italic to font family naame if Italics
 style = sys.argv[2]
@@ -32,7 +32,7 @@ for eachGlyph in font.glyphs:
 		if re.match('.*\d\}$', eachLayer.name):
 			listOfBraceGlyphs += [eachGlyph.name]
 
-print "Brace glyphs found: ", listOfBraceGlyphs
+print "\tBrace glyphs found: ", listOfBraceGlyphs
 listOfBraceGlyphs += ["space", ".notdef"]
 
 listOfGlyphsNotToExport = [g.name for g in font.glyphs if g.name not in listOfBraceGlyphs]
