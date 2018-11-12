@@ -25,6 +25,7 @@ python tools/makeBuildGlyphsFile.py "${glyphsSource}" "$1"
 glyphsBuildSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 
 # Call fontmake to generate variable font
+echo "\tBuilding ${glyphsSource}.glyphs..."
 fontmake -o variable -g $glyphsBuildSource
 echo "\t${VFname}.ttf generated"
 

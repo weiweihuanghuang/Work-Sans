@@ -13,45 +13,45 @@ print "\tPreparing %s" % file
 
 # Glyphs to re-enable export, in the Glyphs App export these are not active but get swapped with a custom parameter
 italicBracketGlyphs = [
-"cedi.201_230",
-"colonsign.136_230",
-"guarani.201_230",
-"cent.201_230",
-"dollar.201_230",
-"dollar.tf.201_230",
-"cent.tf.201_230",
-"naira.169_230",
-"peseta.169_230",
-"won.169_230",
-"peso.136_230",
-"curvedStemParagraphSignOrnament.79_230",
-"paragraph.79_230"
+"cedi.rvrn",
+"colonsign.rvrn",
+"guarani.rvrn",
+"cent.rvrn",
+"dollar.rvrn",
+"dollar.tf.rvrn",
+"cent.tf.rvrn",
+"naira.rvrn",
+"peseta.rvrn",
+"won.rvrn",
+"peso.rvrn",
+"curvedStemParagraphSignOrnament.rvrn",
+"paragraph.rvrn"
 ]
 
 uprightBracketGlyphs = italicBracketGlyphs + [
-"apple.001",
-"Adieresis.136_230",
-"Odieresis.106_230",
-"Udieresis.136_230",
-"Adieresis.titl.136_230",
-"Odieresis.titl.106_230",
-"Udieresis.titl.136_230",
+"apple.rvrn",
+"Adieresis.rvrn",
+"Odieresis.rvrn",
+"Udieresis.rvrn",
+"Adieresis.titl.rvrn",
+"Odieresis.titl.rvrn",
+"Udieresis.titl.rvrn",
 ]
 
 # Extra FEA code so that the glyphs swapped by rvrn can be substituted again by another opentype feature
 # https://github.com/fonttools/fonttools/issues/1371#issuecomment-437613378
 uprightFeaCode = [
-("tnum", """sub cent.201_230 by cent.tf.201_230; # for rvrn
-sub dollar.201_230 by dollar.tf.201_230; # for rvrn"""),
+("tnum", """sub cent.rvrn by cent.tf.rvrn; # for rvrn
+sub dollar.rvrn by dollar.tf.rvrn; # for rvrn"""),
 ("titl", """# for rvrn
-sub Adieresis.136_230 by Adieresis.titl.136_230;
-sub Odieresis.106_230 by Odieresis.titl.106_230;
-sub Udieresis.136_230 by Udieresis.titl.136_230;""")
+sub Adieresis.rvrn by Adieresis.titl.rvrn;
+sub Odieresis.rvrn by Odieresis.titl.rvrn;
+sub Udieresis.rvrn by Udieresis.titl.rvrn;""")
 ]
 
 italicFeaCode = [
-("tnum", """sub cent.201_230 by cent.tf.201_230; # for rvrn
-sub dollar.201_230 by dollar.tf.201_230; # for rvrn""")
+("tnum", """sub cent.rvrn by cent.tf.rvrn; # for rvrn
+sub dollar.rvrn by dollar.tf.rvrn; # for rvrn""")
 ]
 
 for instance in font.instances:
