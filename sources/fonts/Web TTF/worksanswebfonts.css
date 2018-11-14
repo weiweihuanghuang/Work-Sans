@@ -97,7 +97,7 @@ html {
 }
 @font-face {
   font-family: 'Work Sans';
-  src: url('WorkSans-RegularItalic.ttf')  format('truetype');
+  src: url('WorkSans-Italic.ttf')  format('truetype');
   font-weight:400;
   font-style:italic;
 }

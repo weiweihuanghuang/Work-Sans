@@ -24,10 +24,6 @@ if style == "Upright":
                                  "uni20A9": "uni20A9.rvrn", # won
                                  "uni2761": "uni2761.rvrn", # curvedStemParagraphSignOrnament
                                  "paragraph": "paragraph.rvrn"}), # won
-        # ([{"wght": (0.6, 1)}], {"Odieresis.titl": "Odieresis.titl.rvrn",
-        #                           "Odieresis": "Odieresis.rvrn",
-        #                           "Udieresis": "Udieresis.rvrn",
-        #                           "Udieresis.titl": "Udieresis.titl.rvrn"}),
         ([{"wght": (0.38, 1)}], {"uni20A6": "uni20A6.rvrn", # naira,
                                   "colonmonetary": "colonmonetary.rvrn",  # colon
                                   "Adieresis": "Adieresis.rvrn",
@@ -42,7 +38,6 @@ if style == "Upright":
 elif style == "Italic":
     condSubst = [
         # A list of (Region, Substitution) tuples.
-        ([{"wght": (-.4688, .1800)}], {"uniF8FF": "uniF8FF.rvrn"}), # apple
         ([{"wght": (.8134, 1)}], {"uni20B5": "uni20B5.rvrn", # cedi
                                   "cent": "cent.rvrn",
                                   "dollar": "dollar.rvrn",

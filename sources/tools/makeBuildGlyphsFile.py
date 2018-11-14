@@ -11,7 +11,7 @@ file = sys.argv[1]
 font = GSFont(file)
 print "\tPreparing %s" % file
 
-# Glyphs to re-enable export, in the Glyphs App export these are not active but get swapped with a custom parameter
+# Glyphs to re-enable export, in the Glyphs App static fonts export these are not active but get swapped with a custom parameter, for the VFs though it needs to be exported
 italicBracketGlyphs = [
 "cedi.rvrn",
 "colonsign.rvrn",
