@@ -11,7 +11,7 @@ file = sys.argv[1]
 font = GSFont(file)
 print "\tPreparing %s" % file
 
-# Glyphs to re-enable export, in the Glyphs App static fonts export these are not active but get swapped with a custom parameter, for the VFs though it needs to be exported
+# List of Glyphs which should have export enabled - in the Glyphs App static fonts export these are not active but get swapped with a custom parameter, for the VFs though they needs to be exported
 italicBracketGlyphs = [
 "cedi.rvrn",
 "colonsign.rvrn",
@@ -62,11 +62,10 @@ for instance in font.instances:
 	if deavtivateThisInstance == True:
 		instance.active = 0
 
-style = sys.argv[2]
-if style == "Italic":
+if "Italic" in file:
 	glyphsToActivateExport = italicBracketGlyphs
 	appendFeatureCode = italicFeaCode
-elif style == "Upright":
+else:
 	glyphsToActivateExport = uprightBracketGlyphs
 	appendFeatureCode = uprightFeaCode
 
