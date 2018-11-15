@@ -6,7 +6,7 @@ DisplayStrings = (
 "Done:\012/apple.001 \012/cedi/cedi.rvrn ¢/cent.rvrn/colonsign/colonsign.rvrn $/dollar.rvrn/guarani/guarani.rvrn/naira/naira.rvrn/peseta/peseta.rvrn/peso/peso.rvrn/won/won.rvrn/dollar.tf/dollar.tf.rvrn/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.rvrn ¶/paragraph.rvrn ©®/cent.tf/cent.tf.rvrn \012\012Brace:\012æes",
 ";¡¿/semicolon.tf )]/parenrightsuperior/bracketright.case/exclamdown.sc/questiondown.sc/rightanglebracket-math >/rightArrow/downArrow/southWestArrow/downWhiteTriangle/heavySingleCommaQuotationMarkOrnament/heavyDoubleCommaQuotationMarkOrnament/ringhalfright/bracketrightsuperior/colonsign/colonsign.rvrn",
 "/dollar.tf/cent.tf \012/dollar.tf.rvrn/cent.tf.rvrn \012$¢ÄÜÖ\012/dollar.rvrn/cent.rvrn",
-"/apple"
+"AÖAÜ\012AOAU\012\012"
 );
 classes = (
 {
@@ -112033,12 +112033,12 @@ components = (
 {
 alignment = -1;
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 119, 0}";
+transform = "{1, 0, 0, 1, -106, 0}";
 },
 {
 alignment = -1;
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, -106, 0}";
+transform = "{1, 0, 0, 1, 119, 0}";
 }
 );
 layerId = "EA77C764-8343-414A-A941-E69667BA8F3A";
@@ -117637,6 +117637,13 @@ customParameters = (
 {
 name = "Save as TrueType";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
+);
 }
 );
 interpolationCustom = -1;
@@ -117657,7 +117664,9 @@ value = 1;
 {
 name = "Rename Glyphs";
 value = (
-"peso.rvrn=peso"
+"peso.rvrn=peso",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
 );
 }
 );
@@ -117683,7 +117692,10 @@ value = 1;
 name = "Rename Glyphs";
 value = (
 "naira.rvrn=naira",
-"colonsign.rvrn=colonsign"
+"colonsign.rvrn=colonsign",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -117710,10 +117722,12 @@ name = "Rename Glyphs";
 value = (
 "naira.rvrn=naira",
 "colonsign.rvrn=colonsign",
+"Adieresis.titl.rvrn=Adieresis.titl",
 "peseta.rvrn=peseta",
 "won.rvrn=won",
 "curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
-"paragraph.rvrn=paragraph"
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -117749,7 +117763,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
@@ -117785,7 +117800,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
@@ -117981,6 +117997,13 @@ value = -343;
 {
 name = hheaAscender;
 value = 1105;
+},
+{
+name = "Rename Glyphs";
+value = (
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
+);
 }
 );
 interpolationCustom = -1;
@@ -118029,7 +118052,9 @@ value = 1105;
 {
 name = "Rename Glyphs";
 value = (
-"peso.rvrn=peso"
+"peso.rvrn=peso",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
 );
 }
 );
@@ -118083,7 +118108,10 @@ value = 1105;
 name = "Rename Glyphs";
 value = (
 "naira.rvrn=naira",
-"colonsign.rvrn=colonsign"
+"colonsign.rvrn=colonsign",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -118141,7 +118169,8 @@ value = (
 "peseta.rvrn=peseta",
 "won.rvrn=won",
 "curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
-"paragraph.rvrn=paragraph"
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -118205,7 +118234,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
@@ -118269,7 +118299,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );

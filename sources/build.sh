@@ -76,10 +76,11 @@ done
 
 
 # Fix VF Metadata
-VFfonts=""
-for i in *.ttf; do
-	VFfonts+="$i "
-done
+# VFfonts=""
+# for i in *.ttf; do
+# 	VFfonts+="$i "
+# done
+VFfonts="WorkSans-Italic-VF.ttf WorkSans-VF.ttf"
 echo "\tFixing VF Family Metadata..."
 python tools/gftools-fix-vf-meta.py $VFfonts
 
@@ -91,14 +92,17 @@ done
 
 
 # Rename VFs
-for i in *.fix; do
+# for i in *.fix; do
+# 	mv $i ${i/".ttf.fix"/".ttf"}
+# done
+VFfontsFix="WorkSans-Italic-VF.ttf.fix WorkSans-VF.ttf.fix"
+for i in $VFfontsFix; do
 	mv $i ${i/".ttf.fix"/".ttf"}
 done
 
 
 # Fix DSIG
-for i in *.ttf; do
+for i in $VFfonts; do
 	echo "\tFixing DSIG $i..."
-	# Fix DSIG
 	gftools fix-dsig --autofix "$i"
 done

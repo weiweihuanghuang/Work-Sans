@@ -98281,108 +98281,6 @@ nodes = (
 }
 );
 width = 941;
-},
-{
-associatedMasterId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
-components = (
-{
-alignment = 1;
-name = P;
-transform = "{1, 0, 0, 1, 26, 0}";
-}
-);
-layerId = "F00788B6-E328-48D4-A8D1-DC4FF68AF9A7";
-name = "[136]";
-paths = (
-{
-closed = 1;
-nodes = (
-"188 483 LINE",
-"188 548 LINE",
-"24 548 LINE",
-"24 483 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"188 373 LINE",
-"188 438 LINE",
-"24 438 LINE",
-"24 373 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"686 373 LINE",
-"686 438 LINE",
-"533 438 LINE",
-"533 373 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"686 483 LINE",
-"686 548 LINE",
-"533 548 LINE",
-"533 483 LINE"
-);
-}
-);
-width = 710;
-},
-{
-associatedMasterId = "99EB5860-B45A-4B60-BB0B-F826C8F71D42";
-components = (
-{
-alignment = 1;
-name = P;
-transform = "{1, 0, 0, 1, 82, 0}";
-}
-);
-layerId = "92B1D0FB-22A0-4C0D-84B2-055D1655FB64";
-name = "[136]";
-paths = (
-{
-closed = 1;
-nodes = (
-"286 458 LINE",
-"286 579 LINE",
-"33 579 LINE",
-"33 458 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"286 288 LINE",
-"286 409 LINE",
-"33 409 LINE",
-"33 288 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"861 288 LINE",
-"861 409 LINE",
-"609 409 LINE",
-"609 288 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"861 458 LINE",
-"861 579 LINE",
-"609 579 LINE",
-"609 458 LINE"
-);
-}
-);
-width = 931;
 }
 );
 unicode = 20B1;
@@ -129957,7 +129855,9 @@ value = 1;
 {
 name = "Rename Glyphs";
 value = (
-"apple.rvrn=apple"
+"apple.rvrn=apple",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
 );
 }
 );
@@ -129979,7 +129879,9 @@ value = 1;
 name = "Rename Glyphs";
 value = (
 "apple.rvrn=apple",
-"peso.rvrn=peso"
+"peso.rvrn=peso",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
 );
 }
 );
@@ -130004,7 +129906,12 @@ name = "Rename Glyphs";
 value = (
 "naira.rvrn=naira",
 "colonsign.rvrn=colonsign",
-"Adieresis.titl.rvrn=Adieresis.titl"
+"Odieresis.titl.rvrn=Odieresis.titl",
+"Udieresis.titl.rvrn=Udieresis.titl",
+"Adieresis.titl.rvrn=Adieresis.titl",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130035,7 +129942,8 @@ value = (
 "Odieresis.titl.rvrn=Odieresis.titl",
 "Udieresis.titl.rvrn=Udieresis.titl",
 "curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
-"paragraph.rvrn=paragraph"
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130073,7 +129981,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130110,7 +130019,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130308,7 +130218,9 @@ value = 240;
 {
 name = "Rename Glyphs";
 value = (
-"apple.rvrn=apple"
+"apple.rvrn=apple",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
 );
 }
 );
@@ -130357,7 +130269,9 @@ value = 1105;
 name = "Rename Glyphs";
 value = (
 "apple.rvrn=apple",
-"peso.rvrn=peso"
+"peso.rvrn=peso",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph"
 );
 }
 );
@@ -130410,7 +130324,12 @@ name = "Rename Glyphs";
 value = (
 "naira.rvrn=naira",
 "colonsign.rvrn=colonsign",
-"Adieresis.titl.rvrn=Adieresis.titl"
+"Adieresis.titl.rvrn=Adieresis.titl",
+"Odieresis.titl.rvrn=Odieresis.titl",
+"Udieresis.titl.rvrn=Udieresis.titl",
+"curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130469,7 +130388,8 @@ value = (
 "Odieresis.titl.rvrn=Odieresis.titl",
 "Udieresis.titl.rvrn=Udieresis.titl",
 "curvedStemParagraphSignOrnament.rvrn=curvedStemParagraphSignOrnament",
-"paragraph.rvrn=paragraph"
+"paragraph.rvrn=paragraph",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130535,7 +130455,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
@@ -130600,7 +130521,8 @@ value = (
 "dollar.rvrn=dollar",
 "guarani.rvrn=guarani",
 "dollar.tf.rvrn=dollar.tf",
-"cent.tf.rvrn=cent.tf"
+"cent.tf.rvrn=cent.tf",
+"peso.rvrn=peso"
 );
 }
 );
