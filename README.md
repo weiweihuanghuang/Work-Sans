@@ -3,7 +3,7 @@
 ## 2018 Update ##
 ![Animation](https://raw.githubusercontent.com/weiweihuanghuang/Work-Sans/master/documentation/images/animation.gif)
 
-<a href="http://weiweihuanghuang.github.io/Work-Sans/">![Thin to Regular](https://raw.githubusercontent.com/weiweihuanghuang/Work-Sans/master/documentation/images/waterfall.png)
+![Thin to Regular](https://raw.githubusercontent.com/weiweihuanghuang/Work-Sans/master/documentation/images/waterfall.png)
 
 Work Sans has been updated in 2018 with accompanying italics, variable font files and the character set has been expanded to the [Google Latin Expert glyph set](https://github.com/googlefonts/gftools/tree/master/encodings/GF%20Glyph%20Sets), which will now support Vietnamese along with these additional languages:
 
