@@ -38,6 +38,8 @@ The fonts under **/fonts/variable** are variable TTF fonts.
 
 This typeface was funded by Google and is distributed by Google Fonts – many thanks to Dave Crossland for the commission.
 
+Please see BUILD.md for build instructions.
+
 ### [Web specimen](http://weiweihuanghuang.github.io/Work-Sans/).
 
 ### [Print PDF Specimen](documentation/Work-Sans-Print-Specimen.pdf?raw=true).
