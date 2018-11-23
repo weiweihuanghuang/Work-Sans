@@ -1,6 +1,9 @@
 STATIC FONT BUILD
-	- Export from Glyphs App Version 2.5.2 (1176)
+	- Export "OTF" option in Glyphs App Version 2.5.2 (1179)
 		- Remove Overlap
 		- Autohint
+
 VARIABLE FONTS
+	- sh prep.sh
+	- Export "Variable Fonts" option for both -onlyBraceGlyphs.glyphs files in Glyphs App to the /sources/ folder
 	- sh build.sh
