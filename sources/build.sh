@@ -100,6 +100,8 @@ for i in $VFfontsFix; do
 	mv $i ${i/".ttf.fix"/".ttf"}
 done
 
+mv WorkSans-VF.ttf WorkSans-Roman-VF.ttf
+
 
 # Fix DSIG
 for i in $VFfonts; do
