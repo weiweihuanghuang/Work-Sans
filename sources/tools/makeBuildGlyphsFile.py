@@ -1,6 +1,6 @@
 # Create build glyphs file :
-# Turn on Export for Bracket Glyphs (given as argument from shell) and disable non ttf instances
-# Add extra opentype code for rvrn glyphs that are substituted by another feature as well
+# Turn on Export for Bracket Glyphs and disable non ttf instances
+# Add extra opentype code for rvrn glyphs that are substituted by another feature as well so that there is a logical path to allow resubstitution, these are manually defined.
 
 import sys
 from glyphsLib import GSFont

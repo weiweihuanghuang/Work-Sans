@@ -45,7 +45,7 @@ for i in $glyphsSource; do
 
 	# Copy brace glyphs from variable font generated from Glyphs App
 	# Run script to find and copy TTGlyph and glyphVariations elements from source file and copy into target file
-	# Could probablh be done just with fonttools...
+	# Could probably be done just with fonttools...
 	echo "\tAdding brace glyphs..."
 	xml tr tools/replaceBraceGlyphs.xsl \
 	    -s replacements=${GXname}.ttx \

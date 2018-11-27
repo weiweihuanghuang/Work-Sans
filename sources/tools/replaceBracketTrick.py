@@ -1,4 +1,7 @@
 ### Based on a script by Stephen Nixon
+# Turn on feature variations so that glyphs swap out for a certain range in their defined axes. Values are documented in "Bracket Trick Glyph Swapping Values.ods", the region is based on normalized axis values i.e. same as "to" in avar if avar exists.
+
+
 
 import os
 import sys

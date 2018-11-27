@@ -1,4 +1,5 @@
-# Make a .glyphs file with only brace glyphs to export
+# Make a .glyphs file with only brace glyphs, export these files in Glyphs App as variable fonts, and the build script will swap these out in the final VF
+
 import sys
 import re
 from glyphsLib import GSFont
