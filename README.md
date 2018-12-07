@@ -22,9 +22,9 @@ Completed in November 2018, with contributions from [CrystalType](https://github
 
 ## Introduction ##
 
-### [Use at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans)
+### [Use at Google Fonts,](https://www.google.com/fonts/specimen/Work+Sans) (2018 update not uploaded yet)
 
-### [Download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.6.zip)
+<!--### [Download (Source, OTF, TTF, WOFF, WOFF2)](https://github.com/weiweihuanghuang/Work-Sans/archive/v1.6.zip)-->
 
 A SIL Open Font project titled 'Work Sans'.
 
