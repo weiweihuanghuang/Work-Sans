@@ -1,12 +1,13 @@
 {
-.appVersion = "1179";
+.appVersion = "1206";
 DisplayStrings = (
 "/Uhorn/Ohorn/uhorn/ohorn/Ahookabove/ahookabove \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb \012/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde \012/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde \012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde \012/Etilde/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde \012/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde \012\012/Abreveacute/Abrevegrave/Abrevehookabove/Abrevetilde/abreveacute/abrevegrave/abrevehookabove/abrevetilde \012/Ohorn/Ohornacute/Ohorngrave/Ohornhookabove/Ohorntilde/ohorn/ohornacute/ohorngrave/ohornhookabove/ohorntilde \012/Uhorn/Uhornacute/Uhorngrave/Uhornhookabove/Uhorntilde/uhorn/uhornacute/uhorngrave/uhornhookabove/uhorntilde \012/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde \012/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde \012/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde",
 "/ldot/lslash  //space\012\012\012L\012HUB/Germandbls EL/Lslash ZFPÞT/Tbar YVWARKXOØQGCS\012naqudlij/g.ss01 frtoecðsßgkxvz\0120917426583\012/zero.osf/one.osf/two.osf/four.osf/seven.osf/five.osf/three.osf/nine.osf/six.osf/eight.osf \012/zerosuperior ¹/foursuperior/sevensuperior/ninesuperior ²/sixsuperior/fivesuperior/eightsuperior ³/zeroinferior/oneinferior/fourinferior/seveninferior/nineinferior/twoinferior/sixinferior/fiveinferior/eightinferior/threeinferior/zerosuperior/sevensuperior/zeroinferior/seveninferior \012.,/quotesinglbase/quoteleft/quoteright ':;-/endash *!?¡¿/exclamdown.case/questiondown.case \012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger \012\012R\012HUTZAÆYVWXOØSJ\012hlnijpuaoøðßftgsyvwxz\0120617238954\012/zero.osf/one.osf/two.osf/three.osf/nine.osf/five.osf/four.osf/seven.osf/six.osf/eight.osf \012.,/quotesinglbase/quoteleft/quoteright ':-*!?\012///backslash {}[]()/guilsinglleft/guilsinglright \012#/dagger °\012\012.,:;-/endash/guilsinglleft/guilsinglright {}[]()///backslash *!?&@#\012H, /quoteleft H/quoteright  /quoteleft H/quoteleft  /quoteright H/quoteright  /quotesinglbase H/quoteright  /quotesinglbase H/quoteleft  'H'\012\012L /leftArrow/rightArrow/northEastArrow/southWestArrow/downArrow/upArrow/southEastArrow/northWestArrow/leftHookArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012R /leftArrow/rightArrow/northEastArrow/southWestArrow/upArrow/downArrow/southEastArrow/northWestArrow/anticlockwiseOpenCircleArrow/clockwiseOpenCircleArrow \012\012Triple:\012h/hbar blnijpruoødq/a.ss06/g.ss01 ecðagsßftvywxkz\012HOTYAVWXZ",
 "Done:\012/apple/apple.rvrn/Adieresis.titl/Adieresis.titl.rvrn/Odieresis.titl/Odieresis.titl.rvrn \012/cedi/cedi.rvrn ¢/cent.rvrn/colonsign/colonsign.rvrn $/dollar.rvrn/guarani/guarani.rvrn/naira/naira.rvrn/peseta/peseta.rvrn/peso/peso.rvrn/won/won.rvrn/dollar.tf/dollar.tf.rvrn/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.rvrn ¶/paragraph.rvrn ©®/cent.tf/cent.tf.rvrn \012\012Brace:\012aæes/Udieresis.titl",
 "/dollar.tf/cent.tf/Adieresis.titl/Udieresis.titl/Odieresis.titl \012/dollar.tf.rvrn/cent.tf.rvrn/Adieresis.titl.rvrn/Udieresis.titl.rvrn/Odieresis.titl.rvrn \012$¢ÄÜÖ\012/dollar.rvrn/cent.rvrn/Adieresis.rvrn/Udieresis.rvrn/Odieresis.rvrn",
 "/apple/cedi ¢$/guarani/dollar.tf/cent.tf/peseta/won/Odieresis.titl/Udieresis.titl/curvedStemParagraphSignOrnament ¶/naira/colonsign/Adieresis.titl/peso",
-"/idieresis.sc/mu"
+"/idieresis.sc/mu",
+"/Ydieresis.titl aæes/aogonek_j/adieresis.titl.sc/odieresis.titl.sc/udieresis.titl.sc/ydieresis.titl.sc"
 );
 classes = (
 {
@@ -25915,7 +25916,7 @@ width = 713;
 {
 associatedMasterId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 layerId = "0E3AB2F4-ACFC-4D6F-A7CE-76F458009A27";
-name = "{137,0,-1}";
+name = "{137,}";
 paths = (
 {
 closed = 1;
@@ -26131,7 +26132,7 @@ nodes = (
 );
 };
 layerId = "39F793B2-4349-449C-BF11-D288AA46F75A";
-name = "{137,0,-1}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -26287,7 +26288,7 @@ nodes = (
 );
 };
 layerId = "AC38A04D-4B71-4A3F-8829-76BE9526A84A";
-name = "{170, 0,-1}";
+name = "{170}";
 paths = (
 {
 closed = 1;
@@ -29105,7 +29106,7 @@ type = Stem;
 );
 layerId = "08C36151-20F1-4A6D-9954-A937105BC4A0";
 leftMetricsKey = "=a";
-name = "{137,0}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -29286,7 +29287,7 @@ type = Stem;
 );
 layerId = "040D3D04-6514-4AA9-BC9D-955D66750147";
 leftMetricsKey = "=a";
-name = "{170, 0}";
+name = "{170,}";
 paths = (
 {
 closed = 1;
@@ -32332,7 +32333,7 @@ type = Stem;
 );
 layerId = "72421C35-BB32-41DB-AC18-520E82ABE3E5";
 leftMetricsKey = "=o";
-name = "{137,0}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -43202,7 +43203,7 @@ nodes = (
 );
 };
 layerId = "7A5DE7F6-4D37-482E-B2C9-7DAF0435345E";
-name = "Regular {137,0}";
+name = "Regular {137}";
 paths = (
 {
 closed = 1;
@@ -56314,7 +56315,7 @@ nodes = (
 );
 };
 layerId = "4ACF1375-CCFC-438C-B0F0-B82919176E8D";
-name = "Regular {137, 5}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -56574,7 +56575,7 @@ nodes = (
 );
 };
 layerId = "76EFE309-42A7-47C0-9764-AD006585B6DC";
-name = "{170,0,-1}";
+name = "{170}";
 paths = (
 {
 closed = 1;
@@ -76743,7 +76744,7 @@ width = 652;
 {
 associatedMasterId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 layerId = "68AA021F-9141-4A8E-B1AE-B8C2AEE9F893";
-name = "{137,0,-1}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -77048,7 +77049,7 @@ name = O;
 );
 };
 layerId = "51A8EFFA-DF7A-454F-BE1D-2266D5FD3CC8";
-name = "{137,0,-1}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -77323,7 +77324,7 @@ width = 663;
 {
 associatedMasterId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 layerId = "E48143C7-C230-47D3-B4DB-EA5D82A62BDC";
-name = "{137,0,-1}";
+name = "{137}";
 paths = (
 {
 closed = 1;
@@ -77566,7 +77567,7 @@ width = 640;
 {
 associatedMasterId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
 layerId = "0E3AB2F4-ACFC-4D6F-A7CE-76F458009A27";
-name = "{137,0,-1}";
+name = "{137}";
 paths = (
 {
 closed = 1;
