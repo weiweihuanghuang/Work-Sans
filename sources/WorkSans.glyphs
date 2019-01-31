@@ -7,7 +7,7 @@ DisplayStrings = (
 "/dollar.tf/cent.tf/Adieresis.titl/Udieresis.titl/Odieresis.titl \012/dollar.tf.rvrn/cent.tf.rvrn/Adieresis.titl.rvrn/Udieresis.titl.rvrn/Odieresis.titl.rvrn \012$¢ÄÜÖ\012/dollar.rvrn/cent.rvrn/Adieresis.rvrn/Udieresis.rvrn/Odieresis.rvrn",
 "/apple/cedi ¢$/guarani/dollar.tf/cent.tf/peseta/won/Odieresis.titl/Udieresis.titl/curvedStemParagraphSignOrnament ¶/naira/colonsign/Adieresis.titl/peso",
 "/idieresis.sc/mu",
-"/Ydieresis.titl aæes/aogonek_j/adieresis.titl.sc/odieresis.titl.sc/udieresis.titl.sc/ydieresis.titl.sc"
+"/Ydieresis.titl aæes/aogonek_j/adieresis.titl.sc/odieresis.titl.sc/udieresis.titl.sc/ydieresis.titl.sc/g_idieresis"
 );
 classes = (
 {
@@ -57086,7 +57086,7 @@ transform = "{1, 0, 0, 1, 578, 0}";
 );
 };
 layerId = "CDA5DBDA-06F4-4E40-A004-D93115F8C6E7";
-name = "Bold [229]";
+name = "Bold 229";
 paths = (
 {
 closed = 1;
