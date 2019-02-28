@@ -13,12 +13,12 @@ for i in $glyphsSource; do
 	if [ $i == "WorkSans.glyphs" ]; then
 		style="Upright"
 		VFname="WorkSans-VF"
-		# GXname="WorkSansGX"
+		GXname="WorkSansGX"
 		BraceGlyphs="a,ae,e,s"
 	elif [ $i == "WorkSans-Italic.glyphs" ]; then
 		style="Italic"
 		VFname="WorkSans-Italic-VF"
-		# GXname="WorkSansItalicGX"
+		GXname="WorkSansItalicGX"
 		BraceGlyphs="ae,e,s"
 	fi
 
@@ -38,30 +38,26 @@ for i in $glyphsSource; do
 	rm -rf instance_ufo
 	rm -rf variable_ttf
 
-	# ttx ${VFname}.ttf
-	# rm ${VFname}.ttf
-	# ttx ${GXname}.ttf
-	# mv ${GXname}.ttx tools/${GXname}.ttx
+	ttx ${VFname}.ttf
+	rm ${VFname}.ttf
+	ttx ${GXname}.ttf
+	mv ${GXname}.ttx tools/${GXname}.ttx
 
-	# # Copy brace glyphs from variable font generated from Glyphs App
+	# Copy brace glyphs from variable font generated from Glyphs App
+	# Run script to find and copy TTGlyph and glyphVariations elements from source file and copy into target file
+	# Could probably be done just with fonttools...
+	echo "\tAdding brace glyphs..."
+	xml tr tools/replaceBraceGlyphs.xsl \
+	    -s replacements=${GXname}.ttx \
+	    -s replacenames=$BraceGlyphs \
+	    ${VFname}.ttx > ${VFname}-brace.ttx
 
-	# # Run script to find and copy TTGlyph and glyphVariations elements from source file and copy into target file
-	# # Could probably be done just with fonttools...
-	# echo "\tAdding brace glyphs..."
-	# xml tr tools/replaceBraceGlyphs.xsl \
-	#     -s replacements=${GXname}.ttx \
-	#     -s replacenames=$BraceGlyphs \
-	#     ${VFname}.ttx > ${VFname}-brace.ttx
-
-	# # Use fontTools to replace brace glyphs
-	# python tools/replaceBraceGlyphs.py ${VFname}.ttf ${GXname}.ttf $BraceGlyphs
-
-	# # Clean up files
-	# rm tools/${GXname}.ttx
-	# rm ${VFname}.ttx
-	# ttx ${VFname}-brace.ttx
-	# rm ${VFname}-brace.ttx
-	# mv ${VFname}-brace.ttf ${VFname}.ttf
+	# Clean up files
+	rm tools/${GXname}.ttx
+	rm ${VFname}.ttx
+	ttx ${VFname}-brace.ttx
+	rm ${VFname}-brace.ttx
+	mv ${VFname}-brace.ttf ${VFname}.ttf
 
 	# Add featureVariation for bracket trick glyphs
 	echo "\tAdding bracket glyphs..."
@@ -75,7 +71,7 @@ for i in $glyphsSource; do
 
 	# Clean up files
 	rm ${VFname}-backup-fonttools-prep-gasp.ttf
-	# rm ${GXname}.ttf
+	rm ${GXname}.ttf
 done
 
 
