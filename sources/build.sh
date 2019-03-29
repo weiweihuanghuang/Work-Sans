@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
-
 ### WIP macOS build script for Work Sans Upright and Italic VF, based on a build script by Mike LaGuttuta
-# To add brace trick glyphs, define them in $BraceGlyphs variable, and export the VF from Glyphs App in the same folder as the script
+
 
 # Setting the Source and VF name, determine if it's for Italic or Upright source from the argument passed to this script
 
@@ -14,15 +13,15 @@ for i in $glyphsSource; do
 		style="Upright"
 		VFname="WorkSans-VF"
 		# GXname="WorkSansGX"
-		BraceGlyphs="a,ae,e,s"
+		# BraceGlyphs="a,ae,e,s"
 	elif [ $i == "WorkSans-Italic.glyphs" ]; then
 		style="Italic"
 		VFname="WorkSans-Italic-VF"
 		# GXname="WorkSansItalicGX"
-		BraceGlyphs="ae,e,s"
+		# BraceGlyphs="ae,e,s"
 	fi
 
-	# Generat -build version of .glyphs files with bracket tricks enabled, also add extra OpenType code for featureVariation to work
+	# Generate -build version of .glyphs files with bracket tricks enabled, also add extra OpenType code for featureVariation to work
 	python tools/makeBuildGlyphsFile.py "${i}"
 	glyphsBuildSource=${i/".glyphs"/"-build.glyphs"}
 
@@ -100,11 +99,26 @@ done
 # 	mv $i ${i/".ttf.fix"/".ttf"}
 # done
 VFfontsFix="WorkSans-Italic-VF.ttf.fix WorkSans-VF.ttf.fix"
+# for i in $VFfontsFix; do
+# 	mv $i ${i/".ttf.fix"/".ttf"}
+# done
+
+
+# ttfautohint-vf
 for i in $VFfontsFix; do
-	mv $i ${i/".ttf.fix"/".ttf"}
+	echo "\tttfautohint-vf $i..."
+	tools/ttfautohint-vf --stem-width-mode nnn "$i" "$i".ttfa
 done
 
-mv WorkSans-VF.ttf WorkSans-Roman-VF.ttf
+# Clean up VFs
+for i in $VFfontsFix; do
+	rm "$i"
+done
+
+TTFA="WorkSans-Italic-VF.ttf.fix.ttfa WorkSans-VF.ttf.fix.ttfa"
+for i in $TTFA; do
+	mv $i ${i/".ttf.fix.ttfa"/".ttf"}
+done
 
 
 # Fix DSIG
@@ -112,3 +126,6 @@ for i in $VFfonts; do
 	echo "\tFixing DSIG $i..."
 	gftools fix-dsig --autofix "$i"
 done
+
+
+mv WorkSans-VF.ttf WorkSans-Roman-VF.ttf
