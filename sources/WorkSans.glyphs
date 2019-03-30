@@ -101,7 +101,7 @@ name = vendorID;
 value = WEI;
 }
 );
-date = "2019-03-29 05:19:22 +0000";
+date = "2019-03-30 09:25:29 +0000";
 designer = "Wei Huang";
 designerURL = "http://wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -129853,7 +129853,7 @@ instances = (
 customParameters = (
 {
 name = weightClass;
-value = 250;
+value = 100;
 },
 {
 name = "Save as TrueType";
@@ -129873,7 +129873,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = weightClass;
-value = 275;
+value = 200;
 },
 {
 name = "Save as TrueType";
@@ -130136,7 +130136,7 @@ value = 1105;
 },
 {
 name = weightClass;
-value = 250;
+value = 100;
 }
 );
 interpolationCustom = -1;
@@ -130152,7 +130152,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = weightClass;
-value = 275;
+value = 200;
 },
 {
 name = winDescent;
@@ -138369,5 +138369,5 @@ OV = "16";
 };
 };
 versionMajor = 2;
-versionMinor = 3;
+versionMinor = 4;
 }
