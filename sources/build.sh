@@ -2,7 +2,6 @@
 set -e
 ### WIP macOS build script for Work Sans Upright and Italic VF, based on a build script by Mike LaGuttuta
 
-
 # Setting the Source and VF name, determine if it's for Italic or Upright source from the argument passed to this script
 
 glyphsSource="WorkSans.glyphs WorkSans-Italic.glyphs"
@@ -94,30 +93,16 @@ for i in $VFfonts; do
 done
 
 
-# Rename VFs
-# for i in *.fix; do
-# 	mv $i ${i/".ttf.fix"/".ttf"}
-# done
 VFfontsFix="WorkSans-Italic-VF.ttf.fix WorkSans-VF.ttf.fix"
-# for i in $VFfontsFix; do
-# 	mv $i ${i/".ttf.fix"/".ttf"}
-# done
 
 
 # ttfautohint-vf
 for i in $VFfontsFix; do
 	echo "\tttfautohint-vf $i..."
 	tools/ttfautohint-vf --stem-width-mode nnn "$i" "$i".ttfa
-done
-
-# Clean up VFs
-for i in $VFfontsFix; do
 	rm "$i"
-done
-
-TTFA="WorkSans-Italic-VF.ttf.fix.ttfa WorkSans-VF.ttf.fix.ttfa"
-for i in $TTFA; do
-	mv $i ${i/".ttf.fix.ttfa"/".ttf"}
+	ifix="${i}.ttfa"
+	mv $ifix ${ifix/".ttf.fix.ttfa"/".ttf"}
 done
 
 
