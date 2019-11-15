@@ -6,7 +6,7 @@ set -e
 
 glyphsSource="WorkSans.glyphs WorkSans-Italic.glyphs"
 
-mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf ../fonts/vf
+mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf ../fonts/vf ../fonts/woff ../fonts/woff2
 
 # Generate VFs
 VF_ROMAN=../fonts/vf/WorkSans[wght].ttf
@@ -48,4 +48,15 @@ do
   gftools fix-hinting $ttf
   mv $ttf.fix $ttf
 done
-
+# Generate woff
+for ttf in ../fonts/ttf/*.ttf
+do
+  sfnt2woff $ttf
+  mv ${ttf/.ttf/.woff} ../fonts/woff
+done
+# Generate woff2
+for ttf in ../fonts/ttf/*.ttf
+do
+  woff2_compress $ttf
+  mv ${ttf/.ttf/.woff2} ../fonts/woff2
+done
