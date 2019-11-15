@@ -6,15 +6,15 @@ set -e
 
 glyphsSource="WorkSans.glyphs WorkSans-Italic.glyphs"
 
-mkdir -p ../fonts/ ../fonts/static ../fonts/variable
+mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf ../fonts/vf
 
 # Generate VFs
-VF_ROMAN=../fonts/variable/WorkSans[wght].ttf
-VF_ITALIC=../fonts/variable/WorkSans-Italic[wght].ttf
+VF_ROMAN=../fonts/vf/WorkSans[wght].ttf
+VF_ITALIC=../fonts/vf/WorkSans-Italic[wght].ttf
 fontmake -g WorkSans.glyphs -o variable --output-path $VF_ROMAN
 fontmake -g WorkSans-Italic.glyphs -o variable --output-path $VF_ITALIC
 
-for ttf in ../fonts/variable/*.ttf
+for ttf in ../fonts/vf/*.ttf
 do
   ./tools/ttfautohint-vf $ttf $ttf.fix
   mv $ttf.fix $ttf
@@ -23,20 +23,24 @@ do
   mv $ttf.fix $ttf
 done
 # Fix VF Metadata
-gftools fix-vf-meta ../fonts/variable/*.ttf
+gftools fix-vf-meta ../fonts/vf/*.ttf
 
-for f in ../fonts/variable/*.ttf
+for f in ../fonts/vf/*.ttf
 do
 	mv $f.fix $f;
 done
 
-# Generate Statics
-OUT=../fonts/static
-fontmake -g WorkSans.glyphs -o ttf -i --output-dir $OUT
-fontmake -g WorkSans-Italic.glyphs -o ttf -i --output-dir $OUT
+# Generate TTFs
+TTF_OUT=../fonts/ttf
+fontmake -g WorkSans.glyphs -o ttf -i --output-dir $TTF_OUT
+fontmake -g WorkSans-Italic.glyphs -o ttf -i --output-dir $TTF_OUT
+# Generate OTFS
+OTF_OUT=../fonts/otf
+fontmake -g WorkSans.glyphs -o ttf -i --output-dir $OTF_OUT
+fontmake -g WorkSans-Italic.glyphs -o ttf -i --output-dir $OTF_OUT
 
 rm -rf master_ufo/ instance_ufo/
-for ttf in ../fonts/static/*.ttf
+for ttf in ../fonts/ttf/*.ttf
 do
   ./tools/ttfautohint-vf $ttf $ttf.fix
   mv $ttf.fix $ttf
