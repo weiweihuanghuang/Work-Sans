@@ -4,7 +4,9 @@ DisplayStrings = (
 "Done:\012/apple/apple.rvrn/Adieresis.titl/Adieresis.titl.rvrn/Odieresis.titl/Odieresis.titl.rvrn \012/cedi/cedi.rvrn ¢/cent.rvrn/colonsign/colonsign.rvrn $/dollar.rvrn/guarani/guarani.rvrn/naira/naira.rvrn/peseta/peseta.rvrn/peso/peso.rvrn/won/won.rvrn/dollar.tf/dollar.tf.rvrn/curvedStemParagraphSignOrnament/curvedStemParagraphSignOrnament.rvrn ¶/paragraph.rvrn ©®/cent.tf/cent.tf.rvrn \012\012Brace:\012aæes/Udieresis.titl",
 "/dollar.tf/cent.tf/Adieresis.titl/Udieresis.titl/Odieresis.titl \012/dollar.tf.rvrn/cent.tf.rvrn/Adieresis.titl.rvrn/Udieresis.titl.rvrn/Odieresis.titl.rvrn \012$¢ÄÜÖ\012/dollar.rvrn/cent.rvrn/Adieresis.rvrn/Udieresis.rvrn/Odieresis.rvrn",
 "¢/colonsign $/guarani/naira/cent.tf/dollar.tf/won/curvedStemParagraphSignOrnament/apple ¶\012/cent.rvrn/colonsign.rvrn/dollar.rvrn/guarani.rvrn/naira.rvrn/cent.tf.rvrn/dollar.tf.rvrn/won.rvrn/curvedStemParagraphSignOrnament.rvrn/apple.rvrn/paragraph.rvrn",
-"/Odieresis.titl/Udieresis.titl/Adieresis.titl \012/Odieresis.titl.rvrn/Udieresis.titl.rvrn/Adieresis.titl.rvrn"
+"/Odieresis.titl/Udieresis.titl/Adieresis.titl \012/Odieresis.titl.rvrn/Udieresis.titl.rvrn/Adieresis.titl.rvrn",
+"/Ainvertedbreve",
+"/Adieresis.rvrn/Odieresis.rvrn/Udieresis.rvrn/Adieresis.titl.rvrn/Odieresis.titl.rvrn/Udieresis.titl.rvrn/cedi.rvrn/cent.rvrn/colonsign.rvrn/dollar.rvrn/guarani.rvrn/naira.rvrn/peseta.rvrn/peso.rvrn/cent.tf.rvrn/dollar.tf.rvrn/won.rvrn/curvedStemParagraphSignOrnament.rvrn/apple.rvrn/paragraph.rvrn"
 );
 classes = (
 {
@@ -98,7 +100,7 @@ name = vendorID;
 value = WEI;
 }
 );
-date = "2019-09-06 12:59:24 +0000";
+date = "2020-02-24 07:43:17 +0000";
 designer = "Wei Huang";
 designerURL = "http://wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -98665,10 +98667,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"291 7 LINE",
-"291 -100 LINE",
 "305 -100 LINE",
-"305 7 LINE"
+"305 7 LINE",
+"291 7 LINE",
+"291 -100 LINE"
 );
 },
 {
@@ -99621,19 +99623,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"525 468 LINE",
-"626 468 LINE",
-"626 482 LINE",
-"525 482 LINE"
+"115.996 468 LINE",
+"115.996 482 LINE",
+"18 482 LINE",
+"18 468 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"115.996 482 LINE",
-"18 482 LINE",
-"18 468 LINE",
-"115.996 468 LINE"
+"626 468 LINE",
+"626 482 LINE",
+"525 482 LINE",
+"525 468 LINE"
 );
 }
 );
@@ -116761,7 +116763,7 @@ width = 1130;
 );
 },
 {
-export = 0;
+color = 0;
 glyphname = paragraph.rvrn;
 layers = (
 {
