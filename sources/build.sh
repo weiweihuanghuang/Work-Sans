@@ -6,111 +6,57 @@ set -e
 
 glyphsSource="WorkSans.glyphs WorkSans-Italic.glyphs"
 
-for i in $glyphsSource; do
+mkdir -p ../fonts/ ../fonts/static/TTF ../fonts/static/OTF ../fonts/variable ../fonts/static/WOFF ../fonts/static/WOFF2
 
-	if [ $i == "WorkSans.glyphs" ]; then
-		style="Upright"
-		VFname="WorkSans-VF"
-		# GXname="WorkSansGX"
-		# BraceGlyphs="a,ae,e,s"
-	elif [ $i == "WorkSans-Italic.glyphs" ]; then
-		style="Italic"
-		VFname="WorkSans-Italic-VF"
-		# GXname="WorkSansItalicGX"
-		# BraceGlyphs="ae,e,s"
-	fi
+# Generate VFs
+VF_ROMAN=../fonts/variable/WorkSans[wght].ttf
+VF_ITALIC=../fonts/variable/WorkSans-Italic[wght].ttf
+fontmake -g WorkSans.glyphs -o variable --output-path $VF_ROMAN
+fontmake -g WorkSans-Italic.glyphs -o variable --output-path $VF_ITALIC
 
-	# Generate -build version of .glyphs files with bracket tricks enabled, also add extra OpenType code for featureVariation to work
-	python tools/makeBuildGlyphsFile.py "${i}"
-	glyphsBuildSource=${i/".glyphs"/"-build.glyphs"}
-
-	# Call fontmake to generate variable font
-	echo "\tBuilding ${i}.glyphs..."
-	fontmake -o variable -g $glyphsBuildSource
-	echo "\t${VFname}.ttf generated"
-
-	# Clean up files
-	mv variable_ttf/${VFname}.ttf ${VFname}.ttf
-	rm $glyphsBuildSource
-	rm -rf master_ufo
-	rm -rf instance_ufo
-	rm -rf variable_ttf
-
-	# ttx ${VFname}.ttf
-	# rm ${VFname}.ttf
-	# ttx ${GXname}.ttf
-	# mv ${GXname}.ttx tools/${GXname}.ttx
-
-	# # Copy brace glyphs from variable font generated from Glyphs App
-
-	# # Run script to find and copy TTGlyph and glyphVariations elements from source file and copy into target file
-	# # Could probably be done just with fonttools...
-	# echo "\tAdding brace glyphs..."
-	# xml tr tools/replaceBraceGlyphs.xsl \
-	#     -s replacements=${GXname}.ttx \
-	#     -s replacenames=$BraceGlyphs \
-	#     ${VFname}.ttx > ${VFname}-brace.ttx
-
-	# # Use fontTools to replace brace glyphs
-	# python tools/replaceBraceGlyphs.py ${VFname}.ttf ${GXname}.ttf $BraceGlyphs
-
-	# # Clean up files
-	# rm tools/${GXname}.ttx
-	# rm ${VFname}.ttx
-	# ttx ${VFname}-brace.ttx
-	# rm ${VFname}-brace.ttx
-	# mv ${VFname}-brace.ttf ${VFname}.ttf
-
-	# Add featureVariation for bracket trick glyphs
-	echo "\tAdding bracket glyphs..."
-	python tools/replaceBracketTrick.py ${VFname}.ttf "$1"
-	mv ${VFname}-swap.ttf ${VFname}.ttf
-
-	# Fix non-hinting and GASP table
-	echo "\tFixing non-hinting and GASP table"
-	gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
-	gftools fix-gasp ${VFname}.ttf
-
-	# Clean up files
-	rm ${VFname}-backup-fonttools-prep-gasp.ttf
-	# rm ${GXname}.ttf
+for ttf in ../fonts/variable/*.ttf
+do
+  ./tools/ttfautohint-vf $ttf $ttf.fix
+  mv $ttf.fix $ttf
+  gftools fix-dsig -f $ttf
+  gftools fix-hinting $ttf
+  mv $ttf.fix $ttf
 done
-
-
 # Fix VF Metadata
-# VFfonts=""
-# for i in *.ttf; do
-# 	VFfonts+="$i "
-# done
-VFfonts="WorkSans-Italic-VF.ttf WorkSans-VF.ttf"
-echo "\tFixing VF Family Metadata..."
-python tools/gftools-fix-vf-meta.py $VFfonts
+gftools fix-vf-meta ../fonts/variable/*.ttf
 
-
-# Clean up VFs
-for i in $VFfonts; do
-	rm "$i"
+for f in ../fonts/variable/*.ttf
+do
+	mv $f.fix $f;
 done
 
+# Generate TTFs
+TTF_OUT=../fonts/static/TTF
+fontmake -g WorkSans.glyphs -o ttf -i --output-dir $TTF_OUT
+fontmake -g WorkSans-Italic.glyphs -o ttf -i --output-dir $TTF_OUT
+# Generate OTFS
+OTF_OUT=../fonts/static/OTF
+fontmake -g WorkSans.glyphs -o ttf -i --output-dir $OTF_OUT
+fontmake -g WorkSans-Italic.glyphs -o ttf -i --output-dir $OTF_OUT
 
-VFfontsFix="WorkSans-Italic-VF.ttf.fix WorkSans-VF.ttf.fix"
-
-
-# ttfautohint-vf
-for i in $VFfontsFix; do
-	echo "\tttfautohint-vf $i..."
-	tools/ttfautohint-vf --stem-width-mode nnn "$i" "$i".ttfa
-	rm "$i"
-	ifix="${i}.ttfa"
-	mv $ifix ${ifix/".ttf.fix.ttfa"/".ttf"}
+rm -rf master_ufo/ instance_ufo/
+for ttf in ../fonts/static/TTF/*.ttf
+do
+  ./tools/ttfautohint-vf $ttf $ttf.fix
+  mv $ttf.fix $ttf
+  gftools fix-dsig -f $ttf
+  gftools fix-hinting $ttf
+  mv $ttf.fix $ttf
 done
-
-
-# Fix DSIG
-for i in $VFfonts; do
-	echo "\tFixing DSIG $i..."
-	gftools fix-dsig --autofix "$i"
+# Generate woff
+for ttf in ../fonts/static/TTF/*.ttf
+do
+  sfnt2woff $ttf
+  mv ${ttf/.ttf/.woff} ../fonts/static/WOFF
 done
-
-
-mv WorkSans-VF.ttf WorkSans-Roman-VF.ttf
+# Generate woff2
+for ttf in ../fonts/static/WOFF2/*.ttf
+do
+  woff2_compress $ttf
+  mv ${ttf/.ttf/.woff2} ../fonts/static/WOFF2
+done
