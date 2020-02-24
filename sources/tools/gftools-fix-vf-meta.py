@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Fontmake can only generate a single variable font. It cannot generate a
 family of variable fonts, that are related to one another.
@@ -21,11 +22,13 @@ from argparse import ArgumentParser
 from fontTools.ttLib import TTFont, newTable
 from fontTools.ttLib.tables import otTables
 import os
-
+import sys
+if sys.version_info.major == 3:
+    unicode = str
 
 OS_2_WEIGHT_CLASS = {
-    'Thin': 250,
-    'ExtraLight': 275,
+    'Thin': 100,
+    'ExtraLight': 200,
     'Light': 300,
     'Regular': 400,
     '': 400,
@@ -94,43 +97,6 @@ def fonts_are_same_family(ttfonts):
     return True
 
 
-def fix_nametable(ttfont):
-    """Cleanup nametable issues caused by fontmake"""
-    table = ttfont['name']
-    family_name = table.getName(1, 3, 1, 1033).toUnicode()
-
-    # Remove style from family name. Often happens for Italic fonts
-    # Family Name Light --> Family Name
-    for style in (' Regular', ' Light', ' Bold'):
-        if style in family_name:
-            table.setName(family_name.replace(style, ''), 1, 3, 1, 1033)
-    # Remove preferred family name and prefered style
-    idx = 0
-    while idx < len(table.names) - 1:
-        if table.names[idx].nameID in [16, 17]:
-            table.names.pop(idx)
-            idx = 0
-        else:
-            idx += 1
-
-    # Update existing nameids based on the varfont's default style
-    default_style = _get_vf_default_style(ttfont)
-    family_name = table.getName(1, 3, 1, 1033).toUnicode()
-    table.setName(default_style, 2, 3, 1, 1033)
-
-    fullname = '{} {}'.format(family_name, default_style)
-    table.setName(unicode(fullname), 4, 3, 1, 1033)
-
-    psname = '{}-{}'.format(family_name.replace(' ', ''), default_style.replace(' ', ''))
-    table.setName(unicode(psname), 6, 3, 1, 1033)
-
-    # uniqueid basedon fontmake output version;vendorid;psname
-    font_version = format(ttfont['head'].fontRevision, '.3f')
-    vendor = ttfont['OS/2'].achVendID
-    uniqueid = '{};{};{}'.format(font_version, vendor, psname)
-    table.setName(unicode(uniqueid), 3, 3, 1, 1033)
-
-
 def fix_bits(ttfont):
     """Set fsSelection, macStyle and usWeightClass to correct values.
 
@@ -173,7 +139,7 @@ def create_stat_table(ttfont):
     stat.table.AxisValueArray.AxisValue = []
 
     for idx, instance in enumerate(ttfont['fvar'].instances):
-        append_stat_record(stat, 0, instance.coordinates.values()[0], instance.subfamilyNameID)
+        append_stat_record(stat, 0, list(instance.coordinates.values())[0], instance.subfamilyNameID)
 
     # Set ElidedFallbackNameID
     stat.table.ElidedFallbackNameID = 2
@@ -200,7 +166,7 @@ def _get_vf_default_style(ttfont):
     for inst in ttfont['fvar'].instances:
         if inst.coordinates['wght'] == default_fvar_val:
             name_id = inst.subfamilyNameID
-    return ttfont['name'].getName(name_id, 1, 0, 0).toUnicode()
+    return ttfont['name'].getName(name_id, 3, 1, 1033).toUnicode()
 
 
 def add_other_vf_styles_to_nametable(ttfont, text_records):
@@ -316,12 +282,12 @@ def main():
     ttfonts = [TTFont(p) for p in font_paths]
     if not fonts_are_same_family(ttfonts):
         raise Exception('Fonts have different family_names: [{}]'.format(
-            ', '.join(map(os.path.basename, ttfonts))
+            ', '.join(map(os.path.basename, font_paths))
         ))
 
-    map(fix_nametable, ttfonts)
-    map(fix_bits, ttfonts)
-    map(create_stat_table, ttfonts)
+    for ttfont in ttfonts:
+        fix_bits(ttfont)
+        create_stat_table(ttfont)
     harmonize_vf_families(ttfonts)
 
     for path, ttfont in zip(font_paths, ttfonts):

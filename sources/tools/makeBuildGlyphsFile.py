@@ -9,7 +9,7 @@ from glyphsLib import GSGlyph
 file = sys.argv[1]
 
 font = GSFont(file)
-print "\tPreparing %s" % file
+print("\tPreparing %s" % file)
 
 # List of Glyphs which should have export enabled - in the Glyphs App static fonts export these are not active but get swapped with a custom parameter, for the VFs though they needs to be exported
 italicBracketGlyphs = [
