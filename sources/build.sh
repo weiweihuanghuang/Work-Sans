@@ -43,7 +43,7 @@ fontmake -g WorkSans-Italic.glyphs -o ttf -i --output-dir $TTF_OUT
 
 for ttf in ../fonts/static/TTF/*.ttf
 do
-  ./tools/ttfautohint-vf $ttf $ttf.fix
+  ttfautohint $ttf $ttf.fix
   mv $ttf.fix $ttf
   gftools fix-dsig -f $ttf
   python tools/gftools-fix-hinting.py $ttf
@@ -58,7 +58,7 @@ do
 done
 
 # Generate woff2
-for ttf in ../fonts/static/WOFF2/*.ttf
+for ttf in ../fonts/static/TTF/*.ttf
 do
   woff2_compress $ttf
   mv ${ttf/.ttf/.woff2} ../fonts/static/WOFF2
