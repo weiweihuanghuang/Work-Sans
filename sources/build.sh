@@ -4,7 +4,7 @@ set -e
 
 glyphsSource="WorkSans.glyphs WorkSans-Italic.glyphs"
 
-mkdir -p ../fonts/ ../fonts/static/TTF ../fonts/static/OTF ../fonts/variable ../fonts/static/WOFF ../fonts/static/WOFF2
+mkdir -p ../fonts/ ../fonts/static/TTF ../fonts/variable ../fonts/static/WOFF ../fonts/static/WOFF2
 
 # Generate VFs
 VF_ROMAN=../fonts/variable/WorkSans[wght].ttf

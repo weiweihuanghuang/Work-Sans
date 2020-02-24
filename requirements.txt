@@ -1,2 +1,2 @@
-fontmake==2.0.4
+fontmake==2.0.9
 git+https://www.github.com/googlefonts/tools
