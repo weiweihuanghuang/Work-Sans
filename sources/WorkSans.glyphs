@@ -34956,11 +34956,11 @@ layers = (
 {
 components = (
 {
-name = macroncomb;
-transform = "{0.64, 0, 0, 1, 253, 0}";
+name = g;
 },
 {
-name = g;
+name = macroncomb;
+transform = "{0.64, 0, 0, 1, 253, 0}";
 }
 );
 layerId = "1C7CD022-87C7-4E11-B656-E47B18819458";
@@ -55784,11 +55784,12 @@ width = 332;
 components = (
 {
 name = i;
+transform = "{1, 0, 0, 1, -7, 0}";
 },
 {
 alignment = -1;
 name = j.short;
-transform = "{1, 0, 0, 1, 219, 0}";
+transform = "{1, 0, 0, 1, 212, 0}";
 }
 );
 layerId = "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C";
@@ -55796,30 +55797,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"151 -215 OFFCURVE",
-"177 -205 OFFCURVE",
-"199 -190 CURVE",
-"188 -137 LINE",
-"171 -151 OFFCURVE",
-"151 -158 OFFCURVE",
-"124 -158 CURVE SMOOTH",
-"90 -158 OFFCURVE",
-"70 -143 OFFCURVE",
-"70 -110 CURVE SMOOTH",
-"70 -72 OFFCURVE",
-"90 -44 OFFCURVE",
-"173 0 CURVE",
-"121 17 LINE",
-"36 -25 OFFCURVE",
-"8 -63 OFFCURVE",
-"8 -123 CURVE SMOOTH",
-"8 -178 OFFCURVE",
-"42 -215 OFFCURVE",
-"114 -215 CURVE SMOOTH"
+"144 -215 OFFCURVE",
+"170 -205 OFFCURVE",
+"192 -190 CURVE",
+"181 -137 LINE",
+"164 -151 OFFCURVE",
+"144 -158 OFFCURVE",
+"117 -158 CURVE SMOOTH",
+"83 -158 OFFCURVE",
+"63 -143 OFFCURVE",
+"63 -110 CURVE SMOOTH",
+"63 -72 OFFCURVE",
+"83 -44 OFFCURVE",
+"166 0 CURVE",
+"114 17 LINE",
+"29 -25 OFFCURVE",
+"1 -63 OFFCURVE",
+"1 -123 CURVE SMOOTH",
+"1 -178 OFFCURVE",
+"35 -215 OFFCURVE",
+"107 -215 CURVE SMOOTH"
 );
 }
 );
-width = 532;
+width = 478;
 },
 {
 components = (
@@ -56215,7 +56216,7 @@ nodes = (
 );
 }
 );
-width = 885;
+width = 838;
 },
 {
 components = (
@@ -62212,9 +62213,7 @@ width = 694;
 }
 );
 leftKerningGroup = i.sc;
-leftMetricsKey = i.sc;
 rightKerningGroup = i.sc;
-rightMetricsKey = i.sc;
 },
 {
 glyphname = hbar.sc;
@@ -112940,8 +112939,11 @@ nodes = (
 "530 -10 OFFCURVE",
 "607 -10 CURVE",
 "627 50 LINE",
-"555 50 OFFCURVE",
-"523 74 OFFCURVE",
+"626 50 OFFCURVE",
+"626 50 OFFCURVE",
+"625 50 CURVE SMOOTH",
+"554 50 OFFCURVE",
+"521 76 OFFCURVE",
 "372 262 CURVE SMOOTH",
 "222 449 OFFCURVE",
 "207 474 OFFCURVE",
@@ -113152,12 +113154,18 @@ nodes = (
 "394 30 OFFCURVE",
 "437 90 CURVE",
 "440 94 LINE",
-"492 167 OFFCURVE",
-"510 271 OFFCURVE",
-"510 366 CURVE",
-"495 366 LINE",
-"495 266 OFFCURVE",
-"475 171 OFFCURVE",
+"489 163 OFFCURVE",
+"509 260 OFFCURVE",
+"509 350 CURVE SMOOTH",
+"509 355 OFFCURVE",
+"509 361 OFFCURVE",
+"509 366 CURVE",
+"494 366 LINE",
+"494 361 OFFCURVE",
+"494 355 OFFCURVE",
+"494 350 CURVE SMOOTH",
+"494 256 OFFCURVE",
+"473 167 OFFCURVE",
 "428 104 CURVE",
 "426 101 LINE",
 "384 41 OFFCURVE",
@@ -113286,9 +113294,12 @@ nodes = (
 "457 47 OFFCURVE",
 "506 -10 OFFCURVE",
 "578 -10 CURVE",
-"579 3 LINE",
+"580 3 LINE",
+"579 3 OFFCURVE",
+"579 3 OFFCURVE",
+"578 3 CURVE SMOOTH",
 "518 3 OFFCURVE",
-"472 50 OFFCURVE",
+"470 52 OFFCURVE",
 "316 256 CURVE SMOOTH",
 "171 448 OFFCURVE",
 "150 470 OFFCURVE",
