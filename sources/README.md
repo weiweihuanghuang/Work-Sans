@@ -7,7 +7,7 @@ python3 -m venv venv
 # Activate virtualenv
 source venv/bin/activate
 # Install python dependencies
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 # Install webfonttools
 brew tap bramstein/webfonttools
 brew install woff2
