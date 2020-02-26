@@ -1,5 +1,8 @@
 {
 .appVersion = "1296";
+DisplayStrings = (
+"/Lslash Ø/Oslashacute/lslash ø/oslashacute/lslash.ss02/lslash.sc/oslash.sc/oslashacute.sc///backslash/divisionslash/slashlongcomb"
+);
 classes = (
 {
 automatic = 1;
