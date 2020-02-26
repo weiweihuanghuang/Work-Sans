@@ -48763,7 +48763,7 @@ width = 630;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = g;
+rightKerningGroup = g.ss01;
 rightMetricsKey = u;
 },
 {
@@ -48810,7 +48810,8 @@ width = 585;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = g;
+rightKerningGroup = g.ss01;
+rightMetricsKey = u;
 },
 {
 glyphname = gcaron.ss01;
@@ -48856,7 +48857,8 @@ width = 627;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = g;
+rightKerningGroup = g.ss01;
+rightMetricsKey = u;
 },
 {
 glyphname = gcircumflex.ss01;
@@ -48902,7 +48904,8 @@ width = 627;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = g;
+rightKerningGroup = g.ss01;
+rightMetricsKey = u;
 },
 {
 glyphname = gcommaaccent.ss01;
@@ -48971,8 +48974,8 @@ width = 585;
 );
 leftKerningGroup = o;
 leftMetricsKey = g.ss01;
-rightKerningGroup = g;
-rightMetricsKey = g.ss01;
+rightKerningGroup = g.ss01;
+rightMetricsKey = u;
 },
 {
 glyphname = gdotaccent.ss01;
@@ -49018,7 +49021,8 @@ width = 627;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = g;
+rightKerningGroup = g.ss01;
+rightMetricsKey = u;
 },
 {
 glyphname = gmacron.ss01;
@@ -49064,7 +49068,8 @@ width = 627;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = g;
+rightKerningGroup = g.ss01;
+rightMetricsKey = u;
 },
 {
 glyphname = l.ss02;
@@ -131919,6 +131924,23 @@ parenright = -31;
 seven.sc = -20;
 v.sc = -11;
 };
+"@MMK_L_g.ss01" = {
+"@MMK_R_T" = -105;
+"@MMK_R_W" = -26;
+"@MMK_R_Y" = -51;
+"@MMK_R_Z" = -11;
+"@MMK_R_i" = 10;
+"@MMK_R_quoteleft" = -9;
+"@MMK_R_quoteright" = -9;
+V = -30;
+asterisk = -8;
+backslash = -18;
+braceright = -16;
+bracketright = -42;
+parenright = -30;
+question = -50;
+trademark = -19;
+};
 };
 "4A17B37A-CBFD-40E5-9E02-2080A0E1F76C" = {
 "@MMK_L_A" = {
@@ -134630,6 +134652,22 @@ slash = -13;
 three.sc = -20;
 v.sc = -10;
 };
+"@MMK_L_g.ss01" = {
+"@MMK_R_I" = -5;
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -69;
+"@MMK_R_U" = -5;
+"@MMK_R_W" = -22;
+"@MMK_R_Y" = -57;
+"@MMK_R_Z" = -10;
+"@MMK_R_quoteright" = 0;
+V = -35;
+backslash = -25;
+braceright = -20;
+bracketright = -43;
+parenright = -35;
+trademark = -16;
+};
 };
 "99EB5860-B45A-4B60-BB0B-F826C8F71D42" = {
 "@MMK_L_A" = {
@@ -136664,6 +136702,11 @@ seven.sc = -30;
 slash = -30;
 v.sc = -10;
 x.sc = -40;
+};
+"@MMK_L_g.ss01" = {
+"@MMK_R_W" = -23;
+"@MMK_R_i" = 50;
+V = -8;
 };
 };
 };
