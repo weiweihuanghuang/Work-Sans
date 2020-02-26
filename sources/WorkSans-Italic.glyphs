@@ -72,7 +72,7 @@ name = vendorID;
 value = WEI;
 }
 );
-date = "2020-02-25 06:56:45 +0000";
+date = "2020-02-26 03:52:50 +0000";
 designer = "Wei Huang";
 designerURL = "http://wweeiihhuuaanngg@gmail.com";
 familyName = "Work Sans";
@@ -124228,5 +124228,5 @@ OV = "16";
 };
 };
 versionMajor = 2;
-versionMinor = 8;
+versionMinor = 9;
 }
