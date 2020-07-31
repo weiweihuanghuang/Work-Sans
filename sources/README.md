@@ -11,6 +11,7 @@ pip install -r ../requirements.txt
 # Install webfonttools
 brew tap bramstein/webfonttools
 brew install woff2
+brew install sfnt2woff
 ```
 
 After installing the dependencies. Run `sh build.sh` from this directory to build the fonts.
