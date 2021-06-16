@@ -10,8 +10,8 @@
 # Name <email address>
 
 CrystalType <stellarmaris.novachrystalia@gmail.com>
-Dennis Grauel <dennis@dennisgrauel.com>
-Wei Huang <wweeiihhuuaanngg@gmail.com>
-Denis Moyogo Jacquerye <moyogo@gmail.com>
-Desmond Wong <desmondhwong@gmail.com>
-Kia Tasbihgou <hello@kiatas.me>
+Dennis Grauel <https://www.dennisgrauel.com/>
+Wei Huang <https://github.com/weiweihuanghuang>
+Denis Moyogo Jacquerye <https://github.com/moyogo>
+Desmond Wong <https://github.com/desmondhwong>
+Kia Tasbihgou <http://www.kiatas.me/>
