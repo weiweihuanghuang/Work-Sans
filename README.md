@@ -80,17 +80,15 @@ Mathieu Cannavo, Vincent Chan, Greg Gazdowicz, Jack Jennings, Seb McLauchlan, Da
 
 Thanks to the following people for their assitance and contributions:
 
-[CrystalType](https://github.com/crystaltype)
+* [Aaron Bell](https://github.com/aaronbell)
+* [CrystalType](https://github.com/crystaltype)
+* [Dennis Grauel](https://dennisgrauel.com/)
+* [Denis Moyogo Jacquerye](https://github.com/moyogo)
+* [Stephen Nixon](http://www.thundernixon.com/)
+* [Kia Tasbihgou](http://www.kiatas.me/)
+* [Desmond Wong](http://desmondwong.com/)
 
-[Dennis Grauel](https://dennisgrauel.com/)
 
-[Denis Moyogo Jacquerye](https://github.com/moyogo)
-
-[Stephen Nixon](http://www.thundernixon.com/)
-
-[Desmond Wong](http://desmondwong.com/)
-
-[Kia Tasbihgou](http://www.kiatas.me/)
 
 Thanks to Simon Egli for inviting me to work together on Metapolator in the first place.
 
@@ -116,7 +114,7 @@ http://scripts.sil.org/OFL
 
 ## Repository Layout
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+This font repository structure is inspired by [Unified Font Repository](https://github.com/googlefonts/Unified-Font-Repository), modified for the Google Fonts workflow.
 
 ## Installation Instructions
 - [GNU+Linux](https://wiki.archlinux.org/index.php/fonts#Manual_installation)
